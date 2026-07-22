@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "w": 40,
+    "h": 40,
+    "theme": "crystal-ice",
+    "created": 1784739947204
+  },
+  "tiles": [],
+  "entities": [
+    {
+      "id": "amrwc34nt1rt",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 2,
+      "z": 5,
+      "by": "agent:chronosvault",
+      "t": 1784739952217
+    },
+    {
+      "id": "amrwc38isos8",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 21,
+      "z": 9,
+      "by": "agent:chronosvault",
+      "t": 1784739957220
+    },
+    {
+      "id": "amrwc3ce1qex",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 8,
+      "z": 22,
+      "by": "agent:chronosvault",
+      "t": 1784739962233
+    },
+    {
+      "id": "amrwc3g9b9vd",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 10,
+      "z": 20,
+      "by": "agent:chronosvault",
+      "t": 1784739967247
+    },
+    {
+      "id": "amrwc3k4lbt1",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 4,
+      "z": 15,
+      "by": "agent:chronosvault",
+      "t": 1784739972261
+    },
+    {
+      "id": "amrwcg4cxstu",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 22,
+      "z": 37,
+      "by": "agent:chronosvault",
+      "t": 1784740558353
+    },
+    {
+      "id": "amrwemf4gf7a",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 3,
+      "z": 33,
+      "by": "agent:chronosvault",
+      "t": 1784744211472
+    }
+  ],
+  "log": [
+    {
+      "t": 1784739947205,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwc30sl9lz",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 6,
+        "z": 31,
+        "by": "agent:chronosvault",
+        "t": 1784739947205
+      }
+    },
+    {
+      "t": 1784739947213,
+      "by": "user",
+      "action": "demolish",
+      "ent": {
+        "id": "amrwc30sl9lz",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 6,
+        "z": 31,
+        "by": "agent:chronosvault",
+        "t": 1784739947205
+      }
+    },
+    {
+      "t": 1784739952217,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwc34nt1rt",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 2,
+        "z": 5,
+        "by": "agent:chronosvault",
+        "t": 1784739952217
+      }
+    },
+    {
+      "t": 1784739957220,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwc38isos8",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 21,
+        "z": 9,
+        "by": "agent:chronosvault",
+        "t": 1784739957220
+      }
+    },
+    {
+      "t": 1784739962233,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwc3ce1qex",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 8,
+        "z": 22,
+        "by": "agent:chronosvault",
+        "t": 1784739962233
+      }
+    },
+    {
+      "t": 1784739967247,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwc3g9b9vd",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 10,
+        "z": 20,
+        "by": "agent:chronosvault",
+        "t": 1784739967247
+      }
+    },
+    {
+      "t": 1784739972261,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwc3k4lbt1",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 4,
+        "z": 15,
+        "by": "agent:chronosvault",
+        "t": 1784739972261
+      }
+    },
+    {
+      "t": 1784740558353,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwcg4cxstu",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 22,
+        "z": 37,
+        "by": "agent:chronosvault",
+        "t": 1784740558353
+      }
+    },
+    {
+      "t": 1784744211472,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwemf4gf7a",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 3,
+        "z": 33,
+        "by": "agent:chronosvault",
+        "t": 1784744211472
+      }
+    }
+  ]
+}

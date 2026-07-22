@@ -1,0 +1,16 @@
+{
+  "name": "Ghostline — Security OS",
+  "type": "security",
+  "desc": "Agentic personal-security suite. Agents run audits & sweeps; steer box sets threat focus.",
+  "agent": "scan",
+  "autostart": false,
+  "agentInterval": 5000,
+  "agentVerbs": [
+    "audit-vault",
+    "check-dns",
+    "scan-bookmarks",
+    "harden-cookie"
+  ],
+  "agentLine": "Ghostline swept the perimeter",
+  "steer": "weave a mystery surrounding the glass conservatory"
+}

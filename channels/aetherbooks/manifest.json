@@ -1,0 +1,15 @@
+{
+  "name": "AETHER Books — Fiction Forge",
+  "type": "writing",
+  "desc": "Locally-authored fiction forge. Agents draft scenes & twists; steer box sets the narrative trope.",
+  "agent": "write",
+  "autostart": false,
+  "agentInterval": 6000,
+  "agentVerbs": [
+    "draft-scene",
+    "name-character",
+    "plot-twist",
+    "close-chapter"
+  ],
+  "agentLine": "a new page was written in the glass conservatory"
+}

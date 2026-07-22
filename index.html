@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Helm — 3D Pokémon Crystal & Multi-Channel World</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;600;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    height: 100vh;
+    overflow: hidden;
+    background: #090710;
+    color: #ece4f5;
+    font-family: 'Inter', sans-serif;
+    user-select: none;
+  }
+  #app {
+    display: grid;
+    grid-template-columns: 320px 1fr 340px;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  /* Glassmorphism utility */
+  .glass {
+    background: rgba(18, 11, 28, 0.82);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(212, 175, 55, 0.22);
+  }
+
+  /* Left Rail */
+  #rail {
+    background: #0e0917;
+    border-right: 1px solid rgba(212, 175, 55, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    overflow-y: auto;
+    z-index: 10;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  }
+  .brand h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 0.15em;
+    color: #d4af37;
+    text-transform: uppercase;
+    text-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+  }
+  .sound-btn {
+    background: rgba(155, 62, 145, 0.2);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    color: #d4af37;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .sound-btn:hover {
+    background: rgba(212, 175, 55, 0.3);
+    color: #fff;
+  }
+
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .section-title {
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    color: #9a8fb0;
+    text-transform: uppercase;
+  }
+  .add-chan-btn {
+    background: rgba(212, 175, 55, 0.15);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    color: #d4af37;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .add-chan-btn:hover {
+    background: #d4af37;
+    color: #0d0a14;
+  }
+
+  #channels {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .chan {
+    padding: 14px 16px;
+    border: 1px solid rgba(154, 143, 176, 0.2);
+    border-radius: 12px;
+    background: rgba(20, 14, 32, 0.6);
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    position: relative;
+    overflow: hidden;
+  }
+  .chan:hover {
+    border-color: #d4af37;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  }
+  .chan.active {
+    border-color: #d4af37;
+    background: linear-gradient(145deg, rgba(44, 29, 62, 0.9), rgba(26, 16, 38, 0.9));
+    box-shadow: 0 0 24px rgba(155, 62, 145, 0.35), inset 0 0 12px rgba(212, 175, 55, 0.1);
+  }
+  .chan .name {
+    color: #fbe6b0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+  }
+  .chan .type {
+    font-size: 0.65rem;
+    color: #9a8fb0;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-top: 2px;
+  }
+  .chan .desc {
+    font-size: 0.76rem;
+    color: #b0a4c8;
+    margin-top: 6px;
+    line-height: 1.4;
+  }
+  .chan .badge {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: #0d0a14;
+    background: #d4af37;
+    border-radius: 10px;
+    padding: 2px 8px;
+    letter-spacing: 0.05em;
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
+  }
+
+  /* Trainer Stats Box */
+  .trainer-hud {
+    padding: 12px;
+    border-radius: 12px;
+    background: rgba(44, 29, 62, 0.4);
+    border: 1px solid rgba(212, 175, 55, 0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 0.76rem;
+  }
+  .trainer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .trainer-name { font-family: 'Outfit', sans-serif; font-size: 0.9rem; color: #fbe6b0; font-weight: 600; }
+  .badge-icon { color: #d4af37; font-weight: bold; }
+
+  .stats-panel {
+    margin-top: auto;
+    padding: 12px;
+    border-radius: 10px;
+    background: rgba(14, 9, 23, 0.8);
+    border: 1px solid rgba(212, 175, 55, 0.15);
+    font-size: 0.72rem;
+    color: #9a8fb0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .stats-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .stats-row b { color: #fbe6b0; }
+
+  /* 3D Viewport */
+  #view {
+    position: relative;
+    background: #07050d;
+    overflow: hidden;
+  }
+  #view canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  #vp-label {
+    position: absolute;
+    top: 16px;
+    left: 18px;
+    z-index: 4;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    color: #d4af37;
+    pointer-events: none;
+  }
+  #vp-label b { color: #fbe6b0; font-family: 'Outfit', sans-serif; font-size: 0.95rem; }
+  #vp-agent { color: #5a8f6b; font-weight: 600; }
+
+  /* Pokémon Game HUD Overlay */
+  #pkmn-hud {
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    z-index: 4;
+    display: flex;
+    gap: 8px;
+  }
+  .hud-badge {
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #fbe6b0;
+    background: rgba(18, 11, 28, 0.8);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    backdrop-filter: blur(10px);
+  }
+
+  /* Controls blocker overlay */
+  #blocker {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(13, 10, 20, 0.65);
+    cursor: pointer;
+    color: #ece4f5;
+    transition: opacity 0.3s;
+  }
+  .blocker-box {
+    text-align: center;
+    padding: 24px 36px;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  }
+  .blocker-box h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.6rem;
+    color: #d4af37;
+    margin-bottom: 8px;
+  }
+  .blocker-box p {
+    font-size: 0.85rem;
+    color: #b0a4c8;
+    line-height: 1.6;
+  }
+
+  /* Viewport Overlay Toolbar */
+  #vp-toolbar {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 6;
+    display: flex;
+    gap: 8px;
+  }
+  .vp-btn {
+    background: rgba(18, 11, 28, 0.85);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    color: #ece4f5;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 0.78rem;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .vp-btn:hover {
+    border-color: #d4af37;
+    background: rgba(155, 62, 145, 0.4);
+    color: #fbe6b0;
+    box-shadow: 0 0 12px rgba(155, 62, 145, 0.4);
+  }
+
+  /* Entity Inspection Modal */
+  #inspector-modal {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    z-index: 7;
+    width: 290px;
+    padding: 16px;
+    border-radius: 12px;
+    display: none;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.7);
+  }
+  #inspector-modal h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.95rem;
+    color: #d4af37;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #inspector-close {
+    cursor: pointer;
+    color: #9a8fb0;
+    font-size: 1.1rem;
+  }
+  #inspector-close:hover { color: #fff; }
+  .insp-field { font-size: 0.76rem; color: #cdbff0; line-height: 1.4; }
+  .insp-label { font-size: 0.65rem; color: #9a8fb0; text-transform: uppercase; letter-spacing: 0.1em; }
+
+  .demolish-btn {
+    margin-top: 8px;
+    background: rgba(220, 53, 69, 0.25);
+    border: 1px solid rgba(220, 53, 69, 0.5);
+    color: #ff8888;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .demolish-btn:hover {
+    background: #dc3545;
+    color: #fff;
+  }
+
+  /* Retro Pokémon Crystal Battle Modal */
+  #battle-modal {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 620px;
+    height: 320px;
+    z-index: 15;
+    border-radius: 16px;
+    padding: 16px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.85);
+    border: 2px solid #d4af37;
+    background: linear-gradient(180deg, rgba(14, 9, 23, 0.95), rgba(30, 18, 48, 0.95));
+  }
+  .battle-stage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex: 1;
+  }
+  .pkmn-card {
+    background: rgba(10, 6, 18, 0.7);
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    padding: 10px 14px;
+    border-radius: 10px;
+    width: 220px;
+  }
+  .pkmn-name {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.05rem;
+    color: #fbe6b0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .hp-bar-bg {
+    width: 100%;
+    height: 10px;
+    background: #221535;
+    border-radius: 5px;
+    margin-top: 6px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .hp-bar-fill {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #28a745, #20c997);
+    transition: width 0.4s ease-out;
+  }
+
+  .battle-dialogue {
+    background: #080510;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 0.82rem;
+    color: #ece4f5;
+    min-height: 48px;
+    line-height: 1.4;
+  }
+  .battle-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .battle-btn {
+    background: rgba(44, 29, 62, 0.8);
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    color: #fbe6b0;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+  }
+  .battle-btn:hover {
+    background: #9b3e91;
+    color: #fff;
+    box-shadow: 0 0 12px rgba(155, 62, 145, 0.5);
+  }
+
+  /* NPC Dialogue Modal Overlay */
+  #dialogue-modal {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    z-index: 14;
+    border-radius: 14px;
+    padding: 16px 20px;
+    display: none;
+    flex-direction: column;
+    gap: 8px;
+    border: 2px solid #d4af37;
+    box-shadow: 0 16px 50px rgba(0,0,0,0.8);
+  }
+  #dialogue-name {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.95rem;
+    color: #d4af37;
+    font-weight: 600;
+  }
+  #dialogue-text {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #ece4f5;
+    min-height: 40px;
+  }
+  .dialogue-next-btn {
+    align-self: flex-end;
+    background: #d4af37;
+    color: #0d0a14;
+    border: 0;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  /* Create Channel Modal Overlay */
+  #chan-modal-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 99;
+    background: rgba(9, 7, 16, 0.85);
+    backdrop-filter: blur(12px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .chan-modal {
+    width: 380px;
+    padding: 24px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+  }
+  .chan-modal h2 {
+    font-family: 'Outfit', sans-serif;
+    color: #d4af37;
+    font-size: 1.2rem;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .form-group label {
+    font-size: 0.68rem;
+    color: #9a8fb0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .form-group input, .form-group select {
+    background: #090611;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    color: #ece4f5;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 0.82rem;
+    outline: none;
+  }
+  .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .btn-secondary {
+    background: rgba(154, 143, 176, 0.2);
+    border: 1px solid rgba(154, 143, 176, 0.3);
+    color: #ece4f5;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  .btn-primary {
+    background: #9b3e91;
+    border: 0;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  /* Right Steer Panel */
+  #steer {
+    background: #0e0917;
+    border-left: 1px solid rgba(212, 175, 55, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 10;
+  }
+  #steer h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.15em;
+    color: #d4af37;
+    text-transform: uppercase;
+  }
+
+  #dir {
+    flex: 1;
+    overflow-y: auto;
+    font-size: 0.78rem;
+    color: #cdbff0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-right: 4px;
+  }
+  #dir .row {
+    border-left: 3px solid #9b3e91;
+    padding: 6px 10px;
+    border-radius: 0 8px 8px 0;
+    background: rgba(20, 14, 32, 0.4);
+    font-size: 0.78rem;
+    line-height: 1.45;
+  }
+  #dir .row.helm {
+    border-color: #d4af37;
+    color: #fbe6b0;
+    background: rgba(44, 29, 62, 0.4);
+  }
+  #dir .row.agent {
+    border-color: #5a8f6b;
+    color: #d2f0dc;
+  }
+
+  /* Preset Chips */
+  .preset-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .chip {
+    background: rgba(212, 175, 55, 0.1);
+    border: 1px solid rgba(212, 175, 55, 0.25);
+    color: #d4af37;
+    font-size: 0.68rem;
+    padding: 4px 8px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .chip:hover {
+    background: #d4af37;
+    color: #0d0a14;
+  }
+
+  #steerbox {
+    width: 100%;
+    min-height: 70px;
+    resize: none;
+    background: #090611;
+    color: #ece4f5;
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 0.82rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  #steerbox:focus {
+    border-color: #d4af37;
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
+  }
+  #send {
+    background: linear-gradient(135deg, #9b3e91, #6b2663);
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    padding: 11px;
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    transition: all 0.2s;
+    box-shadow: 0 4px 15px rgba(155, 62, 145, 0.4);
+  }
+  #send:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(155, 62, 145, 0.7);
+  }
+  .hint {
+    font-size: 0.68rem;
+    color: #9a8fb0;
+    line-height: 1.4;
+  }
+
+  /* Custom Scrollbars */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); }
+  ::-webkit-scrollbar-thumb { background: rgba(212,175,55,0.3); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(212,175,55,0.6); }
+</style>
+</head>
+<body>
+  <div id="app">
+    <!-- Left Channel Rail -->
+    <div id="rail">
+      <div class="brand">
+        <h1>The Helm</h1>
+        <button id="sound-toggle" class="sound-btn" title="Toggle audio feedback">🔊 Sound</button>
+      </div>
+
+      <div class="trainer-hud">
+        <div class="trainer-row">
+          <span class="trainer-name">Trainer Ethan</span>
+          <span class="badge-icon">🏆 2 Badges</span>
+        </div>
+        <div class="trainer-row" style="color:#9a8fb0; font-size:0.7rem;">
+          <span>Money: <b style="color:#28a745">$3,500</b></span>
+          <span>Pokéballs: <b style="color:#d4af37" id="hud-balls">10</b></span>
+        </div>
+      </div>
+
+      <div class="section-header">
+        <span class="section-title">Active Channels</span>
+        <button id="open-chan-modal" class="add-chan-btn">+ New</button>
+      </div>
+
+      <div id="channels"></div>
+      <div class="hint">Click a channel to awaken its autonomous agent & swap the 3D world context.</div>
+
+      <div class="stats-panel">
+        <div class="stats-row"><span>Active Theme:</span><b id="stat-theme">Crystal Ice</b></div>
+        <div class="stats-row"><span>Entities in Scene:</span><b id="stat-count">0</b></div>
+        <div class="stats-row"><span>Agent Cadence:</span><b id="stat-speed">4.0s</b></div>
+      </div>
+    </div>
+
+    <!-- Central 3D Viewport -->
+    <div id="view">
+      <div id="vp-label" class="glass">
+        CHANNEL: <b id="vp-name">—</b> · <span id="vp-agent">agent: —</span>
+      </div>
+
+      <div id="pkmn-hud">
+        <div class="hud-badge">🔥 Cyndaquil Lv. 12</div>
+        <div class="hud-badge">🐊 Totodile Lv. 14</div>
+      </div>
+
+      <div id="blocker">
+        <div class="blocker-box glass">
+          <h2>Pokémon Crystal 3D</h2>
+          <p>Click anywhere to orbit & look around<br>Use <b>W A S D</b> to walk Trainer Ethan across Johto<br>Walk into Tall Grass for Wild Pokémon Encounters!<br>Approach NPCs or objects to interact</p>
+        </div>
+      </div>
+
+      <div id="inspector-modal" class="glass">
+        <h3><span id="insp-title">Entity Inspector</span> <span id="inspector-close">×</span></h3>
+        <div class="insp-label">Kind / Type</div>
+        <div id="insp-kind" class="insp-field">—</div>
+        <div class="insp-label" style="margin-top:4px">Created By</div>
+        <div id="insp-by" class="insp-field">—</div>
+        <div class="insp-label" style="margin-top:4px">Content / Text</div>
+        <div id="insp-text" class="insp-field">—</div>
+        <div class="insp-label" style="margin-top:4px">Coordinates</div>
+        <div id="insp-coords" class="insp-field">—</div>
+        <button id="btn-demolish" class="demolish-btn">💣 Demolish Landmark</button>
+      </div>
+
+      <!-- Pokémon Battle Overlay -->
+      <div id="battle-modal" class="glass">
+        <div class="battle-stage">
+          <div class="pkmn-card">
+            <div class="pkmn-name"><span id="btl-wild-name">Wild Suicune</span> <span id="btl-wild-lvl">Lv. 30</span></div>
+            <div class="hp-bar-bg"><div id="btl-wild-hp" class="hp-bar-fill"></div></div>
+          </div>
+          <div id="btl-wild-sprite" style="font-size: 3.5rem;">❄️</div>
+        </div>
+
+        <div class="battle-stage" style="flex-direction: row-reverse;">
+          <div class="pkmn-card">
+            <div class="pkmn-name"><span id="btl-player-name">Cyndaquil</span> <span id="btl-player-lvl">Lv. 12</span></div>
+            <div class="hp-bar-bg"><div id="btl-player-hp" class="hp-bar-fill"></div></div>
+          </div>
+          <div id="btl-player-sprite" style="font-size: 3.5rem;">🔥</div>
+        </div>
+
+        <div id="btl-log" class="battle-dialogue">A wild Pokémon appeared! What will Cyndaquil do?</div>
+        
+        <div id="btl-menu" class="battle-menu">
+          <button id="btl-btn-fight" class="battle-btn">⚔️ FIGHT</button>
+          <button id="btl-btn-catch" class="battle-btn">🔴 CATCH (POKÉBALL)</button>
+          <button id="btl-btn-item" class="battle-btn">🧪 POTION (+20 HP)</button>
+          <button id="btl-btn-run" class="battle-btn">🏃 RUN</button>
+        </div>
+
+        <div id="btl-moves-menu" class="battle-menu" style="display:none;">
+          <button class="battle-btn move-btn" data-move="Ember" data-power="40">🔥 Ember</button>
+          <button class="battle-btn move-btn" data-move="Tackle" data-power="35">💥 Tackle</button>
+          <button class="battle-btn move-btn" data-move="Quick Attack" data-power="30">⚡ Quick Attack</button>
+          <button id="btl-btn-back" class="battle-btn" style="background:#5c264c;">◀ Back</button>
+        </div>
+      </div>
+
+      <!-- NPC Dialogue Modal Overlay -->
+      <div id="dialogue-modal" class="glass">
+        <div id="dialogue-name">Professor Elm</div>
+        <div id="dialogue-text">Welcome to the world of Pokémon Crystal in full 3D! Explore Johto and challenge wild Pokémon.</div>
+        <button id="dialogue-next" class="dialogue-next-btn">Next ▶</button>
+      </div>
+
+      <div id="vp-toolbar">
+        <button id="btn-battle" class="vp-btn" style="background:rgba(212,175,55,0.25); border-color:#d4af37;"><span>⚡</span> Test Wild Encounter</button>
+        <button id="btn-build" class="vp-btn"><span>⚒</span> Place Landmark</button>
+        <button id="btn-recenter" class="vp-btn"><span>🎥</span> Recenter Cam</button>
+      </div>
+    </div>
+
+    <!-- Right Steer Panel -->
+    <div id="steer">
+      <h2>Steer the Helm</h2>
+      <div id="dir"></div>
+
+      <div class="section-title">Quick Directives</div>
+      <div class="preset-chips">
+        <span class="chip" data-text="build a Johto shrine district with cherry trees">⛩ Johto Shrine</span>
+        <span class="chip" data-text="audit zero-trust vaults and harden DNS proxies">🛡 Cyber Audit</span>
+        <span class="chip" data-text="weave a mystery surrounding the glass conservatory">📚 Glass Conservatory</span>
+        <span class="chip" data-text="intercept quantum signal traffic and decrypt wire dispatches">📡 Wire Intelligence</span>
+      </div>
+
+      <textarea id="steerbox" placeholder="Direct the active channel's agent & world…"></textarea>
+      <button id="send">Steer ▸</button>
+      <div class="hint">On-demand direction. Your words reshape the channel's autonomous agent + 3D world in real-time.</div>
+    </div>
+  </div>
+
+  <!-- New Channel Creation Modal -->
+  <div id="chan-modal-overlay">
+    <div class="chan-modal glass">
+      <h2>Forge New Channel</h2>
+      <div class="form-group">
+        <label>Channel Name</label>
+        <input type="text" id="new-chan-name" placeholder="e.g. Chrono Vault" />
+      </div>
+      <div class="form-group">
+        <label>Type / Theme</label>
+        <select id="new-chan-type">
+          <option value="game">Game / World (Crystal Ice)</option>
+          <option value="security">Security / Audit (Terminal Green)</option>
+          <option value="writing">Writing / Literature (Library Violet)</option>
+          <option value="terminal">Intelligence / Broadcast (Terminal Amber)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Description</label>
+        <input type="text" id="new-chan-desc" placeholder="Brief channel summary..." />
+      </div>
+      <div class="form-group">
+        <label>Initial Steer Directive</label>
+        <input type="text" id="new-chan-steer" placeholder="e.g. construct ancient temporal pillars" />
+      </div>
+      <div class="modal-actions">
+        <button id="close-chan-modal" class="btn-secondary">Cancel</button>
+        <button id="submit-chan-modal" class="btn-primary">Create Channel</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./vendor/three.module.js"
+    }
+  }
+  </script>
+  <script type="module" src="./helm.js"></script>
+</body>
+</html>

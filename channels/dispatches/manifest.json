@@ -1,0 +1,16 @@
+{
+  "name": "Dispatches — Live Intelligence",
+  "type": "terminal",
+  "desc": "Real-time global wire dispatches & signal intelligence. Agents intercept & decrypt broadcasts.",
+  "agent": "broadcast",
+  "autostart": false,
+  "agentInterval": 4500,
+  "agentVerbs": [
+    "transmit-dispatch",
+    "intercept-signal",
+    "decrypt-wire",
+    "log-frequency"
+  ],
+  "agentLine": "Dispatches wire stream active",
+  "steer": "intercept quantum signal traffic and decrypt wire dispatches"
+}

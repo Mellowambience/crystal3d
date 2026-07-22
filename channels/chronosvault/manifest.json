@@ -1,0 +1,15 @@
+{
+  "name": "Chronos Vault",
+  "type": "game",
+  "desc": "Temporal archive channel",
+  "agent": "build",
+  "autostart": true,
+  "agentInterval": 5000,
+  "agentVerbs": [
+    "build",
+    "explore",
+    "create"
+  ],
+  "agentLine": "Chronos Vault active",
+  "steer": "build temporal pillars"
+}

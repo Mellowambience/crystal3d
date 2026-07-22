@@ -1,0 +1,16 @@
+{
+  "name": "Crystal 3D — Open World",
+  "type": "game",
+  "desc": "Pokémon Crystal rebuilt in 3D. Agents build shrines, trees & paths; steer box reshapes Johto.",
+  "agent": "build",
+  "autostart": true,
+  "agentInterval": 4000,
+  "agentVerbs": [
+    "plant-tree",
+    "raise-shrine",
+    "spawn-npc",
+    "lay-path"
+  ],
+  "agentLine": "an agent shaped the crystal world",
+  "steer": "intercept quantum signal traffic and decrypt wire dispatches"
+}

@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "w": 40,
+    "h": 40,
+    "theme": "library-violet",
+    "created": 1784738760333
+  },
+  "tiles": [],
+  "entities": [
+    {
+      "id": "umrwbdq3i",
+      "kind": "user-build",
+      "text": "User landmark",
+      "x": 20,
+      "z": 20,
+      "by": "user",
+      "t": 1784738766942
+    },
+    {
+      "id": "amrwbkh0idg9",
+      "kind": "name-character",
+      "text": "Character named Lyra",
+      "x": 37,
+      "z": 32,
+      "by": "agent:aetherbooks",
+      "t": 1784739081762
+    },
+    {
+      "id": "amrwbl46lghj",
+      "kind": "draft-scene",
+      "text": "Scene IV drafted",
+      "x": 6,
+      "z": 7,
+      "by": "agent:aetherbooks",
+      "t": 1784739111789
+    },
+    {
+      "id": "amrwbraoesf6",
+      "kind": "draft-scene",
+      "text": "Scene IV drafted",
+      "x": 3,
+      "z": 36,
+      "by": "agent:aetherbooks",
+      "t": 1784739400142
+    },
+    {
+      "id": "amrwbrfb9iqe",
+      "kind": "draft-scene",
+      "text": "Dialogue polished",
+      "x": 6,
+      "z": 5,
+      "by": "agent:aetherbooks",
+      "t": 1784739406149
+    },
+    {
+      "id": "amrwbrjya6h4",
+      "kind": "close-chapter",
+      "text": "Chapter III finalized",
+      "x": 10,
+      "z": 24,
+      "by": "agent:aetherbooks",
+      "t": 1784739412162
+    },
+    {
+      "id": "amrwbrolcf4s",
+      "kind": "name-character",
+      "text": "Character named Lyra",
+      "x": 2,
+      "z": 13,
+      "by": "agent:aetherbooks",
+      "t": 1784739418176
+    },
+    {
+      "id": "amrwcd765xkf",
+      "kind": "close-chapter",
+      "text": "Volume index updated",
+      "x": 28,
+      "z": 24,
+      "by": "agent:aetherbooks",
+      "t": 1784740422029
+    },
+    {
+      "id": "amrwcdbt2ewi",
+      "kind": "close-chapter",
+      "text": "Chapter III finalized",
+      "x": 6,
+      "z": 3,
+      "by": "agent:aetherbooks",
+      "t": 1784740428038
+    },
+    {
+      "id": "amrwcg5vt6lq",
+      "kind": "name-character",
+      "text": "Mentor named Archon",
+      "x": 25,
+      "z": 37,
+      "by": "agent:aetherbooks",
+      "t": 1784740560329
+    },
+    {
+      "id": "amrwemec7zqm",
+      "kind": "draft-scene",
+      "text": "Atmospheric prose added",
+      "x": 6,
+      "z": 13,
+      "by": "agent:aetherbooks",
+      "t": 1784744210455
+    }
+  ],
+  "log": [
+    {
+      "t": 1784738766918,
+      "by": "helm"
+    },
+    {
+      "t": 1784738766942,
+      "by": "user",
+      "action": "user-build",
+      "ent": {
+        "id": "umrwbdq3i",
+        "kind": "user-build",
+        "text": "User landmark",
+        "x": 20,
+        "z": 20,
+        "by": "user",
+        "t": 1784738766942
+      }
+    },
+    {
+      "t": 1784739081762,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwbkh0idg9",
+        "kind": "name-character",
+        "text": "Character named Lyra",
+        "x": 37,
+        "z": 32,
+        "by": "agent:aetherbooks",
+        "t": 1784739081762
+      }
+    },
+    {
+      "t": 1784739111789,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwbl46lghj",
+        "kind": "draft-scene",
+        "text": "Scene IV drafted",
+        "x": 6,
+        "z": 7,
+        "by": "agent:aetherbooks",
+        "t": 1784739111789
+      }
+    },
+    {
+      "t": 1784739400142,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwbraoesf6",
+        "kind": "draft-scene",
+        "text": "Scene IV drafted",
+        "x": 3,
+        "z": 36,
+        "by": "agent:aetherbooks",
+        "t": 1784739400142
+      }
+    },
+    {
+      "t": 1784739406149,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwbrfb9iqe",
+        "kind": "draft-scene",
+        "text": "Dialogue polished",
+        "x": 6,
+        "z": 5,
+        "by": "agent:aetherbooks",
+        "t": 1784739406149
+      }
+    },
+    {
+      "t": 1784739412162,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwbrjya6h4",
+        "kind": "close-chapter",
+        "text": "Chapter III finalized",
+        "x": 10,
+        "z": 24,
+        "by": "agent:aetherbooks",
+        "t": 1784739412162
+      }
+    },
+    {
+      "t": 1784739418176,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwbrolcf4s",
+        "kind": "name-character",
+        "text": "Character named Lyra",
+        "x": 2,
+        "z": 13,
+        "by": "agent:aetherbooks",
+        "t": 1784739418176
+      }
+    },
+    {
+      "t": 1784740422029,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwcd765xkf",
+        "kind": "close-chapter",
+        "text": "Volume index updated",
+        "x": 28,
+        "z": 24,
+        "by": "agent:aetherbooks",
+        "t": 1784740422029
+      }
+    },
+    {
+      "t": 1784740428038,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwcdbt2ewi",
+        "kind": "close-chapter",
+        "text": "Chapter III finalized",
+        "x": 6,
+        "z": 3,
+        "by": "agent:aetherbooks",
+        "t": 1784740428038
+      }
+    },
+    {
+      "t": 1784740560329,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwcg5vt6lq",
+        "kind": "name-character",
+        "text": "Mentor named Archon",
+        "x": 25,
+        "z": 37,
+        "by": "agent:aetherbooks",
+        "t": 1784740560329
+      }
+    },
+    {
+      "t": 1784744210455,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwemec7zqm",
+        "kind": "draft-scene",
+        "text": "Atmospheric prose added",
+        "x": 6,
+        "z": 13,
+        "by": "agent:aetherbooks",
+        "t": 1784744210455
+      }
+    }
+  ]
+}
