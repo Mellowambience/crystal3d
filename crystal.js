@@ -1,14 +1,13 @@
-// crystal.js — Pokémon Crystal 3D: standalone Johto overworld engine (Three.js)
-// Self-contained game built in PRISMWOOD phase chunks (Phase 0 → 3).
-// Fetches world/trainer state from the Helm server (channel: crystal). Wild
-// encounters, type chart, badges, Pokédex, roaming beast, and trade board are
-// server-authoritative. Runs only inside crystal.html.
+// crystal.js — Pokémon Crystal 3D: STANDALONE Johto overworld engine (Three.js)
+// Fully self-contained: NO server. All trainer/battle/roamer/trade/dex state
+// lives in the client. Built in PRISMWOOD phase chunks (Phase 0 → 3).
 import * as THREE from 'three';
 import { loadCrocotile } from './crocotile.js';
+import { CRYSTAL_WORLD } from './crystal-world-data.js';
 
-const API = '';
 const TILE = 1.0;
 const MAP_W = 40, MAP_H = 40;
+const SAVE_KEY = 'crystal3d-trainer';
 
 const view = document.getElementById('view');
 const scene = new THREE.Scene();
@@ -92,7 +91,6 @@ tsImg.onload = () => {
 tsImg.src = './assets/tileset_crystal_hd.png';
 
 // ---- Johto setpiece dioramas (PRISMWOOD #02: hand-crafted zones) ----
-// Phase 1 expands this to all 8 gym towns + Kanto epilogue towns (Phase 2).
 function diorama(cx, cz, buildings) {
   const g = new THREE.Group();
   g.position.set(cx, 0, cz);
@@ -118,7 +116,7 @@ function diorama(cx, cz, buildings) {
   scene.add(g);
   return g;
 }
-// PHASE 0/1 — New Bark Town (start)
+// New Bark Town (start)
 diorama(8, 30, [
   { x: -2, z: 0, h: 6, c: 0x57c97a, roof: 0xffffff, sign: true },   // Elm's Lab
   { x: 3, z: -1, h: 5, c: 0xe8d8b0, roof: 0x9b3e91 },                // Player home
@@ -134,15 +132,15 @@ diorama(20, 20, [
   { x: -3, z: 0, h: 7, c: 0xff5b6e, roof: 0xffffff, sign: true },
   { x: 3, z: 0, h: 6, c: 0x3aa6ff, roof: 0xffffff, sign: true },
 ]);
-// PHASE 1 — remaining 7 Johto gym towns (compact dioramas)
+// remaining 7 Johto gym towns (compact dioramas)
 diorama(8, 8, [{ x: 0, z: 0, h: 6, c: 0x9b3e91, roof: 0xd4af37, sign: true }]);    // Azalea (Bugsy)
 diorama(30, 30, [{ x: 0, z: 0, h: 7, c: 0x2e8b57, roof: 0xd4af37, sign: true }]);  // Goldenrod (Whitney)
 diorama(8, 18, [{ x: 0, z: 0, h: 6, c: 0x6c5ce7, roof: 0xffffff, sign: true }]);   // Ecruteak (Morty)
 diorama(20, 8, [{ x: 0, z: 0, h: 6, c: 0xc94f7c, roof: 0xffffff, sign: true }]);   // Cianwood (Chuck)
-diorama(20, 32, [{ x: 0, z: 0, h: 6, c: 0x33ccff, roof: 0x1f6fb0, sign: true }]);  // Olvine (Jasmine)
+diorama(20, 32, [{ x: 0, z: 0, h: 6, c: 0x33ccff, roof: 0x1f6fb0, sign: true }]);  // Olivine (Jasmine)
 diorama(34, 20, [{ x: 0, z: 0, h: 7, c: 0xffaa33, roof: 0xb8860b, sign: true }]);  // Mahogany (Pryce)
 diorama(14, 14, [{ x: 0, z: 0, h: 8, c: 0x884466, roof: 0xd4af37, sign: true }]);  // Blackthorn (Clair)
-// PHASE 2 — Kanto epilogue towns (condensed)
+// Kanto epilogue towns (condensed)
 diorama(36, 36, [{ x: 0, z: 0, h: 6, c: 0xff5b6e, roof: 0xffffff, sign: true }]);  // Viridian
 diorama(2, 36, [{ x: 0, z: 0, h: 6, c: 0x3aa6ff, roof: 0xffffff, sign: true }]);   // Pallet
 diorama(20, 36, [{ x: 0, z: 0, h: 7, c: 0x57c97a, roof: 0xb8860b, sign: true }]);  // Indigo Plateau
@@ -202,7 +200,7 @@ function updateCamera() {
   camera.lookAt(player.position.x, 1.4, player.position.z);
 }
 
-// ---- Agent-built entities (from the server world) ----
+// ---- Agent-built entities (now STATIC, embedded from crystal-world-data.js) ----
 const entMeshes = new Map();
 const tallGrass = [];
 function clearEntities() {
@@ -259,30 +257,101 @@ function renderWorld(world) {
   }
 }
 
-async function loadCrystalWorld() {
-  try {
-    const r = await fetch(API + '/channel/state?id=crystal');
-    const d = await r.json();
-    renderWorld(d.world);
-  } catch (e) { console.warn('[crystal] world load failed:', e); }
+function loadCrystalWorld() {
+  // STANDALONE: render the embedded static world (no server fetch)
+  renderWorld({ entities: CRYSTAL_WORLD });
 }
 
-// PHASE 2 — Roaming Suicune (real-time wanderer)
-let roamerMesh = null;
-async function loadRoamer() {
-  try {
-    const r = await fetch(API + '/roamer');
-    const rm = await r.json();
-    if (!roamerMesh) {
-      roamerMesh = new THREE.Mesh(new THREE.ConeGeometry(0.5, 1.4, 4),
-        new THREE.MeshStandardMaterial({ color: 0x33ccff, emissive: 0x114455, emissiveIntensity: 0.6 }));
-      roamerMesh.position.y = 0.7; roamerMesh.rotation.y = Math.PI / 4;
-      scene.add(roamerMesh);
-    }
-    roamerMesh.position.set(rm.x, 0.7, rm.z);
-  } catch {
-    /* roamer mesh unavailable */
+// ---- STANDALONE game state (formerly server-authoritative) ----
+const POKEMON_DB = [
+  { id: 155, name: 'Cyndaquil', type: 'Fire', hp: 39, maxHp: 39, level: 5, moves: ['Tackle', 'Ember', 'Quick Attack'], sprite: '🔥' },
+  { id: 158, name: 'Totodile', type: 'Water', hp: 50, maxHp: 50, level: 5, moves: ['Scratch', 'Water Gun', 'Bite'], sprite: '🐊' },
+  { id: 152, name: 'Chikorita', type: 'Grass', hp: 45, maxHp: 45, level: 5, moves: ['Tackle', 'Vine Whip', 'Razor Leaf'], sprite: '🍃' },
+  { id: 25, name: 'Pikachu', type: 'Electric', hp: 42, maxHp: 42, level: 7, moves: ['Thunder Shock', 'Quick Attack', 'Thunder Wave'], sprite: '⚡' },
+  { id: 149, name: 'Dragonite', type: 'Dragon', hp: 91, maxHp: 91, level: 25, moves: ['Dragon Rage', 'Wing Attack', 'Hyper Beam'], sprite: '🐉' },
+  { id: 245, name: 'Suicune', type: 'Water/Ice', hp: 100, maxHp: 100, level: 30, moves: ['Aurora Beam', 'Hydro Pump', 'Blizzard'], sprite: '❄️' },
+  { id: 16, name: 'Pidgey', type: 'Flying', hp: 36, maxHp: 36, level: 4, moves: ['Tackle', 'Gust'], sprite: '🐦' },
+];
+
+// PRISMWOOD QA guardrail: per-species scale anchors (no Caterpie=Snorlax)
+const SPECIES_SCALE = { Suicune: 3.4, Cyndaquil: 2.4, Totodile: 2.5, Chikorita: 2.4, Pidgey: 2.0, Geodude: 2.6, Togepi: 1.8, Dragonite: 3.2, Pikachu: 2.2 };
+function speciesScale(name) { return SPECIES_SCALE[name] || 2.4; }
+
+const POKEMON_TOTAL = 251; // Johto dex flavor
+
+const defaultTrainer = () => ({
+  name: 'Ethan',
+  badges: ['Zephyr', 'Hive'],           // start with 2 badges
+  money: 3500,
+  party: [
+    { id: 155, name: 'Cyndaquil', type: 'Fire', hp: 39, maxHp: 39, level: 12, moves: ['Ember', 'Tackle', 'Quick Attack'], sprite: '🔥' },
+    { id: 158, name: 'Totodile', type: 'Water', hp: 48, maxHp: 50, level: 14, moves: ['Water Gun', 'Bite', 'Scratch'], sprite: '🐊' },
+  ],
+  inventory: { pokeballs: 10, potions: 5, revive: 2 },
+  seen: [], caught: [], expShare: false,
+});
+
+let trainerState = defaultTrainer();
+try {
+  const saved = localStorage.getItem(SAVE_KEY);
+  if (saved) trainerState = { ...defaultTrainer(), ...JSON.parse(saved) };
+} catch { /* ignore corrupt save */ }
+function saveTrainer() {
+  try { localStorage.setItem(SAVE_KEY, JSON.stringify(trainerState)); } catch { /* storage may be unavailable */ }
+}
+
+// PRISMWOOD Phase 1: type-effectiveness chart (client-authoritative now)
+const TYPE_CHART = {
+  Normal: {}, Fire: { Grass: 2, Ice: 2, Bug: 2, Steel: 2, Water: 0.5, Fire: 0.5, Rock: 0.5, Dragon: 0.5 },
+  Water: { Fire: 2, Ground: 2, Rock: 2, Water: 0.5, Grass: 0.5, Dragon: 0.5 },
+  Grass: { Water: 2, Ground: 2, Rock: 2, Fire: 0.5, Grass: 0.5, Flying: 0.5, Bug: 0.5, Steel: 0.5, Dragon: 0.5 },
+  Electric: { Water: 2, Flying: 2, Grass: 0.5, Electric: 0.5, Dragon: 0.5, Ground: 0 },
+  Flying: { Grass: 2, Fighting: 2, Bug: 2, Electric: 0.5, Rock: 0.5, Steel: 0.5 },
+  Fighting: { Normal: 2, Ice: 2, Rock: 2, Dark: 2, Steel: 2, Flying: 0.5, Poison: 0.5, Bug: 0.5, Psychic: 0.5, Fairy: 0.5 },
+  Poison: { Grass: 2, Fairy: 2, Poison: 0.5, Ground: 0.5, Rock: 0.5, Ghost: 0.5, Steel: 0.5 },
+  Ground: { Fire: 2, Electric: 2, Poison: 2, Rock: 2, Steel: 2, Grass: 0.5, Bug: 0.5, Flying: 0 },
+  Rock: { Fire: 2, Ice: 2, Flying: 2, Bug: 2, Fighting: 0.5, Ground: 0.5, Steel: 0.5 },
+  Ice: { Grass: 2, Ground: 2, Flying: 2, Dragon: 2, Fire: 0.5, Water: 0.5, Ice: 0.5, Steel: 0.5 },
+  Dragon: { Dragon: 2, Steel: 0.5, Fairy: 0 },
+  Dark: { Psychic: 2, Ghost: 2, Fighting: 0.5, Dark: 0.5, Fairy: 0.5 },
+  Steel: { Ice: 2, Rock: 2, Fairy: 2, Steel: 0.5, Fire: 0.5, Water: 0.5, Electric: 0.5 },
+  Fairy: { Fighting: 2, Dragon: 2, Dark: 2, Fire: 0.5, Poison: 0.5, Steel: 0.5 },
+};
+function moveEffectiveness(moveType, defType) {
+  const mt = moveType.split('/')[0].trim(); const dt = defType.split('/')[0].trim();
+  if (!TYPE_CHART[mt]) return 1;
+  if (defType.includes('/')) {
+    const dt2 = defType.split('/')[1].trim();
+    return (TYPE_CHART[mt][dt] ?? 1) * (TYPE_CHART[mt][dt2] ?? 1);
   }
+  return TYPE_CHART[mt][dt] ?? 1;
+}
+
+// PHASE 2 — Roaming Suicune (real-time wanderer, client-side)
+let roamerMesh = null;
+let roamer = { name: 'Suicune', sprite: '❄️', level: 40, x: 20, z: 20, type: 'Water/Ice' };
+function roamStep() {
+  roamer.x = Math.max(2, Math.min(38, roamer.x + (Math.random() * 8 - 4)));
+  roamer.z = Math.max(2, Math.min(38, roamer.z + (Math.random() * 8 - 4)));
+  if (roamerMesh) roamerMesh.position.set(roamer.x, 0.7, roamer.z);
+}
+function loadRoamer() {
+  if (!roamerMesh) {
+    roamerMesh = new THREE.Mesh(new THREE.ConeGeometry(0.5, 1.4, 4),
+      new THREE.MeshStandardMaterial({ color: 0x33ccff, emissive: 0x114455, emissiveIntensity: 0.6 }));
+    roamerMesh.position.y = 0.7; roamerMesh.rotation.y = Math.PI / 4;
+    scene.add(roamerMesh);
+  }
+  roamerMesh.position.set(roamer.x, 0.7, roamer.z);
+}
+setInterval(roamStep, 4000);
+
+// PHASE 3 — async trade board (local, in-memory; no live ladder/server)
+let tradeBoard = [];
+function legalityCheck(mon) {
+  if (!mon || !mon.name) return { ok: false, reason: 'Invalid entry' };
+  if (!Number.isFinite(mon.level) || mon.level < 1 || mon.level > 100) return { ok: false, reason: 'Illegal level' };
+  return { ok: true };
 }
 
 // ---- Controls ----
@@ -360,9 +429,12 @@ const NPC_LINES = {
 async function interact() {
   if (inBattle) return;
   // nearest sign (gym badge) within 2.5 units → grant badge
-  for (const [, x, z, badge] of GYM_SIGNS) {
+  for (const [name, x, z, badge] of GYM_SIGNS) {
     if (Math.abs(x - player.position.x) < 3 && Math.abs(z - player.position.z) < 3) {
-      await fetch(API + '/badge', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ badge }) });
+      if (!trainerState.badges.includes(badge)) {
+        trainerState.badges.push(badge);
+        saveTrainer();
+      }
       showDialogue(`You earned the ${badge} Badge!`);
       refreshHud();
       return;
@@ -384,79 +456,33 @@ function showDialogue(text) {
   showDialogue._t = setTimeout(() => (d.style.display = 'none'), 3500);
 }
 
-// ---- PHASE 1 / 2 / 3: HUD refresh from server ----
-async function refreshHud() {
-  try {
-    const r = await fetch(API + '/trainer'); const t = await r.json();
-    const set = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
-    set('hud-badges', String(t.badges.length));
-    set('hud-money', '$' + t.money);
-    set('hud-balls', String(t.inventory.pokeballs));
-    set('hud-dex', `${t.caught.length}/${POKEMON_TOTAL}`);
-    const party = document.getElementById('pkmn-hud');
-    if (party) {
-      party.innerHTML = '';
-      for (const p of t.party.slice(0, 6)) {
-        const b = document.createElement('div'); b.className = 'hud-badge';
-        b.textContent = `${p.sprite} ${p.name} Lv.${p.level}`;
-        party.appendChild(b);
-      }
+// ---- PHASE 1 / 2 / 3: HUD refresh (local) ----
+function refreshHud() {
+  const set = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
+  set('hud-badges', String(trainerState.badges.length));
+  set('hud-money', '$' + trainerState.money);
+  set('hud-balls', String(trainerState.inventory.pokeballs));
+  set('hud-dex', `${trainerState.caught.length}/${POKEMON_TOTAL}`);
+  const party = document.getElementById('pkmn-hud');
+  if (party) {
+    party.innerHTML = '';
+    for (const p of trainerState.party.slice(0, 6)) {
+      const b = document.createElement('div'); b.className = 'hud-badge';
+      b.textContent = `${p.sprite} ${p.name} Lv.${p.level}`;
+      party.appendChild(b);
     }
-  } catch {
-    /* HUD refresh ignored */
   }
 }
-const POKEMON_TOTAL = 251;
 
-// ---- Pokémon battle (PHASE 1: type-effective, server-authoritative encounter) ----
+// ---- Pokémon battle (PHASE 1: type-effective, STANDALONE) ----
 let wildPokemon = null, inBattle = false;
 let playerHp = 39, playerMaxHp = 39, wildHp = 100, wildMaxHp = 100;
-const POKEMON_DB = [
-  { name: 'Suicune', sprite: '❄️', level: 30, hp: 120, type: 'Water/Ice' },
-  { name: 'Cyndaquil', sprite: '🔥', level: 5, hp: 39, type: 'Fire' },
-  { name: 'Totodile', sprite: '🐊', level: 5, hp: 41, type: 'Water' },
-  { name: 'Chikorita', sprite: '🌿', level: 5, hp: 38, type: 'Grass' },
-  { name: 'Pidgey', sprite: '🕊️', level: 4, hp: 30, type: 'Flying' },
-  { name: 'Geodude', sprite: '🪨', level: 6, hp: 44, type: 'Rock' },
-  { name: 'Togepi', sprite: '🥚', level: 3, hp: 24, type: 'Fairy' },
-];
-
-// PRISMWOOD QA guardrail: per-species scale anchors (no Caterpie=Snorlax)
-const SPECIES_SCALE = { Suicune: 3.4, Cyndaquil: 2.4, Totodile: 2.5, Chikorita: 2.4, Pidgey: 2.0, Geodude: 2.6, Togepi: 1.8 };
-function speciesScale(name) { return SPECIES_SCALE[name] || 2.4; }
-
-// Client-side type chart mirror for instant UI multiplier text (server is source of truth)
-const TYPE_CHART = {
-  Fire: { Grass: 2, Ice: 2, Water: 0.5, Fire: 0.5, Rock: 0.5, Dragon: 0.5 },
-  Water: { Fire: 2, Ground: 2, Rock: 2, Water: 0.5, Grass: 0.5, Dragon: 0.5 },
-  Grass: { Water: 2, Ground: 2, Rock: 2, Fire: 0.5, Grass: 0.5, Flying: 0.5, Bug: 0.5, Steel: 0.5, Dragon: 0.5 },
-  Electric: { Water: 2, Flying: 2, Grass: 0.5, Ground: 0 },
-  Flying: { Grass: 2, Fighting: 2, Bug: 2, Electric: 0.5, Rock: 0.5, Steel: 0.5 },
-  Rock: { Fire: 2, Ice: 2, Flying: 2, Bug: 2, Fighting: 0.5, Ground: 0.5, Steel: 0.5 },
-  Ice: { Grass: 2, Ground: 2, Flying: 2, Dragon: 2, Fire: 0.5, Water: 0.5, Ice: 0.5, Steel: 0.5 },
-  Fairy: { Fighting: 2, Dragon: 2, Dark: 2, Fire: 0.5, Poison: 0.5, Steel: 0.5 },
-  Normal: {},
-};
-function moveEffectiveness(moveType, defType) {
-  const mt = moveType.split('/')[0].trim(); const dt = defType.split('/')[0].trim();
-  if (!TYPE_CHART[mt]) return 1;
-  if (defType.includes('/')) {
-    const dt2 = defType.split('/')[1].trim();
-    return (TYPE_CHART[mt][dt] ?? 1) * (TYPE_CHART[mt][dt2] ?? 1);
-  }
-  return TYPE_CHART[mt][dt] ?? 1;
-}
 
 async function triggerEncounter() {
   if (inBattle || encounterCooldown) return;
   encounterCooldown = true;
   setTimeout(() => (encounterCooldown = false), 6000);
-  let wild;
-  try {
-    const r = await fetch(API + '/pokemon/encounter');
-    const d = await r.json();
-    wild = d.wild || POKEMON_DB[Math.floor(Math.random() * POKEMON_DB.length)];
-  } catch { wild = POKEMON_DB[Math.floor(Math.random() * POKEMON_DB.length)]; }
+  const wild = POKEMON_DB[Math.floor(Math.random() * POKEMON_DB.length)];
   wildPokemon = wild;
   wildHp = wild.hp; wildMaxHp = wild.hp;
   inBattle = true;
@@ -476,14 +502,9 @@ async function sightRoamer() {
   if (inBattle || encounterCooldown) return;
   encounterCooldown = true;
   setTimeout(() => (encounterCooldown = false), 8000);
-  try {
-    const r = await fetch(API + '/roamer/sight', { method: 'POST' });
-    const d = await r.json();
-    showDialogue(`A wild ${d.roamer.name} flees into the mist... (seen!)`);
-    refreshHud();
-  } catch {
-    /* sight roamer ignored */
-  }
+  if (!trainerState.seen.includes(roamer.name)) { trainerState.seen.push(roamer.name); saveTrainer(); }
+  showDialogue(`A wild ${roamer.name} flees into the mist... (seen!)`);
+  refreshHud();
 }
 
 function updateHpBars() {
@@ -517,10 +538,13 @@ document.querySelectorAll('.move-btn').forEach((btn) => {
   };
 });
 document.getElementById('btl-btn-catch').onclick = async () => {
-  try {
-    await fetch(API + '/pokemon/catch', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ pokemon: wildPokemon }) });
-  } catch {
-    /* catch ignored */
+  if (trainerState.inventory.pokeballs > 0) {
+    trainerState.inventory.pokeballs--;
+    if (wildPokemon) {
+      trainerState.party.push(wildPokemon);
+      if (!trainerState.caught.includes(wildPokemon.name)) trainerState.caught.push(wildPokemon.name);
+    }
+    saveTrainer();
   }
   document.getElementById('btl-log').textContent = `You threw a Poké Ball at ${wildPokemon.name}!`;
   setTimeout(() => { document.getElementById('btl-log').textContent = `${wildPokemon.name} was caught! Added to your party.`; refreshHud(); setTimeout(endBattle, 1400); }, 900);
@@ -529,21 +553,17 @@ document.getElementById('btl-btn-item').onclick = () => { playerHp = Math.min(pl
 document.getElementById('btl-btn-run').onclick = () => { document.getElementById('btl-log').textContent = 'You got away safely!'; setTimeout(endBattle, 900); };
 function endBattle() { inBattle = false; document.getElementById('battle-modal').style.display = 'none'; }
 
-// PHASE 1: Pokédex overlay
+// PHASE 1: Pokédex overlay (local)
 function togglePokedex() {
   const el = document.getElementById('pokedex');
   if (!el) return;
   if (el.style.display === 'block') { el.style.display = 'none'; return; }
-  fetch(API + '/pokemon/dex').then((r) => r.json()).then((d) => {
-    el.querySelector('.dex-body').innerHTML =
-      `<b>Seen:</b> ${d.seen.length}/${d.total} &nbsp; <b>Caught:</b> ${d.caught.length}/${d.total}<br>` +
-      (d.caught.length ? d.caught.join(', ') : 'No Pokémon caught yet. Walk in tall grass!');
-  }).catch(() => {
-    /* dex load ignored */
-  });
+  el.querySelector('.dex-body').innerHTML =
+    `<b>Seen:</b> ${trainerState.seen.length}/${POKEMON_TOTAL} &nbsp; <b>Caught:</b> ${trainerState.caught.length}/${POKEMON_TOTAL}<br>` +
+    (trainerState.caught.length ? trainerState.caught.join(', ') : 'No Pokémon caught yet. Walk in tall grass!');
   el.style.display = 'block';
 }
-// PHASE 3: trade board overlay
+// PHASE 3: trade board overlay (local)
 function toggleTrade() {
   const el = document.getElementById('trade-board');
   if (!el) return;
@@ -551,30 +571,31 @@ function toggleTrade() {
   renderTrades();
   el.style.display = 'block';
 }
-async function renderTrades() {
+function renderTrades() {
   const el = document.getElementById('trade-board');
-  try {
-    const r = await fetch(API + '/trade/list'); const d = await r.json();
-    const list = el.querySelector('.trade-list');
-    if (!d.trades.length) { list.innerHTML = '<i>No trades posted yet.</i>'; }
-    else {
-      list.innerHTML = d.trades.map((t) =>
-        `<div class="trade-row"><span>${t.offer.sprite} ${t.offer.name} Lv.${t.offer.level} → wants ${t.want}</span><button class="battle-btn" onclick="claimTrade('${t.id}')">Claim</button></div>`
-      ).join('');
-    }
-  } catch {
-    /* trades load ignored */
+  const list = el.querySelector('.trade-list');
+  if (!tradeBoard.length) { list.innerHTML = '<i>No trades posted yet.</i>'; }
+  else {
+    list.innerHTML = tradeBoard.map((t) =>
+      `<div class="trade-row"><span>${t.offer.sprite} ${t.offer.name} Lv.${t.offer.level} → wants ${t.want}</span><button class="battle-btn" onclick="claimTrade('${t.id}')">Claim</button></div>`
+    ).join('');
   }
 }
 window.claimTrade = async (id) => {
-  await fetch(API + '/trade/claim', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ id }) });
+  const idx = tradeBoard.findIndex((t) => t.id === id);
+  if (idx < 0) return;
+  const claimed = tradeBoard.splice(idx, 1)[0];
+  if (claimed.offer) { trainerState.party.push(claimed.offer); if (!trainerState.caught.includes(claimed.offer.name)) trainerState.caught.push(claimed.offer.name); saveTrainer(); }
   renderTrades(); refreshHud();
 };
 window.postTrade = async () => {
   const name = prompt('Offer which Pokémon? (name)'); if (!name) return;
   const level = parseInt(prompt('Level?', '5') || '5', 10);
   const sprite = POKEMON_DB.find((p) => p.name === name)?.sprite || '🐉';
-  await fetch(API + '/trade/post', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ offer: { name, level, sprite }, want: 'Any', trainer: 'Ethan' }) });
+  const leg = legalityCheck({ name, level });
+  if (!leg.ok) { alert('Illegal trade: ' + leg.reason); return; }
+  const id = 'trd_' + Date.now().toString(36);
+  tradeBoard.push({ id, offer: { name, level, sprite }, want: 'Any', trainer: 'Ethan', at: Date.now() });
   renderTrades();
 };
 
@@ -582,10 +603,16 @@ window.postTrade = async () => {
 function showStarterPicker() {
   const el = document.getElementById('starter-pick');
   if (!el) return;
+  // Skip if a saved game already chose a starter
+  if (localStorage.getItem(SAVE_KEY)) { el.style.display = 'none'; return; }
   el.style.display = 'flex';
 }
 window.chooseStarter = async (name) => {
-  await fetch(API + '/pokemon/starter', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name }) });
+  const pick = POKEMON_DB.find((p) => p.name === name);
+  if (!pick) return;
+  trainerState.party = [{ ...pick, level: 5, hp: pick.maxHp, maxHp: pick.maxHp }];
+  if (!trainerState.seen.includes(pick.name)) trainerState.seen.push(pick.name);
+  saveTrainer();
   document.getElementById('starter-pick').style.display = 'none';
   refreshHud();
   showDialogue(`You chose ${name}! Your journey begins.`);
@@ -595,9 +622,8 @@ addEventListener('resize', () => { camera.aspect = innerWidth / innerHeight; cam
 
 // Boot
 loadCrystalWorld();
-setInterval(loadCrystalWorld, 8000);
-setInterval(loadRoamer, 4000); loadRoamer();
+loadRoamer();
 refreshHud();
-showStarterPicker(); // PHASE 1: pick your starter on boot
+showStarterPicker(); // PHASE 1: pick your starter on boot (skipped if save exists)
 animate();
-console.log('[crystal3d] PRISMWOOD build ready — WASD walk, Shift run, E interact, B dex, T trade');
+console.log('[crystal3d] STANDALONE build ready — WASD walk, Shift run, E interact, B dex, T trade');
