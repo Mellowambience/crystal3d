@@ -2,2405 +2,2405 @@
   "tiles": [],
   "entities": [
     {
-      "id": "amrwsbtfmgwf",
-      "kind": "lay-path",
-      "text": "Snowy trail marked",
-      "x": 14,
-      "z": 20,
-      "by": "agent:crystal",
-      "t": 1784767231426
-    },
-    {
-      "id": "amrwsbwj5s94",
-      "kind": "raise-shrine",
-      "text": "Johto Bell Tower pillar set",
-      "x": 19,
-      "z": 6,
-      "by": "agent:crystal",
-      "t": 1784767235441
-    },
-    {
-      "id": "amrwsbzmjs4p",
-      "kind": "raise-shrine",
-      "text": "Sacred Torch lit",
-      "x": 30,
-      "z": 26,
-      "by": "agent:crystal",
-      "t": 1784767239451
-    },
-    {
-      "id": "amrwsc2pyqj5",
-      "kind": "spawn-npc",
-      "text": "Youngster Joey waiting",
-      "x": 20,
-      "z": 31,
-      "by": "agent:crystal",
-      "t": 1784767243462
-    },
-    {
-      "id": "amrwsc5t7b7a",
-      "kind": "spawn-npc",
-      "text": "Professor Elm visiting",
-      "x": 9,
-      "z": 32,
-      "by": "agent:crystal",
-      "t": 1784767247467
-    },
-    {
-      "id": "amrwsc8werqv",
-      "kind": "plant-tree",
-      "text": "Crystal Pine planted",
-      "x": 2,
-      "z": 27,
-      "by": "agent:crystal",
-      "t": 1784767251470
-    },
-    {
-      "id": "amrwscbzsawa",
-      "kind": "spawn-npc",
-      "text": "Kimono Girl stationed",
-      "x": 20,
-      "z": 11,
-      "by": "agent:crystal",
-      "t": 1784767255480
-    },
-    {
-      "id": "amrwscf35ytq",
-      "kind": "raise-shrine",
-      "text": "Johto Bell Tower pillar set",
-      "x": 2,
-      "z": 11,
-      "by": "agent:crystal",
-      "t": 1784767259489
-    },
-    {
-      "id": "amrwsci6dkj3",
-      "kind": "plant-tree",
-      "text": "Crystal Pine planted",
-      "x": 22,
-      "z": 30,
-      "by": "agent:crystal",
-      "t": 1784767263493
-    },
-    {
-      "id": "amrwscl9t04f",
-      "kind": "lay-path",
-      "text": "Lantern path lit",
-      "x": 25,
-      "z": 6,
-      "by": "agent:crystal",
-      "t": 1784767267505
-    },
-    {
-      "id": "amrwscoddg2g",
-      "kind": "plant-tree",
-      "text": "Frost Birch rooted",
-      "x": 32,
-      "z": 16,
-      "by": "agent:crystal",
-      "t": 1784767271521
-    },
-    {
-      "id": "amrwscrgx4k3",
-      "kind": "lay-path",
-      "text": "Snowy trail marked",
-      "x": 5,
-      "z": 29,
-      "by": "agent:crystal",
-      "t": 1784767275537
-    },
-    {
-      "id": "amrwscukc2c6",
-      "kind": "plant-tree",
-      "text": "Moonberry Bush grown",
-      "x": 8,
-      "z": 9,
-      "by": "agent:crystal",
-      "t": 1784767279548
-    },
-    {
-      "id": "amrwscxnves7",
-      "kind": "lay-path",
-      "text": "Snowy trail marked",
-      "x": 3,
-      "z": 27,
-      "by": "agent:crystal",
-      "t": 1784767283563
-    },
-    {
-      "id": "amrwsd0rcx9y",
-      "kind": "plant-tree",
-      "text": "Frost Birch rooted",
-      "x": 8,
-      "z": 36,
-      "by": "agent:crystal",
-      "t": 1784767287576
-    },
-    {
-      "id": "amrwsd3uo773",
-      "kind": "spawn-npc",
-      "text": "Youngster Joey waiting",
-      "x": 14,
-      "z": 30,
-      "by": "agent:crystal",
-      "t": 1784767291584
-    },
-    {
-      "id": "amrwsd6y73co",
-      "kind": "lay-path",
-      "text": "Cobblestone path paved",
-      "x": 31,
-      "z": 17,
-      "by": "agent:crystal",
-      "t": 1784767295599
-    },
-    {
-      "id": "amrwsda1h476",
-      "kind": "plant-tree",
-      "text": "Berry Tree planted",
-      "x": 5,
-      "z": 3,
-      "by": "agent:crystal",
-      "t": 1784767299605
-    },
-    {
-      "id": "amrwsdd4ykei",
-      "kind": "spawn-npc",
-      "text": "Youngster Joey waiting",
-      "x": 35,
-      "z": 7,
-      "by": "agent:crystal",
-      "t": 1784767303618
-    },
-    {
-      "id": "amrwsdg8fyo3",
-      "kind": "lay-path",
-      "text": "Marble steps laid",
-      "x": 9,
-      "z": 18,
-      "by": "agent:crystal",
-      "t": 1784767307631
-    },
-    {
-      "id": "amrwsdjbvm9u",
-      "kind": "raise-shrine",
-      "text": "Shrine of Dragonair erected",
-      "x": 36,
-      "z": 17,
-      "by": "agent:crystal",
-      "t": 1784767311643
-    },
-    {
-      "id": "amrwsdmf9b49",
-      "kind": "raise-shrine",
-      "text": "Sacred Torch lit",
-      "x": 3,
-      "z": 14,
-      "by": "agent:crystal",
-      "t": 1784767315653
-    },
-    {
-      "id": "amrwsdpijlu1",
-      "kind": "spawn-npc",
-      "text": "Youngster Joey waiting",
-      "x": 30,
-      "z": 20,
-      "by": "agent:crystal",
-      "t": 1784767319659
-    },
-    {
-      "id": "amrwsdsm094c",
-      "kind": "raise-shrine",
-      "text": "Icy Altar constructed",
-      "x": 25,
-      "z": 30,
-      "by": "agent:crystal",
-      "t": 1784767323672
-    },
-    {
-      "id": "amrwsdvp7kji",
-      "kind": "plant-tree",
-      "text": "Berry Tree planted",
-      "x": 24,
-      "z": 27,
-      "by": "agent:crystal",
-      "t": 1784767327675
-    },
-    {
-      "id": "amrwsdyssjd3",
-      "kind": "lay-path",
-      "text": "Marble steps laid",
-      "x": 8,
-      "z": 21,
-      "by": "agent:crystal",
-      "t": 1784767331692
-    },
-    {
-      "id": "amrwse1wc7bo",
-      "kind": "spawn-npc",
-      "text": "Ace Trainer standing by",
-      "x": 35,
-      "z": 20,
-      "by": "agent:crystal",
-      "t": 1784767335708
-    },
-    {
-      "id": "amrwse4zqcan",
-      "kind": "raise-shrine",
-      "text": "Johto Bell Tower pillar set",
-      "x": 24,
-      "z": 20,
-      "by": "agent:crystal",
-      "t": 1784767339718
-    },
-    {
-      "id": "amrwse8327x6",
-      "kind": "lay-path",
-      "text": "Lantern path lit",
-      "x": 29,
-      "z": 35,
-      "by": "agent:crystal",
-      "t": 1784767343726
-    },
-    {
-      "id": "amrwseb6gfel",
-      "kind": "raise-shrine",
-      "text": "Sacred Torch lit",
-      "x": 36,
-      "z": 34,
-      "by": "agent:crystal",
-      "t": 1784767347736
-    },
-    {
-      "id": "amrwsee9tthp",
-      "kind": "raise-shrine",
-      "text": "Icy Altar constructed",
-      "x": 14,
-      "z": 37,
-      "by": "agent:crystal",
-      "t": 1784767351745
-    },
-    {
-      "id": "amrwsehd931i",
-      "kind": "spawn-npc",
-      "text": "Ace Trainer standing by",
-      "x": 22,
-      "z": 11,
-      "by": "agent:crystal",
-      "t": 1784767355758
-    },
-    {
-      "id": "amrwsekgu2d1",
-      "kind": "raise-shrine",
-      "text": "Icy Altar constructed",
-      "x": 36,
-      "z": 3,
-      "by": "agent:crystal",
-      "t": 1784767359774
-    },
-    {
-      "id": "amrwsenkc8kp",
-      "kind": "raise-shrine",
-      "text": "Shrine of Dragonair erected",
-      "x": 25,
-      "z": 9,
-      "by": "agent:crystal",
-      "t": 1784767363788
-    },
-    {
-      "id": "amrwseqnwqf9",
-      "kind": "plant-tree",
-      "text": "Berry Tree planted",
-      "x": 18,
-      "z": 2,
-      "by": "agent:crystal",
-      "t": 1784767367804
-    },
-    {
-      "id": "amrwsetra8xf",
-      "kind": "spawn-npc",
-      "text": "Ace Trainer standing by",
-      "x": 26,
-      "z": 16,
-      "by": "agent:crystal",
-      "t": 1784767371814
-    },
-    {
-      "id": "amrwsewuqs7b",
+      "id": "amrwsqlij3hh",
       "kind": "raise-shrine",
       "text": "Shrine of Dragonair erected",
       "x": 37,
-      "z": 21,
+      "z": 35,
       "by": "agent:crystal",
-      "t": 1784767375826
+      "t": 1784767921003
     },
     {
-      "id": "amrwsezxwm0y",
-      "kind": "spawn-npc",
-      "text": "Professor Elm visiting",
-      "x": 22,
-      "z": 15,
-      "by": "agent:crystal",
-      "t": 1784767379828
-    },
-    {
-      "id": "amrwsf311rh6",
-      "kind": "lay-path",
-      "text": "Marble steps laid",
-      "x": 19,
-      "z": 12,
-      "by": "agent:crystal",
-      "t": 1784767383829
-    },
-    {
-      "id": "amrwsf64bbsn",
-      "kind": "spawn-npc",
-      "text": "Kimono Girl stationed",
-      "x": 9,
-      "z": 27,
-      "by": "agent:crystal",
-      "t": 1784767387835
-    },
-    {
-      "id": "amrwsf97hpek",
-      "kind": "raise-shrine",
-      "text": "Shrine of Dragonair erected",
-      "x": 2,
-      "z": 24,
-      "by": "agent:crystal",
-      "t": 1784767391837
-    },
-    {
-      "id": "amrwsfcaxayl",
-      "kind": "spawn-npc",
-      "text": "Professor Elm visiting",
-      "x": 22,
-      "z": 12,
-      "by": "agent:crystal",
-      "t": 1784767395849
-    },
-    {
-      "id": "amrwsffebrc8",
-      "kind": "raise-shrine",
-      "text": "Shrine of Dragonair erected",
-      "x": 27,
-      "z": 15,
-      "by": "agent:crystal",
-      "t": 1784767399859
-    },
-    {
-      "id": "amrwsfihn91f",
+      "id": "amrwsqolq7is",
       "kind": "lay-path",
       "text": "Snowy trail marked",
-      "x": 27,
-      "z": 9,
+      "x": 21,
+      "z": 7,
       "by": "agent:crystal",
-      "t": 1784767403867
+      "t": 1784767925006
     },
     {
-      "id": "amrwsfll1pys",
-      "kind": "raise-shrine",
-      "text": "Johto Bell Tower pillar set",
-      "x": 23,
-      "z": 8,
-      "by": "agent:crystal",
-      "t": 1784767407877
-    },
-    {
-      "id": "amrwsfoofo0r",
-      "kind": "plant-tree",
-      "text": "Crystal Pine planted",
-      "x": 20,
-      "z": 14,
-      "by": "agent:crystal",
-      "t": 1784767411887
-    },
-    {
-      "id": "amrwsfrrztam",
-      "kind": "lay-path",
-      "text": "Lantern path lit",
-      "x": 2,
-      "z": 24,
-      "by": "agent:crystal",
-      "t": 1784767415903
-    },
-    {
-      "id": "amrwsfuvjmjf",
-      "kind": "spawn-npc",
-      "text": "Professor Elm visiting",
-      "x": 17,
-      "z": 6,
-      "by": "agent:crystal",
-      "t": 1784767419919
-    },
-    {
-      "id": "amrwsfxyv8af",
+      "id": "amrwsqrp7t6b",
       "kind": "lay-path",
       "text": "Snowy trail marked",
-      "x": 22,
-      "z": 22,
+      "x": 11,
+      "z": 5,
       "by": "agent:crystal",
-      "t": 1784767423927
+      "t": 1784767929019
     },
     {
-      "id": "amrwsg129otv",
+      "id": "amrwsqusp3ib",
+      "kind": "spawn-npc",
+      "text": "Ace Trainer standing by",
+      "x": 33,
+      "z": 12,
+      "by": "agent:crystal",
+      "t": 1784767933033
+    },
+    {
+      "id": "amrwsqxw7bqx",
       "kind": "plant-tree",
       "text": "Berry Tree planted",
-      "x": 8,
-      "z": 30,
+      "x": 22,
+      "z": 9,
       "by": "agent:crystal",
-      "t": 1784767427937
+      "t": 1784767937047
     },
     {
-      "id": "amrwsg45ptxy",
+      "id": "amrwsr0zf9gn",
       "kind": "plant-tree",
-      "text": "Crystal Pine planted",
-      "x": 21,
-      "z": 4,
+      "text": "Frost Birch rooted",
+      "x": 3,
+      "z": 11,
       "by": "agent:crystal",
-      "t": 1784767431949
+      "t": 1784767941051
     },
     {
-      "id": "amrwsg7914wp",
+      "id": "amrwsr42z02q",
+      "kind": "plant-tree",
+      "text": "Moonberry Bush grown",
+      "x": 13,
+      "z": 7,
+      "by": "agent:crystal",
+      "t": 1784767945067
+    },
+    {
+      "id": "amrwsr76a626",
+      "kind": "raise-shrine",
+      "text": "Shrine of Dragonair erected",
+      "x": 17,
+      "z": 2,
+      "by": "agent:crystal",
+      "t": 1784767949074
+    },
+    {
+      "id": "amrwsra9lqlc",
+      "kind": "raise-shrine",
+      "text": "Johto Bell Tower pillar set",
+      "x": 9,
+      "z": 19,
+      "by": "agent:crystal",
+      "t": 1784767953081
+    },
+    {
+      "id": "amrwsrdcubug",
       "kind": "raise-shrine",
       "text": "Icy Altar constructed",
       "x": 36,
-      "z": 22,
+      "z": 25,
       "by": "agent:crystal",
-      "t": 1784767435957
+      "t": 1784767957086
     },
     {
-      "id": "amrwsgaccrok",
+      "id": "amrwsrggcxi2",
+      "kind": "lay-path",
+      "text": "Lantern path lit",
+      "x": 24,
+      "z": 6,
+      "by": "agent:crystal",
+      "t": 1784767961100
+    },
+    {
+      "id": "amrwsrjjsnd2",
+      "kind": "lay-path",
+      "text": "Cobblestone path paved",
+      "x": 34,
+      "z": 36,
+      "by": "agent:crystal",
+      "t": 1784767965112
+    },
+    {
+      "id": "amrwsrmnby8h",
       "kind": "raise-shrine",
-      "text": "Icy Altar constructed",
-      "x": 20,
-      "z": 19,
+      "text": "Sacred Torch lit",
+      "x": 6,
+      "z": 17,
       "by": "agent:crystal",
-      "t": 1784767439964
+      "t": 1784767969127
     },
     {
-      "id": "amrwsgdfg173",
-      "kind": "raise-shrine",
-      "text": "Shrine of Dragonair erected",
-      "x": 20,
-      "z": 11,
-      "by": "agent:crystal",
-      "t": 1784767443964
-    },
-    {
-      "id": "amrwsggivvva",
+      "id": "amrwsrpqlb83",
       "kind": "spawn-npc",
-      "text": "Professor Elm visiting",
-      "x": 4,
-      "z": 35,
+      "text": "Youngster Joey waiting",
+      "x": 31,
+      "z": 6,
       "by": "agent:crystal",
-      "t": 1784767447975
+      "t": 1784767973133
     },
     {
-      "id": "amrwsgjm72qo",
+      "id": "amrwsrstr8bm",
+      "kind": "plant-tree",
+      "text": "Berry Tree planted",
+      "x": 32,
+      "z": 28,
+      "by": "agent:crystal",
+      "t": 1784767977135
+    },
+    {
+      "id": "amrwsrvx01sn",
       "kind": "plant-tree",
       "text": "Frost Birch rooted",
-      "x": 8,
-      "z": 26,
+      "x": 33,
+      "z": 7,
       "by": "agent:crystal",
-      "t": 1784767451983
+      "t": 1784767981140
     },
     {
-      "id": "amrwsgmpdq4v",
+      "id": "amrwsrz0ify1",
+      "kind": "lay-path",
+      "text": "Cobblestone path paved",
+      "x": 25,
+      "z": 14,
+      "by": "agent:crystal",
+      "t": 1784767985154
+    },
+    {
+      "id": "amrwss23sw05",
+      "kind": "lay-path",
+      "text": "Marble steps laid",
+      "x": 26,
+      "z": 24,
+      "by": "agent:crystal",
+      "t": 1784767989160
+    },
+    {
+      "id": "amrwss57dfbq",
+      "kind": "plant-tree",
+      "text": "Berry Tree planted",
+      "x": 27,
+      "z": 29,
+      "by": "agent:crystal",
+      "t": 1784767993177
+    },
+    {
+      "id": "amrwss8almb7",
+      "kind": "lay-path",
+      "text": "Lantern path lit",
+      "x": 7,
+      "z": 17,
+      "by": "agent:crystal",
+      "t": 1784767997181
+    },
+    {
+      "id": "amrwssbdzkka",
+      "kind": "lay-path",
+      "text": "Marble steps laid",
+      "x": 4,
+      "z": 22,
+      "by": "agent:crystal",
+      "t": 1784768001191
+    },
+    {
+      "id": "amrwssehhrn9",
+      "kind": "lay-path",
+      "text": "Snowy trail marked",
+      "x": 28,
+      "z": 15,
+      "by": "agent:crystal",
+      "t": 1784768005205
+    },
+    {
+      "id": "amrwsshkyj4y",
+      "kind": "raise-shrine",
+      "text": "Shrine of Dragonair erected",
+      "x": 13,
+      "z": 6,
+      "by": "agent:crystal",
+      "t": 1784768009218
+    },
+    {
+      "id": "amrwssko9123",
+      "kind": "plant-tree",
+      "text": "Moonberry Bush grown",
+      "x": 32,
+      "z": 28,
+      "by": "agent:crystal",
+      "t": 1784768013225
+    },
+    {
+      "id": "amrwssnrpyd1",
+      "kind": "raise-shrine",
+      "text": "Shrine of Dragonair erected",
+      "x": 14,
+      "z": 29,
+      "by": "agent:crystal",
+      "t": 1784768017237
+    },
+    {
+      "id": "amrwssqv686n",
+      "kind": "raise-shrine",
+      "text": "Icy Altar constructed",
+      "x": 36,
+      "z": 35,
+      "by": "agent:crystal",
+      "t": 1784768021250
+    },
+    {
+      "id": "amrwsstymhw7",
+      "kind": "plant-tree",
+      "text": "Crystal Pine planted",
+      "x": 37,
+      "z": 6,
+      "by": "agent:crystal",
+      "t": 1784768025262
+    },
+    {
+      "id": "amrwssx20k0j",
+      "kind": "spawn-npc",
+      "text": "Kimono Girl stationed",
+      "x": 24,
+      "z": 10,
+      "by": "agent:crystal",
+      "t": 1784768029272
+    },
+    {
+      "id": "amrwst05izfi",
+      "kind": "plant-tree",
+      "text": "Frost Birch rooted",
+      "x": 15,
+      "z": 22,
+      "by": "agent:crystal",
+      "t": 1784768033286
+    },
+    {
+      "id": "amrwst38ogp5",
+      "kind": "lay-path",
+      "text": "Lantern path lit",
+      "x": 17,
+      "z": 16,
+      "by": "agent:crystal",
+      "t": 1784768037288
+    },
+    {
+      "id": "amrwst6c0b1x",
+      "kind": "raise-shrine",
+      "text": "Sacred Torch lit",
+      "x": 28,
+      "z": 16,
+      "by": "agent:crystal",
+      "t": 1784768041296
+    },
+    {
+      "id": "amrwst9fabw3",
+      "kind": "raise-shrine",
+      "text": "Shrine of Dragonair erected",
+      "x": 9,
+      "z": 9,
+      "by": "agent:crystal",
+      "t": 1784768045302
+    },
+    {
+      "id": "amrwstcitv6n",
+      "kind": "spawn-npc",
+      "text": "Kimono Girl stationed",
+      "x": 25,
+      "z": 6,
+      "by": "agent:crystal",
+      "t": 1784768049317
+    },
+    {
+      "id": "amrwstfm0o3m",
+      "kind": "raise-shrine",
+      "text": "Shrine of Dragonair erected",
+      "x": 12,
+      "z": 23,
+      "by": "agent:crystal",
+      "t": 1784768053320
+    },
+    {
+      "id": "amrwstipkoc6",
       "kind": "spawn-npc",
       "text": "Ace Trainer standing by",
       "x": 29,
-      "z": 18,
+      "z": 26,
       "by": "agent:crystal",
-      "t": 1784767455985
+      "t": 1784768057336
     },
     {
-      "id": "amrwsgpswvhr",
-      "kind": "plant-tree",
-      "text": "Crystal Pine planted",
-      "x": 23,
-      "z": 23,
-      "by": "agent:crystal",
-      "t": 1784767460000
-    },
-    {
-      "id": "amrwsgswaob1",
-      "kind": "lay-path",
-      "text": "Lantern path lit",
-      "x": 28,
-      "z": 21,
-      "by": "agent:crystal",
-      "t": 1784767464010
-    },
-    {
-      "id": "amrwsgvzjzmz",
+      "id": "amrwstlssy99",
       "kind": "plant-tree",
       "text": "Frost Birch rooted",
+      "x": 16,
+      "z": 37,
+      "by": "agent:crystal",
+      "t": 1784768061340
+    },
+    {
+      "id": "amrwstowapnn",
+      "kind": "plant-tree",
+      "text": "Frost Birch rooted",
+      "x": 2,
+      "z": 35,
+      "by": "agent:crystal",
+      "t": 1784768065354
+    },
+    {
+      "id": "amrwstrzqjna",
+      "kind": "lay-path",
+      "text": "Marble steps laid",
+      "x": 6,
+      "z": 9,
+      "by": "agent:crystal",
+      "t": 1784768069366
+    },
+    {
+      "id": "amrwstv32uqp",
+      "kind": "plant-tree",
+      "text": "Berry Tree planted",
+      "x": 12,
+      "z": 16,
+      "by": "agent:crystal",
+      "t": 1784768073374
+    },
+    {
+      "id": "amrwsty6k2jh",
+      "kind": "raise-shrine",
+      "text": "Icy Altar constructed",
+      "x": 4,
+      "z": 12,
+      "by": "agent:crystal",
+      "t": 1784768077388
+    },
+    {
+      "id": "amrwsu19qwv5",
+      "kind": "lay-path",
+      "text": "Snowy trail marked",
+      "x": 16,
+      "z": 14,
+      "by": "agent:crystal",
+      "t": 1784768081390
+    },
+    {
+      "id": "amrwsu4d54zj",
+      "kind": "raise-shrine",
+      "text": "Johto Bell Tower pillar set",
+      "x": 32,
+      "z": 8,
+      "by": "agent:crystal",
+      "t": 1784768085401
+    },
+    {
+      "id": "amrwsu7gka9l",
+      "kind": "raise-shrine",
+      "text": "Icy Altar constructed",
+      "x": 11,
+      "z": 11,
+      "by": "agent:crystal",
+      "t": 1784768089412
+    },
+    {
+      "id": "amrwsuak2ojh",
+      "kind": "plant-tree",
+      "text": "Crystal Pine planted",
+      "x": 35,
+      "z": 30,
+      "by": "agent:crystal",
+      "t": 1784768093426
+    },
+    {
+      "id": "amrwsudnfoe4",
+      "kind": "lay-path",
+      "text": "Marble steps laid",
+      "x": 36,
+      "z": 11,
+      "by": "agent:crystal",
+      "t": 1784768097435
+    },
+    {
+      "id": "amrwsugqqmjl",
+      "kind": "raise-shrine",
+      "text": "Icy Altar constructed",
+      "x": 13,
+      "z": 20,
+      "by": "agent:crystal",
+      "t": 1784768101442
+    },
+    {
+      "id": "amrwsujtza1b",
+      "kind": "lay-path",
+      "text": "Snowy trail marked",
+      "x": 14,
+      "z": 33,
+      "by": "agent:crystal",
+      "t": 1784768105447
+    },
+    {
+      "id": "amrwsumxh7fh",
+      "kind": "raise-shrine",
+      "text": "Shrine of Dragonair erected",
       "x": 3,
       "z": 33,
       "by": "agent:crystal",
-      "t": 1784767468015
+      "t": 1784768109461
     },
     {
-      "id": "amrwsgz2s158",
-      "kind": "raise-shrine",
-      "text": "Icy Altar constructed",
-      "x": 18,
-      "z": 3,
-      "by": "agent:crystal",
-      "t": 1784767472020
-    },
-    {
-      "id": "amrwsh261jvh",
-      "kind": "plant-tree",
-      "text": "Frost Birch rooted",
-      "x": 37,
-      "z": 14,
-      "by": "agent:crystal",
-      "t": 1784767476025
-    },
-    {
-      "id": "amrwsh59jplk",
+      "id": "amrwsuq10nil",
       "kind": "lay-path",
-      "text": "Snowy trail marked",
-      "x": 32,
-      "z": 22,
+      "text": "Cobblestone path paved",
+      "x": 34,
+      "z": 37,
       "by": "agent:crystal",
-      "t": 1784767480039
+      "t": 1784768113476
     },
     {
-      "id": "amrwsh8cr9zg",
+      "id": "amrwsut464eb",
+      "kind": "raise-shrine",
+      "text": "Johto Bell Tower pillar set",
+      "x": 8,
+      "z": 16,
+      "by": "agent:crystal",
+      "t": 1784768117478
+    },
+    {
+      "id": "amrwsuw7fpyh",
       "kind": "plant-tree",
       "text": "Berry Tree planted",
-      "x": 2,
-      "z": 18,
+      "x": 31,
+      "z": 35,
       "by": "agent:crystal",
-      "t": 1784767484043
+      "t": 1784768121483
     },
     {
-      "id": "amrwshbg82g8",
+      "id": "amrwsuzas3lh",
+      "kind": "raise-shrine",
+      "text": "Icy Altar constructed",
+      "x": 15,
+      "z": 2,
+      "by": "agent:crystal",
+      "t": 1784768125492
+    },
+    {
+      "id": "amrwsv2e4oax",
+      "kind": "plant-tree",
+      "text": "Frost Birch rooted",
+      "x": 21,
+      "z": 27,
+      "by": "agent:crystal",
+      "t": 1784768129500
+    },
+    {
+      "id": "amrwsv5hi9j2",
+      "kind": "plant-tree",
+      "text": "Berry Tree planted",
+      "x": 18,
+      "z": 12,
+      "by": "agent:crystal",
+      "t": 1784768133510
+    },
+    {
+      "id": "amrwsv8kqz12",
+      "kind": "spawn-npc",
+      "text": "Kimono Girl stationed",
+      "x": 32,
+      "z": 34,
+      "by": "agent:crystal",
+      "t": 1784768137514
+    },
+    {
+      "id": "amrwsvbnv1h9",
+      "kind": "spawn-npc",
+      "text": "Ace Trainer standing by",
+      "x": 31,
+      "z": 36,
+      "by": "agent:crystal",
+      "t": 1784768141515
+    },
+    {
+      "id": "amrwsver5uwd",
+      "kind": "raise-shrine",
+      "text": "Icy Altar constructed",
+      "x": 10,
+      "z": 8,
+      "by": "agent:crystal",
+      "t": 1784768145521
+    },
+    {
+      "id": "amrwsvhuhlm4",
+      "kind": "lay-path",
+      "text": "Lantern path lit",
+      "x": 24,
+      "z": 4,
+      "by": "agent:crystal",
+      "t": 1784768149529
+    },
+    {
+      "id": "amrwsvkxxlsm",
       "kind": "raise-shrine",
       "text": "Shrine of Dragonair erected",
-      "x": 6,
-      "z": 28,
+      "x": 14,
+      "z": 13,
       "by": "agent:crystal",
-      "t": 1784767488056
+      "t": 1784768153541
     },
     {
-      "id": "amrwshejfvxt",
-      "kind": "spawn-npc",
-      "text": "Kimono Girl stationed",
-      "x": 34,
-      "z": 26,
-      "by": "agent:crystal",
-      "t": 1784767492059
-    },
-    {
-      "id": "amrwshhmnary",
-      "kind": "spawn-npc",
-      "text": "Professor Elm visiting",
-      "x": 18,
-      "z": 32,
-      "by": "agent:crystal",
-      "t": 1784767496063
-    },
-    {
-      "id": "amrwshkpwcx2",
-      "kind": "spawn-npc",
-      "text": "Kimono Girl stationed",
-      "x": 15,
+      "id": "amrwsvo170ms",
+      "kind": "lay-path",
+      "text": "Marble steps laid",
+      "x": 31,
       "z": 19,
       "by": "agent:crystal",
-      "t": 1784767500068
+      "t": 1784768157547
     },
     {
-      "id": "amrwshntco8k",
+      "id": "amrwsvr4gwya",
       "kind": "spawn-npc",
-      "text": "Kimono Girl stationed",
-      "x": 14,
-      "z": 30,
+      "text": "Ace Trainer standing by",
+      "x": 35,
+      "z": 16,
       "by": "agent:crystal",
-      "t": 1784767504080
+      "t": 1784768161552
     },
     {
-      "id": "amrwshqwn2zm",
+      "id": "amrwsvu7wgy6",
+      "kind": "plant-tree",
+      "text": "Moonberry Bush grown",
+      "x": 31,
+      "z": 2,
+      "by": "agent:crystal",
+      "t": 1784768165564
+    },
+    {
+      "id": "amrwsvxbctph",
+      "kind": "lay-path",
+      "text": "Lantern path lit",
+      "x": 34,
+      "z": 14,
+      "by": "agent:crystal",
+      "t": 1784768169576
+    },
+    {
+      "id": "amrwsw0eqqgq",
+      "kind": "plant-tree",
+      "text": "Moonberry Bush grown",
+      "x": 25,
+      "z": 34,
+      "by": "agent:crystal",
+      "t": 1784768173586
+    },
+    {
+      "id": "amrwsw3hvibe",
+      "kind": "raise-shrine",
+      "text": "Johto Bell Tower pillar set",
+      "x": 2,
+      "z": 22,
+      "by": "agent:crystal",
+      "t": 1784768177587
+    },
+    {
+      "id": "amrwsw6l6oke",
+      "kind": "spawn-npc",
+      "text": "Ace Trainer standing by",
+      "x": 26,
+      "z": 17,
+      "by": "agent:crystal",
+      "t": 1784768181594
+    },
+    {
+      "id": "amrwsw9ojff7",
+      "kind": "spawn-npc",
+      "text": "Ace Trainer standing by",
+      "x": 30,
+      "z": 5,
+      "by": "agent:crystal",
+      "t": 1784768185603
+    },
+    {
+      "id": "amrwswcs2jy5",
+      "kind": "spawn-npc",
+      "text": "Professor Elm visiting",
+      "x": 8,
+      "z": 29,
+      "by": "agent:crystal",
+      "t": 1784768189618
+    },
+    {
+      "id": "amrwswfvc7mv",
+      "kind": "lay-path",
+      "text": "Lantern path lit",
+      "x": 16,
+      "z": 9,
+      "by": "agent:crystal",
+      "t": 1784768193624
+    },
+    {
+      "id": "amrwswiyu63u",
+      "kind": "lay-path",
+      "text": "Lantern path lit",
+      "x": 2,
+      "z": 26,
+      "by": "agent:crystal",
+      "t": 1784768197638
+    },
+    {
+      "id": "amrwswm25su0",
+      "kind": "plant-tree",
+      "text": "Crystal Pine planted",
+      "x": 25,
+      "z": 2,
+      "by": "agent:crystal",
+      "t": 1784768201645
+    },
+    {
+      "id": "amrwswp5ejub",
       "kind": "lay-path",
       "text": "Snowy trail marked",
       "x": 7,
-      "z": 11,
+      "z": 29,
       "by": "agent:crystal",
-      "t": 1784767508087
+      "t": 1784768205650
     },
     {
-      "id": "amrwshtzzqvo",
+      "id": "amrwsws8qw1c",
       "kind": "lay-path",
-      "text": "Marble steps laid",
-      "x": 5,
-      "z": 10,
+      "text": "Lantern path lit",
+      "x": 25,
+      "z": 8,
       "by": "agent:crystal",
-      "t": 1784767512095
+      "t": 1784768209658
     },
     {
-      "id": "amrwshx3cd19",
-      "kind": "spawn-npc",
-      "text": "Professor Elm visiting",
+      "id": "amrwswvc4rgx",
+      "kind": "plant-tree",
+      "text": "Moonberry Bush grown",
       "x": 12,
+      "z": 18,
+      "by": "agent:crystal",
+      "t": 1784768213668
+    },
+    {
+      "id": "amrwswyfa7pc",
+      "kind": "raise-shrine",
+      "text": "Sacred Torch lit",
+      "x": 7,
       "z": 19,
       "by": "agent:crystal",
-      "t": 1784767516104
+      "t": 1784768217670
     },
     {
-      "id": "amrwsi06j111",
-      "kind": "lay-path",
-      "text": "Cobblestone path paved",
-      "x": 33,
+      "id": "amrwsx1inbca",
+      "kind": "raise-shrine",
+      "text": "Sacred Torch lit",
+      "x": 25,
       "z": 5,
       "by": "agent:crystal",
-      "t": 1784767520107
+      "t": 1784768221679
     },
     {
-      "id": "amrwsi3a3yrl",
+      "id": "amrwsx4m5nby",
       "kind": "lay-path",
-      "text": "Marble steps laid",
-      "x": 26,
-      "z": 16,
-      "by": "agent:crystal",
-      "t": 1784767524123
-    },
-    {
-      "id": "amrwsi6dazce",
-      "kind": "lay-path",
-      "text": "Snowy trail marked",
-      "x": 32,
-      "z": 31,
-      "by": "agent:crystal",
-      "t": 1784767528126
-    },
-    {
-      "id": "amrwsi9gkho7",
-      "kind": "spawn-npc",
-      "text": "Ace Trainer standing by",
-      "x": 4,
-      "z": 32,
-      "by": "agent:crystal",
-      "t": 1784767532132
-    },
-    {
-      "id": "amrwsicjxanx",
-      "kind": "raise-shrine",
-      "text": "Shrine of Dragonair erected",
-      "x": 28,
-      "z": 23,
-      "by": "agent:crystal",
-      "t": 1784767536141
-    },
-    {
-      "id": "amrwsifn66aq",
-      "kind": "spawn-npc",
-      "text": "Kimono Girl stationed",
-      "x": 13,
-      "z": 28,
-      "by": "agent:crystal",
-      "t": 1784767540146
-    },
-    {
-      "id": "amrwsiiqoojn",
-      "kind": "lay-path",
-      "text": "Snowy trail marked",
-      "x": 18,
-      "z": 4,
-      "by": "agent:crystal",
-      "t": 1784767544160
-    },
-    {
-      "id": "amrwsilu2lx8",
-      "kind": "spawn-npc",
-      "text": "Ace Trainer standing by",
+      "text": "Cobblestone path paved",
       "x": 2,
-      "z": 21,
+      "z": 17,
       "by": "agent:crystal",
-      "t": 1784767548170
+      "t": 1784768225693
+    },
+    {
+      "id": "amrwsx7phym9",
+      "kind": "raise-shrine",
+      "text": "Sacred Torch lit",
+      "x": 14,
+      "z": 13,
+      "by": "agent:crystal",
+      "t": 1784768229701
+    },
+    {
+      "id": "amrwsxass5xi",
+      "kind": "spawn-npc",
+      "text": "Professor Elm visiting",
+      "x": 2,
+      "z": 26,
+      "by": "agent:crystal",
+      "t": 1784768233708
+    },
+    {
+      "id": "amrwsxdwamnz",
+      "kind": "plant-tree",
+      "text": "Moonberry Bush grown",
+      "x": 20,
+      "z": 34,
+      "by": "agent:crystal",
+      "t": 1784768237722
     }
   ],
   "log": [
     {
-      "t": 1784767071039,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrws8dofnd3",
-        "kind": "spawn-npc",
-        "text": "Ace Trainer standing by",
-        "x": 24,
-        "z": 10,
-        "by": "agent:crystal",
-        "t": 1784767071039
-      }
-    },
-    {
-      "t": 1784767075055,
+      "t": 1784767760630,
       "by": "agent:crystal",
       "action": "plant-tree",
       "ent": {
-        "id": "amrws8grz8rh",
-        "kind": "plant-tree",
-        "text": "Berry Tree planted",
-        "x": 33,
-        "z": 27,
-        "by": "agent:crystal",
-        "t": 1784767075055
-      }
-    },
-    {
-      "t": 1784767079066,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrws8jverq4",
-        "kind": "lay-path",
-        "text": "Lantern path lit",
-        "x": 18,
-        "z": 24,
-        "by": "agent:crystal",
-        "t": 1784767079066
-      }
-    },
-    {
-      "t": 1784767083068,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrws8mykvzt",
-        "kind": "raise-shrine",
-        "text": "Johto Bell Tower pillar set",
-        "x": 14,
-        "z": 28,
-        "by": "agent:crystal",
-        "t": 1784767083068
-      }
-    },
-    {
-      "t": 1784767087084,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrws8q248fh",
-        "kind": "raise-shrine",
-        "text": "Sacred Torch lit",
-        "x": 17,
-        "z": 26,
-        "by": "agent:crystal",
-        "t": 1784767087084
-      }
-    },
-    {
-      "t": 1784767091098,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrws8t5mmpf",
-        "kind": "plant-tree",
-        "text": "Berry Tree planted",
-        "x": 35,
-        "z": 2,
-        "by": "agent:crystal",
-        "t": 1784767091098
-      }
-    },
-    {
-      "t": 1784767095109,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrws8w912d4",
-        "kind": "plant-tree",
-        "text": "Berry Tree planted",
-        "x": 37,
-        "z": 3,
-        "by": "agent:crystal",
-        "t": 1784767095109
-      }
-    },
-    {
-      "t": 1784767099115,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrws8zcbu0v",
-        "kind": "raise-shrine",
-        "text": "Shrine of Dragonair erected",
-        "x": 7,
-        "z": 34,
-        "by": "agent:crystal",
-        "t": 1784767099115
-      }
-    },
-    {
-      "t": 1784767103132,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrws92fwsz4",
+        "id": "amrwsn5rq7g5",
         "kind": "plant-tree",
         "text": "Moonberry Bush grown",
-        "x": 5,
-        "z": 23,
-        "by": "agent:crystal",
-        "t": 1784767103132
-      }
-    },
-    {
-      "t": 1784767107140,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrws95j8iyq",
-        "kind": "plant-tree",
-        "text": "Crystal Pine planted",
-        "x": 4,
-        "z": 8,
-        "by": "agent:crystal",
-        "t": 1784767107140
-      }
-    },
-    {
-      "t": 1784767111146,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrws98mib3p",
-        "kind": "raise-shrine",
-        "text": "Johto Bell Tower pillar set",
-        "x": 30,
-        "z": 16,
-        "by": "agent:crystal",
-        "t": 1784767111146
-      }
-    },
-    {
-      "t": 1784767115155,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrws9bpvbcq",
-        "kind": "lay-path",
-        "text": "Lantern path lit",
-        "x": 12,
-        "z": 25,
-        "by": "agent:crystal",
-        "t": 1784767115155
-      }
-    },
-    {
-      "t": 1784767119165,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrws9et9n8c",
-        "kind": "raise-shrine",
-        "text": "Sacred Torch lit",
-        "x": 12,
-        "z": 14,
-        "by": "agent:crystal",
-        "t": 1784767119165
-      }
-    },
-    {
-      "t": 1784767123172,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrws9hwjj5d",
-        "kind": "lay-path",
-        "text": "Snowy trail marked",
-        "x": 8,
-        "z": 18,
-        "by": "agent:crystal",
-        "t": 1784767123172
-      }
-    },
-    {
-      "t": 1784767127176,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrws9kzsg27",
-        "kind": "plant-tree",
-        "text": "Frost Birch rooted",
-        "x": 9,
-        "z": 4,
-        "by": "agent:crystal",
-        "t": 1784767127176
-      }
-    },
-    {
-      "t": 1784767131181,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrws9o316cg",
-        "kind": "spawn-npc",
-        "text": "Youngster Joey waiting",
-        "x": 23,
-        "z": 12,
-        "by": "agent:crystal",
-        "t": 1784767131181
-      }
-    },
-    {
-      "t": 1784767135184,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrws9r689bh",
-        "kind": "lay-path",
-        "text": "Snowy trail marked",
-        "x": 22,
-        "z": 25,
-        "by": "agent:crystal",
-        "t": 1784767135184
-      }
-    },
-    {
-      "t": 1784767139191,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrws9u9jgyv",
-        "kind": "plant-tree",
-        "text": "Moonberry Bush grown",
-        "x": 36,
-        "z": 11,
-        "by": "agent:crystal",
-        "t": 1784767139191
-      }
-    },
-    {
-      "t": 1784767143199,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrws9xcv9w6",
-        "kind": "raise-shrine",
-        "text": "Johto Bell Tower pillar set",
-        "x": 22,
+        "x": 15,
         "z": 28,
         "by": "agent:crystal",
-        "t": 1784767143199
+        "t": 1784767760630
       }
     },
     {
-      "t": 1784767147214,
+      "t": 1784767764642,
       "by": "agent:crystal",
       "action": "lay-path",
       "ent": {
-        "id": "amrwsa0gemwq",
-        "kind": "lay-path",
-        "text": "Lantern path lit",
-        "x": 35,
-        "z": 28,
-        "by": "agent:crystal",
-        "t": 1784767147214
-      }
-    },
-    {
-      "t": 1784767151224,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsa3jsdax",
-        "kind": "lay-path",
-        "text": "Marble steps laid",
-        "x": 27,
-        "z": 4,
-        "by": "agent:crystal",
-        "t": 1784767151224
-      }
-    },
-    {
-      "t": 1784767155227,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsa6mzzb1",
-        "kind": "spawn-npc",
-        "text": "Ace Trainer standing by",
-        "x": 21,
-        "z": 30,
-        "by": "agent:crystal",
-        "t": 1784767155227
-      }
-    },
-    {
-      "t": 1784767159235,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsa9qbrrw",
-        "kind": "plant-tree",
-        "text": "Berry Tree planted",
-        "x": 25,
-        "z": 37,
-        "by": "agent:crystal",
-        "t": 1784767159235
-      }
-    },
-    {
-      "t": 1784767163238,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsactib48",
-        "kind": "raise-shrine",
-        "text": "Sacred Torch lit",
-        "x": 33,
-        "z": 10,
-        "by": "agent:crystal",
-        "t": 1784767163238
-      }
-    },
-    {
-      "t": 1784767167253,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsafx1508",
-        "kind": "lay-path",
-        "text": "Cobblestone path paved",
-        "x": 34,
-        "z": 30,
-        "by": "agent:crystal",
-        "t": 1784767167253
-      }
-    },
-    {
-      "t": 1784767171269,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsaj0ll1h",
-        "kind": "lay-path",
-        "text": "Lantern path lit",
-        "x": 3,
-        "z": 35,
-        "by": "agent:crystal",
-        "t": 1784767171269
-      }
-    },
-    {
-      "t": 1784767175281,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsam41rvj",
-        "kind": "lay-path",
-        "text": "Marble steps laid",
-        "x": 33,
-        "z": 16,
-        "by": "agent:crystal",
-        "t": 1784767175281
-      }
-    },
-    {
-      "t": 1784767179298,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsap7mnn6",
-        "kind": "spawn-npc",
-        "text": "Youngster Joey waiting",
-        "x": 3,
-        "z": 22,
-        "by": "agent:crystal",
-        "t": 1784767179298
-      }
-    },
-    {
-      "t": 1784767183314,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsasb6yhr",
-        "kind": "lay-path",
-        "text": "Cobblestone path paved",
-        "x": 37,
-        "z": 29,
-        "by": "agent:crystal",
-        "t": 1784767183314
-      }
-    },
-    {
-      "t": 1784767187321,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsaveh47p",
-        "kind": "lay-path",
-        "text": "Marble steps laid",
-        "x": 20,
-        "z": 10,
-        "by": "agent:crystal",
-        "t": 1784767187321
-      }
-    },
-    {
-      "t": 1784767191326,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsayhqjtn",
-        "kind": "raise-shrine",
-        "text": "Icy Altar constructed",
-        "x": 34,
-        "z": 21,
-        "by": "agent:crystal",
-        "t": 1784767191326
-      }
-    },
-    {
-      "t": 1784767195342,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsb1laa0h",
-        "kind": "spawn-npc",
-        "text": "Professor Elm visiting",
-        "x": 23,
-        "z": 37,
-        "by": "agent:crystal",
-        "t": 1784767195342
-      }
-    },
-    {
-      "t": 1784767199344,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsb4ogo85",
-        "kind": "spawn-npc",
-        "text": "Youngster Joey waiting",
-        "x": 5,
-        "z": 13,
-        "by": "agent:crystal",
-        "t": 1784767199344
-      }
-    },
-    {
-      "t": 1784767203353,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsb7rt76g",
-        "kind": "plant-tree",
-        "text": "Berry Tree planted",
-        "x": 34,
-        "z": 11,
-        "by": "agent:crystal",
-        "t": 1784767203353
-      }
-    },
-    {
-      "t": 1784767207363,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsbav7xys",
-        "kind": "raise-shrine",
-        "text": "Johto Bell Tower pillar set",
-        "x": 28,
-        "z": 6,
-        "by": "agent:crystal",
-        "t": 1784767207363
-      }
-    },
-    {
-      "t": 1784767211376,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsbdyo4p3",
-        "kind": "spawn-npc",
-        "text": "Professor Elm visiting",
-        "x": 33,
-        "z": 18,
-        "by": "agent:crystal",
-        "t": 1784767211376
-      }
-    },
-    {
-      "t": 1784767215387,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsbh239qa",
-        "kind": "spawn-npc",
-        "text": "Youngster Joey waiting",
-        "x": 18,
-        "z": 35,
-        "by": "agent:crystal",
-        "t": 1784767215387
-      }
-    },
-    {
-      "t": 1784767219397,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsbk5hgsi",
-        "kind": "plant-tree",
-        "text": "Frost Birch rooted",
-        "x": 6,
-        "z": 8,
-        "by": "agent:crystal",
-        "t": 1784767219397
-      }
-    },
-    {
-      "t": 1784767223402,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsbn8qknx",
-        "kind": "raise-shrine",
-        "text": "Shrine of Dragonair erected",
-        "x": 13,
-        "z": 34,
-        "by": "agent:crystal",
-        "t": 1784767223402
-      }
-    },
-    {
-      "t": 1784767227411,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsbqc363c",
-        "kind": "spawn-npc",
-        "text": "Kimono Girl stationed",
-        "x": 14,
-        "z": 27,
-        "by": "agent:crystal",
-        "t": 1784767227411
-      }
-    },
-    {
-      "t": 1784767231426,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsbtfmgwf",
+        "id": "amrwsn8v6mk3",
         "kind": "lay-path",
         "text": "Snowy trail marked",
-        "x": 14,
-        "z": 20,
-        "by": "agent:crystal",
-        "t": 1784767231426
-      }
-    },
-    {
-      "t": 1784767235441,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsbwj5s94",
-        "kind": "raise-shrine",
-        "text": "Johto Bell Tower pillar set",
-        "x": 19,
-        "z": 6,
-        "by": "agent:crystal",
-        "t": 1784767235441
-      }
-    },
-    {
-      "t": 1784767239451,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsbzmjs4p",
-        "kind": "raise-shrine",
-        "text": "Sacred Torch lit",
-        "x": 30,
-        "z": 26,
-        "by": "agent:crystal",
-        "t": 1784767239451
-      }
-    },
-    {
-      "t": 1784767243462,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsc2pyqj5",
-        "kind": "spawn-npc",
-        "text": "Youngster Joey waiting",
-        "x": 20,
-        "z": 31,
-        "by": "agent:crystal",
-        "t": 1784767243462
-      }
-    },
-    {
-      "t": 1784767247467,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsc5t7b7a",
-        "kind": "spawn-npc",
-        "text": "Professor Elm visiting",
-        "x": 9,
-        "z": 32,
-        "by": "agent:crystal",
-        "t": 1784767247467
-      }
-    },
-    {
-      "t": 1784767251470,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsc8werqv",
-        "kind": "plant-tree",
-        "text": "Crystal Pine planted",
-        "x": 2,
-        "z": 27,
-        "by": "agent:crystal",
-        "t": 1784767251470
-      }
-    },
-    {
-      "t": 1784767255480,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwscbzsawa",
-        "kind": "spawn-npc",
-        "text": "Kimono Girl stationed",
-        "x": 20,
-        "z": 11,
-        "by": "agent:crystal",
-        "t": 1784767255480
-      }
-    },
-    {
-      "t": 1784767259489,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwscf35ytq",
-        "kind": "raise-shrine",
-        "text": "Johto Bell Tower pillar set",
-        "x": 2,
-        "z": 11,
-        "by": "agent:crystal",
-        "t": 1784767259489
-      }
-    },
-    {
-      "t": 1784767263493,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsci6dkj3",
-        "kind": "plant-tree",
-        "text": "Crystal Pine planted",
-        "x": 22,
-        "z": 30,
-        "by": "agent:crystal",
-        "t": 1784767263493
-      }
-    },
-    {
-      "t": 1784767267505,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwscl9t04f",
-        "kind": "lay-path",
-        "text": "Lantern path lit",
-        "x": 25,
-        "z": 6,
-        "by": "agent:crystal",
-        "t": 1784767267505
-      }
-    },
-    {
-      "t": 1784767271521,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwscoddg2g",
-        "kind": "plant-tree",
-        "text": "Frost Birch rooted",
-        "x": 32,
-        "z": 16,
-        "by": "agent:crystal",
-        "t": 1784767271521
-      }
-    },
-    {
-      "t": 1784767275537,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwscrgx4k3",
-        "kind": "lay-path",
-        "text": "Snowy trail marked",
-        "x": 5,
-        "z": 29,
-        "by": "agent:crystal",
-        "t": 1784767275537
-      }
-    },
-    {
-      "t": 1784767279548,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwscukc2c6",
-        "kind": "plant-tree",
-        "text": "Moonberry Bush grown",
-        "x": 8,
-        "z": 9,
-        "by": "agent:crystal",
-        "t": 1784767279548
-      }
-    },
-    {
-      "t": 1784767283563,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwscxnves7",
-        "kind": "lay-path",
-        "text": "Snowy trail marked",
-        "x": 3,
-        "z": 27,
-        "by": "agent:crystal",
-        "t": 1784767283563
-      }
-    },
-    {
-      "t": 1784767287576,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsd0rcx9y",
-        "kind": "plant-tree",
-        "text": "Frost Birch rooted",
-        "x": 8,
-        "z": 36,
-        "by": "agent:crystal",
-        "t": 1784767287576
-      }
-    },
-    {
-      "t": 1784767291584,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsd3uo773",
-        "kind": "spawn-npc",
-        "text": "Youngster Joey waiting",
-        "x": 14,
-        "z": 30,
-        "by": "agent:crystal",
-        "t": 1784767291584
-      }
-    },
-    {
-      "t": 1784767295599,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsd6y73co",
-        "kind": "lay-path",
-        "text": "Cobblestone path paved",
-        "x": 31,
-        "z": 17,
-        "by": "agent:crystal",
-        "t": 1784767295599
-      }
-    },
-    {
-      "t": 1784767299605,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsda1h476",
-        "kind": "plant-tree",
-        "text": "Berry Tree planted",
-        "x": 5,
-        "z": 3,
-        "by": "agent:crystal",
-        "t": 1784767299605
-      }
-    },
-    {
-      "t": 1784767303618,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsdd4ykei",
-        "kind": "spawn-npc",
-        "text": "Youngster Joey waiting",
-        "x": 35,
-        "z": 7,
-        "by": "agent:crystal",
-        "t": 1784767303618
-      }
-    },
-    {
-      "t": 1784767307631,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsdg8fyo3",
-        "kind": "lay-path",
-        "text": "Marble steps laid",
-        "x": 9,
-        "z": 18,
-        "by": "agent:crystal",
-        "t": 1784767307631
-      }
-    },
-    {
-      "t": 1784767311643,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsdjbvm9u",
-        "kind": "raise-shrine",
-        "text": "Shrine of Dragonair erected",
-        "x": 36,
-        "z": 17,
-        "by": "agent:crystal",
-        "t": 1784767311643
-      }
-    },
-    {
-      "t": 1784767315653,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsdmf9b49",
-        "kind": "raise-shrine",
-        "text": "Sacred Torch lit",
-        "x": 3,
-        "z": 14,
-        "by": "agent:crystal",
-        "t": 1784767315653
-      }
-    },
-    {
-      "t": 1784767319659,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsdpijlu1",
-        "kind": "spawn-npc",
-        "text": "Youngster Joey waiting",
-        "x": 30,
-        "z": 20,
-        "by": "agent:crystal",
-        "t": 1784767319659
-      }
-    },
-    {
-      "t": 1784767323672,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsdsm094c",
-        "kind": "raise-shrine",
-        "text": "Icy Altar constructed",
-        "x": 25,
-        "z": 30,
-        "by": "agent:crystal",
-        "t": 1784767323672
-      }
-    },
-    {
-      "t": 1784767327675,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsdvp7kji",
-        "kind": "plant-tree",
-        "text": "Berry Tree planted",
-        "x": 24,
-        "z": 27,
-        "by": "agent:crystal",
-        "t": 1784767327675
-      }
-    },
-    {
-      "t": 1784767331692,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsdyssjd3",
-        "kind": "lay-path",
-        "text": "Marble steps laid",
-        "x": 8,
-        "z": 21,
-        "by": "agent:crystal",
-        "t": 1784767331692
-      }
-    },
-    {
-      "t": 1784767335708,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwse1wc7bo",
-        "kind": "spawn-npc",
-        "text": "Ace Trainer standing by",
-        "x": 35,
-        "z": 20,
-        "by": "agent:crystal",
-        "t": 1784767335708
-      }
-    },
-    {
-      "t": 1784767339718,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwse4zqcan",
-        "kind": "raise-shrine",
-        "text": "Johto Bell Tower pillar set",
-        "x": 24,
-        "z": 20,
-        "by": "agent:crystal",
-        "t": 1784767339718
-      }
-    },
-    {
-      "t": 1784767343726,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwse8327x6",
-        "kind": "lay-path",
-        "text": "Lantern path lit",
-        "x": 29,
-        "z": 35,
-        "by": "agent:crystal",
-        "t": 1784767343726
-      }
-    },
-    {
-      "t": 1784767347736,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwseb6gfel",
-        "kind": "raise-shrine",
-        "text": "Sacred Torch lit",
-        "x": 36,
-        "z": 34,
-        "by": "agent:crystal",
-        "t": 1784767347736
-      }
-    },
-    {
-      "t": 1784767351745,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsee9tthp",
-        "kind": "raise-shrine",
-        "text": "Icy Altar constructed",
-        "x": 14,
-        "z": 37,
-        "by": "agent:crystal",
-        "t": 1784767351745
-      }
-    },
-    {
-      "t": 1784767355758,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsehd931i",
-        "kind": "spawn-npc",
-        "text": "Ace Trainer standing by",
-        "x": 22,
-        "z": 11,
-        "by": "agent:crystal",
-        "t": 1784767355758
-      }
-    },
-    {
-      "t": 1784767359774,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsekgu2d1",
-        "kind": "raise-shrine",
-        "text": "Icy Altar constructed",
-        "x": 36,
-        "z": 3,
-        "by": "agent:crystal",
-        "t": 1784767359774
-      }
-    },
-    {
-      "t": 1784767363788,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsenkc8kp",
-        "kind": "raise-shrine",
-        "text": "Shrine of Dragonair erected",
-        "x": 25,
-        "z": 9,
-        "by": "agent:crystal",
-        "t": 1784767363788
-      }
-    },
-    {
-      "t": 1784767367804,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwseqnwqf9",
-        "kind": "plant-tree",
-        "text": "Berry Tree planted",
-        "x": 18,
-        "z": 2,
-        "by": "agent:crystal",
-        "t": 1784767367804
-      }
-    },
-    {
-      "t": 1784767371814,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsetra8xf",
-        "kind": "spawn-npc",
-        "text": "Ace Trainer standing by",
-        "x": 26,
-        "z": 16,
-        "by": "agent:crystal",
-        "t": 1784767371814
-      }
-    },
-    {
-      "t": 1784767375826,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsewuqs7b",
-        "kind": "raise-shrine",
-        "text": "Shrine of Dragonair erected",
-        "x": 37,
-        "z": 21,
-        "by": "agent:crystal",
-        "t": 1784767375826
-      }
-    },
-    {
-      "t": 1784767379828,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsezxwm0y",
-        "kind": "spawn-npc",
-        "text": "Professor Elm visiting",
-        "x": 22,
-        "z": 15,
-        "by": "agent:crystal",
-        "t": 1784767379828
-      }
-    },
-    {
-      "t": 1784767383829,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsf311rh6",
-        "kind": "lay-path",
-        "text": "Marble steps laid",
-        "x": 19,
-        "z": 12,
-        "by": "agent:crystal",
-        "t": 1784767383829
-      }
-    },
-    {
-      "t": 1784767387835,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsf64bbsn",
-        "kind": "spawn-npc",
-        "text": "Kimono Girl stationed",
-        "x": 9,
-        "z": 27,
-        "by": "agent:crystal",
-        "t": 1784767387835
-      }
-    },
-    {
-      "t": 1784767391837,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsf97hpek",
-        "kind": "raise-shrine",
-        "text": "Shrine of Dragonair erected",
-        "x": 2,
-        "z": 24,
-        "by": "agent:crystal",
-        "t": 1784767391837
-      }
-    },
-    {
-      "t": 1784767395849,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsfcaxayl",
-        "kind": "spawn-npc",
-        "text": "Professor Elm visiting",
-        "x": 22,
-        "z": 12,
-        "by": "agent:crystal",
-        "t": 1784767395849
-      }
-    },
-    {
-      "t": 1784767399859,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsffebrc8",
-        "kind": "raise-shrine",
-        "text": "Shrine of Dragonair erected",
-        "x": 27,
-        "z": 15,
-        "by": "agent:crystal",
-        "t": 1784767399859
-      }
-    },
-    {
-      "t": 1784767403867,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsfihn91f",
-        "kind": "lay-path",
-        "text": "Snowy trail marked",
-        "x": 27,
-        "z": 9,
-        "by": "agent:crystal",
-        "t": 1784767403867
-      }
-    },
-    {
-      "t": 1784767407877,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsfll1pys",
-        "kind": "raise-shrine",
-        "text": "Johto Bell Tower pillar set",
-        "x": 23,
-        "z": 8,
-        "by": "agent:crystal",
-        "t": 1784767407877
-      }
-    },
-    {
-      "t": 1784767411887,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsfoofo0r",
-        "kind": "plant-tree",
-        "text": "Crystal Pine planted",
-        "x": 20,
-        "z": 14,
-        "by": "agent:crystal",
-        "t": 1784767411887
-      }
-    },
-    {
-      "t": 1784767415903,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsfrrztam",
-        "kind": "lay-path",
-        "text": "Lantern path lit",
-        "x": 2,
-        "z": 24,
-        "by": "agent:crystal",
-        "t": 1784767415903
-      }
-    },
-    {
-      "t": 1784767419919,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsfuvjmjf",
-        "kind": "spawn-npc",
-        "text": "Professor Elm visiting",
-        "x": 17,
-        "z": 6,
-        "by": "agent:crystal",
-        "t": 1784767419919
-      }
-    },
-    {
-      "t": 1784767423927,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsfxyv8af",
-        "kind": "lay-path",
-        "text": "Snowy trail marked",
-        "x": 22,
-        "z": 22,
-        "by": "agent:crystal",
-        "t": 1784767423927
-      }
-    },
-    {
-      "t": 1784767427937,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsg129otv",
-        "kind": "plant-tree",
-        "text": "Berry Tree planted",
-        "x": 8,
-        "z": 30,
-        "by": "agent:crystal",
-        "t": 1784767427937
-      }
-    },
-    {
-      "t": 1784767431949,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsg45ptxy",
-        "kind": "plant-tree",
-        "text": "Crystal Pine planted",
-        "x": 21,
-        "z": 4,
-        "by": "agent:crystal",
-        "t": 1784767431949
-      }
-    },
-    {
-      "t": 1784767435957,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsg7914wp",
-        "kind": "raise-shrine",
-        "text": "Icy Altar constructed",
-        "x": 36,
-        "z": 22,
-        "by": "agent:crystal",
-        "t": 1784767435957
-      }
-    },
-    {
-      "t": 1784767439964,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsgaccrok",
-        "kind": "raise-shrine",
-        "text": "Icy Altar constructed",
-        "x": 20,
-        "z": 19,
-        "by": "agent:crystal",
-        "t": 1784767439964
-      }
-    },
-    {
-      "t": 1784767443964,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwsgdfg173",
-        "kind": "raise-shrine",
-        "text": "Shrine of Dragonair erected",
-        "x": 20,
-        "z": 11,
-        "by": "agent:crystal",
-        "t": 1784767443964
-      }
-    },
-    {
-      "t": 1784767447975,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsggivvva",
-        "kind": "spawn-npc",
-        "text": "Professor Elm visiting",
-        "x": 4,
-        "z": 35,
-        "by": "agent:crystal",
-        "t": 1784767447975
-      }
-    },
-    {
-      "t": 1784767451983,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsgjm72qo",
-        "kind": "plant-tree",
-        "text": "Frost Birch rooted",
-        "x": 8,
-        "z": 26,
-        "by": "agent:crystal",
-        "t": 1784767451983
-      }
-    },
-    {
-      "t": 1784767455985,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsgmpdq4v",
-        "kind": "spawn-npc",
-        "text": "Ace Trainer standing by",
-        "x": 29,
-        "z": 18,
-        "by": "agent:crystal",
-        "t": 1784767455985
-      }
-    },
-    {
-      "t": 1784767460000,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsgpswvhr",
-        "kind": "plant-tree",
-        "text": "Crystal Pine planted",
-        "x": 23,
-        "z": 23,
-        "by": "agent:crystal",
-        "t": 1784767460000
-      }
-    },
-    {
-      "t": 1784767464010,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsgswaob1",
-        "kind": "lay-path",
-        "text": "Lantern path lit",
-        "x": 28,
-        "z": 21,
-        "by": "agent:crystal",
-        "t": 1784767464010
-      }
-    },
-    {
-      "t": 1784767468015,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsgvzjzmz",
-        "kind": "plant-tree",
-        "text": "Frost Birch rooted",
-        "x": 3,
+        "x": 16,
         "z": 33,
         "by": "agent:crystal",
-        "t": 1784767468015
+        "t": 1784767764642
       }
     },
     {
-      "t": 1784767472020,
+      "t": 1784767768651,
       "by": "agent:crystal",
       "action": "raise-shrine",
       "ent": {
-        "id": "amrwsgz2s158",
+        "id": "amrwsnbyiklt",
         "kind": "raise-shrine",
-        "text": "Icy Altar constructed",
-        "x": 18,
-        "z": 3,
+        "text": "Sacred Torch lit",
+        "x": 4,
+        "z": 29,
         "by": "agent:crystal",
-        "t": 1784767472020
+        "t": 1784767768651
       }
     },
     {
-      "t": 1784767476025,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsh261jvh",
-        "kind": "plant-tree",
-        "text": "Frost Birch rooted",
-        "x": 37,
-        "z": 14,
-        "by": "agent:crystal",
-        "t": 1784767476025
-      }
-    },
-    {
-      "t": 1784767480039,
+      "t": 1784767772662,
       "by": "agent:crystal",
       "action": "lay-path",
       "ent": {
-        "id": "amrwsh59jplk",
-        "kind": "lay-path",
-        "text": "Snowy trail marked",
-        "x": 32,
-        "z": 22,
-        "by": "agent:crystal",
-        "t": 1784767480039
-      }
-    },
-    {
-      "t": 1784767484043,
-      "by": "agent:crystal",
-      "action": "plant-tree",
-      "ent": {
-        "id": "amrwsh8cr9zg",
-        "kind": "plant-tree",
-        "text": "Berry Tree planted",
-        "x": 2,
-        "z": 18,
-        "by": "agent:crystal",
-        "t": 1784767484043
-      }
-    },
-    {
-      "t": 1784767488056,
-      "by": "agent:crystal",
-      "action": "raise-shrine",
-      "ent": {
-        "id": "amrwshbg82g8",
-        "kind": "raise-shrine",
-        "text": "Shrine of Dragonair erected",
-        "x": 6,
-        "z": 28,
-        "by": "agent:crystal",
-        "t": 1784767488056
-      }
-    },
-    {
-      "t": 1784767492059,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwshejfvxt",
-        "kind": "spawn-npc",
-        "text": "Kimono Girl stationed",
-        "x": 34,
-        "z": 26,
-        "by": "agent:crystal",
-        "t": 1784767492059
-      }
-    },
-    {
-      "t": 1784767496063,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwshhmnary",
-        "kind": "spawn-npc",
-        "text": "Professor Elm visiting",
-        "x": 18,
-        "z": 32,
-        "by": "agent:crystal",
-        "t": 1784767496063
-      }
-    },
-    {
-      "t": 1784767500068,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwshkpwcx2",
-        "kind": "spawn-npc",
-        "text": "Kimono Girl stationed",
-        "x": 15,
-        "z": 19,
-        "by": "agent:crystal",
-        "t": 1784767500068
-      }
-    },
-    {
-      "t": 1784767504080,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwshntco8k",
-        "kind": "spawn-npc",
-        "text": "Kimono Girl stationed",
-        "x": 14,
-        "z": 30,
-        "by": "agent:crystal",
-        "t": 1784767504080
-      }
-    },
-    {
-      "t": 1784767508087,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwshqwn2zm",
-        "kind": "lay-path",
-        "text": "Snowy trail marked",
-        "x": 7,
-        "z": 11,
-        "by": "agent:crystal",
-        "t": 1784767508087
-      }
-    },
-    {
-      "t": 1784767512095,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwshtzzqvo",
-        "kind": "lay-path",
-        "text": "Marble steps laid",
-        "x": 5,
-        "z": 10,
-        "by": "agent:crystal",
-        "t": 1784767512095
-      }
-    },
-    {
-      "t": 1784767516104,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwshx3cd19",
-        "kind": "spawn-npc",
-        "text": "Professor Elm visiting",
-        "x": 12,
-        "z": 19,
-        "by": "agent:crystal",
-        "t": 1784767516104
-      }
-    },
-    {
-      "t": 1784767520107,
-      "by": "agent:crystal",
-      "action": "lay-path",
-      "ent": {
-        "id": "amrwsi06j111",
+        "id": "amrwsnf1y3rg",
         "kind": "lay-path",
         "text": "Cobblestone path paved",
+        "x": 30,
+        "z": 30,
+        "by": "agent:crystal",
+        "t": 1784767772662
+      }
+    },
+    {
+      "t": 1784767776668,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwsni58hb5",
+        "kind": "spawn-npc",
+        "text": "Youngster Joey waiting",
+        "x": 33,
+        "z": 11,
+        "by": "agent:crystal",
+        "t": 1784767776668
+      }
+    },
+    {
+      "t": 1784767780675,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsnl8jxhm",
+        "kind": "plant-tree",
+        "text": "Berry Tree planted",
+        "x": 21,
+        "z": 13,
+        "by": "agent:crystal",
+        "t": 1784767780675
+      }
+    },
+    {
+      "t": 1784767784687,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsnobzgo7",
+        "kind": "raise-shrine",
+        "text": "Shrine of Dragonair erected",
+        "x": 5,
+        "z": 35,
+        "by": "agent:crystal",
+        "t": 1784767784687
+      }
+    },
+    {
+      "t": 1784767788693,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsnrf9e7v",
+        "kind": "plant-tree",
+        "text": "Berry Tree planted",
+        "x": 3,
+        "z": 35,
+        "by": "agent:crystal",
+        "t": 1784767788693
+      }
+    },
+    {
+      "t": 1784767792694,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsnuierr7",
+        "kind": "raise-shrine",
+        "text": "Shrine of Dragonair erected",
+        "x": 33,
+        "z": 15,
+        "by": "agent:crystal",
+        "t": 1784767792694
+      }
+    },
+    {
+      "t": 1784767796710,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwsnxly5ak",
+        "kind": "spawn-npc",
+        "text": "Youngster Joey waiting",
+        "x": 3,
+        "z": 9,
+        "by": "agent:crystal",
+        "t": 1784767796710
+      }
+    },
+    {
+      "t": 1784767800720,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwso0pct4b",
+        "kind": "plant-tree",
+        "text": "Crystal Pine planted",
+        "x": 25,
+        "z": 18,
+        "by": "agent:crystal",
+        "t": 1784767800720
+      }
+    },
+    {
+      "t": 1784767804730,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwso3squml",
+        "kind": "lay-path",
+        "text": "Cobblestone path paved",
+        "x": 23,
+        "z": 18,
+        "by": "agent:crystal",
+        "t": 1784767804730
+      }
+    },
+    {
+      "t": 1784767808733,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwso6vxnrd",
+        "kind": "plant-tree",
+        "text": "Berry Tree planted",
+        "x": 23,
+        "z": 29,
+        "by": "agent:crystal",
+        "t": 1784767808733
+      }
+    },
+    {
+      "t": 1784767812744,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwso9zcbaa",
+        "kind": "plant-tree",
+        "text": "Berry Tree planted",
+        "x": 12,
+        "z": 32,
+        "by": "agent:crystal",
+        "t": 1784767812744
+      }
+    },
+    {
+      "t": 1784767816756,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsod2sgke",
+        "kind": "plant-tree",
+        "text": "Berry Tree planted",
+        "x": 34,
+        "z": 34,
+        "by": "agent:crystal",
+        "t": 1784767816756
+      }
+    },
+    {
+      "t": 1784767820764,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsog647rc",
+        "kind": "raise-shrine",
+        "text": "Shrine of Dragonair erected",
+        "x": 25,
+        "z": 11,
+        "by": "agent:crystal",
+        "t": 1784767820764
+      }
+    },
+    {
+      "t": 1784767824781,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsoj9p9o0",
+        "kind": "lay-path",
+        "text": "Snowy trail marked",
+        "x": 4,
+        "z": 12,
+        "by": "agent:crystal",
+        "t": 1784767824781
+      }
+    },
+    {
+      "t": 1784767828783,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsomcvkvv",
+        "kind": "lay-path",
+        "text": "Snowy trail marked",
+        "x": 8,
+        "z": 18,
+        "by": "agent:crystal",
+        "t": 1784767828783
+      }
+    },
+    {
+      "t": 1784767832788,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsopg49o3",
+        "kind": "raise-shrine",
+        "text": "Shrine of Dragonair erected",
+        "x": 30,
+        "z": 18,
+        "by": "agent:crystal",
+        "t": 1784767832788
+      }
+    },
+    {
+      "t": 1784767836802,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsosjmyu7",
+        "kind": "lay-path",
+        "text": "Marble steps laid",
+        "x": 28,
+        "z": 23,
+        "by": "agent:crystal",
+        "t": 1784767836802
+      }
+    },
+    {
+      "t": 1784767840818,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsovn6kwr",
+        "kind": "lay-path",
+        "text": "Cobblestone path paved",
+        "x": 8,
+        "z": 33,
+        "by": "agent:crystal",
+        "t": 1784767840818
+      }
+    },
+    {
+      "t": 1784767844827,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwsoyqjfa3",
+        "kind": "spawn-npc",
+        "text": "Ace Trainer standing by",
+        "x": 12,
+        "z": 26,
+        "by": "agent:crystal",
+        "t": 1784767844827
+      }
+    },
+    {
+      "t": 1784767848834,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsp1tu0og",
+        "kind": "lay-path",
+        "text": "Cobblestone path paved",
+        "x": 29,
+        "z": 12,
+        "by": "agent:crystal",
+        "t": 1784767848834
+      }
+    },
+    {
+      "t": 1784767852842,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsp4x65f0",
+        "kind": "lay-path",
+        "text": "Lantern path lit",
+        "x": 25,
+        "z": 19,
+        "by": "agent:crystal",
+        "t": 1784767852842
+      }
+    },
+    {
+      "t": 1784767856844,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwsp80cdwo",
+        "kind": "spawn-npc",
+        "text": "Ace Trainer standing by",
+        "x": 35,
+        "z": 16,
+        "by": "agent:crystal",
+        "t": 1784767856844
+      }
+    },
+    {
+      "t": 1784767860856,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwspb3syff",
+        "kind": "plant-tree",
+        "text": "Crystal Pine planted",
+        "x": 14,
+        "z": 11,
+        "by": "agent:crystal",
+        "t": 1784767860856
+      }
+    },
+    {
+      "t": 1784767864864,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwspe7401c",
+        "kind": "plant-tree",
+        "text": "Moonberry Bush grown",
+        "x": 25,
+        "z": 3,
+        "by": "agent:crystal",
+        "t": 1784767864864
+      }
+    },
+    {
+      "t": 1784767868878,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsphamn88",
+        "kind": "lay-path",
+        "text": "Cobblestone path paved",
+        "x": 22,
+        "z": 5,
+        "by": "agent:crystal",
+        "t": 1784767868878
+      }
+    },
+    {
+      "t": 1784767872891,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwspke3u2k",
+        "kind": "plant-tree",
+        "text": "Frost Birch rooted",
+        "x": 22,
+        "z": 24,
+        "by": "agent:crystal",
+        "t": 1784767872891
+      }
+    },
+    {
+      "t": 1784767876899,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwspnhfu4y",
+        "kind": "spawn-npc",
+        "text": "Kimono Girl stationed",
+        "x": 26,
+        "z": 10,
+        "by": "agent:crystal",
+        "t": 1784767876899
+      }
+    },
+    {
+      "t": 1784767880905,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwspqkpkfj",
+        "kind": "plant-tree",
+        "text": "Berry Tree planted",
+        "x": 27,
+        "z": 4,
+        "by": "agent:crystal",
+        "t": 1784767880905
+      }
+    },
+    {
+      "t": 1784767884915,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwspto3h07",
+        "kind": "spawn-npc",
+        "text": "Kimono Girl stationed",
+        "x": 4,
+        "z": 35,
+        "by": "agent:crystal",
+        "t": 1784767884915
+      }
+    },
+    {
+      "t": 1784767888921,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwspwrdgy7",
+        "kind": "spawn-npc",
+        "text": "Ace Trainer standing by",
+        "x": 29,
+        "z": 16,
+        "by": "agent:crystal",
+        "t": 1784767888921
+      }
+    },
+    {
+      "t": 1784767892925,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwspzul28j",
+        "kind": "spawn-npc",
+        "text": "Youngster Joey waiting",
+        "x": 11,
+        "z": 20,
+        "by": "agent:crystal",
+        "t": 1784767892925
+      }
+    },
+    {
+      "t": 1784767896936,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsq2y03bv",
+        "kind": "plant-tree",
+        "text": "Frost Birch rooted",
+        "x": 29,
+        "z": 5,
+        "by": "agent:crystal",
+        "t": 1784767896936
+      }
+    },
+    {
+      "t": 1784767900940,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsq618z13",
+        "kind": "raise-shrine",
+        "text": "Johto Bell Tower pillar set",
+        "x": 24,
+        "z": 34,
+        "by": "agent:crystal",
+        "t": 1784767900940
+      }
+    },
+    {
+      "t": 1784767904951,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsq94n6wu",
+        "kind": "plant-tree",
+        "text": "Berry Tree planted",
         "x": 33,
         "z": 5,
         "by": "agent:crystal",
-        "t": 1784767520107
+        "t": 1784767904951
       }
     },
     {
-      "t": 1784767524123,
+      "t": 1784767908966,
       "by": "agent:crystal",
-      "action": "lay-path",
+      "action": "plant-tree",
       "ent": {
-        "id": "amrwsi3a3yrl",
-        "kind": "lay-path",
-        "text": "Marble steps laid",
-        "x": 26,
-        "z": 16,
+        "id": "amrwsqc8679m",
+        "kind": "plant-tree",
+        "text": "Frost Birch rooted",
+        "x": 7,
+        "z": 25,
         "by": "agent:crystal",
-        "t": 1784767524123
+        "t": 1784767908966
       }
     },
     {
-      "t": 1784767528126,
+      "t": 1784767912979,
       "by": "agent:crystal",
-      "action": "lay-path",
+      "action": "plant-tree",
       "ent": {
-        "id": "amrwsi6dazce",
-        "kind": "lay-path",
-        "text": "Snowy trail marked",
-        "x": 32,
-        "z": 31,
+        "id": "amrwsqfbnsso",
+        "kind": "plant-tree",
+        "text": "Crystal Pine planted",
+        "x": 34,
+        "z": 22,
         "by": "agent:crystal",
-        "t": 1784767528126
+        "t": 1784767912979
       }
     },
     {
-      "t": 1784767532132,
+      "t": 1784767916994,
       "by": "agent:crystal",
-      "action": "spawn-npc",
+      "action": "plant-tree",
       "ent": {
-        "id": "amrwsi9gkho7",
-        "kind": "spawn-npc",
-        "text": "Ace Trainer standing by",
-        "x": 4,
-        "z": 32,
+        "id": "amrwsqif6xdy",
+        "kind": "plant-tree",
+        "text": "Crystal Pine planted",
+        "x": 29,
+        "z": 37,
         "by": "agent:crystal",
-        "t": 1784767532132
+        "t": 1784767916994
       }
     },
     {
-      "t": 1784767536141,
+      "t": 1784767921003,
       "by": "agent:crystal",
       "action": "raise-shrine",
       "ent": {
-        "id": "amrwsicjxanx",
+        "id": "amrwsqlij3hh",
         "kind": "raise-shrine",
         "text": "Shrine of Dragonair erected",
-        "x": 28,
-        "z": 23,
+        "x": 37,
+        "z": 35,
         "by": "agent:crystal",
-        "t": 1784767536141
+        "t": 1784767921003
       }
     },
     {
-      "t": 1784767540146,
-      "by": "agent:crystal",
-      "action": "spawn-npc",
-      "ent": {
-        "id": "amrwsifn66aq",
-        "kind": "spawn-npc",
-        "text": "Kimono Girl stationed",
-        "x": 13,
-        "z": 28,
-        "by": "agent:crystal",
-        "t": 1784767540146
-      }
-    },
-    {
-      "t": 1784767544160,
+      "t": 1784767925006,
       "by": "agent:crystal",
       "action": "lay-path",
       "ent": {
-        "id": "amrwsiiqoojn",
+        "id": "amrwsqolq7is",
         "kind": "lay-path",
         "text": "Snowy trail marked",
-        "x": 18,
-        "z": 4,
+        "x": 21,
+        "z": 7,
         "by": "agent:crystal",
-        "t": 1784767544160
+        "t": 1784767925006
       }
     },
     {
-      "t": 1784767548170,
+      "t": 1784767929019,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsqrp7t6b",
+        "kind": "lay-path",
+        "text": "Snowy trail marked",
+        "x": 11,
+        "z": 5,
+        "by": "agent:crystal",
+        "t": 1784767929019
+      }
+    },
+    {
+      "t": 1784767933033,
       "by": "agent:crystal",
       "action": "spawn-npc",
       "ent": {
-        "id": "amrwsilu2lx8",
+        "id": "amrwsqusp3ib",
         "kind": "spawn-npc",
         "text": "Ace Trainer standing by",
-        "x": 2,
-        "z": 21,
+        "x": 33,
+        "z": 12,
         "by": "agent:crystal",
-        "t": 1784767548170
+        "t": 1784767933033
+      }
+    },
+    {
+      "t": 1784767937047,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsqxw7bqx",
+        "kind": "plant-tree",
+        "text": "Berry Tree planted",
+        "x": 22,
+        "z": 9,
+        "by": "agent:crystal",
+        "t": 1784767937047
+      }
+    },
+    {
+      "t": 1784767941051,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsr0zf9gn",
+        "kind": "plant-tree",
+        "text": "Frost Birch rooted",
+        "x": 3,
+        "z": 11,
+        "by": "agent:crystal",
+        "t": 1784767941051
+      }
+    },
+    {
+      "t": 1784767945067,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsr42z02q",
+        "kind": "plant-tree",
+        "text": "Moonberry Bush grown",
+        "x": 13,
+        "z": 7,
+        "by": "agent:crystal",
+        "t": 1784767945067
+      }
+    },
+    {
+      "t": 1784767949074,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsr76a626",
+        "kind": "raise-shrine",
+        "text": "Shrine of Dragonair erected",
+        "x": 17,
+        "z": 2,
+        "by": "agent:crystal",
+        "t": 1784767949074
+      }
+    },
+    {
+      "t": 1784767953081,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsra9lqlc",
+        "kind": "raise-shrine",
+        "text": "Johto Bell Tower pillar set",
+        "x": 9,
+        "z": 19,
+        "by": "agent:crystal",
+        "t": 1784767953081
+      }
+    },
+    {
+      "t": 1784767957086,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsrdcubug",
+        "kind": "raise-shrine",
+        "text": "Icy Altar constructed",
+        "x": 36,
+        "z": 25,
+        "by": "agent:crystal",
+        "t": 1784767957086
+      }
+    },
+    {
+      "t": 1784767961100,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsrggcxi2",
+        "kind": "lay-path",
+        "text": "Lantern path lit",
+        "x": 24,
+        "z": 6,
+        "by": "agent:crystal",
+        "t": 1784767961100
+      }
+    },
+    {
+      "t": 1784767965112,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsrjjsnd2",
+        "kind": "lay-path",
+        "text": "Cobblestone path paved",
+        "x": 34,
+        "z": 36,
+        "by": "agent:crystal",
+        "t": 1784767965112
+      }
+    },
+    {
+      "t": 1784767969127,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsrmnby8h",
+        "kind": "raise-shrine",
+        "text": "Sacred Torch lit",
+        "x": 6,
+        "z": 17,
+        "by": "agent:crystal",
+        "t": 1784767969127
+      }
+    },
+    {
+      "t": 1784767973133,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwsrpqlb83",
+        "kind": "spawn-npc",
+        "text": "Youngster Joey waiting",
+        "x": 31,
+        "z": 6,
+        "by": "agent:crystal",
+        "t": 1784767973133
+      }
+    },
+    {
+      "t": 1784767977135,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsrstr8bm",
+        "kind": "plant-tree",
+        "text": "Berry Tree planted",
+        "x": 32,
+        "z": 28,
+        "by": "agent:crystal",
+        "t": 1784767977135
+      }
+    },
+    {
+      "t": 1784767981140,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsrvx01sn",
+        "kind": "plant-tree",
+        "text": "Frost Birch rooted",
+        "x": 33,
+        "z": 7,
+        "by": "agent:crystal",
+        "t": 1784767981140
+      }
+    },
+    {
+      "t": 1784767985154,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsrz0ify1",
+        "kind": "lay-path",
+        "text": "Cobblestone path paved",
+        "x": 25,
+        "z": 14,
+        "by": "agent:crystal",
+        "t": 1784767985154
+      }
+    },
+    {
+      "t": 1784767989160,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwss23sw05",
+        "kind": "lay-path",
+        "text": "Marble steps laid",
+        "x": 26,
+        "z": 24,
+        "by": "agent:crystal",
+        "t": 1784767989160
+      }
+    },
+    {
+      "t": 1784767993177,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwss57dfbq",
+        "kind": "plant-tree",
+        "text": "Berry Tree planted",
+        "x": 27,
+        "z": 29,
+        "by": "agent:crystal",
+        "t": 1784767993177
+      }
+    },
+    {
+      "t": 1784767997181,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwss8almb7",
+        "kind": "lay-path",
+        "text": "Lantern path lit",
+        "x": 7,
+        "z": 17,
+        "by": "agent:crystal",
+        "t": 1784767997181
+      }
+    },
+    {
+      "t": 1784768001191,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwssbdzkka",
+        "kind": "lay-path",
+        "text": "Marble steps laid",
+        "x": 4,
+        "z": 22,
+        "by": "agent:crystal",
+        "t": 1784768001191
+      }
+    },
+    {
+      "t": 1784768005205,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwssehhrn9",
+        "kind": "lay-path",
+        "text": "Snowy trail marked",
+        "x": 28,
+        "z": 15,
+        "by": "agent:crystal",
+        "t": 1784768005205
+      }
+    },
+    {
+      "t": 1784768009218,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsshkyj4y",
+        "kind": "raise-shrine",
+        "text": "Shrine of Dragonair erected",
+        "x": 13,
+        "z": 6,
+        "by": "agent:crystal",
+        "t": 1784768009218
+      }
+    },
+    {
+      "t": 1784768013225,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwssko9123",
+        "kind": "plant-tree",
+        "text": "Moonberry Bush grown",
+        "x": 32,
+        "z": 28,
+        "by": "agent:crystal",
+        "t": 1784768013225
+      }
+    },
+    {
+      "t": 1784768017237,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwssnrpyd1",
+        "kind": "raise-shrine",
+        "text": "Shrine of Dragonair erected",
+        "x": 14,
+        "z": 29,
+        "by": "agent:crystal",
+        "t": 1784768017237
+      }
+    },
+    {
+      "t": 1784768021250,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwssqv686n",
+        "kind": "raise-shrine",
+        "text": "Icy Altar constructed",
+        "x": 36,
+        "z": 35,
+        "by": "agent:crystal",
+        "t": 1784768021250
+      }
+    },
+    {
+      "t": 1784768025262,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsstymhw7",
+        "kind": "plant-tree",
+        "text": "Crystal Pine planted",
+        "x": 37,
+        "z": 6,
+        "by": "agent:crystal",
+        "t": 1784768025262
+      }
+    },
+    {
+      "t": 1784768029272,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwssx20k0j",
+        "kind": "spawn-npc",
+        "text": "Kimono Girl stationed",
+        "x": 24,
+        "z": 10,
+        "by": "agent:crystal",
+        "t": 1784768029272
+      }
+    },
+    {
+      "t": 1784768033286,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwst05izfi",
+        "kind": "plant-tree",
+        "text": "Frost Birch rooted",
+        "x": 15,
+        "z": 22,
+        "by": "agent:crystal",
+        "t": 1784768033286
+      }
+    },
+    {
+      "t": 1784768037288,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwst38ogp5",
+        "kind": "lay-path",
+        "text": "Lantern path lit",
+        "x": 17,
+        "z": 16,
+        "by": "agent:crystal",
+        "t": 1784768037288
+      }
+    },
+    {
+      "t": 1784768041296,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwst6c0b1x",
+        "kind": "raise-shrine",
+        "text": "Sacred Torch lit",
+        "x": 28,
+        "z": 16,
+        "by": "agent:crystal",
+        "t": 1784768041296
+      }
+    },
+    {
+      "t": 1784768045302,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwst9fabw3",
+        "kind": "raise-shrine",
+        "text": "Shrine of Dragonair erected",
+        "x": 9,
+        "z": 9,
+        "by": "agent:crystal",
+        "t": 1784768045302
+      }
+    },
+    {
+      "t": 1784768049317,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwstcitv6n",
+        "kind": "spawn-npc",
+        "text": "Kimono Girl stationed",
+        "x": 25,
+        "z": 6,
+        "by": "agent:crystal",
+        "t": 1784768049317
+      }
+    },
+    {
+      "t": 1784768053320,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwstfm0o3m",
+        "kind": "raise-shrine",
+        "text": "Shrine of Dragonair erected",
+        "x": 12,
+        "z": 23,
+        "by": "agent:crystal",
+        "t": 1784768053320
+      }
+    },
+    {
+      "t": 1784768057336,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwstipkoc6",
+        "kind": "spawn-npc",
+        "text": "Ace Trainer standing by",
+        "x": 29,
+        "z": 26,
+        "by": "agent:crystal",
+        "t": 1784768057336
+      }
+    },
+    {
+      "t": 1784768061340,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwstlssy99",
+        "kind": "plant-tree",
+        "text": "Frost Birch rooted",
+        "x": 16,
+        "z": 37,
+        "by": "agent:crystal",
+        "t": 1784768061340
+      }
+    },
+    {
+      "t": 1784768065354,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwstowapnn",
+        "kind": "plant-tree",
+        "text": "Frost Birch rooted",
+        "x": 2,
+        "z": 35,
+        "by": "agent:crystal",
+        "t": 1784768065354
+      }
+    },
+    {
+      "t": 1784768069366,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwstrzqjna",
+        "kind": "lay-path",
+        "text": "Marble steps laid",
+        "x": 6,
+        "z": 9,
+        "by": "agent:crystal",
+        "t": 1784768069366
+      }
+    },
+    {
+      "t": 1784768073374,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwstv32uqp",
+        "kind": "plant-tree",
+        "text": "Berry Tree planted",
+        "x": 12,
+        "z": 16,
+        "by": "agent:crystal",
+        "t": 1784768073374
+      }
+    },
+    {
+      "t": 1784768077388,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsty6k2jh",
+        "kind": "raise-shrine",
+        "text": "Icy Altar constructed",
+        "x": 4,
+        "z": 12,
+        "by": "agent:crystal",
+        "t": 1784768077388
+      }
+    },
+    {
+      "t": 1784768081390,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsu19qwv5",
+        "kind": "lay-path",
+        "text": "Snowy trail marked",
+        "x": 16,
+        "z": 14,
+        "by": "agent:crystal",
+        "t": 1784768081390
+      }
+    },
+    {
+      "t": 1784768085401,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsu4d54zj",
+        "kind": "raise-shrine",
+        "text": "Johto Bell Tower pillar set",
+        "x": 32,
+        "z": 8,
+        "by": "agent:crystal",
+        "t": 1784768085401
+      }
+    },
+    {
+      "t": 1784768089412,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsu7gka9l",
+        "kind": "raise-shrine",
+        "text": "Icy Altar constructed",
+        "x": 11,
+        "z": 11,
+        "by": "agent:crystal",
+        "t": 1784768089412
+      }
+    },
+    {
+      "t": 1784768093426,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsuak2ojh",
+        "kind": "plant-tree",
+        "text": "Crystal Pine planted",
+        "x": 35,
+        "z": 30,
+        "by": "agent:crystal",
+        "t": 1784768093426
+      }
+    },
+    {
+      "t": 1784768097435,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsudnfoe4",
+        "kind": "lay-path",
+        "text": "Marble steps laid",
+        "x": 36,
+        "z": 11,
+        "by": "agent:crystal",
+        "t": 1784768097435
+      }
+    },
+    {
+      "t": 1784768101442,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsugqqmjl",
+        "kind": "raise-shrine",
+        "text": "Icy Altar constructed",
+        "x": 13,
+        "z": 20,
+        "by": "agent:crystal",
+        "t": 1784768101442
+      }
+    },
+    {
+      "t": 1784768105447,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsujtza1b",
+        "kind": "lay-path",
+        "text": "Snowy trail marked",
+        "x": 14,
+        "z": 33,
+        "by": "agent:crystal",
+        "t": 1784768105447
+      }
+    },
+    {
+      "t": 1784768109461,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsumxh7fh",
+        "kind": "raise-shrine",
+        "text": "Shrine of Dragonair erected",
+        "x": 3,
+        "z": 33,
+        "by": "agent:crystal",
+        "t": 1784768109461
+      }
+    },
+    {
+      "t": 1784768113476,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsuq10nil",
+        "kind": "lay-path",
+        "text": "Cobblestone path paved",
+        "x": 34,
+        "z": 37,
+        "by": "agent:crystal",
+        "t": 1784768113476
+      }
+    },
+    {
+      "t": 1784768117478,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsut464eb",
+        "kind": "raise-shrine",
+        "text": "Johto Bell Tower pillar set",
+        "x": 8,
+        "z": 16,
+        "by": "agent:crystal",
+        "t": 1784768117478
+      }
+    },
+    {
+      "t": 1784768121483,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsuw7fpyh",
+        "kind": "plant-tree",
+        "text": "Berry Tree planted",
+        "x": 31,
+        "z": 35,
+        "by": "agent:crystal",
+        "t": 1784768121483
+      }
+    },
+    {
+      "t": 1784768125492,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsuzas3lh",
+        "kind": "raise-shrine",
+        "text": "Icy Altar constructed",
+        "x": 15,
+        "z": 2,
+        "by": "agent:crystal",
+        "t": 1784768125492
+      }
+    },
+    {
+      "t": 1784768129500,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsv2e4oax",
+        "kind": "plant-tree",
+        "text": "Frost Birch rooted",
+        "x": 21,
+        "z": 27,
+        "by": "agent:crystal",
+        "t": 1784768129500
+      }
+    },
+    {
+      "t": 1784768133510,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsv5hi9j2",
+        "kind": "plant-tree",
+        "text": "Berry Tree planted",
+        "x": 18,
+        "z": 12,
+        "by": "agent:crystal",
+        "t": 1784768133510
+      }
+    },
+    {
+      "t": 1784768137514,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwsv8kqz12",
+        "kind": "spawn-npc",
+        "text": "Kimono Girl stationed",
+        "x": 32,
+        "z": 34,
+        "by": "agent:crystal",
+        "t": 1784768137514
+      }
+    },
+    {
+      "t": 1784768141515,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwsvbnv1h9",
+        "kind": "spawn-npc",
+        "text": "Ace Trainer standing by",
+        "x": 31,
+        "z": 36,
+        "by": "agent:crystal",
+        "t": 1784768141515
+      }
+    },
+    {
+      "t": 1784768145521,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsver5uwd",
+        "kind": "raise-shrine",
+        "text": "Icy Altar constructed",
+        "x": 10,
+        "z": 8,
+        "by": "agent:crystal",
+        "t": 1784768145521
+      }
+    },
+    {
+      "t": 1784768149529,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsvhuhlm4",
+        "kind": "lay-path",
+        "text": "Lantern path lit",
+        "x": 24,
+        "z": 4,
+        "by": "agent:crystal",
+        "t": 1784768149529
+      }
+    },
+    {
+      "t": 1784768153541,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsvkxxlsm",
+        "kind": "raise-shrine",
+        "text": "Shrine of Dragonair erected",
+        "x": 14,
+        "z": 13,
+        "by": "agent:crystal",
+        "t": 1784768153541
+      }
+    },
+    {
+      "t": 1784768157547,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsvo170ms",
+        "kind": "lay-path",
+        "text": "Marble steps laid",
+        "x": 31,
+        "z": 19,
+        "by": "agent:crystal",
+        "t": 1784768157547
+      }
+    },
+    {
+      "t": 1784768161552,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwsvr4gwya",
+        "kind": "spawn-npc",
+        "text": "Ace Trainer standing by",
+        "x": 35,
+        "z": 16,
+        "by": "agent:crystal",
+        "t": 1784768161552
+      }
+    },
+    {
+      "t": 1784768165564,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsvu7wgy6",
+        "kind": "plant-tree",
+        "text": "Moonberry Bush grown",
+        "x": 31,
+        "z": 2,
+        "by": "agent:crystal",
+        "t": 1784768165564
+      }
+    },
+    {
+      "t": 1784768169576,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsvxbctph",
+        "kind": "lay-path",
+        "text": "Lantern path lit",
+        "x": 34,
+        "z": 14,
+        "by": "agent:crystal",
+        "t": 1784768169576
+      }
+    },
+    {
+      "t": 1784768173586,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsw0eqqgq",
+        "kind": "plant-tree",
+        "text": "Moonberry Bush grown",
+        "x": 25,
+        "z": 34,
+        "by": "agent:crystal",
+        "t": 1784768173586
+      }
+    },
+    {
+      "t": 1784768177587,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsw3hvibe",
+        "kind": "raise-shrine",
+        "text": "Johto Bell Tower pillar set",
+        "x": 2,
+        "z": 22,
+        "by": "agent:crystal",
+        "t": 1784768177587
+      }
+    },
+    {
+      "t": 1784768181594,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwsw6l6oke",
+        "kind": "spawn-npc",
+        "text": "Ace Trainer standing by",
+        "x": 26,
+        "z": 17,
+        "by": "agent:crystal",
+        "t": 1784768181594
+      }
+    },
+    {
+      "t": 1784768185603,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwsw9ojff7",
+        "kind": "spawn-npc",
+        "text": "Ace Trainer standing by",
+        "x": 30,
+        "z": 5,
+        "by": "agent:crystal",
+        "t": 1784768185603
+      }
+    },
+    {
+      "t": 1784768189618,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwswcs2jy5",
+        "kind": "spawn-npc",
+        "text": "Professor Elm visiting",
+        "x": 8,
+        "z": 29,
+        "by": "agent:crystal",
+        "t": 1784768189618
+      }
+    },
+    {
+      "t": 1784768193624,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwswfvc7mv",
+        "kind": "lay-path",
+        "text": "Lantern path lit",
+        "x": 16,
+        "z": 9,
+        "by": "agent:crystal",
+        "t": 1784768193624
+      }
+    },
+    {
+      "t": 1784768197638,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwswiyu63u",
+        "kind": "lay-path",
+        "text": "Lantern path lit",
+        "x": 2,
+        "z": 26,
+        "by": "agent:crystal",
+        "t": 1784768197638
+      }
+    },
+    {
+      "t": 1784768201645,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwswm25su0",
+        "kind": "plant-tree",
+        "text": "Crystal Pine planted",
+        "x": 25,
+        "z": 2,
+        "by": "agent:crystal",
+        "t": 1784768201645
+      }
+    },
+    {
+      "t": 1784768205650,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwswp5ejub",
+        "kind": "lay-path",
+        "text": "Snowy trail marked",
+        "x": 7,
+        "z": 29,
+        "by": "agent:crystal",
+        "t": 1784768205650
+      }
+    },
+    {
+      "t": 1784768209658,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsws8qw1c",
+        "kind": "lay-path",
+        "text": "Lantern path lit",
+        "x": 25,
+        "z": 8,
+        "by": "agent:crystal",
+        "t": 1784768209658
+      }
+    },
+    {
+      "t": 1784768213668,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwswvc4rgx",
+        "kind": "plant-tree",
+        "text": "Moonberry Bush grown",
+        "x": 12,
+        "z": 18,
+        "by": "agent:crystal",
+        "t": 1784768213668
+      }
+    },
+    {
+      "t": 1784768217670,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwswyfa7pc",
+        "kind": "raise-shrine",
+        "text": "Sacred Torch lit",
+        "x": 7,
+        "z": 19,
+        "by": "agent:crystal",
+        "t": 1784768217670
+      }
+    },
+    {
+      "t": 1784768221679,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsx1inbca",
+        "kind": "raise-shrine",
+        "text": "Sacred Torch lit",
+        "x": 25,
+        "z": 5,
+        "by": "agent:crystal",
+        "t": 1784768221679
+      }
+    },
+    {
+      "t": 1784768225693,
+      "by": "agent:crystal",
+      "action": "lay-path",
+      "ent": {
+        "id": "amrwsx4m5nby",
+        "kind": "lay-path",
+        "text": "Cobblestone path paved",
+        "x": 2,
+        "z": 17,
+        "by": "agent:crystal",
+        "t": 1784768225693
+      }
+    },
+    {
+      "t": 1784768229701,
+      "by": "agent:crystal",
+      "action": "raise-shrine",
+      "ent": {
+        "id": "amrwsx7phym9",
+        "kind": "raise-shrine",
+        "text": "Sacred Torch lit",
+        "x": 14,
+        "z": 13,
+        "by": "agent:crystal",
+        "t": 1784768229701
+      }
+    },
+    {
+      "t": 1784768233708,
+      "by": "agent:crystal",
+      "action": "spawn-npc",
+      "ent": {
+        "id": "amrwsxass5xi",
+        "kind": "spawn-npc",
+        "text": "Professor Elm visiting",
+        "x": 2,
+        "z": 26,
+        "by": "agent:crystal",
+        "t": 1784768233708
+      }
+    },
+    {
+      "t": 1784768237722,
+      "by": "agent:crystal",
+      "action": "plant-tree",
+      "ent": {
+        "id": "amrwsxdwamnz",
+        "kind": "plant-tree",
+        "text": "Moonberry Bush grown",
+        "x": 20,
+        "z": 34,
+        "by": "agent:crystal",
+        "t": 1784768237722
       }
     }
   ],
