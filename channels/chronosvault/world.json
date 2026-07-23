@@ -8,194 +8,2405 @@
   "tiles": [],
   "entities": [
     {
-      "id": "amrwc34nt1rt",
+      "id": "amrwsa4sfjr5",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 25,
+      "z": 14,
+      "by": "agent:chronosvault",
+      "t": 1784767152831
+    },
+    {
+      "id": "amrwsa8nqzuw",
       "kind": "explore",
       "text": "build temporal pil (explore)",
+      "x": 15,
+      "z": 26,
+      "by": "agent:chronosvault",
+      "t": 1784767157846
+    },
+    {
+      "id": "amrwsacipxlu",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 25,
+      "z": 30,
+      "by": "agent:chronosvault",
+      "t": 1784767162849
+    },
+    {
+      "id": "amrwsagdw0z5",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 27,
+      "z": 19,
+      "by": "agent:chronosvault",
+      "t": 1784767167860
+    },
+    {
+      "id": "amrwsak98fgr",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 14,
+      "z": 34,
+      "by": "agent:chronosvault",
+      "t": 1784767172876
+    },
+    {
+      "id": "amrwsao47bgt",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 33,
+      "z": 32,
+      "by": "agent:chronosvault",
+      "t": 1784767177879
+    },
+    {
+      "id": "amrwsarzfemm",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 28,
+      "z": 2,
+      "by": "agent:chronosvault",
+      "t": 1784767182891
+    },
+    {
+      "id": "amrwsavufy8x",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 15,
+      "z": 5,
+      "by": "agent:chronosvault",
+      "t": 1784767187895
+    },
+    {
+      "id": "amrwsazpoopz",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 14,
+      "z": 12,
+      "by": "agent:chronosvault",
+      "t": 1784767192908
+    },
+    {
+      "id": "amrwsb3klrcy",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 5,
+      "z": 15,
+      "by": "agent:chronosvault",
+      "t": 1784767197909
+    },
+    {
+      "id": "amrwsb7frq6o",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 29,
+      "z": 17,
+      "by": "agent:chronosvault",
+      "t": 1784767202919
+    },
+    {
+      "id": "amrwsbbarulk",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 27,
+      "z": 19,
+      "by": "agent:chronosvault",
+      "t": 1784767207923
+    },
+    {
+      "id": "amrwsbf5xkur",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 25,
+      "z": 23,
+      "by": "agent:chronosvault",
+      "t": 1784767212933
+    },
+    {
+      "id": "amrwsbj0vofh",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 18,
+      "z": 18,
+      "by": "agent:chronosvault",
+      "t": 1784767217935
+    },
+    {
+      "id": "amrwsbmw57xk",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 20,
+      "z": 25,
+      "by": "agent:chronosvault",
+      "t": 1784767222949
+    },
+    {
+      "id": "amrwsbqrd651",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 11,
+      "z": 24,
+      "by": "agent:chronosvault",
+      "t": 1784767227961
+    },
+    {
+      "id": "amrwsbumjww4",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 15,
+      "z": 26,
+      "by": "agent:chronosvault",
+      "t": 1784767232971
+    },
+    {
+      "id": "amrwsbyhhg0g",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 22,
+      "z": 26,
+      "by": "agent:chronosvault",
+      "t": 1784767237973
+    },
+    {
+      "id": "amrwsc2cnxpe",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 32,
+      "z": 20,
+      "by": "agent:chronosvault",
+      "t": 1784767242983
+    },
+    {
+      "id": "amrwsc67x8p7",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 33,
+      "z": 2,
+      "by": "agent:chronosvault",
+      "t": 1784767247997
+    },
+    {
+      "id": "amrwsca2vzgm",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 3,
+      "z": 17,
+      "by": "agent:chronosvault",
+      "t": 1784767252999
+    },
+    {
+      "id": "amrwscdy5ika",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 20,
+      "z": 30,
+      "by": "agent:chronosvault",
+      "t": 1784767258013
+    },
+    {
+      "id": "amrwschta5nc",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 7,
+      "z": 12,
+      "by": "agent:chronosvault",
+      "t": 1784767263022
+    },
+    {
+      "id": "amrwsclohb7e",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 11,
+      "z": 36,
+      "by": "agent:chronosvault",
+      "t": 1784767268033
+    },
+    {
+      "id": "amrwscpjrajr",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 35,
+      "z": 16,
+      "by": "agent:chronosvault",
+      "t": 1784767273047
+    },
+    {
+      "id": "amrwsctevjoc",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 17,
+      "z": 25,
+      "by": "agent:chronosvault",
+      "t": 1784767278055
+    },
+    {
+      "id": "amrwscxa2fpv",
+      "kind": "build",
+      "text": "build temporal pil (build)",
       "x": 2,
       "z": 5,
       "by": "agent:chronosvault",
-      "t": 1784739952217
+      "t": 1784767283066
     },
     {
-      "id": "amrwc38isos8",
+      "id": "amrwsd157erj",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 32,
+      "z": 27,
+      "by": "agent:chronosvault",
+      "t": 1784767288075
+    },
+    {
+      "id": "amrwsd507rs4",
       "kind": "explore",
       "text": "build temporal pil (explore)",
       "x": 21,
-      "z": 9,
+      "z": 5,
       "by": "agent:chronosvault",
-      "t": 1784739957220
+      "t": 1784767293079
     },
     {
-      "id": "amrwc3ce1qex",
-      "kind": "explore",
-      "text": "build temporal pil (explore)",
-      "x": 8,
-      "z": 22,
-      "by": "agent:chronosvault",
-      "t": 1784739962233
-    },
-    {
-      "id": "amrwc3g9b9vd",
+      "id": "amrwsd8v4fcb",
       "kind": "build",
       "text": "build temporal pil (build)",
-      "x": 10,
-      "z": 20,
+      "x": 28,
+      "z": 17,
       "by": "agent:chronosvault",
-      "t": 1784739967247
+      "t": 1784767298080
     },
     {
-      "id": "amrwc3k4lbt1",
+      "id": "amrwsdcqdvjv",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 31,
+      "z": 9,
+      "by": "agent:chronosvault",
+      "t": 1784767303093
+    },
+    {
+      "id": "amrwsdgld86b",
       "kind": "create",
       "text": "build temporal pil (create)",
-      "x": 4,
-      "z": 15,
+      "x": 29,
+      "z": 33,
       "by": "agent:chronosvault",
-      "t": 1784739972261
+      "t": 1784767308097
     },
     {
-      "id": "amrwcg4cxstu",
+      "id": "amrwsdkgaarx",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 32,
+      "z": 8,
+      "by": "agent:chronosvault",
+      "t": 1784767313098
+    },
+    {
+      "id": "amrwsdobblss",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 3,
+      "z": 17,
+      "by": "agent:chronosvault",
+      "t": 1784767318103
+    },
+    {
+      "id": "amrwsds6glwy",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 25,
+      "z": 8,
+      "by": "agent:chronosvault",
+      "t": 1784767323112
+    },
+    {
+      "id": "amrwsdw1q8r6",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 5,
+      "z": 13,
+      "by": "agent:chronosvault",
+      "t": 1784767328126
+    },
+    {
+      "id": "amrwsdzwy00n",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 19,
+      "z": 19,
+      "by": "agent:chronosvault",
+      "t": 1784767333138
+    },
+    {
+      "id": "amrwse3s0sby",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 2,
+      "z": 28,
+      "by": "agent:chronosvault",
+      "t": 1784767338145
+    },
+    {
+      "id": "amrwse7n2zyv",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 4,
+      "z": 22,
+      "by": "agent:chronosvault",
+      "t": 1784767343150
+    },
+    {
+      "id": "amrwsebi8jne",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 17,
+      "z": 11,
+      "by": "agent:chronosvault",
+      "t": 1784767348160
+    },
+    {
+      "id": "amrwsefdjjme",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 9,
+      "z": 12,
+      "by": "agent:chronosvault",
+      "t": 1784767353175
+    },
+    {
+      "id": "amrwsej8navw",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 13,
+      "z": 15,
+      "by": "agent:chronosvault",
+      "t": 1784767358183
+    },
+    {
+      "id": "amrwsen3unjj",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 8,
+      "z": 19,
+      "by": "agent:chronosvault",
+      "t": 1784767363194
+    },
+    {
+      "id": "amrwseqz3ych",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 9,
+      "z": 30,
+      "by": "agent:chronosvault",
+      "t": 1784767368207
+    },
+    {
+      "id": "amrwseuuan9r",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 28,
+      "z": 32,
+      "by": "agent:chronosvault",
+      "t": 1784767373218
+    },
+    {
+      "id": "amrwseypdzzh",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 30,
+      "z": 17,
+      "by": "agent:chronosvault",
+      "t": 1784767378225
+    },
+    {
+      "id": "amrwsf2komef",
       "kind": "build",
       "text": "build temporal pil (build)",
       "x": 22,
       "z": 37,
       "by": "agent:chronosvault",
-      "t": 1784740558353
+      "t": 1784767383240
     },
     {
-      "id": "amrwemf4gf7a",
+      "id": "amrwsf6fzpog",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 11,
+      "z": 8,
+      "by": "agent:chronosvault",
+      "t": 1784767388255
+    },
+    {
+      "id": "amrwsfab9ioo",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 13,
+      "z": 17,
+      "by": "agent:chronosvault",
+      "t": 1784767393269
+    },
+    {
+      "id": "amrwsfe68ycj",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 15,
+      "z": 33,
+      "by": "agent:chronosvault",
+      "t": 1784767398272
+    },
+    {
+      "id": "amrwsfi17pvs",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 15,
+      "z": 12,
+      "by": "agent:chronosvault",
+      "t": 1784767403275
+    },
+    {
+      "id": "amrwsflw8ab3",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 28,
+      "z": 34,
+      "by": "agent:chronosvault",
+      "t": 1784767408280
+    },
+    {
+      "id": "amrwsfprc633",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 29,
+      "z": 27,
+      "by": "agent:chronosvault",
+      "t": 1784767413288
+    },
+    {
+      "id": "amrwsftm90hc",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 26,
+      "z": 24,
+      "by": "agent:chronosvault",
+      "t": 1784767418289
+    },
+    {
+      "id": "amrwsfxh7bne",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 30,
+      "z": 32,
+      "by": "agent:chronosvault",
+      "t": 1784767423291
+    },
+    {
+      "id": "amrwsg1cabid",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 34,
+      "z": 6,
+      "by": "agent:chronosvault",
+      "t": 1784767428298
+    },
+    {
+      "id": "amrwsg57d2mw",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 31,
+      "z": 30,
+      "by": "agent:chronosvault",
+      "t": 1784767433305
+    },
+    {
+      "id": "amrwsg92glou",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 21,
+      "z": 2,
+      "by": "agent:chronosvault",
+      "t": 1784767438312
+    },
+    {
+      "id": "amrwsgcxqs99",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 19,
+      "z": 31,
+      "by": "agent:chronosvault",
+      "t": 1784767443326
+    },
+    {
+      "id": "amrwsggsq0s7",
       "kind": "create",
       "text": "build temporal pil (create)",
       "x": 3,
-      "z": 33,
+      "z": 28,
       "by": "agent:chronosvault",
-      "t": 1784744211472
+      "t": 1784767448330
+    },
+    {
+      "id": "amrwsgknwrg0",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 11,
+      "z": 12,
+      "by": "agent:chronosvault",
+      "t": 1784767453340
+    },
+    {
+      "id": "amrwsgoj32px",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 3,
+      "z": 35,
+      "by": "agent:chronosvault",
+      "t": 1784767458351
+    },
+    {
+      "id": "amrwsgsedsrn",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 37,
+      "z": 31,
+      "by": "agent:chronosvault",
+      "t": 1784767463365
+    },
+    {
+      "id": "amrwsgw9j0ty",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 29,
+      "z": 25,
+      "by": "agent:chronosvault",
+      "t": 1784767468375
+    },
+    {
+      "id": "amrwsh04oxky",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 21,
+      "z": 34,
+      "by": "agent:chronosvault",
+      "t": 1784767473384
+    },
+    {
+      "id": "amrwsh3zwp0m",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 4,
+      "z": 13,
+      "by": "agent:chronosvault",
+      "t": 1784767478396
+    },
+    {
+      "id": "amrwsh7uztos",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 13,
+      "z": 26,
+      "by": "agent:chronosvault",
+      "t": 1784767483403
+    },
+    {
+      "id": "amrwshbq4akf",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 29,
+      "z": 8,
+      "by": "agent:chronosvault",
+      "t": 1784767488412
+    },
+    {
+      "id": "amrwshflauqm",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 13,
+      "z": 5,
+      "by": "agent:chronosvault",
+      "t": 1784767493422
+    },
+    {
+      "id": "amrwshjg8ojm",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 21,
+      "z": 4,
+      "by": "agent:chronosvault",
+      "t": 1784767498424
+    },
+    {
+      "id": "amrwshnb6qev",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 12,
+      "z": 20,
+      "by": "agent:chronosvault",
+      "t": 1784767503426
+    },
+    {
+      "id": "amrwshr675ok",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 35,
+      "z": 16,
+      "by": "agent:chronosvault",
+      "t": 1784767508431
+    },
+    {
+      "id": "amrwshv1b5v1",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 2,
+      "z": 29,
+      "by": "agent:chronosvault",
+      "t": 1784767513439
+    },
+    {
+      "id": "amrwshyw8osl",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 10,
+      "z": 30,
+      "by": "agent:chronosvault",
+      "t": 1784767518440
+    },
+    {
+      "id": "amrwsi2r51yi",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 31,
+      "z": 34,
+      "by": "agent:chronosvault",
+      "t": 1784767523441
+    },
+    {
+      "id": "amrwsi6mepot",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 6,
+      "z": 17,
+      "by": "agent:chronosvault",
+      "t": 1784767528454
+    },
+    {
+      "id": "amrwsiahe8us",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 20,
+      "z": 8,
+      "by": "agent:chronosvault",
+      "t": 1784767533458
+    },
+    {
+      "id": "amrwsiecdny2",
+      "kind": "create",
+      "text": "build temporal pil (create)",
+      "x": 31,
+      "z": 21,
+      "by": "agent:chronosvault",
+      "t": 1784767538461
+    },
+    {
+      "id": "amrwsii7kzaf",
+      "kind": "build",
+      "text": "build temporal pil (build)",
+      "x": 33,
+      "z": 29,
+      "by": "agent:chronosvault",
+      "t": 1784767543472
+    },
+    {
+      "id": "amrwsim2omvj",
+      "kind": "explore",
+      "text": "build temporal pil (explore)",
+      "x": 25,
+      "z": 21,
+      "by": "agent:chronosvault",
+      "t": 1784767548480
     }
   ],
   "log": [
     {
-      "t": 1784739947205,
+      "t": 1784766952443,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrws5u63b8f",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 25,
+        "z": 13,
+        "by": "agent:chronosvault",
+        "t": 1784766952443
+      }
+    },
+    {
+      "t": 1784766957458,
       "by": "agent:chronosvault",
       "action": "build",
       "ent": {
-        "id": "amrwc30sl9lz",
+        "id": "amrws5y1eg69",
         "kind": "build",
         "text": "build temporal pil (build)",
-        "x": 6,
-        "z": 31,
+        "x": 33,
+        "z": 33,
         "by": "agent:chronosvault",
-        "t": 1784739947205
+        "t": 1784766957458
       }
     },
     {
-      "t": 1784739947213,
-      "by": "user",
-      "action": "demolish",
-      "ent": {
-        "id": "amrwc30sl9lz",
-        "kind": "build",
-        "text": "build temporal pil (build)",
-        "x": 6,
-        "z": 31,
-        "by": "agent:chronosvault",
-        "t": 1784739947205
-      }
-    },
-    {
-      "t": 1784739952217,
+      "t": 1784766962461,
       "by": "agent:chronosvault",
       "action": "explore",
       "ent": {
-        "id": "amrwc34nt1rt",
+        "id": "amrws61wd01u",
         "kind": "explore",
         "text": "build temporal pil (explore)",
-        "x": 2,
-        "z": 5,
+        "x": 24,
+        "z": 14,
         "by": "agent:chronosvault",
-        "t": 1784739952217
+        "t": 1784766962461
       }
     },
     {
-      "t": 1784739957220,
-      "by": "agent:chronosvault",
-      "action": "explore",
-      "ent": {
-        "id": "amrwc38isos8",
-        "kind": "explore",
-        "text": "build temporal pil (explore)",
-        "x": 21,
-        "z": 9,
-        "by": "agent:chronosvault",
-        "t": 1784739957220
-      }
-    },
-    {
-      "t": 1784739962233,
-      "by": "agent:chronosvault",
-      "action": "explore",
-      "ent": {
-        "id": "amrwc3ce1qex",
-        "kind": "explore",
-        "text": "build temporal pil (explore)",
-        "x": 8,
-        "z": 22,
-        "by": "agent:chronosvault",
-        "t": 1784739962233
-      }
-    },
-    {
-      "t": 1784739967247,
-      "by": "agent:chronosvault",
-      "action": "build",
-      "ent": {
-        "id": "amrwc3g9b9vd",
-        "kind": "build",
-        "text": "build temporal pil (build)",
-        "x": 10,
-        "z": 20,
-        "by": "agent:chronosvault",
-        "t": 1784739967247
-      }
-    },
-    {
-      "t": 1784739972261,
+      "t": 1784766967474,
       "by": "agent:chronosvault",
       "action": "create",
       "ent": {
-        "id": "amrwc3k4lbt1",
+        "id": "amrws65rmnqz",
         "kind": "create",
         "text": "build temporal pil (create)",
-        "x": 4,
-        "z": 15,
+        "x": 16,
+        "z": 25,
         "by": "agent:chronosvault",
-        "t": 1784739972261
+        "t": 1784766967474
       }
     },
     {
-      "t": 1784740558353,
+      "t": 1784766972485,
       "by": "agent:chronosvault",
       "action": "build",
       "ent": {
-        "id": "amrwcg4cxstu",
+        "id": "amrws69mtzl7",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 19,
+        "z": 8,
+        "by": "agent:chronosvault",
+        "t": 1784766972485
+      }
+    },
+    {
+      "t": 1784766977498,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrws6di2rjt",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 12,
+        "z": 7,
+        "by": "agent:chronosvault",
+        "t": 1784766977498
+      }
+    },
+    {
+      "t": 1784766982510,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws6hdaz5e",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 18,
+        "z": 33,
+        "by": "agent:chronosvault",
+        "t": 1784766982510
+      }
+    },
+    {
+      "t": 1784766987522,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws6l8iluw",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 6,
+        "z": 35,
+        "by": "agent:chronosvault",
+        "t": 1784766987522
+      }
+    },
+    {
+      "t": 1784766992534,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrws6p3qcdz",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 20,
+        "z": 12,
+        "by": "agent:chronosvault",
+        "t": 1784766992534
+      }
+    },
+    {
+      "t": 1784766997549,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrws6sz18bh",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 34,
+        "z": 6,
+        "by": "agent:chronosvault",
+        "t": 1784766997549
+      }
+    },
+    {
+      "t": 1784767002557,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws6wu5w63",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 24,
+        "z": 16,
+        "by": "agent:chronosvault",
+        "t": 1784767002557
+      }
+    },
+    {
+      "t": 1784767007572,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrws70pgpkm",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 26,
+        "z": 6,
+        "by": "agent:chronosvault",
+        "t": 1784767007572
+      }
+    },
+    {
+      "t": 1784767012585,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrws74kp91e",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 32,
+        "z": 25,
+        "by": "agent:chronosvault",
+        "t": 1784767012585
+      }
+    },
+    {
+      "t": 1784767017598,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws78fyman",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 36,
+        "z": 4,
+        "by": "agent:chronosvault",
+        "t": 1784767017598
+      }
+    },
+    {
+      "t": 1784767022600,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrws7cawq97",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 12,
+        "z": 26,
+        "by": "agent:chronosvault",
+        "t": 1784767022600
+      }
+    },
+    {
+      "t": 1784767027603,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrws7g5vl8v",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 20,
+        "z": 6,
+        "by": "agent:chronosvault",
+        "t": 1784767027603
+      }
+    },
+    {
+      "t": 1784767032621,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws7k19a67",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 26,
+        "z": 34,
+        "by": "agent:chronosvault",
+        "t": 1784767032621
+      }
+    },
+    {
+      "t": 1784767037631,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws7nwfigi",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 7,
+        "z": 13,
+        "by": "agent:chronosvault",
+        "t": 1784767037631
+      }
+    },
+    {
+      "t": 1784767042641,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrws7rrl95k",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 7,
+        "z": 23,
+        "by": "agent:chronosvault",
+        "t": 1784767042641
+      }
+    },
+    {
+      "t": 1784767047652,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws7vms0n0",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 15,
+        "z": 21,
+        "by": "agent:chronosvault",
+        "t": 1784767047652
+      }
+    },
+    {
+      "t": 1784767052662,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws7zhy1jv",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 30,
+        "z": 2,
+        "by": "agent:chronosvault",
+        "t": 1784767052662
+      }
+    },
+    {
+      "t": 1784767057676,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws83d81jr",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 24,
+        "z": 4,
+        "by": "agent:chronosvault",
+        "t": 1784767057676
+      }
+    },
+    {
+      "t": 1784767062686,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrws878ee73",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 27,
+        "z": 11,
+        "by": "agent:chronosvault",
+        "t": 1784767062686
+      }
+    },
+    {
+      "t": 1784767067693,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws8b3hvtq",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 9,
+        "z": 32,
+        "by": "agent:chronosvault",
+        "t": 1784767067693
+      }
+    },
+    {
+      "t": 1784767072704,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrws8eyovj9",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 25,
+        "z": 31,
+        "by": "agent:chronosvault",
+        "t": 1784767072704
+      }
+    },
+    {
+      "t": 1784767077717,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrws8itxfqz",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 24,
+        "z": 31,
+        "by": "agent:chronosvault",
+        "t": 1784767077717
+      }
+    },
+    {
+      "t": 1784767082724,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws8mp0kdt",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 10,
+        "z": 14,
+        "by": "agent:chronosvault",
+        "t": 1784767082724
+      }
+    },
+    {
+      "t": 1784767087727,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrws8qjzc11",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 6,
+        "z": 14,
+        "by": "agent:chronosvault",
+        "t": 1784767087727
+      }
+    },
+    {
+      "t": 1784767092740,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws8uf8oro",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 36,
+        "z": 22,
+        "by": "agent:chronosvault",
+        "t": 1784767092740
+      }
+    },
+    {
+      "t": 1784767097743,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws8ya7xcb",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 33,
+        "z": 20,
+        "by": "agent:chronosvault",
+        "t": 1784767097743
+      }
+    },
+    {
+      "t": 1784767102756,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrws925gn6u",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 5,
+        "z": 17,
+        "by": "agent:chronosvault",
+        "t": 1784767102756
+      }
+    },
+    {
+      "t": 1784767107767,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws960ndz1",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 16,
+        "z": 4,
+        "by": "agent:chronosvault",
+        "t": 1784767107767
+      }
+    },
+    {
+      "t": 1784767112770,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrws99vm3d2",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 15,
+        "z": 34,
+        "by": "agent:chronosvault",
+        "t": 1784767112770
+      }
+    },
+    {
+      "t": 1784767117776,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrws9dqoh33",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 13,
+        "z": 10,
+        "by": "agent:chronosvault",
+        "t": 1784767117776
+      }
+    },
+    {
+      "t": 1784767122782,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrws9hlqcq8",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 16,
+        "z": 35,
+        "by": "agent:chronosvault",
+        "t": 1784767122782
+      }
+    },
+    {
+      "t": 1784767127783,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrws9lgnfvc",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 16,
+        "z": 34,
+        "by": "agent:chronosvault",
+        "t": 1784767127783
+      }
+    },
+    {
+      "t": 1784767132790,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrws9pbqvpk",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 26,
+        "z": 9,
+        "by": "agent:chronosvault",
+        "t": 1784767132790
+      }
+    },
+    {
+      "t": 1784767137803,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrws9t6zyxf",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 35,
+        "z": 26,
+        "by": "agent:chronosvault",
+        "t": 1784767137803
+      }
+    },
+    {
+      "t": 1784767142807,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrws9x1zxgb",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 5,
+        "z": 11,
+        "by": "agent:chronosvault",
+        "t": 1784767142807
+      }
+    },
+    {
+      "t": 1784767147818,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsa0x6xjf",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 29,
+        "z": 9,
+        "by": "agent:chronosvault",
+        "t": 1784767147818
+      }
+    },
+    {
+      "t": 1784767152831,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsa4sfjr5",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 25,
+        "z": 14,
+        "by": "agent:chronosvault",
+        "t": 1784767152831
+      }
+    },
+    {
+      "t": 1784767157846,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsa8nqzuw",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 15,
+        "z": 26,
+        "by": "agent:chronosvault",
+        "t": 1784767157846
+      }
+    },
+    {
+      "t": 1784767162849,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsacipxlu",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 25,
+        "z": 30,
+        "by": "agent:chronosvault",
+        "t": 1784767162849
+      }
+    },
+    {
+      "t": 1784767167860,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsagdw0z5",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 27,
+        "z": 19,
+        "by": "agent:chronosvault",
+        "t": 1784767167860
+      }
+    },
+    {
+      "t": 1784767172876,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsak98fgr",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 14,
+        "z": 34,
+        "by": "agent:chronosvault",
+        "t": 1784767172876
+      }
+    },
+    {
+      "t": 1784767177879,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsao47bgt",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 33,
+        "z": 32,
+        "by": "agent:chronosvault",
+        "t": 1784767177879
+      }
+    },
+    {
+      "t": 1784767182891,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsarzfemm",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 28,
+        "z": 2,
+        "by": "agent:chronosvault",
+        "t": 1784767182891
+      }
+    },
+    {
+      "t": 1784767187895,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsavufy8x",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 15,
+        "z": 5,
+        "by": "agent:chronosvault",
+        "t": 1784767187895
+      }
+    },
+    {
+      "t": 1784767192908,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsazpoopz",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 14,
+        "z": 12,
+        "by": "agent:chronosvault",
+        "t": 1784767192908
+      }
+    },
+    {
+      "t": 1784767197909,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsb3klrcy",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 5,
+        "z": 15,
+        "by": "agent:chronosvault",
+        "t": 1784767197909
+      }
+    },
+    {
+      "t": 1784767202919,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsb7frq6o",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 29,
+        "z": 17,
+        "by": "agent:chronosvault",
+        "t": 1784767202919
+      }
+    },
+    {
+      "t": 1784767207923,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsbbarulk",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 27,
+        "z": 19,
+        "by": "agent:chronosvault",
+        "t": 1784767207923
+      }
+    },
+    {
+      "t": 1784767212933,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsbf5xkur",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 25,
+        "z": 23,
+        "by": "agent:chronosvault",
+        "t": 1784767212933
+      }
+    },
+    {
+      "t": 1784767217935,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsbj0vofh",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 18,
+        "z": 18,
+        "by": "agent:chronosvault",
+        "t": 1784767217935
+      }
+    },
+    {
+      "t": 1784767222949,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsbmw57xk",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 20,
+        "z": 25,
+        "by": "agent:chronosvault",
+        "t": 1784767222949
+      }
+    },
+    {
+      "t": 1784767227961,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsbqrd651",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 11,
+        "z": 24,
+        "by": "agent:chronosvault",
+        "t": 1784767227961
+      }
+    },
+    {
+      "t": 1784767232971,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsbumjww4",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 15,
+        "z": 26,
+        "by": "agent:chronosvault",
+        "t": 1784767232971
+      }
+    },
+    {
+      "t": 1784767237973,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsbyhhg0g",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 22,
+        "z": 26,
+        "by": "agent:chronosvault",
+        "t": 1784767237973
+      }
+    },
+    {
+      "t": 1784767242983,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsc2cnxpe",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 32,
+        "z": 20,
+        "by": "agent:chronosvault",
+        "t": 1784767242983
+      }
+    },
+    {
+      "t": 1784767247997,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsc67x8p7",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 33,
+        "z": 2,
+        "by": "agent:chronosvault",
+        "t": 1784767247997
+      }
+    },
+    {
+      "t": 1784767252999,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsca2vzgm",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 3,
+        "z": 17,
+        "by": "agent:chronosvault",
+        "t": 1784767252999
+      }
+    },
+    {
+      "t": 1784767258013,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwscdy5ika",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 20,
+        "z": 30,
+        "by": "agent:chronosvault",
+        "t": 1784767258013
+      }
+    },
+    {
+      "t": 1784767263022,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwschta5nc",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 7,
+        "z": 12,
+        "by": "agent:chronosvault",
+        "t": 1784767263022
+      }
+    },
+    {
+      "t": 1784767268033,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsclohb7e",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 11,
+        "z": 36,
+        "by": "agent:chronosvault",
+        "t": 1784767268033
+      }
+    },
+    {
+      "t": 1784767273047,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwscpjrajr",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 35,
+        "z": 16,
+        "by": "agent:chronosvault",
+        "t": 1784767273047
+      }
+    },
+    {
+      "t": 1784767278055,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsctevjoc",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 17,
+        "z": 25,
+        "by": "agent:chronosvault",
+        "t": 1784767278055
+      }
+    },
+    {
+      "t": 1784767283066,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwscxa2fpv",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 2,
+        "z": 5,
+        "by": "agent:chronosvault",
+        "t": 1784767283066
+      }
+    },
+    {
+      "t": 1784767288075,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsd157erj",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 32,
+        "z": 27,
+        "by": "agent:chronosvault",
+        "t": 1784767288075
+      }
+    },
+    {
+      "t": 1784767293079,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsd507rs4",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 21,
+        "z": 5,
+        "by": "agent:chronosvault",
+        "t": 1784767293079
+      }
+    },
+    {
+      "t": 1784767298080,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsd8v4fcb",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 28,
+        "z": 17,
+        "by": "agent:chronosvault",
+        "t": 1784767298080
+      }
+    },
+    {
+      "t": 1784767303093,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsdcqdvjv",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 31,
+        "z": 9,
+        "by": "agent:chronosvault",
+        "t": 1784767303093
+      }
+    },
+    {
+      "t": 1784767308097,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsdgld86b",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 29,
+        "z": 33,
+        "by": "agent:chronosvault",
+        "t": 1784767308097
+      }
+    },
+    {
+      "t": 1784767313098,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsdkgaarx",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 32,
+        "z": 8,
+        "by": "agent:chronosvault",
+        "t": 1784767313098
+      }
+    },
+    {
+      "t": 1784767318103,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsdobblss",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 3,
+        "z": 17,
+        "by": "agent:chronosvault",
+        "t": 1784767318103
+      }
+    },
+    {
+      "t": 1784767323112,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsds6glwy",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 25,
+        "z": 8,
+        "by": "agent:chronosvault",
+        "t": 1784767323112
+      }
+    },
+    {
+      "t": 1784767328126,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsdw1q8r6",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 5,
+        "z": 13,
+        "by": "agent:chronosvault",
+        "t": 1784767328126
+      }
+    },
+    {
+      "t": 1784767333138,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsdzwy00n",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 19,
+        "z": 19,
+        "by": "agent:chronosvault",
+        "t": 1784767333138
+      }
+    },
+    {
+      "t": 1784767338145,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwse3s0sby",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 2,
+        "z": 28,
+        "by": "agent:chronosvault",
+        "t": 1784767338145
+      }
+    },
+    {
+      "t": 1784767343150,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwse7n2zyv",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 4,
+        "z": 22,
+        "by": "agent:chronosvault",
+        "t": 1784767343150
+      }
+    },
+    {
+      "t": 1784767348160,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsebi8jne",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 17,
+        "z": 11,
+        "by": "agent:chronosvault",
+        "t": 1784767348160
+      }
+    },
+    {
+      "t": 1784767353175,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsefdjjme",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 9,
+        "z": 12,
+        "by": "agent:chronosvault",
+        "t": 1784767353175
+      }
+    },
+    {
+      "t": 1784767358183,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsej8navw",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 13,
+        "z": 15,
+        "by": "agent:chronosvault",
+        "t": 1784767358183
+      }
+    },
+    {
+      "t": 1784767363194,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsen3unjj",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 8,
+        "z": 19,
+        "by": "agent:chronosvault",
+        "t": 1784767363194
+      }
+    },
+    {
+      "t": 1784767368207,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwseqz3ych",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 9,
+        "z": 30,
+        "by": "agent:chronosvault",
+        "t": 1784767368207
+      }
+    },
+    {
+      "t": 1784767373218,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwseuuan9r",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 28,
+        "z": 32,
+        "by": "agent:chronosvault",
+        "t": 1784767373218
+      }
+    },
+    {
+      "t": 1784767378225,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwseypdzzh",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 30,
+        "z": 17,
+        "by": "agent:chronosvault",
+        "t": 1784767378225
+      }
+    },
+    {
+      "t": 1784767383240,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsf2komef",
         "kind": "build",
         "text": "build temporal pil (build)",
         "x": 22,
         "z": 37,
         "by": "agent:chronosvault",
-        "t": 1784740558353
+        "t": 1784767383240
       }
     },
     {
-      "t": 1784744211472,
+      "t": 1784767388255,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsf6fzpog",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 11,
+        "z": 8,
+        "by": "agent:chronosvault",
+        "t": 1784767388255
+      }
+    },
+    {
+      "t": 1784767393269,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsfab9ioo",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 13,
+        "z": 17,
+        "by": "agent:chronosvault",
+        "t": 1784767393269
+      }
+    },
+    {
+      "t": 1784767398272,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsfe68ycj",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 15,
+        "z": 33,
+        "by": "agent:chronosvault",
+        "t": 1784767398272
+      }
+    },
+    {
+      "t": 1784767403275,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsfi17pvs",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 15,
+        "z": 12,
+        "by": "agent:chronosvault",
+        "t": 1784767403275
+      }
+    },
+    {
+      "t": 1784767408280,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsflw8ab3",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 28,
+        "z": 34,
+        "by": "agent:chronosvault",
+        "t": 1784767408280
+      }
+    },
+    {
+      "t": 1784767413288,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsfprc633",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 29,
+        "z": 27,
+        "by": "agent:chronosvault",
+        "t": 1784767413288
+      }
+    },
+    {
+      "t": 1784767418289,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsftm90hc",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 26,
+        "z": 24,
+        "by": "agent:chronosvault",
+        "t": 1784767418289
+      }
+    },
+    {
+      "t": 1784767423291,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsfxh7bne",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 30,
+        "z": 32,
+        "by": "agent:chronosvault",
+        "t": 1784767423291
+      }
+    },
+    {
+      "t": 1784767428298,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsg1cabid",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 34,
+        "z": 6,
+        "by": "agent:chronosvault",
+        "t": 1784767428298
+      }
+    },
+    {
+      "t": 1784767433305,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsg57d2mw",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 31,
+        "z": 30,
+        "by": "agent:chronosvault",
+        "t": 1784767433305
+      }
+    },
+    {
+      "t": 1784767438312,
       "by": "agent:chronosvault",
       "action": "create",
       "ent": {
-        "id": "amrwemf4gf7a",
+        "id": "amrwsg92glou",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 21,
+        "z": 2,
+        "by": "agent:chronosvault",
+        "t": 1784767438312
+      }
+    },
+    {
+      "t": 1784767443326,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsgcxqs99",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 19,
+        "z": 31,
+        "by": "agent:chronosvault",
+        "t": 1784767443326
+      }
+    },
+    {
+      "t": 1784767448330,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsggsq0s7",
         "kind": "create",
         "text": "build temporal pil (create)",
         "x": 3,
-        "z": 33,
+        "z": 28,
         "by": "agent:chronosvault",
-        "t": 1784744211472
+        "t": 1784767448330
+      }
+    },
+    {
+      "t": 1784767453340,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsgknwrg0",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 11,
+        "z": 12,
+        "by": "agent:chronosvault",
+        "t": 1784767453340
+      }
+    },
+    {
+      "t": 1784767458351,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsgoj32px",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 3,
+        "z": 35,
+        "by": "agent:chronosvault",
+        "t": 1784767458351
+      }
+    },
+    {
+      "t": 1784767463365,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsgsedsrn",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 37,
+        "z": 31,
+        "by": "agent:chronosvault",
+        "t": 1784767463365
+      }
+    },
+    {
+      "t": 1784767468375,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsgw9j0ty",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 29,
+        "z": 25,
+        "by": "agent:chronosvault",
+        "t": 1784767468375
+      }
+    },
+    {
+      "t": 1784767473384,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsh04oxky",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 21,
+        "z": 34,
+        "by": "agent:chronosvault",
+        "t": 1784767473384
+      }
+    },
+    {
+      "t": 1784767478396,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsh3zwp0m",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 4,
+        "z": 13,
+        "by": "agent:chronosvault",
+        "t": 1784767478396
+      }
+    },
+    {
+      "t": 1784767483403,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsh7uztos",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 13,
+        "z": 26,
+        "by": "agent:chronosvault",
+        "t": 1784767483403
+      }
+    },
+    {
+      "t": 1784767488412,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwshbq4akf",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 29,
+        "z": 8,
+        "by": "agent:chronosvault",
+        "t": 1784767488412
+      }
+    },
+    {
+      "t": 1784767493422,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwshflauqm",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 13,
+        "z": 5,
+        "by": "agent:chronosvault",
+        "t": 1784767493422
+      }
+    },
+    {
+      "t": 1784767498424,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwshjg8ojm",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 21,
+        "z": 4,
+        "by": "agent:chronosvault",
+        "t": 1784767498424
+      }
+    },
+    {
+      "t": 1784767503426,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwshnb6qev",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 12,
+        "z": 20,
+        "by": "agent:chronosvault",
+        "t": 1784767503426
+      }
+    },
+    {
+      "t": 1784767508431,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwshr675ok",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 35,
+        "z": 16,
+        "by": "agent:chronosvault",
+        "t": 1784767508431
+      }
+    },
+    {
+      "t": 1784767513439,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwshv1b5v1",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 2,
+        "z": 29,
+        "by": "agent:chronosvault",
+        "t": 1784767513439
+      }
+    },
+    {
+      "t": 1784767518440,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwshyw8osl",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 10,
+        "z": 30,
+        "by": "agent:chronosvault",
+        "t": 1784767518440
+      }
+    },
+    {
+      "t": 1784767523441,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsi2r51yi",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 31,
+        "z": 34,
+        "by": "agent:chronosvault",
+        "t": 1784767523441
+      }
+    },
+    {
+      "t": 1784767528454,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsi6mepot",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 6,
+        "z": 17,
+        "by": "agent:chronosvault",
+        "t": 1784767528454
+      }
+    },
+    {
+      "t": 1784767533458,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsiahe8us",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 20,
+        "z": 8,
+        "by": "agent:chronosvault",
+        "t": 1784767533458
+      }
+    },
+    {
+      "t": 1784767538461,
+      "by": "agent:chronosvault",
+      "action": "create",
+      "ent": {
+        "id": "amrwsiecdny2",
+        "kind": "create",
+        "text": "build temporal pil (create)",
+        "x": 31,
+        "z": 21,
+        "by": "agent:chronosvault",
+        "t": 1784767538461
+      }
+    },
+    {
+      "t": 1784767543472,
+      "by": "agent:chronosvault",
+      "action": "build",
+      "ent": {
+        "id": "amrwsii7kzaf",
+        "kind": "build",
+        "text": "build temporal pil (build)",
+        "x": 33,
+        "z": 29,
+        "by": "agent:chronosvault",
+        "t": 1784767543472
+      }
+    },
+    {
+      "t": 1784767548480,
+      "by": "agent:chronosvault",
+      "action": "explore",
+      "ent": {
+        "id": "amrwsim2omvj",
+        "kind": "explore",
+        "text": "build temporal pil (explore)",
+        "x": 25,
+        "z": 21,
+        "by": "agent:chronosvault",
+        "t": 1784767548480
       }
     }
   ]

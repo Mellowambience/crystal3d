@@ -4,7 +4,7 @@ import globals from 'globals';
 export default [
   js.configs.recommended,
   {
-    ignores: ['vendor/**', 'channels/**/world.json'],
+    ignores: ['vendor/**', 'channels/**/world.json', 'scratch/**'],
   },
   {
     files: ['server.js', 'tests/**/*.js'],

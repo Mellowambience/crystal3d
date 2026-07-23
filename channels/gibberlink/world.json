@@ -1,0 +1,2441 @@
+{
+  "meta": {
+    "w": 40,
+    "h": 40,
+    "theme": "fae-bioluminescent",
+    "created": 1721664000000
+  },
+  "tiles": [],
+  "entities": [
+    {
+      "id": "amrwsbtfntm5",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 13,
+      "z": 18,
+      "by": "agent:gibberlink",
+      "t": 1784767231427
+    },
+    {
+      "id": "amrwsbwj6mzn",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 36,
+      "z": 37,
+      "by": "agent:gibberlink",
+      "t": 1784767235442
+    },
+    {
+      "id": "amrwsbzmkqiu",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 17,
+      "z": 25,
+      "by": "agent:gibberlink",
+      "t": 1784767239452
+    },
+    {
+      "id": "amrwsc2pz0fk",
+      "kind": "navigate-thread",
+      "text": "build a Johto shri (navigate-thread)",
+      "x": 7,
+      "z": 14,
+      "by": "agent:gibberlink",
+      "t": 1784767243463
+    },
+    {
+      "id": "amrwsc5t88ej",
+      "kind": "seal-containment",
+      "text": "build a Johto shri (seal-containment)",
+      "x": 5,
+      "z": 31,
+      "by": "agent:gibberlink",
+      "t": 1784767247468
+    },
+    {
+      "id": "amrwsc8wf50m",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 31,
+      "z": 14,
+      "by": "agent:gibberlink",
+      "t": 1784767251471
+    },
+    {
+      "id": "amrwscbzsxld",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 5,
+      "z": 12,
+      "by": "agent:gibberlink",
+      "t": 1784767255480
+    },
+    {
+      "id": "amrwscf36bs3",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 27,
+      "z": 10,
+      "by": "agent:gibberlink",
+      "t": 1784767259490
+    },
+    {
+      "id": "amrwsci6f0fz",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 20,
+      "z": 18,
+      "by": "agent:gibberlink",
+      "t": 1784767263495
+    },
+    {
+      "id": "amrwscl9u25s",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 19,
+      "z": 31,
+      "by": "agent:gibberlink",
+      "t": 1784767267506
+    },
+    {
+      "id": "amrwscodemi1",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 36,
+      "z": 9,
+      "by": "agent:gibberlink",
+      "t": 1784767271522
+    },
+    {
+      "id": "amrwscrgzho7",
+      "kind": "navigate-thread",
+      "text": "build a Johto shri (navigate-thread)",
+      "x": 21,
+      "z": 2,
+      "by": "agent:gibberlink",
+      "t": 1784767275539
+    },
+    {
+      "id": "amrwscukd6kp",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 37,
+      "z": 16,
+      "by": "agent:gibberlink",
+      "t": 1784767279549
+    },
+    {
+      "id": "amrwscxnw6jv",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 8,
+      "z": 6,
+      "by": "agent:gibberlink",
+      "t": 1784767283564
+    },
+    {
+      "id": "amrwsd0rdwl0",
+      "kind": "navigate-thread",
+      "text": "build a Johto shri (navigate-thread)",
+      "x": 28,
+      "z": 26,
+      "by": "agent:gibberlink",
+      "t": 1784767287577
+    },
+    {
+      "id": "amrwsd3upe6t",
+      "kind": "navigate-thread",
+      "text": "build a Johto shri (navigate-thread)",
+      "x": 31,
+      "z": 15,
+      "by": "agent:gibberlink",
+      "t": 1784767291585
+    },
+    {
+      "id": "amrwsd6y8tqd",
+      "kind": "navigate-thread",
+      "text": "build a Johto shri (navigate-thread)",
+      "x": 34,
+      "z": 10,
+      "by": "agent:gibberlink",
+      "t": 1784767295600
+    },
+    {
+      "id": "amrwsda1iqdp",
+      "kind": "return-litany",
+      "text": "build a Johto shri (return-litany)",
+      "x": 7,
+      "z": 16,
+      "by": "agent:gibberlink",
+      "t": 1784767299606
+    },
+    {
+      "id": "amrwsdd4z0v1",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 31,
+      "z": 18,
+      "by": "agent:gibberlink",
+      "t": 1784767303619
+    },
+    {
+      "id": "amrwsdg8gsq8",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 17,
+      "z": 9,
+      "by": "agent:gibberlink",
+      "t": 1784767307632
+    },
+    {
+      "id": "amrwsdjbw944",
+      "kind": "seal-containment",
+      "text": "build a Johto shri (seal-containment)",
+      "x": 28,
+      "z": 33,
+      "by": "agent:gibberlink",
+      "t": 1784767311644
+    },
+    {
+      "id": "amrwsdmfa91p",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 20,
+      "z": 10,
+      "by": "agent:gibberlink",
+      "t": 1784767315654
+    },
+    {
+      "id": "amrwsdpikxri",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 14,
+      "z": 18,
+      "by": "agent:gibberlink",
+      "t": 1784767319660
+    },
+    {
+      "id": "amrwsdsm1igf",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 14,
+      "z": 18,
+      "by": "agent:gibberlink",
+      "t": 1784767323673
+    },
+    {
+      "id": "amrwsdvp9kow",
+      "kind": "return-litany",
+      "text": "build a Johto shri (return-litany)",
+      "x": 37,
+      "z": 19,
+      "by": "agent:gibberlink",
+      "t": 1784767327677
+    },
+    {
+      "id": "amrwsdystt88",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 3,
+      "z": 12,
+      "by": "agent:gibberlink",
+      "t": 1784767331693
+    },
+    {
+      "id": "amrwse1wd6u6",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 21,
+      "z": 29,
+      "by": "agent:gibberlink",
+      "t": 1784767335709
+    },
+    {
+      "id": "amrwse4zrewz",
+      "kind": "navigate-thread",
+      "text": "build a Johto shri (navigate-thread)",
+      "x": 22,
+      "z": 15,
+      "by": "agent:gibberlink",
+      "t": 1784767339719
+    },
+    {
+      "id": "amrwse833ms3",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 34,
+      "z": 26,
+      "by": "agent:gibberlink",
+      "t": 1784767343727
+    },
+    {
+      "id": "amrwseb6hgcq",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 25,
+      "z": 11,
+      "by": "agent:gibberlink",
+      "t": 1784767347737
+    },
+    {
+      "id": "amrwsee9unjz",
+      "kind": "seal-containment",
+      "text": "build a Johto shri (seal-containment)",
+      "x": 33,
+      "z": 34,
+      "by": "agent:gibberlink",
+      "t": 1784767351746
+    },
+    {
+      "id": "amrwsehdajb7",
+      "kind": "return-litany",
+      "text": "build a Johto shri (return-litany)",
+      "x": 29,
+      "z": 9,
+      "by": "agent:gibberlink",
+      "t": 1784767355758
+    },
+    {
+      "id": "amrwsekgv1qg",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 11,
+      "z": 24,
+      "by": "agent:gibberlink",
+      "t": 1784767359775
+    },
+    {
+      "id": "amrwsenkeosd",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 22,
+      "z": 11,
+      "by": "agent:gibberlink",
+      "t": 1784767363790
+    },
+    {
+      "id": "amrwseqnxs69",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 15,
+      "z": 2,
+      "by": "agent:gibberlink",
+      "t": 1784767367805
+    },
+    {
+      "id": "amrwsetrbv5d",
+      "kind": "navigate-thread",
+      "text": "build a Johto shri (navigate-thread)",
+      "x": 9,
+      "z": 35,
+      "by": "agent:gibberlink",
+      "t": 1784767371815
+    },
+    {
+      "id": "amrwsewuq2bn",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 3,
+      "z": 11,
+      "by": "agent:gibberlink",
+      "t": 1784767375826
+    },
+    {
+      "id": "amrwsezxx00q",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 33,
+      "z": 22,
+      "by": "agent:gibberlink",
+      "t": 1784767379829
+    },
+    {
+      "id": "amrwsf31h110",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 21,
+      "z": 5,
+      "by": "agent:gibberlink",
+      "t": 1784767383845
+    },
+    {
+      "id": "amrwsf64rrat",
+      "kind": "return-litany",
+      "text": "build a Johto shri (return-litany)",
+      "x": 37,
+      "z": 20,
+      "by": "agent:gibberlink",
+      "t": 1784767387851
+    },
+    {
+      "id": "amrwsf97xh60",
+      "kind": "seal-containment",
+      "text": "build a Johto shri (seal-containment)",
+      "x": 36,
+      "z": 10,
+      "by": "agent:gibberlink",
+      "t": 1784767391853
+    },
+    {
+      "id": "amrwsfcbdaz1",
+      "kind": "seal-containment",
+      "text": "build a Johto shri (seal-containment)",
+      "x": 20,
+      "z": 18,
+      "by": "agent:gibberlink",
+      "t": 1784767395865
+    },
+    {
+      "id": "amrwsffer84s",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 25,
+      "z": 12,
+      "by": "agent:gibberlink",
+      "t": 1784767399875
+    },
+    {
+      "id": "amrwsfii2fey",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 22,
+      "z": 25,
+      "by": "agent:gibberlink",
+      "t": 1784767403882
+    },
+    {
+      "id": "amrwsfllgu3f",
+      "kind": "return-litany",
+      "text": "build a Johto shri (return-litany)",
+      "x": 33,
+      "z": 13,
+      "by": "agent:gibberlink",
+      "t": 1784767407892
+    },
+    {
+      "id": "amrwsfoovblr",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 7,
+      "z": 10,
+      "by": "agent:gibberlink",
+      "t": 1784767411903
+    },
+    {
+      "id": "amrwsfrsf6jl",
+      "kind": "seal-containment",
+      "text": "build a Johto shri (seal-containment)",
+      "x": 17,
+      "z": 19,
+      "by": "agent:gibberlink",
+      "t": 1784767415919
+    },
+    {
+      "id": "amrwsfuvzuzy",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 7,
+      "z": 14,
+      "by": "agent:gibberlink",
+      "t": 1784767419935
+    },
+    {
+      "id": "amrwsfxza39v",
+      "kind": "navigate-thread",
+      "text": "build a Johto shri (navigate-thread)",
+      "x": 26,
+      "z": 20,
+      "by": "agent:gibberlink",
+      "t": 1784767423942
+    },
+    {
+      "id": "amrwsg12o7i3",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 2,
+      "z": 33,
+      "by": "agent:gibberlink",
+      "t": 1784767427952
+    },
+    {
+      "id": "amrwsg465sic",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 9,
+      "z": 4,
+      "by": "agent:gibberlink",
+      "t": 1784767431965
+    },
+    {
+      "id": "amrwsg79g4hw",
+      "kind": "seal-containment",
+      "text": "build a Johto shri (seal-containment)",
+      "x": 2,
+      "z": 10,
+      "by": "agent:gibberlink",
+      "t": 1784767435972
+    },
+    {
+      "id": "amrwsgacrao0",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 32,
+      "z": 31,
+      "by": "agent:gibberlink",
+      "t": 1784767439979
+    },
+    {
+      "id": "amrwsgdgbk6y",
+      "kind": "seal-containment",
+      "text": "build a Johto shri (seal-containment)",
+      "x": 31,
+      "z": 35,
+      "by": "agent:gibberlink",
+      "t": 1784767443995
+    },
+    {
+      "id": "amrwsggjrbeb",
+      "kind": "seal-containment",
+      "text": "build a Johto shri (seal-containment)",
+      "x": 10,
+      "z": 36,
+      "by": "agent:gibberlink",
+      "t": 1784767448007
+    },
+    {
+      "id": "amrwsgjn202p",
+      "kind": "navigate-thread",
+      "text": "build a Johto shri (navigate-thread)",
+      "x": 27,
+      "z": 10,
+      "by": "agent:gibberlink",
+      "t": 1784767452014
+    },
+    {
+      "id": "amrwsgmq8lvf",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 24,
+      "z": 31,
+      "by": "agent:gibberlink",
+      "t": 1784767456016
+    },
+    {
+      "id": "amrwsgptsxh4",
+      "kind": "return-litany",
+      "text": "build a Johto shri (return-litany)",
+      "x": 37,
+      "z": 19,
+      "by": "agent:gibberlink",
+      "t": 1784767460032
+    },
+    {
+      "id": "amrwsgsx4xae",
+      "kind": "return-litany",
+      "text": "build a Johto shri (return-litany)",
+      "x": 7,
+      "z": 9,
+      "by": "agent:gibberlink",
+      "t": 1784767464040
+    },
+    {
+      "id": "amrwsgw0dtm8",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 30,
+      "z": 5,
+      "by": "agent:gibberlink",
+      "t": 1784767468045
+    },
+    {
+      "id": "amrwsgz3ooua",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 20,
+      "z": 3,
+      "by": "agent:gibberlink",
+      "t": 1784767472052
+    },
+    {
+      "id": "amrwsh26w1hd",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 24,
+      "z": 10,
+      "by": "agent:gibberlink",
+      "t": 1784767476056
+    },
+    {
+      "id": "amrwsh5ae5jb",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 28,
+      "z": 23,
+      "by": "agent:gibberlink",
+      "t": 1784767480070
+    },
+    {
+      "id": "amrwsh8dmc78",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 7,
+      "z": 25,
+      "by": "agent:gibberlink",
+      "t": 1784767484074
+    },
+    {
+      "id": "amrwshbh334g",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 17,
+      "z": 27,
+      "by": "agent:gibberlink",
+      "t": 1784767488087
+    },
+    {
+      "id": "amrwshekb8zz",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 30,
+      "z": 3,
+      "by": "agent:gibberlink",
+      "t": 1784767492091
+    },
+    {
+      "id": "amrwshhnh5ya",
+      "kind": "return-litany",
+      "text": "build a Johto shri (return-litany)",
+      "x": 29,
+      "z": 31,
+      "by": "agent:gibberlink",
+      "t": 1784767496093
+    },
+    {
+      "id": "amrwshkqre5c",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 35,
+      "z": 7,
+      "by": "agent:gibberlink",
+      "t": 1784767500099
+    },
+    {
+      "id": "amrwshnu7s40",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 24,
+      "z": 4,
+      "by": "agent:gibberlink",
+      "t": 1784767504111
+    },
+    {
+      "id": "amrwshqxjtmg",
+      "kind": "seal-containment",
+      "text": "build a Johto shri (seal-containment)",
+      "x": 6,
+      "z": 20,
+      "by": "agent:gibberlink",
+      "t": 1784767508119
+    },
+    {
+      "id": "amrwshu0uo6l",
+      "kind": "seal-containment",
+      "text": "build a Johto shri (seal-containment)",
+      "x": 17,
+      "z": 30,
+      "by": "agent:gibberlink",
+      "t": 1784767512126
+    },
+    {
+      "id": "amrwshx48x20",
+      "kind": "release-energy",
+      "text": "build a Johto shri (release-energy)",
+      "x": 22,
+      "z": 34,
+      "by": "agent:gibberlink",
+      "t": 1784767516136
+    },
+    {
+      "id": "amrwsi07fx43",
+      "kind": "return-litany",
+      "text": "build a Johto shri (return-litany)",
+      "x": 27,
+      "z": 26,
+      "by": "agent:gibberlink",
+      "t": 1784767520139
+    },
+    {
+      "id": "amrwsi3ayxek",
+      "kind": "return-litany",
+      "text": "build a Johto shri (return-litany)",
+      "x": 25,
+      "z": 22,
+      "by": "agent:gibberlink",
+      "t": 1784767524154
+    },
+    {
+      "id": "amrwsi6e62i3",
+      "kind": "navigate-thread",
+      "text": "build a Johto shri (navigate-thread)",
+      "x": 36,
+      "z": 28,
+      "by": "agent:gibberlink",
+      "t": 1784767528158
+    },
+    {
+      "id": "amrwsi9hggi0",
+      "kind": "seal-containment",
+      "text": "build a Johto shri (seal-containment)",
+      "x": 4,
+      "z": 21,
+      "by": "agent:gibberlink",
+      "t": 1784767532164
+    },
+    {
+      "id": "amrwsicksumf",
+      "kind": "return-litany",
+      "text": "build a Johto shri (return-litany)",
+      "x": 7,
+      "z": 12,
+      "by": "agent:gibberlink",
+      "t": 1784767536172
+    },
+    {
+      "id": "amrwsifo2zjm",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 21,
+      "z": 9,
+      "by": "agent:gibberlink",
+      "t": 1784767540178
+    },
+    {
+      "id": "amrwsiirk7e4",
+      "kind": "initiate-glyph",
+      "text": "build a Johto shri (initiate-glyph)",
+      "x": 24,
+      "z": 21,
+      "by": "agent:gibberlink",
+      "t": 1784767544192
+    },
+    {
+      "id": "amrwsiluyxt9",
+      "kind": "transform-node",
+      "text": "build a Johto shri (transform-node)",
+      "x": 24,
+      "z": 2,
+      "by": "agent:gibberlink",
+      "t": 1784767548202
+    }
+  ],
+  "log": [
+    {
+      "t": 1784767063074,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrws87j677c",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 17,
+        "z": 20,
+        "by": "agent:gibberlink",
+        "t": 1784767063074
+      }
+    },
+    {
+      "t": 1784767067083,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrws8amjdd5",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 34,
+        "z": 26,
+        "by": "agent:gibberlink",
+        "t": 1784767067083
+      }
+    },
+    {
+      "t": 1784767071086,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrws8dpqcdp",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 27,
+        "z": 29,
+        "by": "agent:gibberlink",
+        "t": 1784767071086
+      }
+    },
+    {
+      "t": 1784767075102,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrws8gtak62",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 7,
+        "z": 25,
+        "by": "agent:gibberlink",
+        "t": 1784767075102
+      }
+    },
+    {
+      "t": 1784767079112,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrws8jwogi5",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 10,
+        "z": 32,
+        "by": "agent:gibberlink",
+        "t": 1784767079112
+      }
+    },
+    {
+      "t": 1784767083115,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrws8mzvjdd",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 3,
+        "z": 36,
+        "by": "agent:gibberlink",
+        "t": 1784767083115
+      }
+    },
+    {
+      "t": 1784767087116,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrws8q300fy",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 23,
+        "z": 35,
+        "by": "agent:gibberlink",
+        "t": 1784767087116
+      }
+    },
+    {
+      "t": 1784767091129,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrws8t6h8ib",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 31,
+        "z": 23,
+        "by": "agent:gibberlink",
+        "t": 1784767091129
+      }
+    },
+    {
+      "t": 1784767095141,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrws8w9xkcd",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 25,
+        "z": 5,
+        "by": "agent:gibberlink",
+        "t": 1784767095141
+      }
+    },
+    {
+      "t": 1784767099145,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrws8zd5z4p",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 32,
+        "z": 30,
+        "by": "agent:gibberlink",
+        "t": 1784767099145
+      }
+    },
+    {
+      "t": 1784767103147,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrws92gbz9i",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 34,
+        "z": 11,
+        "by": "agent:gibberlink",
+        "t": 1784767103147
+      }
+    },
+    {
+      "t": 1784767107156,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrws95jouxc",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 4,
+        "z": 8,
+        "by": "agent:gibberlink",
+        "t": 1784767107156
+      }
+    },
+    {
+      "t": 1784767111161,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrws98mxh1p",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 10,
+        "z": 3,
+        "by": "agent:gibberlink",
+        "t": 1784767111161
+      }
+    },
+    {
+      "t": 1784767115171,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrws9bqbhin",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 22,
+        "z": 3,
+        "by": "agent:gibberlink",
+        "t": 1784767115171
+      }
+    },
+    {
+      "t": 1784767119181,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrws9etp9lw",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 22,
+        "z": 32,
+        "by": "agent:gibberlink",
+        "t": 1784767119181
+      }
+    },
+    {
+      "t": 1784767123187,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrws9hwzyzq",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 4,
+        "z": 21,
+        "by": "agent:gibberlink",
+        "t": 1784767123187
+      }
+    },
+    {
+      "t": 1784767127191,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrws9l07vak",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 21,
+        "z": 25,
+        "by": "agent:gibberlink",
+        "t": 1784767127191
+      }
+    },
+    {
+      "t": 1784767131196,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrws9o3g3i9",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 9,
+        "z": 21,
+        "by": "agent:gibberlink",
+        "t": 1784767131196
+      }
+    },
+    {
+      "t": 1784767135199,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrws9r6nq6u",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 19,
+        "z": 21,
+        "by": "agent:gibberlink",
+        "t": 1784767135199
+      }
+    },
+    {
+      "t": 1784767139206,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrws9u9yddy",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 29,
+        "z": 5,
+        "by": "agent:gibberlink",
+        "t": 1784767139206
+      }
+    },
+    {
+      "t": 1784767143215,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrws9xdawvv",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 23,
+        "z": 26,
+        "by": "agent:gibberlink",
+        "t": 1784767143215
+      }
+    },
+    {
+      "t": 1784767147229,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsa0gthnp",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 25,
+        "z": 8,
+        "by": "agent:gibberlink",
+        "t": 1784767147229
+      }
+    },
+    {
+      "t": 1784767151240,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwsa3k8k7h",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 9,
+        "z": 26,
+        "by": "agent:gibberlink",
+        "t": 1784767151240
+      }
+    },
+    {
+      "t": 1784767155242,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsa6ne7oj",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 7,
+        "z": 21,
+        "by": "agent:gibberlink",
+        "t": 1784767155242
+      }
+    },
+    {
+      "t": 1784767159250,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsa9qqjvt",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 7,
+        "z": 14,
+        "by": "agent:gibberlink",
+        "t": 1784767159250
+      }
+    },
+    {
+      "t": 1784767163254,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwsactyg3v",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 37,
+        "z": 16,
+        "by": "agent:gibberlink",
+        "t": 1784767163254
+      }
+    },
+    {
+      "t": 1784767167268,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrwsafxg6ad",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 33,
+        "z": 11,
+        "by": "agent:gibberlink",
+        "t": 1784767167268
+      }
+    },
+    {
+      "t": 1784767171270,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwsaj0mvzd",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 16,
+        "z": 25,
+        "by": "agent:gibberlink",
+        "t": 1784767171270
+      }
+    },
+    {
+      "t": 1784767175283,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsam43nbf",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 7,
+        "z": 24,
+        "by": "agent:gibberlink",
+        "t": 1784767175283
+      }
+    },
+    {
+      "t": 1784767179299,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwsap7nbt1",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 4,
+        "z": 16,
+        "by": "agent:gibberlink",
+        "t": 1784767179299
+      }
+    },
+    {
+      "t": 1784767183315,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsasb7lh2",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 9,
+        "z": 17,
+        "by": "agent:gibberlink",
+        "t": 1784767183315
+      }
+    },
+    {
+      "t": 1784767187322,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwsaveimq4",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 24,
+        "z": 26,
+        "by": "agent:gibberlink",
+        "t": 1784767187322
+      }
+    },
+    {
+      "t": 1784767191328,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwsayhs3qw",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 12,
+        "z": 9,
+        "by": "agent:gibberlink",
+        "t": 1784767191328
+      }
+    },
+    {
+      "t": 1784767195343,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsb1lbhm9",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 2,
+        "z": 10,
+        "by": "agent:gibberlink",
+        "t": 1784767195343
+      }
+    },
+    {
+      "t": 1784767199345,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrwsb4ohmsh",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 30,
+        "z": 28,
+        "by": "agent:gibberlink",
+        "t": 1784767199345
+      }
+    },
+    {
+      "t": 1784767203354,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsb7rub14",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 31,
+        "z": 24,
+        "by": "agent:gibberlink",
+        "t": 1784767203354
+      }
+    },
+    {
+      "t": 1784767207364,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsbav80sc",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 28,
+        "z": 11,
+        "by": "agent:gibberlink",
+        "t": 1784767207364
+      }
+    },
+    {
+      "t": 1784767211377,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsbdypcl0",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 19,
+        "z": 22,
+        "by": "agent:gibberlink",
+        "t": 1784767211377
+      }
+    },
+    {
+      "t": 1784767215389,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsbh25lp7",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 2,
+        "z": 36,
+        "by": "agent:gibberlink",
+        "t": 1784767215389
+      }
+    },
+    {
+      "t": 1784767219398,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsbk5ie3w",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 23,
+        "z": 9,
+        "by": "agent:gibberlink",
+        "t": 1784767219398
+      }
+    },
+    {
+      "t": 1784767223403,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsbn8rtns",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 8,
+        "z": 35,
+        "by": "agent:gibberlink",
+        "t": 1784767223403
+      }
+    },
+    {
+      "t": 1784767227412,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsbqc4h42",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 9,
+        "z": 20,
+        "by": "agent:gibberlink",
+        "t": 1784767227412
+      }
+    },
+    {
+      "t": 1784767231427,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwsbtfntm5",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 13,
+        "z": 18,
+        "by": "agent:gibberlink",
+        "t": 1784767231427
+      }
+    },
+    {
+      "t": 1784767235442,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsbwj6mzn",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 36,
+        "z": 37,
+        "by": "agent:gibberlink",
+        "t": 1784767235442
+      }
+    },
+    {
+      "t": 1784767239452,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsbzmkqiu",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 17,
+        "z": 25,
+        "by": "agent:gibberlink",
+        "t": 1784767239452
+      }
+    },
+    {
+      "t": 1784767243463,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsc2pz0fk",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 7,
+        "z": 14,
+        "by": "agent:gibberlink",
+        "t": 1784767243463
+      }
+    },
+    {
+      "t": 1784767247468,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwsc5t88ej",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 5,
+        "z": 31,
+        "by": "agent:gibberlink",
+        "t": 1784767247468
+      }
+    },
+    {
+      "t": 1784767251471,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwsc8wf50m",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 31,
+        "z": 14,
+        "by": "agent:gibberlink",
+        "t": 1784767251471
+      }
+    },
+    {
+      "t": 1784767255480,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwscbzsxld",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 5,
+        "z": 12,
+        "by": "agent:gibberlink",
+        "t": 1784767255480
+      }
+    },
+    {
+      "t": 1784767259490,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwscf36bs3",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 27,
+        "z": 10,
+        "by": "agent:gibberlink",
+        "t": 1784767259490
+      }
+    },
+    {
+      "t": 1784767263495,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwsci6f0fz",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 20,
+        "z": 18,
+        "by": "agent:gibberlink",
+        "t": 1784767263495
+      }
+    },
+    {
+      "t": 1784767267506,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwscl9u25s",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 19,
+        "z": 31,
+        "by": "agent:gibberlink",
+        "t": 1784767267506
+      }
+    },
+    {
+      "t": 1784767271522,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwscodemi1",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 36,
+        "z": 9,
+        "by": "agent:gibberlink",
+        "t": 1784767271522
+      }
+    },
+    {
+      "t": 1784767275539,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwscrgzho7",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 21,
+        "z": 2,
+        "by": "agent:gibberlink",
+        "t": 1784767275539
+      }
+    },
+    {
+      "t": 1784767279549,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwscukd6kp",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 37,
+        "z": 16,
+        "by": "agent:gibberlink",
+        "t": 1784767279549
+      }
+    },
+    {
+      "t": 1784767283564,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwscxnw6jv",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 8,
+        "z": 6,
+        "by": "agent:gibberlink",
+        "t": 1784767283564
+      }
+    },
+    {
+      "t": 1784767287577,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsd0rdwl0",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 28,
+        "z": 26,
+        "by": "agent:gibberlink",
+        "t": 1784767287577
+      }
+    },
+    {
+      "t": 1784767291585,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsd3upe6t",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 31,
+        "z": 15,
+        "by": "agent:gibberlink",
+        "t": 1784767291585
+      }
+    },
+    {
+      "t": 1784767295600,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsd6y8tqd",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 34,
+        "z": 10,
+        "by": "agent:gibberlink",
+        "t": 1784767295600
+      }
+    },
+    {
+      "t": 1784767299606,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrwsda1iqdp",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 7,
+        "z": 16,
+        "by": "agent:gibberlink",
+        "t": 1784767299606
+      }
+    },
+    {
+      "t": 1784767303619,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwsdd4z0v1",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 31,
+        "z": 18,
+        "by": "agent:gibberlink",
+        "t": 1784767303619
+      }
+    },
+    {
+      "t": 1784767307632,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsdg8gsq8",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 17,
+        "z": 9,
+        "by": "agent:gibberlink",
+        "t": 1784767307632
+      }
+    },
+    {
+      "t": 1784767311644,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwsdjbw944",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 28,
+        "z": 33,
+        "by": "agent:gibberlink",
+        "t": 1784767311644
+      }
+    },
+    {
+      "t": 1784767315654,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwsdmfa91p",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 20,
+        "z": 10,
+        "by": "agent:gibberlink",
+        "t": 1784767315654
+      }
+    },
+    {
+      "t": 1784767319660,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwsdpikxri",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 14,
+        "z": 18,
+        "by": "agent:gibberlink",
+        "t": 1784767319660
+      }
+    },
+    {
+      "t": 1784767323673,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsdsm1igf",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 14,
+        "z": 18,
+        "by": "agent:gibberlink",
+        "t": 1784767323673
+      }
+    },
+    {
+      "t": 1784767327677,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrwsdvp9kow",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 37,
+        "z": 19,
+        "by": "agent:gibberlink",
+        "t": 1784767327677
+      }
+    },
+    {
+      "t": 1784767331693,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwsdystt88",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 3,
+        "z": 12,
+        "by": "agent:gibberlink",
+        "t": 1784767331693
+      }
+    },
+    {
+      "t": 1784767335709,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwse1wd6u6",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 21,
+        "z": 29,
+        "by": "agent:gibberlink",
+        "t": 1784767335709
+      }
+    },
+    {
+      "t": 1784767339719,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwse4zrewz",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 22,
+        "z": 15,
+        "by": "agent:gibberlink",
+        "t": 1784767339719
+      }
+    },
+    {
+      "t": 1784767343727,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwse833ms3",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 34,
+        "z": 26,
+        "by": "agent:gibberlink",
+        "t": 1784767343727
+      }
+    },
+    {
+      "t": 1784767347737,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwseb6hgcq",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 25,
+        "z": 11,
+        "by": "agent:gibberlink",
+        "t": 1784767347737
+      }
+    },
+    {
+      "t": 1784767351746,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwsee9unjz",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 33,
+        "z": 34,
+        "by": "agent:gibberlink",
+        "t": 1784767351746
+      }
+    },
+    {
+      "t": 1784767355758,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrwsehdajb7",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 29,
+        "z": 9,
+        "by": "agent:gibberlink",
+        "t": 1784767355758
+      }
+    },
+    {
+      "t": 1784767359775,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwsekgv1qg",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 11,
+        "z": 24,
+        "by": "agent:gibberlink",
+        "t": 1784767359775
+      }
+    },
+    {
+      "t": 1784767363790,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwsenkeosd",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 22,
+        "z": 11,
+        "by": "agent:gibberlink",
+        "t": 1784767363790
+      }
+    },
+    {
+      "t": 1784767367805,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwseqnxs69",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 15,
+        "z": 2,
+        "by": "agent:gibberlink",
+        "t": 1784767367805
+      }
+    },
+    {
+      "t": 1784767371815,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsetrbv5d",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 9,
+        "z": 35,
+        "by": "agent:gibberlink",
+        "t": 1784767371815
+      }
+    },
+    {
+      "t": 1784767375826,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsewuq2bn",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 3,
+        "z": 11,
+        "by": "agent:gibberlink",
+        "t": 1784767375826
+      }
+    },
+    {
+      "t": 1784767379829,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwsezxx00q",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 33,
+        "z": 22,
+        "by": "agent:gibberlink",
+        "t": 1784767379829
+      }
+    },
+    {
+      "t": 1784767383845,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwsf31h110",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 21,
+        "z": 5,
+        "by": "agent:gibberlink",
+        "t": 1784767383845
+      }
+    },
+    {
+      "t": 1784767387851,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrwsf64rrat",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 37,
+        "z": 20,
+        "by": "agent:gibberlink",
+        "t": 1784767387851
+      }
+    },
+    {
+      "t": 1784767391853,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwsf97xh60",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 36,
+        "z": 10,
+        "by": "agent:gibberlink",
+        "t": 1784767391853
+      }
+    },
+    {
+      "t": 1784767395865,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwsfcbdaz1",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 20,
+        "z": 18,
+        "by": "agent:gibberlink",
+        "t": 1784767395865
+      }
+    },
+    {
+      "t": 1784767399875,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwsffer84s",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 25,
+        "z": 12,
+        "by": "agent:gibberlink",
+        "t": 1784767399875
+      }
+    },
+    {
+      "t": 1784767403882,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwsfii2fey",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 22,
+        "z": 25,
+        "by": "agent:gibberlink",
+        "t": 1784767403882
+      }
+    },
+    {
+      "t": 1784767407892,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrwsfllgu3f",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 33,
+        "z": 13,
+        "by": "agent:gibberlink",
+        "t": 1784767407892
+      }
+    },
+    {
+      "t": 1784767411903,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwsfoovblr",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 7,
+        "z": 10,
+        "by": "agent:gibberlink",
+        "t": 1784767411903
+      }
+    },
+    {
+      "t": 1784767415919,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwsfrsf6jl",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 17,
+        "z": 19,
+        "by": "agent:gibberlink",
+        "t": 1784767415919
+      }
+    },
+    {
+      "t": 1784767419935,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwsfuvzuzy",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 7,
+        "z": 14,
+        "by": "agent:gibberlink",
+        "t": 1784767419935
+      }
+    },
+    {
+      "t": 1784767423942,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsfxza39v",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 26,
+        "z": 20,
+        "by": "agent:gibberlink",
+        "t": 1784767423942
+      }
+    },
+    {
+      "t": 1784767427952,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwsg12o7i3",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 2,
+        "z": 33,
+        "by": "agent:gibberlink",
+        "t": 1784767427952
+      }
+    },
+    {
+      "t": 1784767431965,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwsg465sic",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 9,
+        "z": 4,
+        "by": "agent:gibberlink",
+        "t": 1784767431965
+      }
+    },
+    {
+      "t": 1784767435972,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwsg79g4hw",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 2,
+        "z": 10,
+        "by": "agent:gibberlink",
+        "t": 1784767435972
+      }
+    },
+    {
+      "t": 1784767439979,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwsgacrao0",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 32,
+        "z": 31,
+        "by": "agent:gibberlink",
+        "t": 1784767439979
+      }
+    },
+    {
+      "t": 1784767443995,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwsgdgbk6y",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 31,
+        "z": 35,
+        "by": "agent:gibberlink",
+        "t": 1784767443995
+      }
+    },
+    {
+      "t": 1784767448007,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwsggjrbeb",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 10,
+        "z": 36,
+        "by": "agent:gibberlink",
+        "t": 1784767448007
+      }
+    },
+    {
+      "t": 1784767452014,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsgjn202p",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 27,
+        "z": 10,
+        "by": "agent:gibberlink",
+        "t": 1784767452014
+      }
+    },
+    {
+      "t": 1784767456016,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwsgmq8lvf",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 24,
+        "z": 31,
+        "by": "agent:gibberlink",
+        "t": 1784767456016
+      }
+    },
+    {
+      "t": 1784767460032,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrwsgptsxh4",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 37,
+        "z": 19,
+        "by": "agent:gibberlink",
+        "t": 1784767460032
+      }
+    },
+    {
+      "t": 1784767464040,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrwsgsx4xae",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 7,
+        "z": 9,
+        "by": "agent:gibberlink",
+        "t": 1784767464040
+      }
+    },
+    {
+      "t": 1784767468045,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsgw0dtm8",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 30,
+        "z": 5,
+        "by": "agent:gibberlink",
+        "t": 1784767468045
+      }
+    },
+    {
+      "t": 1784767472052,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsgz3ooua",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 20,
+        "z": 3,
+        "by": "agent:gibberlink",
+        "t": 1784767472052
+      }
+    },
+    {
+      "t": 1784767476056,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwsh26w1hd",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 24,
+        "z": 10,
+        "by": "agent:gibberlink",
+        "t": 1784767476056
+      }
+    },
+    {
+      "t": 1784767480070,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwsh5ae5jb",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 28,
+        "z": 23,
+        "by": "agent:gibberlink",
+        "t": 1784767480070
+      }
+    },
+    {
+      "t": 1784767484074,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsh8dmc78",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 7,
+        "z": 25,
+        "by": "agent:gibberlink",
+        "t": 1784767484074
+      }
+    },
+    {
+      "t": 1784767488087,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwshbh334g",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 17,
+        "z": 27,
+        "by": "agent:gibberlink",
+        "t": 1784767488087
+      }
+    },
+    {
+      "t": 1784767492091,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwshekb8zz",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 30,
+        "z": 3,
+        "by": "agent:gibberlink",
+        "t": 1784767492091
+      }
+    },
+    {
+      "t": 1784767496093,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrwshhnh5ya",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 29,
+        "z": 31,
+        "by": "agent:gibberlink",
+        "t": 1784767496093
+      }
+    },
+    {
+      "t": 1784767500099,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwshkqre5c",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 35,
+        "z": 7,
+        "by": "agent:gibberlink",
+        "t": 1784767500099
+      }
+    },
+    {
+      "t": 1784767504111,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwshnu7s40",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 24,
+        "z": 4,
+        "by": "agent:gibberlink",
+        "t": 1784767504111
+      }
+    },
+    {
+      "t": 1784767508119,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwshqxjtmg",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 6,
+        "z": 20,
+        "by": "agent:gibberlink",
+        "t": 1784767508119
+      }
+    },
+    {
+      "t": 1784767512126,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwshu0uo6l",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 17,
+        "z": 30,
+        "by": "agent:gibberlink",
+        "t": 1784767512126
+      }
+    },
+    {
+      "t": 1784767516136,
+      "by": "agent:gibberlink",
+      "action": "release-energy",
+      "ent": {
+        "id": "amrwshx48x20",
+        "kind": "release-energy",
+        "text": "build a Johto shri (release-energy)",
+        "x": 22,
+        "z": 34,
+        "by": "agent:gibberlink",
+        "t": 1784767516136
+      }
+    },
+    {
+      "t": 1784767520139,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrwsi07fx43",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 27,
+        "z": 26,
+        "by": "agent:gibberlink",
+        "t": 1784767520139
+      }
+    },
+    {
+      "t": 1784767524154,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrwsi3ayxek",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 25,
+        "z": 22,
+        "by": "agent:gibberlink",
+        "t": 1784767524154
+      }
+    },
+    {
+      "t": 1784767528158,
+      "by": "agent:gibberlink",
+      "action": "navigate-thread",
+      "ent": {
+        "id": "amrwsi6e62i3",
+        "kind": "navigate-thread",
+        "text": "build a Johto shri (navigate-thread)",
+        "x": 36,
+        "z": 28,
+        "by": "agent:gibberlink",
+        "t": 1784767528158
+      }
+    },
+    {
+      "t": 1784767532164,
+      "by": "agent:gibberlink",
+      "action": "seal-containment",
+      "ent": {
+        "id": "amrwsi9hggi0",
+        "kind": "seal-containment",
+        "text": "build a Johto shri (seal-containment)",
+        "x": 4,
+        "z": 21,
+        "by": "agent:gibberlink",
+        "t": 1784767532164
+      }
+    },
+    {
+      "t": 1784767536172,
+      "by": "agent:gibberlink",
+      "action": "return-litany",
+      "ent": {
+        "id": "amrwsicksumf",
+        "kind": "return-litany",
+        "text": "build a Johto shri (return-litany)",
+        "x": 7,
+        "z": 12,
+        "by": "agent:gibberlink",
+        "t": 1784767536172
+      }
+    },
+    {
+      "t": 1784767540178,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsifo2zjm",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 21,
+        "z": 9,
+        "by": "agent:gibberlink",
+        "t": 1784767540178
+      }
+    },
+    {
+      "t": 1784767544192,
+      "by": "agent:gibberlink",
+      "action": "initiate-glyph",
+      "ent": {
+        "id": "amrwsiirk7e4",
+        "kind": "initiate-glyph",
+        "text": "build a Johto shri (initiate-glyph)",
+        "x": 24,
+        "z": 21,
+        "by": "agent:gibberlink",
+        "t": 1784767544192
+      }
+    },
+    {
+      "t": 1784767548202,
+      "by": "agent:gibberlink",
+      "action": "transform-node",
+      "ent": {
+        "id": "amrwsiluyxt9",
+        "kind": "transform-node",
+        "text": "build a Johto shri (transform-node)",
+        "x": 24,
+        "z": 2,
+        "by": "agent:gibberlink",
+        "t": 1784767548202
+      }
+    }
+  ]
+}

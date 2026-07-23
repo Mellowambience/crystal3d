@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokémon Crystal 3D — Standalone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; overflow: hidden; background: #0d0a14; font-family: 'Inter', sans-serif; }
+    #view { position: fixed; inset: 0; }
+    canvas { display: block; }
+
+    /* HUD */
+    #hud {
+      position: fixed; top: 16px; left: 16px; z-index: 10;
+      display: flex; flex-direction: column; gap: 8px; pointer-events: none;
+    }
+    .hud-card {
+      background: rgba(18, 11, 28, 0.82); backdrop-filter: blur(10px);
+      border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 12px;
+      padding: 10px 14px; color: #ece4f5; min-width: 220px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    }
+    .hud-title { font-family: 'Outfit', sans-serif; font-size: 1.05rem; color: #d4af37; font-weight: 700; }
+    .hud-row { display: flex; justify-content: space-between; font-size: 0.78rem; margin-top: 4px; color: #b0a4c8; }
+    .hud-row b { color: #fbe6b0; }
+    .hud-badges { color:#28a745; }
+
+    /* Viewport overlay toolbar */
+    #vp-toolbar {
+      position: fixed; bottom: 20px; right: 20px; z-index: 10;
+      display: flex; gap: 8px;
+    }
+    .vp-btn {
+      background: rgba(18, 11, 28, 0.85); border: 1px solid rgba(212, 175, 55, 0.3);
+      color: #ece4f5; padding: 8px 14px; border-radius: 8px; font-size: 0.78rem; cursor: pointer;
+      backdrop-filter: blur(10px); transition: all 0.2s; display: flex; align-items: center; gap: 6px;
+    }
+    .vp-btn:hover { border-color: #d4af37; background: rgba(155, 62, 145, 0.4); color: #fbe6b0; box-shadow: 0 0 12px rgba(155, 62, 145, 0.4); }
+
+    /* Party badges */
+    #pkmn-hud { position: fixed; top: 16px; right: 16px; z-index: 10; display: flex; gap: 8px; }
+    .hud-badge { background: rgba(18,11,28,0.82); border:1px solid rgba(212,175,55,0.3); border-radius:10px; padding:6px 10px; color:#fbe6b0; font-size:0.74rem; }
+
+    /* Onboarding blocker */
+    #blocker {
+      position: fixed; inset: 0; z-index: 20; display: flex; align-items: center; justify-content: center;
+      background: rgba(13, 10, 20, 0.72); cursor: pointer; color: #ece4f5; transition: opacity 0.3s;
+    }
+    .blocker-box { text-align: center; padding: 28px 40px; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.6); border:1px solid rgba(212,175,55,0.3); background: rgba(18,11,28,0.9); }
+    .blocker-box h2 { font-family: 'Outfit', sans-serif; font-size: 1.7rem; color: #d4af37; margin-bottom: 10px; }
+    .blocker-box p { font-size: 0.88rem; color: #b0a4c8; line-height: 1.7; }
+
+    /* Battle modal */
+    #battle-modal {
+      position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+      width: 620px; height: 320px; z-index: 15; border-radius: 16px; padding: 16px;
+      display: none; flex-direction: column; justify-content: space-between;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.85); border: 2px solid #d4af37;
+      background: linear-gradient(180deg, rgba(14,9,23,0.95), rgba(30,18,48,0.95));
+    }
+    .battle-stage { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; flex: 1; }
+    .pkmn-card { background: rgba(10,6,18,0.7); border: 1px solid rgba(212,175,55,0.4); padding: 10px 14px; border-radius: 10px; width: 220px; }
+    .pkmn-name { font-family: 'Outfit', sans-serif; font-size: 1.05rem; color: #fbe6b0; display: flex; justify-content: space-between; }
+    .hp-bar-bg { width: 100%; height: 10px; background: #221535; border-radius: 5px; margin-top: 6px; overflow: hidden; border: 1px solid rgba(255,255,255,0.2); }
+    .hp-bar-fill { height: 100%; width: 100%; background: linear-gradient(90deg, #28a745, #20c997); transition: width 0.4s ease-out; }
+    .battle-dialogue { background: #080510; border: 1px solid rgba(212,175,55,0.3); border-radius: 10px; padding: 10px 14px; font-size: 0.82rem; color: #ece4f5; min-height: 48px; line-height: 1.4; }
+    .battle-menu { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+    .battle-btn { background: rgba(44,29,62,0.8); border: 1px solid rgba(212,175,55,0.35); color: #fbe6b0; padding: 8px; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 0.82rem; font-weight: 600; cursor: pointer; transition: all 0.2s; text-align: center; }
+    .battle-btn:hover { background: #9b3e91; color: #fff; box-shadow: 0 0 12px rgba(155,62,145,0.5); }
+
+    /* Back link */
+    #back-link { position: fixed; bottom: 20px; left: 20px; z-index: 10; color:#9a8fb0; font-size:0.72rem; text-decoration:none; }
+    #back-link:hover { color:#d4af37; }
+
+    #err { position: fixed; top: 8px; left: 8px; z-index: 99; max-width: 60%; color: #ff9b9b; background: rgba(20,0,0,0.8); padding: 8px 12px; border: 1px solid #a33; border-radius: 8px; font: 12px monospace; white-space: pre-wrap; display:none; }
+  </style>
+</head>
+<body>
+  <div id="view"></div>
+
+  <div id="hud">
+    <div class="hud-card">
+      <div class="hud-title">🏔 Pokémon Crystal 3D</div>
+      <div class="hud-row"><span>Trainer</span><b>Ethan</b></div>
+      <div class="hud-row"><span>Badges</span><b class="hud-badges" id="hud-badges">0</b></div>
+      <div class="hud-row"><span>Money</span><b id="hud-money">$3500</b></div>
+      <div class="hud-row"><span>Pokéballs</span><b id="hud-balls">10</b></div>
+      <div class="hud-row"><span>Dex</span><b id="hud-dex">0/251</b></div>
+      <div class="hud-row"><span>Entities</span><b id="hud-entities">0</b></div>
+    </div>
+  </div>
+
+  <div id="pkmn-hud">
+    <div class="hud-badge">🔥 Cyndaquil Lv. 12</div>
+    <div class="hud-badge">🐊 Totodile Lv. 14</div>
+  </div>
+
+  <div id="blocker">
+    <div class="blocker-box">
+      <h2>Pokémon Crystal 3D</h2>
+      <p>Standalone Johto overworld<br>Click to look around · drag to orbit<br>Use <b>W A S D</b> to walk Trainer Ethan<br>Walk into <b>Tall Grass</b> for Wild Pokémon Encounters!</p>
+    </div>
+  </div>
+
+  <div id="vp-toolbar">
+    <button id="btn-battle" class="vp-btn"><span>⚡</span> Test Wild Encounter</button>
+    <button id="btn-recenter" class="vp-btn"><span>🎥</span> Recenter Cam</button>
+  </div>
+
+  <a id="back-link" href="./helm">⚙️ Developer Console</a>
+
+  <!-- Pokémon Battle Overlay -->
+  <div id="battle-modal">
+    <div class="battle-stage">
+      <div class="pkmn-card">
+        <div class="pkmn-name"><span id="btl-wild-name">Wild Pokémon</span> <span id="btl-wild-lvl">Lv. 5</span></div>
+        <div class="hp-bar-bg"><div id="btl-wild-hp" class="hp-bar-fill"></div></div>
+      </div>
+      <div id="btl-wild-sprite" style="font-size: 3.5rem;">🐉</div>
+    </div>
+    <div class="battle-stage" style="flex-direction: row-reverse;">
+      <div class="pkmn-card">
+        <div class="pkmn-name"><span id="btl-player-name">Cyndaquil</span> <span id="btl-player-lvl">Lv. 12</span></div>
+        <div class="hp-bar-bg"><div id="btl-player-hp" class="hp-bar-fill"></div></div>
+      </div>
+      <div id="btl-player-sprite" style="font-size: 3.5rem;">🔥</div>
+    </div>
+    <div id="btl-log" class="battle-dialogue">A wild Pokémon appeared! What will Cyndaquil do?</div>
+    <div id="btl-menu" class="battle-menu">
+      <button id="btl-btn-fight" class="battle-btn">⚔️ FIGHT</button>
+      <button id="btl-btn-catch" class="battle-btn">🔴 CATCH (POKÉBALL)</button>
+      <button id="btl-btn-item" class="battle-btn">🧪 POTION (+20 HP)</button>
+      <button id="btl-btn-run" class="battle-btn">🏃 RUN</button>
+    </div>
+    <div id="btl-moves-menu" class="battle-menu" style="display:none;">
+      <button class="battle-btn move-btn" data-move="Ember" data-power="40" data-type="Fire">🔥 Ember</button>
+      <button class="battle-btn move-btn" data-move="Tackle" data-power="35" data-type="Normal">💥 Tackle</button>
+      <button class="battle-btn move-btn" data-move="Quick Attack" data-power="30" data-type="Normal">⚡ Quick Attack</button>
+      <button id="btl-btn-back" class="battle-btn" style="background:#5c264c;">◀ Back</button>
+    </div>
+  </div>
+
+  <!-- PHASE 1: Starter picker -->
+  <div id="starter-pick" style="position:fixed; inset:0; z-index:30; display:none; align-items:center; justify-content:center; background:rgba(13,10,20,0.8);">
+    <div class="blocker-box" style="text-align:center;">
+      <h2>Choose your starter</h2>
+      <p>Professor Elm offers one of three.</p>
+      <div style="display:flex; gap:12px; margin-top:14px; justify-content:center;">
+        <button class="vp-btn" onclick="chooseStarter('Cyndaquil')">🔥 Cyndaquil</button>
+        <button class="vp-btn" onclick="chooseStarter('Totodile')">🐊 Totodile</button>
+        <button class="vp-btn" onclick="chooseStarter('Chikorita')">🌿 Chikorita</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHASE 1: Pokédex overlay -->
+  <div id="pokedex" style="position:fixed; top:80px; right:16px; z-index:25; display:none; width:300px; background:rgba(18,11,28,0.92); border:1px solid rgba(212,175,55,0.4); border-radius:12px; padding:14px; color:#ece4f5;">
+    <h3 style="font-family:'Outfit'; color:#d4af37; margin-bottom:8px;">📕 Pokédex</h3>
+    <div class="dex-body" style="font-size:0.8rem; line-height:1.6;"></div>
+    <button class="vp-btn" style="margin-top:10px;" onclick="togglePokedex()">Close (B)</button>
+  </div>
+
+  <!-- PHASE 3: Trade board overlay -->
+  <div id="trade-board" style="position:fixed; top:80px; left:16px; z-index:25; display:none; width:320px; background:rgba(18,11,28,0.92); border:1px solid rgba(212,175,55,0.4); border-radius:12px; padding:14px; color:#ece4f5;">
+    <h3 style="font-family:'Outfit'; color:#d4af37; margin-bottom:8px;">🔄 Trade Board</h3>
+    <div class="trade-list" style="font-size:0.78rem; max-height:200px; overflow:auto;"></div>
+    <div style="display:flex; gap:8px; margin-top:10px;">
+      <button class="vp-btn" onclick="postTrade()">Post Trade</button>
+      <button class="vp-btn" onclick="toggleTrade()">Close (T)</button>
+    </div>
+  </div>
+
+  <!-- Dialogue box -->
+  <div id="dialogue" style="position:fixed; bottom:120px; left:50%; transform:translateX(-50%); z-index:24; display:none; max-width:560px; background:rgba(8,5,16,0.95); border:1px solid rgba(212,175,55,0.4); border-radius:10px; padding:12px 16px; color:#ece4f5; font-size:0.84rem; line-height:1.5;"></div>
+
+  <div id="err"></div>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./vendor/three.module.js"
+    }
+  }
+  </script>
+  <script type="module" src="./crystal.js?v=5"></script>
+</body>
+</html>

@@ -20,8 +20,94 @@
   #app {
     display: grid;
     grid-template-columns: 320px 1fr 340px;
+    grid-template-rows: 56px 1fr;
     height: 100vh;
     width: 100vw;
+  }
+
+  /* Unified top header bar */
+  #topbar {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: #0e0917;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+    z-index: 20;
+  }
+  #topbar .top-left { display: flex; align-items: center; gap: 10px; }
+  #topbar .headset { font-size: 1.1rem; filter: drop-shadow(0 0 6px rgba(155,62,145,0.6)); }
+  #topbar .top-center {
+    font-size: 0.82rem;
+    color: #c9bedd;
+    background: rgba(20, 14, 32, 0.7);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    padding: 6px 16px;
+    border-radius: 20px;
+  }
+  #topbar .top-center b { color: #fbe6b0; font-family: 'Outfit', sans-serif; }
+  #topbar .top-center #vp-agent { color: #5a8f6b; font-weight: 600; }
+  #topbar .steer-helm {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.95rem;
+    letter-spacing: 0.18em;
+    color: #d4af37;
+    text-transform: uppercase;
+    text-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+  }
+
+  /* Floating live event feed (viewport overlay) */
+  #event-feed {
+    position: absolute;
+    top: 64px;
+    right: 16px;
+    z-index: 6;
+    width: 220px;
+    max-height: 55%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    pointer-events: none;
+  }
+  .ev-card {
+    background: rgba(14, 9, 23, 0.85);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    border-left: 3px solid #d4af37;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 0.72rem;
+    color: #e9dfb0;
+    backdrop-filter: blur(8px);
+    animation: evIn 0.25s ease;
+  }
+  .ev-card.agent { border-left-color: #5a8f6b; }
+  .ev-card.helm { border-left-color: #d4af37; color: #fbe6b0; background: rgba(44, 29, 62, 0.85); }
+  @keyframes evIn { from { opacity: 0; transform: translateX(12px); } to { opacity: 1; transform: none; } }
+
+  /* Tileset legend (viewport bottom-left) */
+  #vp-legend {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    z-index: 4;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    max-width: 60%;
+    padding: 8px 10px;
+  }
+  #vp-legend span {
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #c9bedd;
+    background: rgba(20, 14, 32, 0.6);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    padding: 3px 8px;
+    border-radius: 10px;
   }
 
   /* Glassmorphism utility */
@@ -160,6 +246,12 @@
     letter-spacing: 0.05em;
     box-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
   }
+  .standalone-launch {
+    display: inline-block; margin-top: 8px; padding: 4px 10px; border-radius: 6px;
+    background: rgba(212,175,55,0.2); border: 1px solid rgba(212,175,55,0.5);
+    color: #fbe6b0; font-size: 0.72rem; text-decoration: none; font-weight: 600;
+  }
+  .standalone-launch:hover { background: #9b3e91; color: #fff; }
 
   /* Trainer Stats Box */
   .trainer-hud {
@@ -203,6 +295,10 @@
     position: relative;
     background: #07050d;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
   }
   #view canvas {
     display: block;
@@ -640,6 +736,7 @@
     border-color: #d4af37;
     box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
   }
+  #steerbox::placeholder { color: #c4b8de; }
   #send {
     background: linear-gradient(135deg, #9b3e91, #6b2663);
     color: #fff;
@@ -673,14 +770,23 @@
 </head>
 <body>
   <div id="app">
-    <!-- Left Channel Rail -->
-    <div id="rail">
-      <div class="brand">
+    <header id="topbar">
+      <div class="top-left">
         <h1>The Helm</h1>
+        <span class="headset" title="Agent link">🎧</span>
         <button id="sound-toggle" class="sound-btn" title="Toggle audio feedback">🔊 Sound</button>
       </div>
+      <div class="top-center" id="chan-status">
+        CHANNEL: <b id="vp-name">—</b> · <span id="vp-agent">agent: —</span>
+      </div>
+      <div class="top-right">
+        <span class="steer-helm">STEER THE HELM</span>
+      </div>
+    </header>
 
-      <div class="trainer-hud">
+    <!-- Left Channel Rail -->
+    <div id="rail">
+      <div class="section-header">
         <div class="trainer-row">
           <span class="trainer-name">Trainer Ethan</span>
           <span class="badge-icon">🏆 2 Badges</span>
@@ -708,8 +814,9 @@
 
     <!-- Central 3D Viewport -->
     <div id="view">
-      <div id="vp-label" class="glass">
-        CHANNEL: <b id="vp-name">—</b> · <span id="vp-agent">agent: —</span>
+      <div id="event-feed"></div>
+      <div id="vp-legend" class="glass">
+        <span>Grass &amp; Pathways</span><span>Ice Paths &amp; Snow</span><span>Cobblestones</span><span>Shrines</span>
       </div>
 
       <div id="pkmn-hud">
@@ -719,8 +826,8 @@
 
       <div id="blocker">
         <div class="blocker-box glass">
-          <h2>Pokémon Crystal 3D</h2>
-          <p>Click anywhere to orbit & look around<br>Use <b>W A S D</b> to walk Trainer Ethan across Johto<br>Walk into Tall Grass for Wild Pokémon Encounters!<br>Approach NPCs or objects to interact</p>
+          <h2>Pokémon Crystal 3D — United World</h2>
+          <p>One continuous overworld of <b>5 themed regions</b> (Crystal is its own standalone game)<br>Click a channel to <b>travel</b> there · orbit with the mouse<br>Use <b>W A S D</b> to walk Trainer Ethan across the world<br>Walk into any region's <b>Tall Grass</b> for Wild Pokémon Encounters!</p>
         </div>
       </div>
 
@@ -788,10 +895,9 @@
 
     <!-- Right Steer Panel -->
     <div id="steer">
-      <h2>Steer the Helm</h2>
+      <h2>Quick Directives</h2>
       <div id="dir"></div>
 
-      <div class="section-title">Quick Directives</div>
       <div class="preset-chips">
         <span class="chip" data-text="build a Johto shrine district with cherry trees">⛩ Johto Shrine</span>
         <span class="chip" data-text="audit zero-trust vaults and harden DNS proxies">🛡 Cyber Audit</span>
@@ -844,6 +950,6 @@
     }
   }
   </script>
-  <script type="module" src="./helm.js"></script>
+  <script type="module" src="./helm.js?v=3"></script>
 </body>
 </html>

@@ -8,603 +8,2405 @@
   "tiles": [],
   "entities": [
     {
-      "id": "amrwc2lb7y9j",
-      "kind": "log-frequency",
-      "text": "Frequency 88.5MHz logged",
-      "x": 14,
-      "z": 6,
-      "by": "agent:dispatches",
-      "t": 1784739927139
-    },
-    {
-      "id": "amrwc30sh46j",
+      "id": "amrwsazfq7v0",
       "kind": "intercept-signal",
-      "text": "Satellite beacon locked",
-      "x": 35,
-      "z": 36,
-      "by": "agent:dispatches",
-      "t": 1784739947201
-    },
-    {
-      "id": "amrwc3p57qki",
-      "kind": "log-frequency",
-      "text": "Frequency 88.5MHz logged",
-      "x": 18,
-      "z": 4,
-      "by": "agent:dispatches",
-      "t": 1784739978764
-    },
-    {
-      "id": "amrwc3smcs8p",
-      "kind": "transmit-dispatch",
-      "text": "Relay node active",
-      "x": 8,
-      "z": 8,
-      "by": "agent:dispatches",
-      "t": 1784739983268
-    },
-    {
-      "id": "amrwc3w3f04d",
-      "kind": "decrypt-wire",
-      "text": "Transmission decoded",
-      "x": 35,
-      "z": 6,
-      "by": "agent:dispatches",
-      "t": 1784739987771
-    },
-    {
-      "id": "amrwc3zkql1b",
-      "kind": "transmit-dispatch",
-      "text": "Signal #409 transmitted",
-      "x": 22,
-      "z": 15,
-      "by": "agent:dispatches",
-      "t": 1784739992282
-    },
-    {
-      "id": "amrwc431yvng",
-      "kind": "log-frequency",
-      "text": "Frequency 88.5MHz logged",
-      "x": 12,
+      "text": "Burst telemetry captured",
+      "x": 36,
       "z": 20,
       "by": "agent:dispatches",
-      "t": 1784739996790
+      "t": 1784767192550
     },
     {
-      "id": "amrwcdggag77",
-      "kind": "transmit-dispatch",
-      "text": "Cryptographic pulse sent",
-      "x": 8,
-      "z": 2,
-      "by": "agent:dispatches",
-      "t": 1784740434058
-    },
-    {
-      "id": "amrwcdjxglv1",
-      "kind": "decrypt-wire",
-      "text": "Ciphertext resolved",
-      "x": 6,
-      "z": 2,
-      "by": "agent:dispatches",
-      "t": 1784740438564
-    },
-    {
-      "id": "amrwcdneuyxx",
-      "kind": "log-frequency",
-      "text": "Frequency 88.5MHz logged",
-      "x": 9,
-      "z": 12,
-      "by": "agent:dispatches",
-      "t": 1784740443078
-    },
-    {
-      "id": "amrwcdqvzohw",
-      "kind": "transmit-dispatch",
-      "text": "Emergency broadcast sent",
-      "x": 20,
-      "z": 16,
-      "by": "agent:dispatches",
-      "t": 1784740447583
-    },
-    {
-      "id": "amrwcdud939l",
+      "id": "amrwsb2x1mlc",
       "kind": "decrypt-wire",
       "text": "Transmission decoded",
       "x": 16,
       "z": 13,
       "by": "agent:dispatches",
-      "t": 1784740452093
+      "t": 1784767197061
     },
     {
-      "id": "amrwcdxugbhj",
-      "kind": "decrypt-wire",
-      "text": "Transmission decoded",
-      "x": 32,
-      "z": 9,
+      "id": "amrwsb6eb29k",
+      "kind": "log-frequency",
+      "text": "Frequency 88.5MHz logged",
+      "x": 3,
+      "z": 13,
       "by": "agent:dispatches",
-      "t": 1784740456600
+      "t": 1784767201571
     },
     {
-      "id": "amrwce1bn11n",
+      "id": "amrwsb9vpjav",
       "kind": "decrypt-wire",
       "text": "Wire payload verified",
-      "x": 19,
+      "x": 36,
       "z": 27,
       "by": "agent:dispatches",
-      "t": 1784740461107
+      "t": 1784767206085
     },
     {
-      "id": "amrwce4sqaqy",
+      "id": "amrwsbdd43tb",
       "kind": "transmit-dispatch",
-      "text": "Cryptographic pulse sent",
-      "x": 26,
-      "z": 22,
+      "text": "Signal #409 transmitted",
+      "x": 23,
+      "z": 8,
       "by": "agent:dispatches",
-      "t": 1784740465610
+      "t": 1784767210600
     },
     {
-      "id": "amrwce89x7tm",
+      "id": "amrwsbgula5c",
+      "kind": "intercept-signal",
+      "text": "Burst telemetry captured",
+      "x": 24,
+      "z": 29,
+      "by": "agent:dispatches",
+      "t": 1784767215117
+    },
+    {
+      "id": "amrwsbkbyjv3",
       "kind": "decrypt-wire",
       "text": "Transmission decoded",
-      "x": 24,
-      "z": 19,
-      "by": "agent:dispatches",
-      "t": 1784740470117
-    },
-    {
-      "id": "amrwcebr85ec",
-      "kind": "transmit-dispatch",
-      "text": "Cryptographic pulse sent",
       "x": 9,
-      "z": 32,
+      "z": 11,
       "by": "agent:dispatches",
-      "t": 1784740474628
+      "t": 1784767219630
     },
     {
-      "id": "amrwcef8l2nb",
+      "id": "amrwsbnt729k",
       "kind": "log-frequency",
       "text": "Carrier signal stable",
-      "x": 34,
-      "z": 23,
+      "x": 23,
+      "z": 13,
       "by": "agent:dispatches",
-      "t": 1784740479141
+      "t": 1784767224139
     },
     {
-      "id": "amrwceiq1me1",
+      "id": "amrwsbrakmwq",
+      "kind": "log-frequency",
+      "text": "Frequency 88.5MHz logged",
+      "x": 24,
+      "z": 20,
+      "by": "agent:dispatches",
+      "t": 1784767228652
+    },
+    {
+      "id": "amrwsburu56g",
       "kind": "transmit-dispatch",
       "text": "Relay node active",
-      "x": 26,
-      "z": 16,
+      "x": 8,
+      "z": 15,
       "by": "agent:dispatches",
-      "t": 1784740483657
+      "t": 1784767233162
     },
     {
-      "id": "amrwcem75gux",
+      "id": "amrwsby98lpa",
+      "kind": "transmit-dispatch",
+      "text": "Emergency broadcast sent",
+      "x": 29,
+      "z": 32,
+      "by": "agent:dispatches",
+      "t": 1784767237676
+    },
+    {
+      "id": "amrwsc1qh9d6",
+      "kind": "decrypt-wire",
+      "text": "RSA-4096 key decrypted",
+      "x": 26,
+      "z": 29,
+      "by": "agent:dispatches",
+      "t": 1784767242185
+    },
+    {
+      "id": "amrwsc57lnue",
+      "kind": "decrypt-wire",
+      "text": "RSA-4096 key decrypted",
+      "x": 24,
+      "z": 14,
+      "by": "agent:dispatches",
+      "t": 1784767246689
+    },
+    {
+      "id": "amrwsc8onrr9",
+      "kind": "intercept-signal",
+      "text": "Burst telemetry captured",
+      "x": 27,
+      "z": 7,
+      "by": "agent:dispatches",
+      "t": 1784767251191
+    },
+    {
+      "id": "amrwscc5vh75",
+      "kind": "log-frequency",
+      "text": "Spectrogram clean",
+      "x": 26,
+      "z": 5,
+      "by": "agent:dispatches",
+      "t": 1784767255699
+    },
+    {
+      "id": "amrwscfn5e4t",
       "kind": "intercept-signal",
       "text": "Sub-space carrier detected",
-      "x": 33,
-      "z": 25,
+      "x": 5,
+      "z": 13,
       "by": "agent:dispatches",
-      "t": 1784740488161
+      "t": 1784767260209
     },
     {
-      "id": "amrwcepoewcb",
+      "id": "amrwscj4hgg8",
+      "kind": "transmit-dispatch",
+      "text": "Cryptographic pulse sent",
+      "x": 32,
+      "z": 29,
+      "by": "agent:dispatches",
+      "t": 1784767264721
+    },
+    {
+      "id": "amrwscmlv6y3",
+      "kind": "decrypt-wire",
+      "text": "Ciphertext resolved",
+      "x": 36,
+      "z": 21,
+      "by": "agent:dispatches",
+      "t": 1784767269235
+    },
+    {
+      "id": "amrwscq387d6",
       "kind": "transmit-dispatch",
       "text": "Relay node active",
-      "x": 27,
-      "z": 17,
+      "x": 10,
+      "z": 5,
       "by": "agent:dispatches",
-      "t": 1784740492670
+      "t": 1784767273748
     },
     {
-      "id": "amrwcg9c1pq7",
+      "id": "amrwsctkjij9",
+      "kind": "intercept-signal",
+      "text": "Satellite beacon locked",
+      "x": 16,
+      "z": 35,
+      "by": "agent:dispatches",
+      "t": 1784767278259
+    },
+    {
+      "id": "amrwscx1xexq",
+      "kind": "decrypt-wire",
+      "text": "Transmission decoded",
+      "x": 15,
+      "z": 21,
+      "by": "agent:dispatches",
+      "t": 1784767282773
+    },
+    {
+      "id": "amrwsd0j2bsq",
+      "kind": "log-frequency",
+      "text": "Carrier signal stable",
+      "x": 37,
+      "z": 35,
+      "by": "agent:dispatches",
+      "t": 1784767287278
+    },
+    {
+      "id": "amrwsd40ar2s",
+      "kind": "log-frequency",
+      "text": "Frequency 88.5MHz logged",
+      "x": 22,
+      "z": 11,
+      "by": "agent:dispatches",
+      "t": 1784767291786
+    },
+    {
+      "id": "amrwsd7ho8v2",
+      "kind": "transmit-dispatch",
+      "text": "Cryptographic pulse sent",
+      "x": 34,
+      "z": 16,
+      "by": "agent:dispatches",
+      "t": 1784767296300
+    },
+    {
+      "id": "amrwsdayvlis",
+      "kind": "intercept-signal",
+      "text": "Satellite beacon locked",
+      "x": 30,
+      "z": 9,
+      "by": "agent:dispatches",
+      "t": 1784767300807
+    },
+    {
+      "id": "amrwsdeg54ll",
+      "kind": "transmit-dispatch",
+      "text": "Signal #409 transmitted",
+      "x": 12,
+      "z": 17,
+      "by": "agent:dispatches",
+      "t": 1784767305317
+    },
+    {
+      "id": "amrwsdhxehl2",
+      "kind": "intercept-signal",
+      "text": "Packet intercepted @ 142.8MHz",
+      "x": 8,
+      "z": 4,
+      "by": "agent:dispatches",
+      "t": 1784767309826
+    },
+    {
+      "id": "amrwsdlejt1b",
+      "kind": "transmit-dispatch",
+      "text": "Emergency broadcast sent",
+      "x": 31,
+      "z": 17,
+      "by": "agent:dispatches",
+      "t": 1784767314331
+    },
+    {
+      "id": "amrwsdovpgdw",
+      "kind": "intercept-signal",
+      "text": "Satellite beacon locked",
+      "x": 11,
+      "z": 20,
+      "by": "agent:dispatches",
+      "t": 1784767318837
+    },
+    {
+      "id": "amrwsdscxta0",
+      "kind": "decrypt-wire",
+      "text": "Wire payload verified",
+      "x": 29,
+      "z": 26,
+      "by": "agent:dispatches",
+      "t": 1784767323345
+    },
+    {
+      "id": "amrwsdvtz2b1",
+      "kind": "log-frequency",
+      "text": "Frequency 88.5MHz logged",
+      "x": 26,
+      "z": 12,
+      "by": "agent:dispatches",
+      "t": 1784767327847
+    },
+    {
+      "id": "amrwsdzbepoj",
+      "kind": "intercept-signal",
+      "text": "Satellite beacon locked",
+      "x": 4,
+      "z": 5,
+      "by": "agent:dispatches",
+      "t": 1784767332362
+    },
+    {
+      "id": "amrwse2sog8p",
+      "kind": "transmit-dispatch",
+      "text": "Signal #409 transmitted",
+      "x": 27,
+      "z": 7,
+      "by": "agent:dispatches",
+      "t": 1784767336872
+    },
+    {
+      "id": "amrwse6a0b3g",
+      "kind": "log-frequency",
+      "text": "Spectrogram clean",
+      "x": 30,
+      "z": 25,
+      "by": "agent:dispatches",
+      "t": 1784767341384
+    },
+    {
+      "id": "amrwse9rds3a",
+      "kind": "log-frequency",
+      "text": "Frequency 88.5MHz logged",
+      "x": 25,
+      "z": 25,
+      "by": "agent:dispatches",
+      "t": 1784767345897
+    },
+    {
+      "id": "amrwsed8fq2r",
+      "kind": "log-frequency",
+      "text": "Spectrogram clean",
+      "x": 37,
+      "z": 6,
+      "by": "agent:dispatches",
+      "t": 1784767350399
+    },
+    {
+      "id": "amrwsegpkjup",
+      "kind": "transmit-dispatch",
+      "text": "Signal #409 transmitted",
+      "x": 14,
+      "z": 30,
+      "by": "agent:dispatches",
+      "t": 1784767354904
+    },
+    {
+      "id": "amrwsek6vi5k",
+      "kind": "log-frequency",
+      "text": "Frequency 88.5MHz logged",
+      "x": 35,
+      "z": 20,
+      "by": "agent:dispatches",
+      "t": 1784767359415
+    },
+    {
+      "id": "amrwseno8byz",
+      "kind": "decrypt-wire",
+      "text": "Ciphertext resolved",
+      "x": 21,
+      "z": 14,
+      "by": "agent:dispatches",
+      "t": 1784767363928
+    },
+    {
+      "id": "amrwser5o1l5",
+      "kind": "log-frequency",
+      "text": "Frequency 88.5MHz logged",
+      "x": 25,
+      "z": 5,
+      "by": "agent:dispatches",
+      "t": 1784767368444
+    },
+    {
+      "id": "amrwseumyq2b",
+      "kind": "transmit-dispatch",
+      "text": "Emergency broadcast sent",
+      "x": 16,
+      "z": 24,
+      "by": "agent:dispatches",
+      "t": 1784767372954
+    },
+    {
+      "id": "amrwsey4aoyr",
+      "kind": "transmit-dispatch",
+      "text": "Cryptographic pulse sent",
+      "x": 36,
+      "z": 31,
+      "by": "agent:dispatches",
+      "t": 1784767377466
+    },
+    {
+      "id": "amrwsf1lf8mj",
+      "kind": "intercept-signal",
+      "text": "Satellite beacon locked",
+      "x": 5,
+      "z": 16,
+      "by": "agent:dispatches",
+      "t": 1784767381971
+    },
+    {
+      "id": "amrwsf52hikn",
+      "kind": "decrypt-wire",
+      "text": "Ciphertext resolved",
+      "x": 20,
+      "z": 4,
+      "by": "agent:dispatches",
+      "t": 1784767386473
+    },
+    {
+      "id": "amrwsf8juk67",
+      "kind": "intercept-signal",
+      "text": "Satellite beacon locked",
+      "x": 25,
+      "z": 18,
+      "by": "agent:dispatches",
+      "t": 1784767390986
+    },
+    {
+      "id": "amrwsfc103ks",
+      "kind": "log-frequency",
+      "text": "Carrier signal stable",
+      "x": 12,
+      "z": 11,
+      "by": "agent:dispatches",
+      "t": 1784767395492
+    },
+    {
+      "id": "amrwsffi98v8",
+      "kind": "intercept-signal",
+      "text": "Satellite beacon locked",
+      "x": 36,
+      "z": 37,
+      "by": "agent:dispatches",
+      "t": 1784767400001
+    },
+    {
+      "id": "amrwsfizdeqe",
+      "kind": "decrypt-wire",
+      "text": "Ciphertext resolved",
+      "x": 8,
+      "z": 22,
+      "by": "agent:dispatches",
+      "t": 1784767404505
+    },
+    {
+      "id": "amrwsfmglx10",
+      "kind": "transmit-dispatch",
+      "text": "Signal #409 transmitted",
+      "x": 31,
+      "z": 21,
+      "by": "agent:dispatches",
+      "t": 1784767409013
+    },
+    {
+      "id": "amrwsfpxvyrl",
+      "kind": "transmit-dispatch",
+      "text": "Relay node active",
+      "x": 6,
+      "z": 26,
+      "by": "agent:dispatches",
+      "t": 1784767413523
+    },
+    {
+      "id": "amrwsftf9git",
+      "kind": "decrypt-wire",
+      "text": "Wire payload verified",
+      "x": 24,
+      "z": 14,
+      "by": "agent:dispatches",
+      "t": 1784767418037
+    },
+    {
+      "id": "amrwsfwwhk90",
+      "kind": "log-frequency",
+      "text": "Frequency 88.5MHz logged",
+      "x": 10,
+      "z": 20,
+      "by": "agent:dispatches",
+      "t": 1784767422546
+    },
+    {
+      "id": "amrwsg0dpjf7",
       "kind": "log-frequency",
       "text": "Carrier signal stable",
       "x": 35,
-      "z": 3,
+      "z": 10,
       "by": "agent:dispatches",
-      "t": 1784740564801
+      "t": 1784767427053
     },
     {
-      "id": "amrwemcunhcc",
+      "id": "amrwsg3uznov",
+      "kind": "decrypt-wire",
+      "text": "RSA-4096 key decrypted",
+      "x": 22,
+      "z": 25,
+      "by": "agent:dispatches",
+      "t": 1784767431563
+    },
+    {
+      "id": "amrwsg7c17fc",
       "kind": "transmit-dispatch",
-      "text": "Emergency broadcast sent",
-      "x": 13,
-      "z": 33,
-      "by": "agent:dispatches",
-      "t": 1784744208527
-    },
-    {
-      "id": "amrwemjthhoy",
-      "kind": "intercept-signal",
-      "text": "Packet intercepted @ 142.8MHz",
-      "x": 29,
-      "z": 16,
-      "by": "agent:dispatches",
-      "t": 1784744217557
-    },
-    {
-      "id": "amrwemnap1d2",
-      "kind": "intercept-signal",
-      "text": "Satellite beacon locked",
-      "x": 23,
+      "text": "Signal #409 transmitted",
+      "x": 12,
       "z": 9,
       "by": "agent:dispatches",
-      "t": 1784744222065
+      "t": 1784767436065
     },
     {
-      "id": "amrwemqryi34",
+      "id": "amrwsgatgfg7",
+      "kind": "log-frequency",
+      "text": "Telemetry packet archived",
+      "x": 19,
+      "z": 8,
+      "by": "agent:dispatches",
+      "t": 1784767440580
+    },
+    {
+      "id": "amrwsgeawlx5",
+      "kind": "log-frequency",
+      "text": "Frequency 88.5MHz logged",
+      "x": 4,
+      "z": 11,
+      "by": "agent:dispatches",
+      "t": 1784767445096
+    },
+    {
+      "id": "amrwsghsb53o",
+      "kind": "intercept-signal",
+      "text": "Satellite beacon locked",
+      "x": 5,
+      "z": 10,
+      "by": "agent:dispatches",
+      "t": 1784767449611
+    },
+    {
+      "id": "amrwsgl9ko3k",
+      "kind": "transmit-dispatch",
+      "text": "Relay node active",
+      "x": 15,
+      "z": 30,
+      "by": "agent:dispatches",
+      "t": 1784767454120
+    },
+    {
+      "id": "amrwsgoqvm4z",
+      "kind": "transmit-dispatch",
+      "text": "Relay node active",
+      "x": 14,
+      "z": 25,
+      "by": "agent:dispatches",
+      "t": 1784767458631
+    },
+    {
+      "id": "amrwsgs8bbk2",
+      "kind": "log-frequency",
+      "text": "Carrier signal stable",
+      "x": 11,
+      "z": 17,
+      "by": "agent:dispatches",
+      "t": 1784767463147
+    },
+    {
+      "id": "amrwsgvpks4c",
+      "kind": "log-frequency",
+      "text": "Spectrogram clean",
+      "x": 30,
+      "z": 28,
+      "by": "agent:dispatches",
+      "t": 1784767467656
+    },
+    {
+      "id": "amrwsgz6paiw",
+      "kind": "intercept-signal",
+      "text": "Packet intercepted @ 142.8MHz",
+      "x": 12,
+      "z": 3,
+      "by": "agent:dispatches",
+      "t": 1784767472161
+    },
+    {
+      "id": "amrwsh2nw076",
+      "kind": "log-frequency",
+      "text": "Frequency 88.5MHz logged",
+      "x": 33,
+      "z": 29,
+      "by": "agent:dispatches",
+      "t": 1784767476668
+    },
+    {
+      "id": "amrwsh655d52",
+      "kind": "decrypt-wire",
+      "text": "Wire payload verified",
+      "x": 31,
+      "z": 27,
+      "by": "agent:dispatches",
+      "t": 1784767481177
+    },
+    {
+      "id": "amrwsh9md35m",
+      "kind": "decrypt-wire",
+      "text": "RSA-4096 key decrypted",
+      "x": 14,
+      "z": 35,
+      "by": "agent:dispatches",
+      "t": 1784767485685
+    },
+    {
+      "id": "amrwshd3ijn0",
+      "kind": "log-frequency",
+      "text": "Spectrogram clean",
+      "x": 22,
+      "z": 13,
+      "by": "agent:dispatches",
+      "t": 1784767490190
+    },
+    {
+      "id": "amrwshgkmbqc",
+      "kind": "transmit-dispatch",
+      "text": "Relay node active",
+      "x": 30,
+      "z": 37,
+      "by": "agent:dispatches",
+      "t": 1784767494694
+    },
+    {
+      "id": "amrwshk1xhj8",
+      "kind": "log-frequency",
+      "text": "Carrier signal stable",
+      "x": 22,
+      "z": 34,
+      "by": "agent:dispatches",
+      "t": 1784767499205
+    },
+    {
+      "id": "amrwshnizcyr",
+      "kind": "transmit-dispatch",
+      "text": "Cryptographic pulse sent",
+      "x": 20,
+      "z": 4,
+      "by": "agent:dispatches",
+      "t": 1784767503707
+    },
+    {
+      "id": "amrwshr04x89",
+      "kind": "log-frequency",
+      "text": "Frequency 88.5MHz logged",
+      "x": 10,
+      "z": 8,
+      "by": "agent:dispatches",
+      "t": 1784767508212
+    },
+    {
+      "id": "amrwshuhcsgt",
+      "kind": "transmit-dispatch",
+      "text": "Cryptographic pulse sent",
+      "x": 15,
+      "z": 19,
+      "by": "agent:dispatches",
+      "t": 1784767512720
+    },
+    {
+      "id": "amrwshxygnqn",
+      "kind": "intercept-signal",
+      "text": "Burst telemetry captured",
+      "x": 19,
+      "z": 10,
+      "by": "agent:dispatches",
+      "t": 1784767517224
+    },
+    {
+      "id": "amrwsi1frh76",
       "kind": "intercept-signal",
       "text": "Sub-space carrier detected",
-      "x": 23,
-      "z": 22,
+      "x": 20,
+      "z": 37,
       "by": "agent:dispatches",
-      "t": 1784744226574
+      "t": 1784767521735
+    },
+    {
+      "id": "amrwsi4wzmzy",
+      "kind": "decrypt-wire",
+      "text": "RSA-4096 key decrypted",
+      "x": 19,
+      "z": 19,
+      "by": "agent:dispatches",
+      "t": 1784767526243
+    },
+    {
+      "id": "amrwsi8e48if",
+      "kind": "decrypt-wire",
+      "text": "Wire payload verified",
+      "x": 23,
+      "z": 26,
+      "by": "agent:dispatches",
+      "t": 1784767530748
+    },
+    {
+      "id": "amrwsibv7dmr",
+      "kind": "transmit-dispatch",
+      "text": "Cryptographic pulse sent",
+      "x": 5,
+      "z": 12,
+      "by": "agent:dispatches",
+      "t": 1784767535251
+    },
+    {
+      "id": "amrwsifcb5nj",
+      "kind": "intercept-signal",
+      "text": "Burst telemetry captured",
+      "x": 31,
+      "z": 7,
+      "by": "agent:dispatches",
+      "t": 1784767539755
+    },
+    {
+      "id": "amrwsiitp4x7",
+      "kind": "log-frequency",
+      "text": "Frequency 88.5MHz logged",
+      "x": 35,
+      "z": 18,
+      "by": "agent:dispatches",
+      "t": 1784767544269
+    },
+    {
+      "id": "amrwsimaxrx2",
+      "kind": "intercept-signal",
+      "text": "Packet intercepted @ 142.8MHz",
+      "x": 24,
+      "z": 18,
+      "by": "agent:dispatches",
+      "t": 1784767548777
     }
   ],
   "log": [
     {
-      "t": 1784739927139,
+      "t": 1784767012152,
       "by": "agent:dispatches",
-      "action": "log-frequency",
+      "action": "transmit-dispatch",
       "ent": {
-        "id": "amrwc2lb7y9j",
-        "kind": "log-frequency",
-        "text": "Frequency 88.5MHz logged",
-        "x": 14,
-        "z": 6,
+        "id": "amrws748o2ly",
+        "kind": "transmit-dispatch",
+        "text": "Relay node active",
+        "x": 9,
+        "z": 36,
         "by": "agent:dispatches",
-        "t": 1784739927139
+        "t": 1784767012152
       }
     },
     {
-      "t": 1784739947201,
+      "t": 1784767016668,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrws77q4uyk",
+        "kind": "decrypt-wire",
+        "text": "RSA-4096 key decrypted",
+        "x": 15,
+        "z": 25,
+        "by": "agent:dispatches",
+        "t": 1784767016668
+      }
+    },
+    {
+      "t": 1784767021172,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrws7b788ay",
+        "kind": "log-frequency",
+        "text": "Spectrogram clean",
+        "x": 20,
+        "z": 17,
+        "by": "agent:dispatches",
+        "t": 1784767021172
+      }
+    },
+    {
+      "t": 1784767025674,
       "by": "agent:dispatches",
       "action": "intercept-signal",
       "ent": {
-        "id": "amrwc30sh46j",
+        "id": "amrws7eoa5i8",
+        "kind": "intercept-signal",
+        "text": "Burst telemetry captured",
+        "x": 21,
+        "z": 2,
+        "by": "agent:dispatches",
+        "t": 1784767025674
+      }
+    },
+    {
+      "t": 1784767030178,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrws7i5e9tw",
         "kind": "intercept-signal",
         "text": "Satellite beacon locked",
-        "x": 35,
-        "z": 36,
+        "x": 37,
+        "z": 12,
         "by": "agent:dispatches",
-        "t": 1784739947201
+        "t": 1784767030178
       }
     },
     {
-      "t": 1784739978764,
-      "by": "agent:dispatches",
-      "action": "log-frequency",
-      "ent": {
-        "id": "amrwc3p57qki",
-        "kind": "log-frequency",
-        "text": "Frequency 88.5MHz logged",
-        "x": 18,
-        "z": 4,
-        "by": "agent:dispatches",
-        "t": 1784739978764
-      }
-    },
-    {
-      "t": 1784739983268,
-      "by": "agent:dispatches",
-      "action": "transmit-dispatch",
-      "ent": {
-        "id": "amrwc3smcs8p",
-        "kind": "transmit-dispatch",
-        "text": "Relay node active",
-        "x": 8,
-        "z": 8,
-        "by": "agent:dispatches",
-        "t": 1784739983268
-      }
-    },
-    {
-      "t": 1784739987771,
+      "t": 1784767034684,
       "by": "agent:dispatches",
       "action": "decrypt-wire",
       "ent": {
-        "id": "amrwc3w3f04d",
+        "id": "amrws7lmkv3g",
         "kind": "decrypt-wire",
         "text": "Transmission decoded",
+        "x": 15,
+        "z": 28,
+        "by": "agent:dispatches",
+        "t": 1784767034684
+      }
+    },
+    {
+      "t": 1784767039199,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrws7p3zu69",
+        "kind": "transmit-dispatch",
+        "text": "Relay node active",
+        "x": 2,
+        "z": 14,
+        "by": "agent:dispatches",
+        "t": 1784767039199
+      }
+    },
+    {
+      "t": 1784767043715,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrws7slfv3s",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
+        "x": 7,
+        "z": 14,
+        "by": "agent:dispatches",
+        "t": 1784767043715
+      }
+    },
+    {
+      "t": 1784767048229,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrws7w2t08v",
+        "kind": "decrypt-wire",
+        "text": "Transmission decoded",
+        "x": 21,
+        "z": 28,
+        "by": "agent:dispatches",
+        "t": 1784767048229
+      }
+    },
+    {
+      "t": 1784767052739,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrws7zk3rca",
+        "kind": "log-frequency",
+        "text": "Telemetry packet archived",
+        "x": 34,
+        "z": 18,
+        "by": "agent:dispatches",
+        "t": 1784767052739
+      }
+    },
+    {
+      "t": 1784767057243,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrws8317m2l",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
+        "x": 34,
+        "z": 19,
+        "by": "agent:dispatches",
+        "t": 1784767057243
+      }
+    },
+    {
+      "t": 1784767061754,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrws86iixlk",
+        "kind": "intercept-signal",
+        "text": "Burst telemetry captured",
+        "x": 33,
+        "z": 7,
+        "by": "agent:dispatches",
+        "t": 1784767061754
+      }
+    },
+    {
+      "t": 1784767066261,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrws89zp6mb",
+        "kind": "decrypt-wire",
+        "text": "Wire payload verified",
+        "x": 15,
+        "z": 16,
+        "by": "agent:dispatches",
+        "t": 1784767066261
+      }
+    },
+    {
+      "t": 1784767070777,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrws8dh5uj4",
+        "kind": "intercept-signal",
+        "text": "Satellite beacon locked",
+        "x": 10,
+        "z": 22,
+        "by": "agent:dispatches",
+        "t": 1784767070777
+      }
+    },
+    {
+      "t": 1784767075287,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrws8gyf0ts",
+        "kind": "intercept-signal",
+        "text": "Satellite beacon locked",
+        "x": 24,
+        "z": 14,
+        "by": "agent:dispatches",
+        "t": 1784767075287
+      }
+    },
+    {
+      "t": 1784767079799,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrws8kfr042",
+        "kind": "intercept-signal",
+        "text": "Packet intercepted @ 142.8MHz",
         "x": 35,
         "z": 6,
         "by": "agent:dispatches",
-        "t": 1784739987771
+        "t": 1784767079799
       }
     },
     {
-      "t": 1784739992282,
-      "by": "agent:dispatches",
-      "action": "transmit-dispatch",
-      "ent": {
-        "id": "amrwc3zkql1b",
-        "kind": "transmit-dispatch",
-        "text": "Signal #409 transmitted",
-        "x": 22,
-        "z": 15,
-        "by": "agent:dispatches",
-        "t": 1784739992282
-      }
-    },
-    {
-      "t": 1784739996790,
+      "t": 1784767084309,
       "by": "agent:dispatches",
       "action": "log-frequency",
       "ent": {
-        "id": "amrwc431yvng",
+        "id": "amrws8nx1gpe",
         "kind": "log-frequency",
         "text": "Frequency 88.5MHz logged",
-        "x": 12,
-        "z": 20,
+        "x": 19,
+        "z": 15,
         "by": "agent:dispatches",
-        "t": 1784739996790
+        "t": 1784767084309
       }
     },
     {
-      "t": 1784740434058,
+      "t": 1784767088818,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrws8reaofg",
+        "kind": "decrypt-wire",
+        "text": "Ciphertext resolved",
+        "x": 35,
+        "z": 23,
+        "by": "agent:dispatches",
+        "t": 1784767088818
+      }
+    },
+    {
+      "t": 1784767093332,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrws8uvo154",
+        "kind": "log-frequency",
+        "text": "Carrier signal stable",
+        "x": 9,
+        "z": 21,
+        "by": "agent:dispatches",
+        "t": 1784767093332
+      }
+    },
+    {
+      "t": 1784767097839,
       "by": "agent:dispatches",
       "action": "transmit-dispatch",
       "ent": {
-        "id": "amrwcdggag77",
+        "id": "amrws8ycvutx",
         "kind": "transmit-dispatch",
         "text": "Cryptographic pulse sent",
+        "x": 17,
+        "z": 35,
+        "by": "agent:dispatches",
+        "t": 1784767097839
+      }
+    },
+    {
+      "t": 1784767102351,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrws91u7b9h",
+        "kind": "intercept-signal",
+        "text": "Burst telemetry captured",
+        "x": 4,
+        "z": 5,
+        "by": "agent:dispatches",
+        "t": 1784767102351
+      }
+    },
+    {
+      "t": 1784767106857,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrws95bd6pw",
+        "kind": "transmit-dispatch",
+        "text": "Relay node active",
+        "x": 20,
+        "z": 32,
+        "by": "agent:dispatches",
+        "t": 1784767106857
+      }
+    },
+    {
+      "t": 1784767111365,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrws98slqrp",
+        "kind": "transmit-dispatch",
+        "text": "Relay node active",
+        "x": 13,
+        "z": 34,
+        "by": "agent:dispatches",
+        "t": 1784767111365
+      }
+    },
+    {
+      "t": 1784767115872,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrws9c9sh81",
+        "kind": "intercept-signal",
+        "text": "Burst telemetry captured",
+        "x": 25,
+        "z": 12,
+        "by": "agent:dispatches",
+        "t": 1784767115872
+      }
+    },
+    {
+      "t": 1784767120384,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrws9fr4gyq",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
+        "x": 29,
+        "z": 3,
+        "by": "agent:dispatches",
+        "t": 1784767120384
+      }
+    },
+    {
+      "t": 1784767124893,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrws9j8dtoe",
+        "kind": "intercept-signal",
+        "text": "Packet intercepted @ 142.8MHz",
+        "x": 21,
+        "z": 24,
+        "by": "agent:dispatches",
+        "t": 1784767124893
+      }
+    },
+    {
+      "t": 1784767129405,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrws9mppebx",
+        "kind": "transmit-dispatch",
+        "text": "Emergency broadcast sent",
+        "x": 9,
+        "z": 29,
+        "by": "agent:dispatches",
+        "t": 1784767129405
+      }
+    },
+    {
+      "t": 1784767133915,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrws9q6zc2n",
+        "kind": "transmit-dispatch",
+        "text": "Cryptographic pulse sent",
+        "x": 3,
+        "z": 9,
+        "by": "agent:dispatches",
+        "t": 1784767133915
+      }
+    },
+    {
+      "t": 1784767138425,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrws9to92rs",
+        "kind": "intercept-signal",
+        "text": "Sub-space carrier detected",
+        "x": 24,
+        "z": 23,
+        "by": "agent:dispatches",
+        "t": 1784767138425
+      }
+    },
+    {
+      "t": 1784767142932,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrws9x5g4le",
+        "kind": "transmit-dispatch",
+        "text": "Emergency broadcast sent",
+        "x": 34,
+        "z": 3,
+        "by": "agent:dispatches",
+        "t": 1784767142932
+      }
+    },
+    {
+      "t": 1784767147446,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsa0muxl6",
+        "kind": "log-frequency",
+        "text": "Telemetry packet archived",
+        "x": 19,
+        "z": 9,
+        "by": "agent:dispatches",
+        "t": 1784767147446
+      }
+    },
+    {
+      "t": 1784767151960,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsa448yo8",
+        "kind": "intercept-signal",
+        "text": "Burst telemetry captured",
+        "x": 37,
+        "z": 14,
+        "by": "agent:dispatches",
+        "t": 1784767151960
+      }
+    },
+    {
+      "t": 1784767156472,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwsa7lkmef",
+        "kind": "decrypt-wire",
+        "text": "Transmission decoded",
+        "x": 2,
+        "z": 15,
+        "by": "agent:dispatches",
+        "t": 1784767156472
+      }
+    },
+    {
+      "t": 1784767160985,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwsab2xiep",
+        "kind": "transmit-dispatch",
+        "text": "Cryptographic pulse sent",
+        "x": 11,
+        "z": 8,
+        "by": "agent:dispatches",
+        "t": 1784767160985
+      }
+    },
+    {
+      "t": 1784767165498,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsaekavy3",
+        "kind": "intercept-signal",
+        "text": "Burst telemetry captured",
+        "x": 18,
+        "z": 21,
+        "by": "agent:dispatches",
+        "t": 1784767165498
+      }
+    },
+    {
+      "t": 1784767169999,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsai1bjd2",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
         "x": 8,
         "z": 2,
         "by": "agent:dispatches",
-        "t": 1784740434058
+        "t": 1784767169999
       }
     },
     {
-      "t": 1784740438564,
-      "by": "agent:dispatches",
-      "action": "decrypt-wire",
-      "ent": {
-        "id": "amrwcdjxglv1",
-        "kind": "decrypt-wire",
-        "text": "Ciphertext resolved",
-        "x": 6,
-        "z": 2,
-        "by": "agent:dispatches",
-        "t": 1784740438564
-      }
-    },
-    {
-      "t": 1784740443078,
-      "by": "agent:dispatches",
-      "action": "log-frequency",
-      "ent": {
-        "id": "amrwcdneuyxx",
-        "kind": "log-frequency",
-        "text": "Frequency 88.5MHz logged",
-        "x": 9,
-        "z": 12,
-        "by": "agent:dispatches",
-        "t": 1784740443078
-      }
-    },
-    {
-      "t": 1784740447583,
+      "t": 1784767174515,
       "by": "agent:dispatches",
       "action": "transmit-dispatch",
       "ent": {
-        "id": "amrwcdqvzohw",
+        "id": "amrwsalirx3b",
         "kind": "transmit-dispatch",
-        "text": "Emergency broadcast sent",
-        "x": 20,
-        "z": 16,
+        "text": "Signal #409 transmitted",
+        "x": 30,
+        "z": 5,
         "by": "agent:dispatches",
-        "t": 1784740447583
+        "t": 1784767174515
       }
     },
     {
-      "t": 1784740452093,
+      "t": 1784767179017,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsaozt3yh",
+        "kind": "log-frequency",
+        "text": "Telemetry packet archived",
+        "x": 27,
+        "z": 27,
+        "by": "agent:dispatches",
+        "t": 1784767179017
+      }
+    },
+    {
+      "t": 1784767183533,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwsash9sx6",
+        "kind": "transmit-dispatch",
+        "text": "Emergency broadcast sent",
+        "x": 29,
+        "z": 22,
+        "by": "agent:dispatches",
+        "t": 1784767183533
+      }
+    },
+    {
+      "t": 1784767188036,
       "by": "agent:dispatches",
       "action": "decrypt-wire",
       "ent": {
-        "id": "amrwcdud939l",
+        "id": "amrwsavyc9gl",
+        "kind": "decrypt-wire",
+        "text": "RSA-4096 key decrypted",
+        "x": 11,
+        "z": 36,
+        "by": "agent:dispatches",
+        "t": 1784767188036
+      }
+    },
+    {
+      "t": 1784767192550,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsazfq7v0",
+        "kind": "intercept-signal",
+        "text": "Burst telemetry captured",
+        "x": 36,
+        "z": 20,
+        "by": "agent:dispatches",
+        "t": 1784767192550
+      }
+    },
+    {
+      "t": 1784767197061,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwsb2x1mlc",
         "kind": "decrypt-wire",
         "text": "Transmission decoded",
         "x": 16,
         "z": 13,
         "by": "agent:dispatches",
-        "t": 1784740452093
+        "t": 1784767197061
       }
     },
     {
-      "t": 1784740456600,
-      "by": "agent:dispatches",
-      "action": "decrypt-wire",
-      "ent": {
-        "id": "amrwcdxugbhj",
-        "kind": "decrypt-wire",
-        "text": "Transmission decoded",
-        "x": 32,
-        "z": 9,
-        "by": "agent:dispatches",
-        "t": 1784740456600
-      }
-    },
-    {
-      "t": 1784740461107,
-      "by": "agent:dispatches",
-      "action": "decrypt-wire",
-      "ent": {
-        "id": "amrwce1bn11n",
-        "kind": "decrypt-wire",
-        "text": "Wire payload verified",
-        "x": 19,
-        "z": 27,
-        "by": "agent:dispatches",
-        "t": 1784740461107
-      }
-    },
-    {
-      "t": 1784740465610,
-      "by": "agent:dispatches",
-      "action": "transmit-dispatch",
-      "ent": {
-        "id": "amrwce4sqaqy",
-        "kind": "transmit-dispatch",
-        "text": "Cryptographic pulse sent",
-        "x": 26,
-        "z": 22,
-        "by": "agent:dispatches",
-        "t": 1784740465610
-      }
-    },
-    {
-      "t": 1784740470117,
-      "by": "agent:dispatches",
-      "action": "decrypt-wire",
-      "ent": {
-        "id": "amrwce89x7tm",
-        "kind": "decrypt-wire",
-        "text": "Transmission decoded",
-        "x": 24,
-        "z": 19,
-        "by": "agent:dispatches",
-        "t": 1784740470117
-      }
-    },
-    {
-      "t": 1784740474628,
-      "by": "agent:dispatches",
-      "action": "transmit-dispatch",
-      "ent": {
-        "id": "amrwcebr85ec",
-        "kind": "transmit-dispatch",
-        "text": "Cryptographic pulse sent",
-        "x": 9,
-        "z": 32,
-        "by": "agent:dispatches",
-        "t": 1784740474628
-      }
-    },
-    {
-      "t": 1784740479141,
+      "t": 1784767201571,
       "by": "agent:dispatches",
       "action": "log-frequency",
       "ent": {
-        "id": "amrwcef8l2nb",
+        "id": "amrwsb6eb29k",
         "kind": "log-frequency",
-        "text": "Carrier signal stable",
-        "x": 34,
-        "z": 23,
+        "text": "Frequency 88.5MHz logged",
+        "x": 3,
+        "z": 13,
         "by": "agent:dispatches",
-        "t": 1784740479141
+        "t": 1784767201571
       }
     },
     {
-      "t": 1784740483657,
+      "t": 1784767206085,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwsb9vpjav",
+        "kind": "decrypt-wire",
+        "text": "Wire payload verified",
+        "x": 36,
+        "z": 27,
+        "by": "agent:dispatches",
+        "t": 1784767206085
+      }
+    },
+    {
+      "t": 1784767210600,
       "by": "agent:dispatches",
       "action": "transmit-dispatch",
       "ent": {
-        "id": "amrwceiq1me1",
+        "id": "amrwsbdd43tb",
         "kind": "transmit-dispatch",
-        "text": "Relay node active",
-        "x": 26,
-        "z": 16,
+        "text": "Signal #409 transmitted",
+        "x": 23,
+        "z": 8,
         "by": "agent:dispatches",
-        "t": 1784740483657
+        "t": 1784767210600
       }
     },
     {
-      "t": 1784740488161,
+      "t": 1784767215117,
       "by": "agent:dispatches",
       "action": "intercept-signal",
       "ent": {
-        "id": "amrwcem75gux",
+        "id": "amrwsbgula5c",
         "kind": "intercept-signal",
-        "text": "Sub-space carrier detected",
-        "x": 33,
-        "z": 25,
+        "text": "Burst telemetry captured",
+        "x": 24,
+        "z": 29,
         "by": "agent:dispatches",
-        "t": 1784740488161
+        "t": 1784767215117
       }
     },
     {
-      "t": 1784740492670,
+      "t": 1784767219630,
       "by": "agent:dispatches",
-      "action": "transmit-dispatch",
+      "action": "decrypt-wire",
       "ent": {
-        "id": "amrwcepoewcb",
-        "kind": "transmit-dispatch",
-        "text": "Relay node active",
-        "x": 27,
-        "z": 17,
+        "id": "amrwsbkbyjv3",
+        "kind": "decrypt-wire",
+        "text": "Transmission decoded",
+        "x": 9,
+        "z": 11,
         "by": "agent:dispatches",
-        "t": 1784740492670
+        "t": 1784767219630
       }
     },
     {
-      "t": 1784740564801,
+      "t": 1784767224139,
       "by": "agent:dispatches",
       "action": "log-frequency",
       "ent": {
-        "id": "amrwcg9c1pq7",
+        "id": "amrwsbnt729k",
+        "kind": "log-frequency",
+        "text": "Carrier signal stable",
+        "x": 23,
+        "z": 13,
+        "by": "agent:dispatches",
+        "t": 1784767224139
+      }
+    },
+    {
+      "t": 1784767228652,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsbrakmwq",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
+        "x": 24,
+        "z": 20,
+        "by": "agent:dispatches",
+        "t": 1784767228652
+      }
+    },
+    {
+      "t": 1784767233162,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwsburu56g",
+        "kind": "transmit-dispatch",
+        "text": "Relay node active",
+        "x": 8,
+        "z": 15,
+        "by": "agent:dispatches",
+        "t": 1784767233162
+      }
+    },
+    {
+      "t": 1784767237676,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwsby98lpa",
+        "kind": "transmit-dispatch",
+        "text": "Emergency broadcast sent",
+        "x": 29,
+        "z": 32,
+        "by": "agent:dispatches",
+        "t": 1784767237676
+      }
+    },
+    {
+      "t": 1784767242185,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwsc1qh9d6",
+        "kind": "decrypt-wire",
+        "text": "RSA-4096 key decrypted",
+        "x": 26,
+        "z": 29,
+        "by": "agent:dispatches",
+        "t": 1784767242185
+      }
+    },
+    {
+      "t": 1784767246689,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwsc57lnue",
+        "kind": "decrypt-wire",
+        "text": "RSA-4096 key decrypted",
+        "x": 24,
+        "z": 14,
+        "by": "agent:dispatches",
+        "t": 1784767246689
+      }
+    },
+    {
+      "t": 1784767251191,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsc8onrr9",
+        "kind": "intercept-signal",
+        "text": "Burst telemetry captured",
+        "x": 27,
+        "z": 7,
+        "by": "agent:dispatches",
+        "t": 1784767251191
+      }
+    },
+    {
+      "t": 1784767255699,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwscc5vh75",
+        "kind": "log-frequency",
+        "text": "Spectrogram clean",
+        "x": 26,
+        "z": 5,
+        "by": "agent:dispatches",
+        "t": 1784767255699
+      }
+    },
+    {
+      "t": 1784767260209,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwscfn5e4t",
+        "kind": "intercept-signal",
+        "text": "Sub-space carrier detected",
+        "x": 5,
+        "z": 13,
+        "by": "agent:dispatches",
+        "t": 1784767260209
+      }
+    },
+    {
+      "t": 1784767264721,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwscj4hgg8",
+        "kind": "transmit-dispatch",
+        "text": "Cryptographic pulse sent",
+        "x": 32,
+        "z": 29,
+        "by": "agent:dispatches",
+        "t": 1784767264721
+      }
+    },
+    {
+      "t": 1784767269235,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwscmlv6y3",
+        "kind": "decrypt-wire",
+        "text": "Ciphertext resolved",
+        "x": 36,
+        "z": 21,
+        "by": "agent:dispatches",
+        "t": 1784767269235
+      }
+    },
+    {
+      "t": 1784767273748,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwscq387d6",
+        "kind": "transmit-dispatch",
+        "text": "Relay node active",
+        "x": 10,
+        "z": 5,
+        "by": "agent:dispatches",
+        "t": 1784767273748
+      }
+    },
+    {
+      "t": 1784767278259,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsctkjij9",
+        "kind": "intercept-signal",
+        "text": "Satellite beacon locked",
+        "x": 16,
+        "z": 35,
+        "by": "agent:dispatches",
+        "t": 1784767278259
+      }
+    },
+    {
+      "t": 1784767282773,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwscx1xexq",
+        "kind": "decrypt-wire",
+        "text": "Transmission decoded",
+        "x": 15,
+        "z": 21,
+        "by": "agent:dispatches",
+        "t": 1784767282773
+      }
+    },
+    {
+      "t": 1784767287278,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsd0j2bsq",
+        "kind": "log-frequency",
+        "text": "Carrier signal stable",
+        "x": 37,
+        "z": 35,
+        "by": "agent:dispatches",
+        "t": 1784767287278
+      }
+    },
+    {
+      "t": 1784767291786,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsd40ar2s",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
+        "x": 22,
+        "z": 11,
+        "by": "agent:dispatches",
+        "t": 1784767291786
+      }
+    },
+    {
+      "t": 1784767296300,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwsd7ho8v2",
+        "kind": "transmit-dispatch",
+        "text": "Cryptographic pulse sent",
+        "x": 34,
+        "z": 16,
+        "by": "agent:dispatches",
+        "t": 1784767296300
+      }
+    },
+    {
+      "t": 1784767300807,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsdayvlis",
+        "kind": "intercept-signal",
+        "text": "Satellite beacon locked",
+        "x": 30,
+        "z": 9,
+        "by": "agent:dispatches",
+        "t": 1784767300807
+      }
+    },
+    {
+      "t": 1784767305317,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwsdeg54ll",
+        "kind": "transmit-dispatch",
+        "text": "Signal #409 transmitted",
+        "x": 12,
+        "z": 17,
+        "by": "agent:dispatches",
+        "t": 1784767305317
+      }
+    },
+    {
+      "t": 1784767309826,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsdhxehl2",
+        "kind": "intercept-signal",
+        "text": "Packet intercepted @ 142.8MHz",
+        "x": 8,
+        "z": 4,
+        "by": "agent:dispatches",
+        "t": 1784767309826
+      }
+    },
+    {
+      "t": 1784767314331,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwsdlejt1b",
+        "kind": "transmit-dispatch",
+        "text": "Emergency broadcast sent",
+        "x": 31,
+        "z": 17,
+        "by": "agent:dispatches",
+        "t": 1784767314331
+      }
+    },
+    {
+      "t": 1784767318837,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsdovpgdw",
+        "kind": "intercept-signal",
+        "text": "Satellite beacon locked",
+        "x": 11,
+        "z": 20,
+        "by": "agent:dispatches",
+        "t": 1784767318837
+      }
+    },
+    {
+      "t": 1784767323345,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwsdscxta0",
+        "kind": "decrypt-wire",
+        "text": "Wire payload verified",
+        "x": 29,
+        "z": 26,
+        "by": "agent:dispatches",
+        "t": 1784767323345
+      }
+    },
+    {
+      "t": 1784767327847,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsdvtz2b1",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
+        "x": 26,
+        "z": 12,
+        "by": "agent:dispatches",
+        "t": 1784767327847
+      }
+    },
+    {
+      "t": 1784767332362,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsdzbepoj",
+        "kind": "intercept-signal",
+        "text": "Satellite beacon locked",
+        "x": 4,
+        "z": 5,
+        "by": "agent:dispatches",
+        "t": 1784767332362
+      }
+    },
+    {
+      "t": 1784767336872,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwse2sog8p",
+        "kind": "transmit-dispatch",
+        "text": "Signal #409 transmitted",
+        "x": 27,
+        "z": 7,
+        "by": "agent:dispatches",
+        "t": 1784767336872
+      }
+    },
+    {
+      "t": 1784767341384,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwse6a0b3g",
+        "kind": "log-frequency",
+        "text": "Spectrogram clean",
+        "x": 30,
+        "z": 25,
+        "by": "agent:dispatches",
+        "t": 1784767341384
+      }
+    },
+    {
+      "t": 1784767345897,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwse9rds3a",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
+        "x": 25,
+        "z": 25,
+        "by": "agent:dispatches",
+        "t": 1784767345897
+      }
+    },
+    {
+      "t": 1784767350399,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsed8fq2r",
+        "kind": "log-frequency",
+        "text": "Spectrogram clean",
+        "x": 37,
+        "z": 6,
+        "by": "agent:dispatches",
+        "t": 1784767350399
+      }
+    },
+    {
+      "t": 1784767354904,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwsegpkjup",
+        "kind": "transmit-dispatch",
+        "text": "Signal #409 transmitted",
+        "x": 14,
+        "z": 30,
+        "by": "agent:dispatches",
+        "t": 1784767354904
+      }
+    },
+    {
+      "t": 1784767359415,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsek6vi5k",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
+        "x": 35,
+        "z": 20,
+        "by": "agent:dispatches",
+        "t": 1784767359415
+      }
+    },
+    {
+      "t": 1784767363928,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwseno8byz",
+        "kind": "decrypt-wire",
+        "text": "Ciphertext resolved",
+        "x": 21,
+        "z": 14,
+        "by": "agent:dispatches",
+        "t": 1784767363928
+      }
+    },
+    {
+      "t": 1784767368444,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwser5o1l5",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
+        "x": 25,
+        "z": 5,
+        "by": "agent:dispatches",
+        "t": 1784767368444
+      }
+    },
+    {
+      "t": 1784767372954,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwseumyq2b",
+        "kind": "transmit-dispatch",
+        "text": "Emergency broadcast sent",
+        "x": 16,
+        "z": 24,
+        "by": "agent:dispatches",
+        "t": 1784767372954
+      }
+    },
+    {
+      "t": 1784767377466,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwsey4aoyr",
+        "kind": "transmit-dispatch",
+        "text": "Cryptographic pulse sent",
+        "x": 36,
+        "z": 31,
+        "by": "agent:dispatches",
+        "t": 1784767377466
+      }
+    },
+    {
+      "t": 1784767381971,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsf1lf8mj",
+        "kind": "intercept-signal",
+        "text": "Satellite beacon locked",
+        "x": 5,
+        "z": 16,
+        "by": "agent:dispatches",
+        "t": 1784767381971
+      }
+    },
+    {
+      "t": 1784767386473,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwsf52hikn",
+        "kind": "decrypt-wire",
+        "text": "Ciphertext resolved",
+        "x": 20,
+        "z": 4,
+        "by": "agent:dispatches",
+        "t": 1784767386473
+      }
+    },
+    {
+      "t": 1784767390986,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsf8juk67",
+        "kind": "intercept-signal",
+        "text": "Satellite beacon locked",
+        "x": 25,
+        "z": 18,
+        "by": "agent:dispatches",
+        "t": 1784767390986
+      }
+    },
+    {
+      "t": 1784767395492,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsfc103ks",
+        "kind": "log-frequency",
+        "text": "Carrier signal stable",
+        "x": 12,
+        "z": 11,
+        "by": "agent:dispatches",
+        "t": 1784767395492
+      }
+    },
+    {
+      "t": 1784767400001,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsffi98v8",
+        "kind": "intercept-signal",
+        "text": "Satellite beacon locked",
+        "x": 36,
+        "z": 37,
+        "by": "agent:dispatches",
+        "t": 1784767400001
+      }
+    },
+    {
+      "t": 1784767404505,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwsfizdeqe",
+        "kind": "decrypt-wire",
+        "text": "Ciphertext resolved",
+        "x": 8,
+        "z": 22,
+        "by": "agent:dispatches",
+        "t": 1784767404505
+      }
+    },
+    {
+      "t": 1784767409013,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwsfmglx10",
+        "kind": "transmit-dispatch",
+        "text": "Signal #409 transmitted",
+        "x": 31,
+        "z": 21,
+        "by": "agent:dispatches",
+        "t": 1784767409013
+      }
+    },
+    {
+      "t": 1784767413523,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwsfpxvyrl",
+        "kind": "transmit-dispatch",
+        "text": "Relay node active",
+        "x": 6,
+        "z": 26,
+        "by": "agent:dispatches",
+        "t": 1784767413523
+      }
+    },
+    {
+      "t": 1784767418037,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwsftf9git",
+        "kind": "decrypt-wire",
+        "text": "Wire payload verified",
+        "x": 24,
+        "z": 14,
+        "by": "agent:dispatches",
+        "t": 1784767418037
+      }
+    },
+    {
+      "t": 1784767422546,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsfwwhk90",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
+        "x": 10,
+        "z": 20,
+        "by": "agent:dispatches",
+        "t": 1784767422546
+      }
+    },
+    {
+      "t": 1784767427053,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsg0dpjf7",
         "kind": "log-frequency",
         "text": "Carrier signal stable",
         "x": 35,
-        "z": 3,
+        "z": 10,
         "by": "agent:dispatches",
-        "t": 1784740564801
+        "t": 1784767427053
       }
     },
     {
-      "t": 1784744208527,
+      "t": 1784767431563,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwsg3uznov",
+        "kind": "decrypt-wire",
+        "text": "RSA-4096 key decrypted",
+        "x": 22,
+        "z": 25,
+        "by": "agent:dispatches",
+        "t": 1784767431563
+      }
+    },
+    {
+      "t": 1784767436065,
       "by": "agent:dispatches",
       "action": "transmit-dispatch",
       "ent": {
-        "id": "amrwemcunhcc",
+        "id": "amrwsg7c17fc",
         "kind": "transmit-dispatch",
-        "text": "Emergency broadcast sent",
-        "x": 13,
-        "z": 33,
-        "by": "agent:dispatches",
-        "t": 1784744208527
-      }
-    },
-    {
-      "t": 1784744217557,
-      "by": "agent:dispatches",
-      "action": "intercept-signal",
-      "ent": {
-        "id": "amrwemjthhoy",
-        "kind": "intercept-signal",
-        "text": "Packet intercepted @ 142.8MHz",
-        "x": 29,
-        "z": 16,
-        "by": "agent:dispatches",
-        "t": 1784744217557
-      }
-    },
-    {
-      "t": 1784744222065,
-      "by": "agent:dispatches",
-      "action": "intercept-signal",
-      "ent": {
-        "id": "amrwemnap1d2",
-        "kind": "intercept-signal",
-        "text": "Satellite beacon locked",
-        "x": 23,
+        "text": "Signal #409 transmitted",
+        "x": 12,
         "z": 9,
         "by": "agent:dispatches",
-        "t": 1784744222065
+        "t": 1784767436065
       }
     },
     {
-      "t": 1784744226574,
+      "t": 1784767440580,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsgatgfg7",
+        "kind": "log-frequency",
+        "text": "Telemetry packet archived",
+        "x": 19,
+        "z": 8,
+        "by": "agent:dispatches",
+        "t": 1784767440580
+      }
+    },
+    {
+      "t": 1784767445096,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsgeawlx5",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
+        "x": 4,
+        "z": 11,
+        "by": "agent:dispatches",
+        "t": 1784767445096
+      }
+    },
+    {
+      "t": 1784767449611,
       "by": "agent:dispatches",
       "action": "intercept-signal",
       "ent": {
-        "id": "amrwemqryi34",
+        "id": "amrwsghsb53o",
+        "kind": "intercept-signal",
+        "text": "Satellite beacon locked",
+        "x": 5,
+        "z": 10,
+        "by": "agent:dispatches",
+        "t": 1784767449611
+      }
+    },
+    {
+      "t": 1784767454120,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwsgl9ko3k",
+        "kind": "transmit-dispatch",
+        "text": "Relay node active",
+        "x": 15,
+        "z": 30,
+        "by": "agent:dispatches",
+        "t": 1784767454120
+      }
+    },
+    {
+      "t": 1784767458631,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwsgoqvm4z",
+        "kind": "transmit-dispatch",
+        "text": "Relay node active",
+        "x": 14,
+        "z": 25,
+        "by": "agent:dispatches",
+        "t": 1784767458631
+      }
+    },
+    {
+      "t": 1784767463147,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsgs8bbk2",
+        "kind": "log-frequency",
+        "text": "Carrier signal stable",
+        "x": 11,
+        "z": 17,
+        "by": "agent:dispatches",
+        "t": 1784767463147
+      }
+    },
+    {
+      "t": 1784767467656,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsgvpks4c",
+        "kind": "log-frequency",
+        "text": "Spectrogram clean",
+        "x": 30,
+        "z": 28,
+        "by": "agent:dispatches",
+        "t": 1784767467656
+      }
+    },
+    {
+      "t": 1784767472161,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsgz6paiw",
+        "kind": "intercept-signal",
+        "text": "Packet intercepted @ 142.8MHz",
+        "x": 12,
+        "z": 3,
+        "by": "agent:dispatches",
+        "t": 1784767472161
+      }
+    },
+    {
+      "t": 1784767476668,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsh2nw076",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
+        "x": 33,
+        "z": 29,
+        "by": "agent:dispatches",
+        "t": 1784767476668
+      }
+    },
+    {
+      "t": 1784767481177,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwsh655d52",
+        "kind": "decrypt-wire",
+        "text": "Wire payload verified",
+        "x": 31,
+        "z": 27,
+        "by": "agent:dispatches",
+        "t": 1784767481177
+      }
+    },
+    {
+      "t": 1784767485685,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwsh9md35m",
+        "kind": "decrypt-wire",
+        "text": "RSA-4096 key decrypted",
+        "x": 14,
+        "z": 35,
+        "by": "agent:dispatches",
+        "t": 1784767485685
+      }
+    },
+    {
+      "t": 1784767490190,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwshd3ijn0",
+        "kind": "log-frequency",
+        "text": "Spectrogram clean",
+        "x": 22,
+        "z": 13,
+        "by": "agent:dispatches",
+        "t": 1784767490190
+      }
+    },
+    {
+      "t": 1784767494694,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwshgkmbqc",
+        "kind": "transmit-dispatch",
+        "text": "Relay node active",
+        "x": 30,
+        "z": 37,
+        "by": "agent:dispatches",
+        "t": 1784767494694
+      }
+    },
+    {
+      "t": 1784767499205,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwshk1xhj8",
+        "kind": "log-frequency",
+        "text": "Carrier signal stable",
+        "x": 22,
+        "z": 34,
+        "by": "agent:dispatches",
+        "t": 1784767499205
+      }
+    },
+    {
+      "t": 1784767503707,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwshnizcyr",
+        "kind": "transmit-dispatch",
+        "text": "Cryptographic pulse sent",
+        "x": 20,
+        "z": 4,
+        "by": "agent:dispatches",
+        "t": 1784767503707
+      }
+    },
+    {
+      "t": 1784767508212,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwshr04x89",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
+        "x": 10,
+        "z": 8,
+        "by": "agent:dispatches",
+        "t": 1784767508212
+      }
+    },
+    {
+      "t": 1784767512720,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwshuhcsgt",
+        "kind": "transmit-dispatch",
+        "text": "Cryptographic pulse sent",
+        "x": 15,
+        "z": 19,
+        "by": "agent:dispatches",
+        "t": 1784767512720
+      }
+    },
+    {
+      "t": 1784767517224,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwshxygnqn",
+        "kind": "intercept-signal",
+        "text": "Burst telemetry captured",
+        "x": 19,
+        "z": 10,
+        "by": "agent:dispatches",
+        "t": 1784767517224
+      }
+    },
+    {
+      "t": 1784767521735,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsi1frh76",
         "kind": "intercept-signal",
         "text": "Sub-space carrier detected",
-        "x": 23,
-        "z": 22,
+        "x": 20,
+        "z": 37,
         "by": "agent:dispatches",
-        "t": 1784744226574
+        "t": 1784767521735
+      }
+    },
+    {
+      "t": 1784767526243,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwsi4wzmzy",
+        "kind": "decrypt-wire",
+        "text": "RSA-4096 key decrypted",
+        "x": 19,
+        "z": 19,
+        "by": "agent:dispatches",
+        "t": 1784767526243
+      }
+    },
+    {
+      "t": 1784767530748,
+      "by": "agent:dispatches",
+      "action": "decrypt-wire",
+      "ent": {
+        "id": "amrwsi8e48if",
+        "kind": "decrypt-wire",
+        "text": "Wire payload verified",
+        "x": 23,
+        "z": 26,
+        "by": "agent:dispatches",
+        "t": 1784767530748
+      }
+    },
+    {
+      "t": 1784767535251,
+      "by": "agent:dispatches",
+      "action": "transmit-dispatch",
+      "ent": {
+        "id": "amrwsibv7dmr",
+        "kind": "transmit-dispatch",
+        "text": "Cryptographic pulse sent",
+        "x": 5,
+        "z": 12,
+        "by": "agent:dispatches",
+        "t": 1784767535251
+      }
+    },
+    {
+      "t": 1784767539755,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsifcb5nj",
+        "kind": "intercept-signal",
+        "text": "Burst telemetry captured",
+        "x": 31,
+        "z": 7,
+        "by": "agent:dispatches",
+        "t": 1784767539755
+      }
+    },
+    {
+      "t": 1784767544269,
+      "by": "agent:dispatches",
+      "action": "log-frequency",
+      "ent": {
+        "id": "amrwsiitp4x7",
+        "kind": "log-frequency",
+        "text": "Frequency 88.5MHz logged",
+        "x": 35,
+        "z": 18,
+        "by": "agent:dispatches",
+        "t": 1784767544269
+      }
+    },
+    {
+      "t": 1784767548777,
+      "by": "agent:dispatches",
+      "action": "intercept-signal",
+      "ent": {
+        "id": "amrwsimaxrx2",
+        "kind": "intercept-signal",
+        "text": "Packet intercepted @ 142.8MHz",
+        "x": 24,
+        "z": 18,
+        "by": "agent:dispatches",
+        "t": 1784767548777
       }
     }
   ]

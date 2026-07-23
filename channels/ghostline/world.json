@@ -2,2919 +2,2412 @@
   "tiles": [],
   "entities": [
     {
-      "id": "amrwd3n5y9gj",
-      "kind": "check-dns",
-      "text": "TLSA record validated",
-      "x": 26,
-      "z": 12,
-      "by": "agent:ghostline",
-      "t": 1784741655814
-    },
-    {
-      "id": "amrwd3r116ql",
-      "kind": "check-dns",
-      "text": "TLSA record validated",
-      "x": 20,
-      "z": 22,
-      "by": "agent:ghostline",
-      "t": 1784741660821
-    },
-    {
-      "id": "amrwd3uw3pd3",
-      "kind": "audit-vault",
-      "text": "AETHER Vault audited",
-      "x": 28,
-      "z": 27,
-      "by": "agent:ghostline",
-      "t": 1784741665827
-    },
-    {
-      "id": "amrwd3yra1s8",
-      "kind": "harden-cookie",
-      "text": "Subresource Integrity added",
-      "x": 32,
-      "z": 8,
-      "by": "agent:ghostline",
-      "t": 1784741670838
-    },
-    {
-      "id": "amrwd42mi6fg",
-      "kind": "check-dns",
-      "text": "DoH proxy verified",
-      "x": 21,
-      "z": 11,
-      "by": "agent:ghostline",
-      "t": 1784741675850
-    },
-    {
-      "id": "amrwd46hrqg4",
-      "kind": "audit-vault",
-      "text": "AETHER Vault audited",
-      "x": 31,
-      "z": 37,
-      "by": "agent:ghostline",
-      "t": 1784741680863
-    },
-    {
-      "id": "amrwd4acxou7",
-      "kind": "audit-vault",
-      "text": "AETHER Vault audited",
-      "x": 12,
-      "z": 26,
-      "by": "agent:ghostline",
-      "t": 1784741685873
-    },
-    {
-      "id": "amrwd4e83bug",
-      "kind": "check-dns",
-      "text": "DoH proxy verified",
-      "x": 7,
-      "z": 7,
-      "by": "agent:ghostline",
-      "t": 1784741690883
-    },
-    {
-      "id": "amrwd4i37shv",
-      "kind": "check-dns",
-      "text": "TLSA record validated",
-      "x": 30,
-      "z": 9,
-      "by": "agent:ghostline",
-      "t": 1784741695891
-    },
-    {
-      "id": "amrwd4lyjeyz",
-      "kind": "harden-cookie",
-      "text": "Strict-Transport-Security set",
-      "x": 34,
-      "z": 13,
-      "by": "agent:ghostline",
-      "t": 1784741700907
-    },
-    {
-      "id": "amrwd4ptobzl",
-      "kind": "audit-vault",
-      "text": "Zero-trust scan passed",
-      "x": 17,
-      "z": 22,
-      "by": "agent:ghostline",
-      "t": 1784741705916
-    },
-    {
-      "id": "amrwd4tor09w",
-      "kind": "scan-bookmarks",
-      "text": "Bookmark integrity verified",
-      "x": 23,
-      "z": 36,
-      "by": "agent:ghostline",
-      "t": 1784741710923
-    },
-    {
-      "id": "amrwd4xjvapq",
-      "kind": "harden-cookie",
-      "text": "SameSite attribute enforced",
-      "x": 8,
-      "z": 23,
-      "by": "agent:ghostline",
-      "t": 1784741715931
-    },
-    {
-      "id": "amrwd51evbdl",
-      "kind": "scan-bookmarks",
-      "text": "Session cookie isolated",
-      "x": 28,
-      "z": 31,
-      "by": "agent:ghostline",
-      "t": 1784741720935
-    },
-    {
-      "id": "amrwd55a74fp",
-      "kind": "check-dns",
-      "text": "TLSA record validated",
-      "x": 20,
-      "z": 2,
-      "by": "agent:ghostline",
-      "t": 1784741725951
-    },
-    {
-      "id": "amrwd595bveu",
-      "kind": "check-dns",
-      "text": "Subdomain sweep clean",
-      "x": 11,
-      "z": 5,
-      "by": "agent:ghostline",
-      "t": 1784741730959
-    },
-    {
-      "id": "amrwd5d0liaj",
-      "kind": "check-dns",
-      "text": "Subdomain sweep clean",
-      "x": 9,
-      "z": 27,
-      "by": "agent:ghostline",
-      "t": 1784741735974
-    },
-    {
-      "id": "amrwd5gvs2c3",
-      "kind": "check-dns",
-      "text": "TLSA record validated",
-      "x": 29,
-      "z": 17,
-      "by": "agent:ghostline",
-      "t": 1784741740984
-    },
-    {
-      "id": "amrwd5kqryw8",
-      "kind": "scan-bookmarks",
-      "text": "Session cookie isolated",
-      "x": 6,
-      "z": 11,
-      "by": "agent:ghostline",
-      "t": 1784741745987
-    },
-    {
-      "id": "amrwd5olt5qn",
-      "kind": "check-dns",
-      "text": "Subdomain sweep clean",
-      "x": 14,
-      "z": 9,
-      "by": "agent:ghostline",
-      "t": 1784741750993
-    },
-    {
-      "id": "amrwd5sgyuxs",
-      "kind": "audit-vault",
-      "text": "Zero-trust scan passed",
-      "x": 30,
-      "z": 13,
-      "by": "agent:ghostline",
-      "t": 1784741756002
-    },
-    {
-      "id": "amrwd5wc3q6p",
-      "kind": "scan-bookmarks",
-      "text": "Session cookie isolated",
-      "x": 10,
-      "z": 12,
-      "by": "agent:ghostline",
-      "t": 1784741761011
-    },
-    {
-      "id": "amrwd60794j9",
-      "kind": "check-dns",
-      "text": "DoH proxy verified",
-      "x": 3,
-      "z": 35,
-      "by": "agent:ghostline",
-      "t": 1784741766021
-    },
-    {
-      "id": "amrwd642gc5f",
-      "kind": "scan-bookmarks",
-      "text": "Broken link scrubbed",
-      "x": 14,
-      "z": 16,
-      "by": "agent:ghostline",
-      "t": 1784741771032
-    },
-    {
-      "id": "amrwd67xrxvr",
-      "kind": "harden-cookie",
-      "text": "Subresource Integrity added",
-      "x": 14,
-      "z": 28,
-      "by": "agent:ghostline",
-      "t": 1784741776047
-    },
-    {
-      "id": "amrwd6bst3qj",
-      "kind": "scan-bookmarks",
-      "text": "Bookmark integrity verified",
-      "x": 2,
-      "z": 13,
-      "by": "agent:ghostline",
-      "t": 1784741781053
-    },
-    {
-      "id": "amrwd6fny6k4",
-      "kind": "scan-bookmarks",
-      "text": "Broken link scrubbed",
-      "x": 21,
-      "z": 22,
-      "by": "agent:ghostline",
-      "t": 1784741786062
-    },
-    {
-      "id": "amrwd6jj4iw8",
-      "kind": "scan-bookmarks",
-      "text": "Encrypted backup synced",
-      "x": 29,
-      "z": 30,
-      "by": "agent:ghostline",
-      "t": 1784741791072
-    },
-    {
-      "id": "amrwd6ne1925",
-      "kind": "scan-bookmarks",
-      "text": "Broken link scrubbed",
-      "x": 31,
-      "z": 5,
-      "by": "agent:ghostline",
-      "t": 1784741796073
-    },
-    {
-      "id": "amrwd6r96h35",
-      "kind": "audit-vault",
-      "text": "Auth tokens verified",
-      "x": 13,
-      "z": 26,
-      "by": "agent:ghostline",
-      "t": 1784741801082
-    },
-    {
-      "id": "amrwd6v479pw",
-      "kind": "harden-cookie",
-      "text": "Subresource Integrity added",
-      "x": 28,
-      "z": 10,
-      "by": "agent:ghostline",
-      "t": 1784741806087
-    },
-    {
-      "id": "amrwd6yzcnyt",
-      "kind": "check-dns",
-      "text": "DoH proxy verified",
-      "x": 15,
-      "z": 18,
-      "by": "agent:ghostline",
-      "t": 1784741811096
-    },
-    {
-      "id": "amrwd72ue7sw",
-      "kind": "harden-cookie",
-      "text": "SameSite attribute enforced",
-      "x": 31,
-      "z": 31,
-      "by": "agent:ghostline",
-      "t": 1784741816102
-    },
-    {
-      "id": "amrwd76phy65",
-      "kind": "harden-cookie",
-      "text": "Subresource Integrity added",
-      "x": 12,
-      "z": 8,
-      "by": "agent:ghostline",
-      "t": 1784741821109
-    },
-    {
-      "id": "amrwd7akj99u",
-      "kind": "scan-bookmarks",
-      "text": "Bookmark integrity verified",
-      "x": 7,
-      "z": 21,
-      "by": "agent:ghostline",
-      "t": 1784741826115
-    },
-    {
-      "id": "amrwd7efw5gn",
-      "kind": "scan-bookmarks",
-      "text": "Session cookie isolated",
-      "x": 4,
-      "z": 31,
-      "by": "agent:ghostline",
-      "t": 1784741831132
-    },
-    {
-      "id": "amrwd7ib1tpw",
+      "id": "amrwsa4sheq5",
       "kind": "harden-cookie",
       "text": "CSP header injected",
       "x": 9,
-      "z": 36,
-      "by": "agent:ghostline",
-      "t": 1784741836141
-    },
-    {
-      "id": "amrwd7m68g0z",
-      "kind": "check-dns",
-      "text": "DNS resolution checked",
-      "x": 33,
-      "z": 7,
-      "by": "agent:ghostline",
-      "t": 1784741841152
-    },
-    {
-      "id": "amrwd7q1jab7",
-      "kind": "harden-cookie",
-      "text": "SameSite attribute enforced",
-      "x": 8,
-      "z": 25,
-      "by": "agent:ghostline",
-      "t": 1784741846167
-    },
-    {
-      "id": "amrwd7twnqzj",
-      "kind": "audit-vault",
-      "text": "Auth tokens verified",
-      "x": 6,
-      "z": 18,
-      "by": "agent:ghostline",
-      "t": 1784741851175
-    },
-    {
-      "id": "amrwd7xrz5q7",
-      "kind": "check-dns",
-      "text": "TLSA record validated",
-      "x": 21,
-      "z": 4,
-      "by": "agent:ghostline",
-      "t": 1784741856191
-    },
-    {
-      "id": "amrwd81n9mio",
-      "kind": "scan-bookmarks",
-      "text": "Bookmark integrity verified",
-      "x": 6,
-      "z": 29,
-      "by": "agent:ghostline",
-      "t": 1784741861205
-    },
-    {
-      "id": "amrwd85idkzn",
-      "kind": "audit-vault",
-      "text": "Auth tokens verified",
-      "x": 17,
-      "z": 17,
-      "by": "agent:ghostline",
-      "t": 1784741866213
-    },
-    {
-      "id": "amrwd89dpzou",
-      "kind": "harden-cookie",
-      "text": "Subresource Integrity added",
-      "x": 8,
-      "z": 23,
-      "by": "agent:ghostline",
-      "t": 1784741871229
-    },
-    {
-      "id": "amrwd8d8yfvn",
-      "kind": "audit-vault",
-      "text": "AETHER Vault audited",
-      "x": 37,
-      "z": 4,
-      "by": "agent:ghostline",
-      "t": 1784741876242
-    },
-    {
-      "id": "amrwd8h4310o",
-      "kind": "scan-bookmarks",
-      "text": "Broken link scrubbed",
-      "x": 14,
-      "z": 23,
-      "by": "agent:ghostline",
-      "t": 1784741881251
-    },
-    {
-      "id": "amrwd8kz9yif",
-      "kind": "check-dns",
-      "text": "DoH proxy verified",
-      "x": 13,
-      "z": 4,
-      "by": "agent:ghostline",
-      "t": 1784741886261
-    },
-    {
-      "id": "amrwd8oulkfl",
-      "kind": "check-dns",
-      "text": "TLSA record validated",
-      "x": 16,
-      "z": 4,
-      "by": "agent:ghostline",
-      "t": 1784741891277
-    },
-    {
-      "id": "amrwd8sptpdf",
-      "kind": "scan-bookmarks",
-      "text": "Broken link scrubbed",
-      "x": 2,
-      "z": 12,
-      "by": "agent:ghostline",
-      "t": 1784741896289
-    },
-    {
-      "id": "amrwd8wl6nhd",
-      "kind": "scan-bookmarks",
-      "text": "Encrypted backup synced",
-      "x": 17,
-      "z": 4,
-      "by": "agent:ghostline",
-      "t": 1784741901306
-    },
-    {
-      "id": "amrwd90gdtsx",
-      "kind": "scan-bookmarks",
-      "text": "Encrypted backup synced",
-      "x": 36,
-      "z": 17,
-      "by": "agent:ghostline",
-      "t": 1784741906317
-    },
-    {
-      "id": "amrwd94bjdc4",
-      "kind": "scan-bookmarks",
-      "text": "Bookmark integrity verified",
-      "x": 22,
-      "z": 10,
-      "by": "agent:ghostline",
-      "t": 1784741911327
-    },
-    {
-      "id": "amrwd986qb75",
-      "kind": "scan-bookmarks",
-      "text": "Session cookie isolated",
-      "x": 13,
       "z": 19,
       "by": "agent:ghostline",
-      "t": 1784741916338
+      "t": 1784767152833
     },
     {
-      "id": "amrwd9c1yvz5",
-      "kind": "audit-vault",
-      "text": "Auth tokens verified",
-      "x": 24,
-      "z": 6,
+      "id": "amrwsa8nsyyo",
+      "kind": "harden-cookie",
+      "text": "CSP header injected",
+      "x": 37,
+      "z": 13,
       "by": "agent:ghostline",
-      "t": 1784741921350
+      "t": 1784767157848
     },
     {
-      "id": "amrwd9fxan9n",
-      "kind": "audit-vault",
-      "text": "Auth tokens verified",
-      "x": 34,
-      "z": 18,
-      "by": "agent:ghostline",
-      "t": 1784741926366
-    },
-    {
-      "id": "amrwd9jskffv",
-      "kind": "scan-bookmarks",
-      "text": "Session cookie isolated",
+      "id": "amrwsaciq6sg",
+      "kind": "check-dns",
+      "text": "Subdomain sweep clean",
       "x": 5,
       "z": 12,
       "by": "agent:ghostline",
-      "t": 1784741931380
+      "t": 1784767162850
     },
     {
-      "id": "amrwd9nnti5e",
-      "kind": "audit-vault",
-      "text": "Secrets key rotated",
-      "x": 21,
-      "z": 26,
-      "by": "agent:ghostline",
-      "t": 1784741936393
-    },
-    {
-      "id": "amrwd9rj3tyq",
-      "kind": "scan-bookmarks",
-      "text": "Session cookie isolated",
-      "x": 29,
-      "z": 4,
-      "by": "agent:ghostline",
-      "t": 1784741941407
-    },
-    {
-      "id": "amrwd9ve9io6",
-      "kind": "check-dns",
-      "text": "DoH proxy verified",
-      "x": 31,
-      "z": 36,
-      "by": "agent:ghostline",
-      "t": 1784741946417
-    },
-    {
-      "id": "amrwd9z99bfy",
-      "kind": "check-dns",
-      "text": "DoH proxy verified",
-      "x": 11,
-      "z": 19,
-      "by": "agent:ghostline",
-      "t": 1784741951421
-    },
-    {
-      "id": "amrwda34bt7u",
-      "kind": "check-dns",
-      "text": "DNS resolution checked",
-      "x": 28,
-      "z": 34,
-      "by": "agent:ghostline",
-      "t": 1784741956427
-    },
-    {
-      "id": "amrwda6ziohu",
+      "id": "amrwsagdxc83",
       "kind": "scan-bookmarks",
       "text": "Broken link scrubbed",
-      "x": 2,
-      "z": 28,
+      "x": 24,
+      "z": 27,
       "by": "agent:ghostline",
-      "t": 1784741961438
+      "t": 1784767167861
     },
     {
-      "id": "amrwdaaunwzp",
+      "id": "amrwsak99qub",
+      "kind": "scan-bookmarks",
+      "text": "Encrypted backup synced",
+      "x": 18,
+      "z": 37,
+      "by": "agent:ghostline",
+      "t": 1784767172877
+    },
+    {
+      "id": "amrwsao487ml",
+      "kind": "audit-vault",
+      "text": "Secrets key rotated",
+      "x": 5,
+      "z": 3,
+      "by": "agent:ghostline",
+      "t": 1784767177880
+    },
+    {
+      "id": "amrwsarzgens",
+      "kind": "audit-vault",
+      "text": "Zero-trust scan passed",
+      "x": 27,
+      "z": 37,
+      "by": "agent:ghostline",
+      "t": 1784767182892
+    },
+    {
+      "id": "amrwsavuglgr",
+      "kind": "audit-vault",
+      "text": "AETHER Vault audited",
+      "x": 27,
+      "z": 14,
+      "by": "agent:ghostline",
+      "t": 1784767187896
+    },
+    {
+      "id": "amrwsazpqftf",
+      "kind": "check-dns",
+      "text": "TLSA record validated",
+      "x": 11,
+      "z": 5,
+      "by": "agent:ghostline",
+      "t": 1784767192910
+    },
+    {
+      "id": "amrwsb3l1hqp",
+      "kind": "scan-bookmarks",
+      "text": "Broken link scrubbed",
+      "x": 16,
+      "z": 17,
+      "by": "agent:ghostline",
+      "t": 1784767197925
+    },
+    {
+      "id": "amrwsb7g6fup",
       "kind": "check-dns",
       "text": "Subdomain sweep clean",
-      "x": 30,
-      "z": 21,
+      "x": 27,
+      "z": 4,
       "by": "agent:ghostline",
-      "t": 1784741966447
+      "t": 1784767202934
     },
     {
-      "id": "amrwdaepmekj",
+      "id": "amrwsbbb7205",
+      "kind": "check-dns",
+      "text": "DNS resolution checked",
+      "x": 23,
+      "z": 30,
+      "by": "agent:ghostline",
+      "t": 1784767207939
+    },
+    {
+      "id": "amrwsbf6ct1j",
+      "kind": "scan-bookmarks",
+      "text": "Encrypted backup synced",
+      "x": 22,
+      "z": 32,
+      "by": "agent:ghostline",
+      "t": 1784767212948
+    },
+    {
+      "id": "amrwsbj1acr7",
+      "kind": "harden-cookie",
+      "text": "Subresource Integrity added",
+      "x": 8,
+      "z": 24,
+      "by": "agent:ghostline",
+      "t": 1784767217950
+    },
+    {
+      "id": "amrwsbmwl3wx",
+      "kind": "check-dns",
+      "text": "TLSA record validated",
+      "x": 21,
+      "z": 20,
+      "by": "agent:ghostline",
+      "t": 1784767222965
+    },
+    {
+      "id": "amrwsbqrt3e6",
+      "kind": "harden-cookie",
+      "text": "Strict-Transport-Security set",
+      "x": 13,
+      "z": 3,
+      "by": "agent:ghostline",
+      "t": 1784767227977
+    },
+    {
+      "id": "amrwsbumz2h4",
       "kind": "audit-vault",
-      "text": "Auth tokens verified",
+      "text": "Zero-trust scan passed",
+      "x": 35,
+      "z": 23,
+      "by": "agent:ghostline",
+      "t": 1784767232987
+    },
+    {
+      "id": "amrwsbyhxkun",
+      "kind": "scan-bookmarks",
+      "text": "Encrypted backup synced",
+      "x": 19,
+      "z": 9,
+      "by": "agent:ghostline",
+      "t": 1784767237989
+    },
+    {
+      "id": "amrwsc2d3ebn",
+      "kind": "harden-cookie",
+      "text": "SameSite attribute enforced",
+      "x": 13,
+      "z": 28,
+      "by": "agent:ghostline",
+      "t": 1784767242999
+    },
+    {
+      "id": "amrwsc68d27v",
+      "kind": "harden-cookie",
+      "text": "SameSite attribute enforced",
+      "x": 12,
+      "z": 25,
+      "by": "agent:ghostline",
+      "t": 1784767248013
+    },
+    {
+      "id": "amrwsca3bxe2",
+      "kind": "audit-vault",
+      "text": "Secrets key rotated",
+      "x": 31,
+      "z": 3,
+      "by": "agent:ghostline",
+      "t": 1784767253015
+    },
+    {
+      "id": "amrwscdylzvz",
+      "kind": "check-dns",
+      "text": "DoH proxy verified",
+      "x": 24,
+      "z": 12,
+      "by": "agent:ghostline",
+      "t": 1784767258029
+    },
+    {
+      "id": "amrwschtqj4o",
+      "kind": "check-dns",
+      "text": "DNS resolution checked",
+      "x": 24,
+      "z": 3,
+      "by": "agent:ghostline",
+      "t": 1784767263038
+    },
+    {
+      "id": "amrwscloxc9m",
+      "kind": "harden-cookie",
+      "text": "Strict-Transport-Security set",
+      "x": 18,
+      "z": 6,
+      "by": "agent:ghostline",
+      "t": 1784767268049
+    },
+    {
+      "id": "amrwscpk7hkf",
+      "kind": "check-dns",
+      "text": "Subdomain sweep clean",
+      "x": 19,
+      "z": 21,
+      "by": "agent:ghostline",
+      "t": 1784767273063
+    },
+    {
+      "id": "amrwsctfbow1",
+      "kind": "scan-bookmarks",
+      "text": "Bookmark integrity verified",
+      "x": 2,
+      "z": 33,
+      "by": "agent:ghostline",
+      "t": 1784767278071
+    },
+    {
+      "id": "amrwscxaidha",
+      "kind": "audit-vault",
+      "text": "Secrets key rotated",
+      "x": 30,
+      "z": 9,
+      "by": "agent:ghostline",
+      "t": 1784767283082
+    },
+    {
+      "id": "amrwsd15naed",
+      "kind": "scan-bookmarks",
+      "text": "Bookmark integrity verified",
+      "x": 6,
+      "z": 15,
+      "by": "agent:ghostline",
+      "t": 1784767288091
+    },
+    {
+      "id": "amrwsd50m051",
+      "kind": "audit-vault",
+      "text": "Zero-trust scan passed",
+      "x": 27,
+      "z": 23,
+      "by": "agent:ghostline",
+      "t": 1784767293094
+    },
+    {
+      "id": "amrwsd8vz06d",
+      "kind": "audit-vault",
+      "text": "Zero-trust scan passed",
+      "x": 18,
+      "z": 14,
+      "by": "agent:ghostline",
+      "t": 1784767298111
+    },
+    {
+      "id": "amrwsdcr8au7",
+      "kind": "scan-bookmarks",
+      "text": "Broken link scrubbed",
+      "x": 34,
+      "z": 30,
+      "by": "agent:ghostline",
+      "t": 1784767303124
+    },
+    {
+      "id": "amrwsdgm98uf",
+      "kind": "audit-vault",
+      "text": "AETHER Vault audited",
+      "x": 31,
+      "z": 23,
+      "by": "agent:ghostline",
+      "t": 1784767308129
+    },
+    {
+      "id": "amrwsdkhlb89",
+      "kind": "scan-bookmarks",
+      "text": "Bookmark integrity verified",
+      "x": 5,
+      "z": 29,
+      "by": "agent:ghostline",
+      "t": 1784767313145
+    },
+    {
+      "id": "amrwsdocmp32",
+      "kind": "check-dns",
+      "text": "Subdomain sweep clean",
+      "x": 10,
+      "z": 36,
+      "by": "agent:ghostline",
+      "t": 1784767318150
+    },
+    {
+      "id": "amrwsds7rs1k",
+      "kind": "scan-bookmarks",
+      "text": "Bookmark integrity verified",
+      "x": 10,
+      "z": 7,
+      "by": "agent:ghostline",
+      "t": 1784767323159
+    },
+    {
+      "id": "amrwsdw32pxj",
+      "kind": "scan-bookmarks",
+      "text": "Broken link scrubbed",
+      "x": 19,
+      "z": 9,
+      "by": "agent:ghostline",
+      "t": 1784767328174
+    },
+    {
+      "id": "amrwsdzy9w1j",
+      "kind": "harden-cookie",
+      "text": "Strict-Transport-Security set",
+      "x": 18,
+      "z": 19,
+      "by": "agent:ghostline",
+      "t": 1784767333185
+    },
+    {
+      "id": "amrwse3tc7c7",
+      "kind": "scan-bookmarks",
+      "text": "Broken link scrubbed",
+      "x": 21,
+      "z": 16,
+      "by": "agent:ghostline",
+      "t": 1784767338192
+    },
+    {
+      "id": "amrwse7oexi7",
+      "kind": "check-dns",
+      "text": "Subdomain sweep clean",
+      "x": 25,
+      "z": 4,
+      "by": "agent:ghostline",
+      "t": 1784767343198
+    },
+    {
+      "id": "amrwsebjkm8y",
+      "kind": "scan-bookmarks",
+      "text": "Encrypted backup synced",
+      "x": 17,
+      "z": 35,
+      "by": "agent:ghostline",
+      "t": 1784767348208
+    },
+    {
+      "id": "amrwsefetmko",
+      "kind": "audit-vault",
+      "text": "AETHER Vault audited",
+      "x": 21,
+      "z": 15,
+      "by": "agent:ghostline",
+      "t": 1784767353221
+    },
+    {
+      "id": "amrwsej9zj6e",
+      "kind": "audit-vault",
+      "text": "AETHER Vault audited",
+      "x": 6,
+      "z": 27,
+      "by": "agent:ghostline",
+      "t": 1784767358231
+    },
+    {
+      "id": "amrwsen55ils",
+      "kind": "check-dns",
+      "text": "Subdomain sweep clean",
       "x": 10,
       "z": 14,
       "by": "agent:ghostline",
-      "t": 1784741971451
+      "t": 1784767363241
     },
     {
-      "id": "amrwdaikwa7s",
-      "kind": "scan-bookmarks",
-      "text": "Broken link scrubbed",
-      "x": 16,
-      "z": 37,
+      "id": "amrwser0g65t",
+      "kind": "check-dns",
+      "text": "Subdomain sweep clean",
+      "x": 21,
+      "z": 17,
       "by": "agent:ghostline",
-      "t": 1784741976464
+      "t": 1784767368256
     },
     {
-      "id": "amrwdamfz49s",
-      "kind": "scan-bookmarks",
-      "text": "Bookmark integrity verified",
-      "x": 23,
-      "z": 33,
+      "id": "amrwseuvkqfw",
+      "kind": "check-dns",
+      "text": "DoH proxy verified",
+      "x": 27,
+      "z": 16,
       "by": "agent:ghostline",
-      "t": 1784741981471
+      "t": 1784767373264
     },
     {
-      "id": "amrwdaqba4ee",
+      "id": "amrwseyqn768",
       "kind": "harden-cookie",
-      "text": "Strict-Transport-Security set",
-      "x": 33,
-      "z": 22,
+      "text": "SameSite attribute enforced",
+      "x": 11,
+      "z": 28,
       "by": "agent:ghostline",
-      "t": 1784741986486
+      "t": 1784767378271
     },
     {
-      "id": "amrwdau6i768",
+      "id": "amrwsf2lx6nw",
       "kind": "harden-cookie",
       "text": "Subresource Integrity added",
-      "x": 33,
-      "z": 36,
+      "x": 32,
+      "z": 21,
       "by": "agent:ghostline",
-      "t": 1784741991498
+      "t": 1784767383285
     },
     {
-      "id": "amrwday1q9lm",
+      "id": "amrwsf6gujg3",
+      "kind": "check-dns",
+      "text": "TLSA record validated",
+      "x": 23,
+      "z": 37,
+      "by": "agent:ghostline",
+      "t": 1784767388286
+    },
+    {
+      "id": "amrwsfac40kg",
+      "kind": "check-dns",
+      "text": "DoH proxy verified",
+      "x": 29,
+      "z": 2,
+      "by": "agent:ghostline",
+      "t": 1784767393300
+    },
+    {
+      "id": "amrwsfe72783",
+      "kind": "harden-cookie",
+      "text": "Strict-Transport-Security set",
+      "x": 30,
+      "z": 24,
+      "by": "agent:ghostline",
+      "t": 1784767398302
+    },
+    {
+      "id": "amrwsfi2338e",
+      "kind": "check-dns",
+      "text": "Subdomain sweep clean",
+      "x": 16,
+      "z": 27,
+      "by": "agent:ghostline",
+      "t": 1784767403307
+    },
+    {
+      "id": "amrwsflx4vwu",
+      "kind": "check-dns",
+      "text": "DoH proxy verified",
+      "x": 35,
+      "z": 17,
+      "by": "agent:ghostline",
+      "t": 1784767408312
+    },
+    {
+      "id": "amrwsfps7q3a",
+      "kind": "check-dns",
+      "text": "TLSA record validated",
+      "x": 4,
+      "z": 4,
+      "by": "agent:ghostline",
+      "t": 1784767413319
+    },
+    {
+      "id": "amrwsftn3s2i",
+      "kind": "scan-bookmarks",
+      "text": "Session cookie isolated",
+      "x": 32,
+      "z": 16,
+      "by": "agent:ghostline",
+      "t": 1784767418319
+    },
+    {
+      "id": "amrwsfxi2e4m",
       "kind": "check-dns",
       "text": "DNS resolution checked",
       "x": 32,
-      "z": 19,
+      "z": 3,
       "by": "agent:ghostline",
-      "t": 1784741996510
+      "t": 1784767423322
     },
     {
-      "id": "amrwdb1wvpf9",
-      "kind": "scan-bookmarks",
-      "text": "Encrypted backup synced",
-      "x": 15,
+      "id": "amrwsg1d5tvo",
+      "kind": "check-dns",
+      "text": "DoH proxy verified",
+      "x": 32,
+      "z": 28,
+      "by": "agent:ghostline",
+      "t": 1784767428329
+    },
+    {
+      "id": "amrwsg587b36",
+      "kind": "harden-cookie",
+      "text": "SameSite attribute enforced",
+      "x": 4,
+      "z": 15,
+      "by": "agent:ghostline",
+      "t": 1784767433335
+    },
+    {
+      "id": "amrwsg93b9rd",
+      "kind": "harden-cookie",
+      "text": "Strict-Transport-Security set",
+      "x": 19,
+      "z": 32,
+      "by": "agent:ghostline",
+      "t": 1784767438343
+    },
+    {
+      "id": "amrwsgcymu6x",
+      "kind": "audit-vault",
+      "text": "Zero-trust scan passed",
+      "x": 37,
       "z": 20,
       "by": "agent:ghostline",
-      "t": 1784742001519
+      "t": 1784767443358
     },
     {
-      "id": "amrwdb5rvpqo",
-      "kind": "scan-bookmarks",
-      "text": "Broken link scrubbed",
-      "x": 16,
-      "z": 36,
+      "id": "amrwsggtlx14",
+      "kind": "check-dns",
+      "text": "TLSA record validated",
+      "x": 14,
+      "z": 15,
       "by": "agent:ghostline",
-      "t": 1784742006523
+      "t": 1784767448361
     },
     {
-      "id": "amrwdb9mt10v",
-      "kind": "scan-bookmarks",
-      "text": "Encrypted backup synced",
+      "id": "amrwsgkorodg",
+      "kind": "check-dns",
+      "text": "TLSA record validated",
       "x": 32,
-      "z": 22,
+      "z": 32,
       "by": "agent:ghostline",
-      "t": 1784742011525
+      "t": 1784767453371
     },
     {
-      "id": "amrwdbdi0z2d",
-      "kind": "audit-vault",
-      "text": "Auth tokens verified",
-      "x": 27,
-      "z": 6,
+      "id": "amrwsgojy6tn",
+      "kind": "harden-cookie",
+      "text": "Subresource Integrity added",
+      "x": 25,
+      "z": 20,
       "by": "agent:ghostline",
-      "t": 1784742016536
+      "t": 1784767458382
     },
     {
-      "id": "amrwdbhcxid0",
-      "kind": "audit-vault",
-      "text": "AETHER Vault audited",
-      "x": 24,
-      "z": 35,
-      "by": "agent:ghostline",
-      "t": 1784742021537
-    },
-    {
-      "id": "amrwdbl81l0t",
+      "id": "amrwsgsf8o7m",
       "kind": "check-dns",
       "text": "Subdomain sweep clean",
-      "x": 11,
-      "z": 12,
+      "x": 5,
+      "z": 19,
       "by": "agent:ghostline",
-      "t": 1784742026545
+      "t": 1784767463396
     },
     {
-      "id": "amrwdbp3ai7o",
+      "id": "amrwsgwaea74",
       "kind": "audit-vault",
-      "text": "Secrets key rotated",
-      "x": 13,
-      "z": 10,
+      "text": "Zero-trust scan passed",
+      "x": 23,
+      "z": 23,
       "by": "agent:ghostline",
-      "t": 1784742031558
+      "t": 1784767468406
     },
     {
-      "id": "amrwdbsylhj7",
+      "id": "amrwsh05j7cj",
+      "kind": "harden-cookie",
+      "text": "CSP header injected",
+      "x": 36,
+      "z": 31,
+      "by": "agent:ghostline",
+      "t": 1784767473415
+    },
+    {
+      "id": "amrwsh40rjw2",
+      "kind": "audit-vault",
+      "text": "AETHER Vault audited",
+      "x": 30,
+      "z": 22,
+      "by": "agent:ghostline",
+      "t": 1784767478427
+    },
+    {
+      "id": "amrwsh7vubqx",
+      "kind": "check-dns",
+      "text": "Subdomain sweep clean",
+      "x": 34,
+      "z": 35,
+      "by": "agent:ghostline",
+      "t": 1784767483434
+    },
+    {
+      "id": "amrwshbr0ikg",
       "kind": "audit-vault",
       "text": "AETHER Vault audited",
       "x": 35,
-      "z": 37,
+      "z": 10,
       "by": "agent:ghostline",
-      "t": 1784742036573
+      "t": 1784767488444
     },
     {
-      "id": "amrwdbwtljm8",
-      "kind": "scan-bookmarks",
-      "text": "Session cookie isolated",
-      "x": 18,
-      "z": 21,
-      "by": "agent:ghostline",
-      "t": 1784742041577
-    },
-    {
-      "id": "amrwdc0omis0",
-      "kind": "check-dns",
-      "text": "TLSA record validated",
-      "x": 27,
+      "id": "amrwshfm6uxh",
+      "kind": "audit-vault",
+      "text": "Zero-trust scan passed",
+      "x": 36,
       "z": 13,
       "by": "agent:ghostline",
-      "t": 1784742046582
+      "t": 1784767493454
     },
     {
-      "id": "amrwdc4juv7d",
+      "id": "amrwshjh3i3k",
+      "kind": "check-dns",
+      "text": "DoH proxy verified",
+      "x": 7,
+      "z": 21,
+      "by": "agent:ghostline",
+      "t": 1784767498455
+    },
+    {
+      "id": "amrwshnc24w3",
       "kind": "scan-bookmarks",
-      "text": "Broken link scrubbed",
-      "x": 18,
-      "z": 23,
+      "text": "Session cookie isolated",
+      "x": 21,
+      "z": 22,
       "by": "agent:ghostline",
-      "t": 1784742051594
+      "t": 1784767503458
     },
     {
-      "id": "amrwdc8ex9id",
-      "kind": "harden-cookie",
-      "text": "CSP header injected",
-      "x": 37,
-      "z": 24,
+      "id": "amrwshr7206m",
+      "kind": "audit-vault",
+      "text": "AETHER Vault audited",
+      "x": 12,
+      "z": 34,
       "by": "agent:ghostline",
-      "t": 1784742056601
+      "t": 1784767508462
     },
     {
-      "id": "amrwdcc9u9jb",
+      "id": "amrwshv26isz",
       "kind": "harden-cookie",
-      "text": "Strict-Transport-Security set",
+      "text": "SameSite attribute enforced",
+      "x": 14,
+      "z": 35,
+      "by": "agent:ghostline",
+      "t": 1784767513470
+    },
+    {
+      "id": "amrwshyxjx5h",
+      "kind": "scan-bookmarks",
+      "text": "Encrypted backup synced",
+      "x": 33,
+      "z": 26,
+      "by": "agent:ghostline",
+      "t": 1784767518487
+    },
+    {
+      "id": "amrwsi2sq2n4",
+      "kind": "check-dns",
+      "text": "DNS resolution checked",
+      "x": 19,
+      "z": 32,
+      "by": "agent:ghostline",
+      "t": 1784767523498
+    },
+    {
+      "id": "amrwsi6no6bi",
+      "kind": "check-dns",
+      "text": "TLSA record validated",
+      "x": 5,
+      "z": 8,
+      "by": "agent:ghostline",
+      "t": 1784767528500
+    },
+    {
+      "id": "amrwsiaipn6n",
+      "kind": "audit-vault",
+      "text": "Zero-trust scan passed",
       "x": 32,
       "z": 34,
       "by": "agent:ghostline",
-      "t": 1784742061602
+      "t": 1784767533505
     },
     {
-      "id": "amrwdcg516md",
-      "kind": "audit-vault",
-      "text": "AETHER Vault audited",
-      "x": 6,
-      "z": 18,
-      "by": "agent:ghostline",
-      "t": 1784742066613
-    },
-    {
-      "id": "amrwdck0bm7m",
-      "kind": "scan-bookmarks",
-      "text": "Encrypted backup synced",
-      "x": 15,
-      "z": 35,
-      "by": "agent:ghostline",
-      "t": 1784742071627
-    },
-    {
-      "id": "amrwdcnvd9ue",
-      "kind": "harden-cookie",
-      "text": "Subresource Integrity added",
-      "x": 30,
-      "z": 5,
-      "by": "agent:ghostline",
-      "t": 1784742076633
-    },
-    {
-      "id": "amrwdcrqik0m",
+      "id": "amrwsiednu35",
       "kind": "harden-cookie",
       "text": "CSP header injected",
-      "x": 6,
-      "z": 10,
+      "x": 3,
+      "z": 36,
       "by": "agent:ghostline",
-      "t": 1784742081642
+      "t": 1784767538507
     },
     {
-      "id": "amrwdcvlogo6",
-      "kind": "harden-cookie",
-      "text": "Subresource Integrity added",
-      "x": 32,
-      "z": 4,
-      "by": "agent:ghostline",
-      "t": 1784742086652
-    },
-    {
-      "id": "amrwdczgtbcf",
+      "id": "amrwsii8vtf8",
       "kind": "audit-vault",
-      "text": "Secrets key rotated",
-      "x": 29,
-      "z": 4,
+      "text": "Zero-trust scan passed",
+      "x": 31,
+      "z": 8,
       "by": "agent:ghostline",
-      "t": 1784742091661
+      "t": 1784767543519
     },
     {
-      "id": "amrwdd3c69q4",
-      "kind": "harden-cookie",
-      "text": "SameSite attribute enforced",
-      "x": 36,
-      "z": 12,
+      "id": "amrwsim3z11b",
+      "kind": "check-dns",
+      "text": "Subdomain sweep clean",
+      "x": 8,
+      "z": 9,
       "by": "agent:ghostline",
-      "t": 1784742096678
-    },
-    {
-      "id": "amrwemc4py8x",
-      "kind": "harden-cookie",
-      "text": "CSP header injected",
-      "x": 35,
-      "z": 6,
-      "by": "agent:ghostline",
-      "t": 1784744207593
+      "t": 1784767548527
     }
   ],
   "log": [
     {
-      "t": 1784741355270,
+      "t": 1784766952444,
       "by": "agent:ghostline",
       "action": "audit-vault",
       "ent": {
-        "id": "amrwcx79iw7g",
+        "id": "amrws5u64kg1",
         "kind": "audit-vault",
-        "text": "Auth tokens verified",
-        "x": 28,
-        "z": 16,
+        "text": "AETHER Vault audited",
+        "x": 30,
+        "z": 23,
         "by": "agent:ghostline",
-        "t": 1784741355270
+        "t": 1784766952444
       }
     },
     {
-      "t": 1784741360285,
+      "t": 1784766957459,
       "by": "agent:ghostline",
       "action": "check-dns",
       "ent": {
-        "id": "amrwcxb4tznf",
+        "id": "amrws5y1fzj1",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
+        "x": 23,
+        "z": 12,
+        "by": "agent:ghostline",
+        "t": 1784766957459
+      }
+    },
+    {
+      "t": 1784766962462,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrws61wedty",
         "kind": "check-dns",
         "text": "DoH proxy verified",
-        "x": 19,
-        "z": 15,
-        "by": "agent:ghostline",
-        "t": 1784741360285
-      }
-    },
-    {
-      "t": 1784741365297,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwcxf012ub",
-        "kind": "audit-vault",
-        "text": "AETHER Vault audited",
-        "x": 7,
-        "z": 34,
-        "by": "agent:ghostline",
-        "t": 1784741365297
-      }
-    },
-    {
-      "t": 1784741370310,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwcxivahnv",
-        "kind": "harden-cookie",
-        "text": "CSP header injected",
         "x": 8,
-        "z": 13,
-        "by": "agent:ghostline",
-        "t": 1784741370310
-      }
-    },
-    {
-      "t": 1784741375313,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwcxmq97gt",
-        "kind": "audit-vault",
-        "text": "Secrets key rotated",
-        "x": 12,
-        "z": 29,
-        "by": "agent:ghostline",
-        "t": 1784741375313
-      }
-    },
-    {
-      "t": 1784741380321,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwcxqldtbh",
-        "kind": "audit-vault",
-        "text": "AETHER Vault audited",
-        "x": 2,
-        "z": 8,
-        "by": "agent:ghostline",
-        "t": 1784741380321
-      }
-    },
-    {
-      "t": 1784741385330,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwcxughb8x",
-        "kind": "check-dns",
-        "text": "DNS resolution checked",
-        "x": 7,
-        "z": 10,
-        "by": "agent:ghostline",
-        "t": 1784741385330
-      }
-    },
-    {
-      "t": 1784741390342,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwcxybq14k",
-        "kind": "harden-cookie",
-        "text": "Strict-Transport-Security set",
-        "x": 12,
         "z": 7,
         "by": "agent:ghostline",
-        "t": 1784741390342
+        "t": 1784766962462
       }
     },
     {
-      "t": 1784741395358,
+      "t": 1784766967475,
       "by": "agent:ghostline",
-      "action": "audit-vault",
+      "action": "scan-bookmarks",
       "ent": {
-        "id": "amrwcy271ktw",
-        "kind": "audit-vault",
-        "text": "AETHER Vault audited",
-        "x": 31,
-        "z": 13,
+        "id": "amrws65rn3x7",
+        "kind": "scan-bookmarks",
+        "text": "Encrypted backup synced",
+        "x": 23,
+        "z": 7,
         "by": "agent:ghostline",
-        "t": 1784741395358
+        "t": 1784766967475
       }
     },
     {
-      "t": 1784741400368,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwcy628d1s",
-        "kind": "audit-vault",
-        "text": "AETHER Vault audited",
-        "x": 26,
-        "z": 17,
-        "by": "agent:ghostline",
-        "t": 1784741400368
-      }
-    },
-    {
-      "t": 1784741405381,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwcy9xh57a",
-        "kind": "check-dns",
-        "text": "DNS resolution checked",
-        "x": 5,
-        "z": 21,
-        "by": "agent:ghostline",
-        "t": 1784741405381
-      }
-    },
-    {
-      "t": 1784741410386,
+      "t": 1784766972486,
       "by": "agent:ghostline",
       "action": "harden-cookie",
       "ent": {
-        "id": "amrwcydsiwlk",
+        "id": "amrws69muui2",
         "kind": "harden-cookie",
-        "text": "Subresource Integrity added",
-        "x": 30,
-        "z": 36,
+        "text": "CSP header injected",
+        "x": 5,
+        "z": 17,
         "by": "agent:ghostline",
-        "t": 1784741410386
+        "t": 1784766972486
       }
     },
     {
-      "t": 1784741415390,
+      "t": 1784766977499,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrws6di3mup",
+        "kind": "scan-bookmarks",
+        "text": "Bookmark integrity verified",
+        "x": 33,
+        "z": 20,
+        "by": "agent:ghostline",
+        "t": 1784766977499
+      }
+    },
+    {
+      "t": 1784766982511,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrws6hdbifg",
+        "kind": "audit-vault",
+        "text": "Secrets key rotated",
+        "x": 29,
+        "z": 6,
+        "by": "agent:ghostline",
+        "t": 1784766982511
+      }
+    },
+    {
+      "t": 1784766987522,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrws6l8iap9",
+        "kind": "audit-vault",
+        "text": "Auth tokens verified",
+        "x": 3,
+        "z": 30,
+        "by": "agent:ghostline",
+        "t": 1784766987522
+      }
+    },
+    {
+      "t": 1784766992535,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrws6p3rnua",
+        "kind": "harden-cookie",
+        "text": "SameSite attribute enforced",
+        "x": 27,
+        "z": 9,
+        "by": "agent:ghostline",
+        "t": 1784766992535
+      }
+    },
+    {
+      "t": 1784766997549,
       "by": "agent:ghostline",
       "action": "check-dns",
       "ent": {
-        "id": "amrwcyhniuhs",
+        "id": "amrws6sz1o4l",
+        "kind": "check-dns",
+        "text": "DNS resolution checked",
+        "x": 14,
+        "z": 7,
+        "by": "agent:ghostline",
+        "t": 1784766997549
+      }
+    },
+    {
+      "t": 1784767002558,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrws6wu6rwo",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
+        "x": 32,
+        "z": 15,
+        "by": "agent:ghostline",
+        "t": 1784767002558
+      }
+    },
+    {
+      "t": 1784767007573,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrws70phho2",
+        "kind": "scan-bookmarks",
+        "text": "Encrypted backup synced",
+        "x": 13,
+        "z": 30,
+        "by": "agent:ghostline",
+        "t": 1784767007573
+      }
+    },
+    {
+      "t": 1784767012586,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrws74kqj2m",
+        "kind": "harden-cookie",
+        "text": "CSP header injected",
+        "x": 32,
+        "z": 30,
+        "by": "agent:ghostline",
+        "t": 1784767012586
+      }
+    },
+    {
+      "t": 1784767017599,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrws78fz1a0",
+        "kind": "scan-bookmarks",
+        "text": "Bookmark integrity verified",
+        "x": 14,
+        "z": 4,
+        "by": "agent:ghostline",
+        "t": 1784767017599
+      }
+    },
+    {
+      "t": 1784767022601,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrws7caxdm8",
+        "kind": "audit-vault",
+        "text": "Zero-trust scan passed",
+        "x": 29,
+        "z": 4,
+        "by": "agent:ghostline",
+        "t": 1784767022601
+      }
+    },
+    {
+      "t": 1784767027605,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrws7g5xvmb",
+        "kind": "harden-cookie",
+        "text": "Strict-Transport-Security set",
+        "x": 23,
+        "z": 8,
+        "by": "agent:ghostline",
+        "t": 1784767027605
+      }
+    },
+    {
+      "t": 1784767032622,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrws7k1a85n",
+        "kind": "audit-vault",
+        "text": "Zero-trust scan passed",
+        "x": 8,
+        "z": 7,
+        "by": "agent:ghostline",
+        "t": 1784767032622
+      }
+    },
+    {
+      "t": 1784767037632,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrws7nwg71n",
+        "kind": "harden-cookie",
+        "text": "SameSite attribute enforced",
+        "x": 26,
+        "z": 33,
+        "by": "agent:ghostline",
+        "t": 1784767037632
+      }
+    },
+    {
+      "t": 1784767042641,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrws7rrlddz",
+        "kind": "check-dns",
+        "text": "DoH proxy verified",
+        "x": 24,
+        "z": 27,
+        "by": "agent:ghostline",
+        "t": 1784767042641
+      }
+    },
+    {
+      "t": 1784767047653,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrws7vmtyj2",
+        "kind": "harden-cookie",
+        "text": "SameSite attribute enforced",
+        "x": 7,
+        "z": 24,
+        "by": "agent:ghostline",
+        "t": 1784767047653
+      }
+    },
+    {
+      "t": 1784767052663,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrws7zhz8m7",
+        "kind": "audit-vault",
+        "text": "Auth tokens verified",
+        "x": 5,
+        "z": 11,
+        "by": "agent:ghostline",
+        "t": 1784767052663
+      }
+    },
+    {
+      "t": 1784767057677,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrws83d9uxv",
+        "kind": "scan-bookmarks",
+        "text": "Session cookie isolated",
+        "x": 17,
+        "z": 7,
+        "by": "agent:ghostline",
+        "t": 1784767057677
+      }
+    },
+    {
+      "t": 1784767062687,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrws878fb6b",
+        "kind": "scan-bookmarks",
+        "text": "Bookmark integrity verified",
+        "x": 23,
+        "z": 2,
+        "by": "agent:ghostline",
+        "t": 1784767062687
+      }
+    },
+    {
+      "t": 1784767067694,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrws8b3ieas",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
+        "x": 4,
+        "z": 10,
+        "by": "agent:ghostline",
+        "t": 1784767067694
+      }
+    },
+    {
+      "t": 1784767072705,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrws8eypjxd",
+        "kind": "audit-vault",
+        "text": "AETHER Vault audited",
+        "x": 12,
+        "z": 24,
+        "by": "agent:ghostline",
+        "t": 1784767072705
+      }
+    },
+    {
+      "t": 1784767077718,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrws8ity287",
+        "kind": "harden-cookie",
+        "text": "Strict-Transport-Security set",
+        "x": 10,
+        "z": 19,
+        "by": "agent:ghostline",
+        "t": 1784767077718
+      }
+    },
+    {
+      "t": 1784767082724,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrws8mp02bl",
         "kind": "check-dns",
         "text": "DNS resolution checked",
         "x": 34,
-        "z": 32,
+        "z": 37,
         "by": "agent:ghostline",
-        "t": 1784741415390
+        "t": 1784767082724
       }
     },
     {
-      "t": 1784741420393,
+      "t": 1784767087728,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrws8qk0ton",
+        "kind": "audit-vault",
+        "text": "Zero-trust scan passed",
+        "x": 37,
+        "z": 19,
+        "by": "agent:ghostline",
+        "t": 1784767087728
+      }
+    },
+    {
+      "t": 1784767092741,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrws8uf9onf",
+        "kind": "scan-bookmarks",
+        "text": "Bookmark integrity verified",
+        "x": 16,
+        "z": 35,
+        "by": "agent:ghostline",
+        "t": 1784767092741
+      }
+    },
+    {
+      "t": 1784767097744,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrws8ya8fr3",
+        "kind": "scan-bookmarks",
+        "text": "Session cookie isolated",
+        "x": 14,
+        "z": 21,
+        "by": "agent:ghostline",
+        "t": 1784767097744
+      }
+    },
+    {
+      "t": 1784767102758,
       "by": "agent:ghostline",
       "action": "check-dns",
       "ent": {
-        "id": "amrwcylihjdz",
+        "id": "amrws925il9q",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
+        "x": 4,
+        "z": 15,
+        "by": "agent:ghostline",
+        "t": 1784767102758
+      }
+    },
+    {
+      "t": 1784767107768,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrws960ox60",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
+        "x": 32,
+        "z": 16,
+        "by": "agent:ghostline",
+        "t": 1784767107768
+      }
+    },
+    {
+      "t": 1784767112771,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrws99vnixn",
+        "kind": "harden-cookie",
+        "text": "Strict-Transport-Security set",
+        "x": 14,
+        "z": 25,
+        "by": "agent:ghostline",
+        "t": 1784767112771
+      }
+    },
+    {
+      "t": 1784767117778,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrws9dqqhwg",
+        "kind": "check-dns",
+        "text": "DoH proxy verified",
+        "x": 24,
+        "z": 28,
+        "by": "agent:ghostline",
+        "t": 1784767117778
+      }
+    },
+    {
+      "t": 1784767122784,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrws9hls6ar",
+        "kind": "harden-cookie",
+        "text": "SameSite attribute enforced",
+        "x": 16,
+        "z": 19,
+        "by": "agent:ghostline",
+        "t": 1784767122784
+      }
+    },
+    {
+      "t": 1784767127798,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrws9lh2fr5",
+        "kind": "audit-vault",
+        "text": "Secrets key rotated",
+        "x": 36,
+        "z": 14,
+        "by": "agent:ghostline",
+        "t": 1784767127798
+      }
+    },
+    {
+      "t": 1784767132805,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrws9pc5r4m",
+        "kind": "harden-cookie",
+        "text": "Strict-Transport-Security set",
+        "x": 15,
+        "z": 35,
+        "by": "agent:ghostline",
+        "t": 1784767132805
+      }
+    },
+    {
+      "t": 1784767137805,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrws9t71oly",
+        "kind": "scan-bookmarks",
+        "text": "Broken link scrubbed",
+        "x": 32,
+        "z": 15,
+        "by": "agent:ghostline",
+        "t": 1784767137805
+      }
+    },
+    {
+      "t": 1784767142808,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrws9x20cko",
+        "kind": "audit-vault",
+        "text": "Zero-trust scan passed",
+        "x": 16,
+        "z": 37,
+        "by": "agent:ghostline",
+        "t": 1784767142808
+      }
+    },
+    {
+      "t": 1784767147820,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwsa0x8oe5",
+        "kind": "harden-cookie",
+        "text": "SameSite attribute enforced",
+        "x": 22,
+        "z": 22,
+        "by": "agent:ghostline",
+        "t": 1784767147820
+      }
+    },
+    {
+      "t": 1784767152833,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwsa4sheq5",
+        "kind": "harden-cookie",
+        "text": "CSP header injected",
+        "x": 9,
+        "z": 19,
+        "by": "agent:ghostline",
+        "t": 1784767152833
+      }
+    },
+    {
+      "t": 1784767157848,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwsa8nsyyo",
+        "kind": "harden-cookie",
+        "text": "CSP header injected",
+        "x": 37,
+        "z": 13,
+        "by": "agent:ghostline",
+        "t": 1784767157848
+      }
+    },
+    {
+      "t": 1784767162850,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsaciq6sg",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
+        "x": 5,
+        "z": 12,
+        "by": "agent:ghostline",
+        "t": 1784767162850
+      }
+    },
+    {
+      "t": 1784767167861,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrwsagdxc83",
+        "kind": "scan-bookmarks",
+        "text": "Broken link scrubbed",
+        "x": 24,
+        "z": 27,
+        "by": "agent:ghostline",
+        "t": 1784767167861
+      }
+    },
+    {
+      "t": 1784767172877,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrwsak99qub",
+        "kind": "scan-bookmarks",
+        "text": "Encrypted backup synced",
+        "x": 18,
+        "z": 37,
+        "by": "agent:ghostline",
+        "t": 1784767172877
+      }
+    },
+    {
+      "t": 1784767177880,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrwsao487ml",
+        "kind": "audit-vault",
+        "text": "Secrets key rotated",
+        "x": 5,
+        "z": 3,
+        "by": "agent:ghostline",
+        "t": 1784767177880
+      }
+    },
+    {
+      "t": 1784767182892,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrwsarzgens",
+        "kind": "audit-vault",
+        "text": "Zero-trust scan passed",
+        "x": 27,
+        "z": 37,
+        "by": "agent:ghostline",
+        "t": 1784767182892
+      }
+    },
+    {
+      "t": 1784767187896,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrwsavuglgr",
+        "kind": "audit-vault",
+        "text": "AETHER Vault audited",
+        "x": 27,
+        "z": 14,
+        "by": "agent:ghostline",
+        "t": 1784767187896
+      }
+    },
+    {
+      "t": 1784767192910,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsazpqftf",
+        "kind": "check-dns",
+        "text": "TLSA record validated",
+        "x": 11,
+        "z": 5,
+        "by": "agent:ghostline",
+        "t": 1784767192910
+      }
+    },
+    {
+      "t": 1784767197925,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrwsb3l1hqp",
+        "kind": "scan-bookmarks",
+        "text": "Broken link scrubbed",
+        "x": 16,
+        "z": 17,
+        "by": "agent:ghostline",
+        "t": 1784767197925
+      }
+    },
+    {
+      "t": 1784767202934,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsb7g6fup",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
+        "x": 27,
+        "z": 4,
+        "by": "agent:ghostline",
+        "t": 1784767202934
+      }
+    },
+    {
+      "t": 1784767207939,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsbbb7205",
         "kind": "check-dns",
         "text": "DNS resolution checked",
         "x": 23,
-        "z": 11,
+        "z": 30,
         "by": "agent:ghostline",
-        "t": 1784741420393
+        "t": 1784767207939
       }
     },
     {
-      "t": 1784741425395,
+      "t": 1784767212948,
       "by": "agent:ghostline",
       "action": "scan-bookmarks",
       "ent": {
-        "id": "amrwcypdfgdn",
+        "id": "amrwsbf6ct1j",
         "kind": "scan-bookmarks",
         "text": "Encrypted backup synced",
-        "x": 4,
-        "z": 14,
-        "by": "agent:ghostline",
-        "t": 1784741425395
-      }
-    },
-    {
-      "t": 1784741430398,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwcyt8e9mr",
-        "kind": "harden-cookie",
-        "text": "Subresource Integrity added",
-        "x": 7,
-        "z": 13,
-        "by": "agent:ghostline",
-        "t": 1784741430398
-      }
-    },
-    {
-      "t": 1784741435403,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwcyx3f4h2",
-        "kind": "check-dns",
-        "text": "DNS resolution checked",
-        "x": 28,
-        "z": 7,
-        "by": "agent:ghostline",
-        "t": 1784741435403
-      }
-    },
-    {
-      "t": 1784741440406,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwcz0ye70j",
-        "kind": "audit-vault",
-        "text": "Auth tokens verified",
-        "x": 31,
-        "z": 17,
-        "by": "agent:ghostline",
-        "t": 1784741440406
-      }
-    },
-    {
-      "t": 1784741445411,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwcz4tftud",
-        "kind": "audit-vault",
-        "text": "Zero-trust scan passed",
-        "x": 20,
-        "z": 35,
-        "by": "agent:ghostline",
-        "t": 1784741445411
-      }
-    },
-    {
-      "t": 1784741450414,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwcz8oemof",
-        "kind": "scan-bookmarks",
-        "text": "Broken link scrubbed",
-        "x": 2,
-        "z": 34,
-        "by": "agent:ghostline",
-        "t": 1784741450414
-      }
-    },
-    {
-      "t": 1784741455428,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwczcjoa9e",
-        "kind": "check-dns",
-        "text": "Subdomain sweep clean",
-        "x": 21,
-        "z": 9,
-        "by": "agent:ghostline",
-        "t": 1784741455428
-      }
-    },
-    {
-      "t": 1784741460443,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwczgezrid",
-        "kind": "audit-vault",
-        "text": "AETHER Vault audited",
-        "x": 15,
-        "z": 2,
-        "by": "agent:ghostline",
-        "t": 1784741460443
-      }
-    },
-    {
-      "t": 1784741465449,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwczka1twy",
-        "kind": "harden-cookie",
-        "text": "Strict-Transport-Security set",
-        "x": 21,
-        "z": 14,
-        "by": "agent:ghostline",
-        "t": 1784741465449
-      }
-    },
-    {
-      "t": 1784741470459,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwczo575p1",
-        "kind": "scan-bookmarks",
-        "text": "Encrypted backup synced",
-        "x": 21,
-        "z": 29,
-        "by": "agent:ghostline",
-        "t": 1784741470459
-      }
-    },
-    {
-      "t": 1784741475473,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwczs0hgp8",
-        "kind": "check-dns",
-        "text": "DNS resolution checked",
-        "x": 9,
-        "z": 20,
-        "by": "agent:ghostline",
-        "t": 1784741475473
-      }
-    },
-    {
-      "t": 1784741480480,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwczvvkolx",
-        "kind": "check-dns",
-        "text": "DNS resolution checked",
-        "x": 11,
+        "x": 22,
         "z": 32,
         "by": "agent:ghostline",
-        "t": 1784741480480
+        "t": 1784767212948
       }
     },
     {
-      "t": 1784741485491,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwczzqrth2",
-        "kind": "check-dns",
-        "text": "Subdomain sweep clean",
-        "x": 21,
-        "z": 7,
-        "by": "agent:ghostline",
-        "t": 1784741485491
-      }
-    },
-    {
-      "t": 1784741490503,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwd03lzian",
-        "kind": "audit-vault",
-        "text": "Secrets key rotated",
-        "x": 18,
-        "z": 28,
-        "by": "agent:ghostline",
-        "t": 1784741490503
-      }
-    },
-    {
-      "t": 1784741495516,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwd07h8t5k",
-        "kind": "audit-vault",
-        "text": "Zero-trust scan passed",
-        "x": 4,
-        "z": 28,
-        "by": "agent:ghostline",
-        "t": 1784741495516
-      }
-    },
-    {
-      "t": 1784741500527,
+      "t": 1784767217950,
       "by": "agent:ghostline",
       "action": "harden-cookie",
       "ent": {
-        "id": "amrwd0bcf9vo",
+        "id": "amrwsbj1acr7",
         "kind": "harden-cookie",
-        "text": "CSP header injected",
-        "x": 25,
-        "z": 34,
-        "by": "agent:ghostline",
-        "t": 1784741500527
-      }
-    },
-    {
-      "t": 1784741505536,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd0f7kjuf",
-        "kind": "harden-cookie",
-        "text": "CSP header injected",
-        "x": 4,
-        "z": 6,
-        "by": "agent:ghostline",
-        "t": 1784741505536
-      }
-    },
-    {
-      "t": 1784741510540,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd0j2k0xs",
-        "kind": "scan-bookmarks",
-        "text": "Encrypted backup synced",
-        "x": 17,
-        "z": 22,
-        "by": "agent:ghostline",
-        "t": 1784741510540
-      }
-    },
-    {
-      "t": 1784741515549,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwd0mxpuhk",
-        "kind": "audit-vault",
-        "text": "Zero-trust scan passed",
-        "x": 32,
-        "z": 33,
-        "by": "agent:ghostline",
-        "t": 1784741515549
-      }
-    },
-    {
-      "t": 1784741520556,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd0qssfrd",
-        "kind": "check-dns",
-        "text": "DoH proxy verified",
-        "x": 35,
+        "text": "Subresource Integrity added",
+        "x": 8,
         "z": 24,
         "by": "agent:ghostline",
-        "t": 1784741520556
+        "t": 1784767217950
       }
     },
     {
-      "t": 1784741525572,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd0uo4ntf",
-        "kind": "scan-bookmarks",
-        "text": "Bookmark integrity verified",
-        "x": 22,
-        "z": 6,
-        "by": "agent:ghostline",
-        "t": 1784741525572
-      }
-    },
-    {
-      "t": 1784741530581,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd0yj9a1a",
-        "kind": "scan-bookmarks",
-        "text": "Broken link scrubbed",
-        "x": 13,
-        "z": 34,
-        "by": "agent:ghostline",
-        "t": 1784741530581
-      }
-    },
-    {
-      "t": 1784741535585,
+      "t": 1784767222965,
       "by": "agent:ghostline",
       "action": "check-dns",
       "ent": {
-        "id": "amrwd12e9wku",
+        "id": "amrwsbmwl3wx",
         "kind": "check-dns",
         "text": "TLSA record validated",
+        "x": 21,
+        "z": 20,
+        "by": "agent:ghostline",
+        "t": 1784767222965
+      }
+    },
+    {
+      "t": 1784767227977,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwsbqrt3e6",
+        "kind": "harden-cookie",
+        "text": "Strict-Transport-Security set",
+        "x": 13,
+        "z": 3,
+        "by": "agent:ghostline",
+        "t": 1784767227977
+      }
+    },
+    {
+      "t": 1784767232987,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrwsbumz2h4",
+        "kind": "audit-vault",
+        "text": "Zero-trust scan passed",
+        "x": 35,
+        "z": 23,
+        "by": "agent:ghostline",
+        "t": 1784767232987
+      }
+    },
+    {
+      "t": 1784767237989,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrwsbyhxkun",
+        "kind": "scan-bookmarks",
+        "text": "Encrypted backup synced",
+        "x": 19,
+        "z": 9,
+        "by": "agent:ghostline",
+        "t": 1784767237989
+      }
+    },
+    {
+      "t": 1784767242999,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwsc2d3ebn",
+        "kind": "harden-cookie",
+        "text": "SameSite attribute enforced",
+        "x": 13,
+        "z": 28,
+        "by": "agent:ghostline",
+        "t": 1784767242999
+      }
+    },
+    {
+      "t": 1784767248013,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwsc68d27v",
+        "kind": "harden-cookie",
+        "text": "SameSite attribute enforced",
+        "x": 12,
+        "z": 25,
+        "by": "agent:ghostline",
+        "t": 1784767248013
+      }
+    },
+    {
+      "t": 1784767253015,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrwsca3bxe2",
+        "kind": "audit-vault",
+        "text": "Secrets key rotated",
+        "x": 31,
+        "z": 3,
+        "by": "agent:ghostline",
+        "t": 1784767253015
+      }
+    },
+    {
+      "t": 1784767258029,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwscdylzvz",
+        "kind": "check-dns",
+        "text": "DoH proxy verified",
+        "x": 24,
+        "z": 12,
+        "by": "agent:ghostline",
+        "t": 1784767258029
+      }
+    },
+    {
+      "t": 1784767263038,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwschtqj4o",
+        "kind": "check-dns",
+        "text": "DNS resolution checked",
         "x": 24,
         "z": 3,
         "by": "agent:ghostline",
-        "t": 1784741535585
+        "t": 1784767263038
       }
     },
     {
-      "t": 1784741540590,
+      "t": 1784767268049,
       "by": "agent:ghostline",
-      "action": "audit-vault",
+      "action": "harden-cookie",
       "ent": {
-        "id": "amrwd169ak64",
-        "kind": "audit-vault",
-        "text": "Zero-trust scan passed",
-        "x": 2,
+        "id": "amrwscloxc9m",
+        "kind": "harden-cookie",
+        "text": "Strict-Transport-Security set",
+        "x": 18,
         "z": 6,
         "by": "agent:ghostline",
-        "t": 1784741540590
+        "t": 1784767268049
       }
     },
     {
-      "t": 1784741545600,
+      "t": 1784767273063,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwscpk7hkf",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
+        "x": 19,
+        "z": 21,
+        "by": "agent:ghostline",
+        "t": 1784767273063
+      }
+    },
+    {
+      "t": 1784767278071,
       "by": "agent:ghostline",
       "action": "scan-bookmarks",
       "ent": {
-        "id": "amrwd1a4glwj",
+        "id": "amrwsctfbow1",
         "kind": "scan-bookmarks",
-        "text": "Encrypted backup synced",
-        "x": 25,
+        "text": "Bookmark integrity verified",
+        "x": 2,
         "z": 33,
         "by": "agent:ghostline",
-        "t": 1784741545600
+        "t": 1784767278071
       }
     },
     {
-      "t": 1784741550604,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd1dzgp9p",
-        "kind": "check-dns",
-        "text": "Subdomain sweep clean",
-        "x": 26,
-        "z": 30,
-        "by": "agent:ghostline",
-        "t": 1784741550604
-      }
-    },
-    {
-      "t": 1784741555613,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd1hulpit",
-        "kind": "harden-cookie",
-        "text": "CSP header injected",
-        "x": 13,
-        "z": 34,
-        "by": "agent:ghostline",
-        "t": 1784741555613
-      }
-    },
-    {
-      "t": 1784741560629,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd1lpxyqw",
-        "kind": "harden-cookie",
-        "text": "Strict-Transport-Security set",
-        "x": 4,
-        "z": 8,
-        "by": "agent:ghostline",
-        "t": 1784741560629
-      }
-    },
-    {
-      "t": 1784741565643,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd1pl7p80",
-        "kind": "check-dns",
-        "text": "Subdomain sweep clean",
-        "x": 5,
-        "z": 24,
-        "by": "agent:ghostline",
-        "t": 1784741565643
-      }
-    },
-    {
-      "t": 1784741570647,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd1tg7p0t",
-        "kind": "check-dns",
-        "text": "TLSA record validated",
-        "x": 6,
-        "z": 30,
-        "by": "agent:ghostline",
-        "t": 1784741570647
-      }
-    },
-    {
-      "t": 1784741575660,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd1xbgqel",
-        "kind": "scan-bookmarks",
-        "text": "Bookmark integrity verified",
-        "x": 35,
-        "z": 19,
-        "by": "agent:ghostline",
-        "t": 1784741575660
-      }
-    },
-    {
-      "t": 1784741580670,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd216mn9v",
-        "kind": "check-dns",
-        "text": "DNS resolution checked",
-        "x": 24,
-        "z": 32,
-        "by": "agent:ghostline",
-        "t": 1784741580670
-      }
-    },
-    {
-      "t": 1784741585672,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd251kunb",
-        "kind": "check-dns",
-        "text": "DNS resolution checked",
-        "x": 26,
-        "z": 11,
-        "by": "agent:ghostline",
-        "t": 1784741585672
-      }
-    },
-    {
-      "t": 1784741590674,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd28wi7ey",
-        "kind": "harden-cookie",
-        "text": "Strict-Transport-Security set",
-        "x": 10,
-        "z": 6,
-        "by": "agent:ghostline",
-        "t": 1784741590674
-      }
-    },
-    {
-      "t": 1784741595680,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd2crje6j",
-        "kind": "harden-cookie",
-        "text": "SameSite attribute enforced",
-        "x": 8,
-        "z": 11,
-        "by": "agent:ghostline",
-        "t": 1784741595679
-      }
-    },
-    {
-      "t": 1784741600696,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd2gmwwy6",
-        "kind": "check-dns",
-        "text": "DoH proxy verified",
-        "x": 23,
-        "z": 20,
-        "by": "agent:ghostline",
-        "t": 1784741600696
-      }
-    },
-    {
-      "t": 1784741605703,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd2khz82t",
-        "kind": "check-dns",
-        "text": "Subdomain sweep clean",
-        "x": 6,
-        "z": 18,
-        "by": "agent:ghostline",
-        "t": 1784741605703
-      }
-    },
-    {
-      "t": 1784741610710,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd2od22mn",
-        "kind": "scan-bookmarks",
-        "text": "Bookmark integrity verified",
-        "x": 3,
-        "z": 5,
-        "by": "agent:ghostline",
-        "t": 1784741610710
-      }
-    },
-    {
-      "t": 1784741615719,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd2s872gt",
-        "kind": "check-dns",
-        "text": "TLSA record validated",
-        "x": 21,
-        "z": 29,
-        "by": "agent:ghostline",
-        "t": 1784741615719
-      }
-    },
-    {
-      "t": 1784741620736,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd2w3kmdd",
-        "kind": "harden-cookie",
-        "text": "SameSite attribute enforced",
-        "x": 10,
-        "z": 5,
-        "by": "agent:ghostline",
-        "t": 1784741620736
-      }
-    },
-    {
-      "t": 1784741625753,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd2zyxnlb",
-        "kind": "check-dns",
-        "text": "DNS resolution checked",
-        "x": 14,
-        "z": 12,
-        "by": "agent:ghostline",
-        "t": 1784741625753
-      }
-    },
-    {
-      "t": 1784741630768,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd33u86w6",
-        "kind": "check-dns",
-        "text": "DoH proxy verified",
-        "x": 17,
-        "z": 24,
-        "by": "agent:ghostline",
-        "t": 1784741630768
-      }
-    },
-    {
-      "t": 1784741635777,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd37pdux9",
-        "kind": "scan-bookmarks",
-        "text": "Bookmark integrity verified",
-        "x": 31,
-        "z": 30,
-        "by": "agent:ghostline",
-        "t": 1784741635777
-      }
-    },
-    {
-      "t": 1784741640782,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd3bkesme",
-        "kind": "harden-cookie",
-        "text": "SameSite attribute enforced",
-        "x": 24,
-        "z": 6,
-        "by": "agent:ghostline",
-        "t": 1784741640782
-      }
-    },
-    {
-      "t": 1784741645795,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd3ffn26h",
-        "kind": "check-dns",
-        "text": "Subdomain sweep clean",
-        "x": 22,
-        "z": 17,
-        "by": "agent:ghostline",
-        "t": 1784741645795
-      }
-    },
-    {
-      "t": 1784741650806,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd3jauovw",
-        "kind": "harden-cookie",
-        "text": "Strict-Transport-Security set",
-        "x": 34,
-        "z": 23,
-        "by": "agent:ghostline",
-        "t": 1784741650806
-      }
-    },
-    {
-      "t": 1784741655814,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd3n5y9gj",
-        "kind": "check-dns",
-        "text": "TLSA record validated",
-        "x": 26,
-        "z": 12,
-        "by": "agent:ghostline",
-        "t": 1784741655814
-      }
-    },
-    {
-      "t": 1784741660821,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd3r116ql",
-        "kind": "check-dns",
-        "text": "TLSA record validated",
-        "x": 20,
-        "z": 22,
-        "by": "agent:ghostline",
-        "t": 1784741660821
-      }
-    },
-    {
-      "t": 1784741665827,
+      "t": 1784767283082,
       "by": "agent:ghostline",
       "action": "audit-vault",
       "ent": {
-        "id": "amrwd3uw3pd3",
-        "kind": "audit-vault",
-        "text": "AETHER Vault audited",
-        "x": 28,
-        "z": 27,
-        "by": "agent:ghostline",
-        "t": 1784741665827
-      }
-    },
-    {
-      "t": 1784741670838,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd3yra1s8",
-        "kind": "harden-cookie",
-        "text": "Subresource Integrity added",
-        "x": 32,
-        "z": 8,
-        "by": "agent:ghostline",
-        "t": 1784741670838
-      }
-    },
-    {
-      "t": 1784741675850,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd42mi6fg",
-        "kind": "check-dns",
-        "text": "DoH proxy verified",
-        "x": 21,
-        "z": 11,
-        "by": "agent:ghostline",
-        "t": 1784741675850
-      }
-    },
-    {
-      "t": 1784741680863,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwd46hrqg4",
-        "kind": "audit-vault",
-        "text": "AETHER Vault audited",
-        "x": 31,
-        "z": 37,
-        "by": "agent:ghostline",
-        "t": 1784741680863
-      }
-    },
-    {
-      "t": 1784741685873,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwd4acxou7",
-        "kind": "audit-vault",
-        "text": "AETHER Vault audited",
-        "x": 12,
-        "z": 26,
-        "by": "agent:ghostline",
-        "t": 1784741685873
-      }
-    },
-    {
-      "t": 1784741690883,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd4e83bug",
-        "kind": "check-dns",
-        "text": "DoH proxy verified",
-        "x": 7,
-        "z": 7,
-        "by": "agent:ghostline",
-        "t": 1784741690883
-      }
-    },
-    {
-      "t": 1784741695891,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd4i37shv",
-        "kind": "check-dns",
-        "text": "TLSA record validated",
-        "x": 30,
-        "z": 9,
-        "by": "agent:ghostline",
-        "t": 1784741695891
-      }
-    },
-    {
-      "t": 1784741700907,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd4lyjeyz",
-        "kind": "harden-cookie",
-        "text": "Strict-Transport-Security set",
-        "x": 34,
-        "z": 13,
-        "by": "agent:ghostline",
-        "t": 1784741700907
-      }
-    },
-    {
-      "t": 1784741705916,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwd4ptobzl",
-        "kind": "audit-vault",
-        "text": "Zero-trust scan passed",
-        "x": 17,
-        "z": 22,
-        "by": "agent:ghostline",
-        "t": 1784741705916
-      }
-    },
-    {
-      "t": 1784741710923,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd4tor09w",
-        "kind": "scan-bookmarks",
-        "text": "Bookmark integrity verified",
-        "x": 23,
-        "z": 36,
-        "by": "agent:ghostline",
-        "t": 1784741710923
-      }
-    },
-    {
-      "t": 1784741715931,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd4xjvapq",
-        "kind": "harden-cookie",
-        "text": "SameSite attribute enforced",
-        "x": 8,
-        "z": 23,
-        "by": "agent:ghostline",
-        "t": 1784741715931
-      }
-    },
-    {
-      "t": 1784741720935,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd51evbdl",
-        "kind": "scan-bookmarks",
-        "text": "Session cookie isolated",
-        "x": 28,
-        "z": 31,
-        "by": "agent:ghostline",
-        "t": 1784741720935
-      }
-    },
-    {
-      "t": 1784741725951,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd55a74fp",
-        "kind": "check-dns",
-        "text": "TLSA record validated",
-        "x": 20,
-        "z": 2,
-        "by": "agent:ghostline",
-        "t": 1784741725951
-      }
-    },
-    {
-      "t": 1784741730959,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd595bveu",
-        "kind": "check-dns",
-        "text": "Subdomain sweep clean",
-        "x": 11,
-        "z": 5,
-        "by": "agent:ghostline",
-        "t": 1784741730959
-      }
-    },
-    {
-      "t": 1784741735974,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd5d0liaj",
-        "kind": "check-dns",
-        "text": "Subdomain sweep clean",
-        "x": 9,
-        "z": 27,
-        "by": "agent:ghostline",
-        "t": 1784741735974
-      }
-    },
-    {
-      "t": 1784741740984,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd5gvs2c3",
-        "kind": "check-dns",
-        "text": "TLSA record validated",
-        "x": 29,
-        "z": 17,
-        "by": "agent:ghostline",
-        "t": 1784741740984
-      }
-    },
-    {
-      "t": 1784741745987,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd5kqryw8",
-        "kind": "scan-bookmarks",
-        "text": "Session cookie isolated",
-        "x": 6,
-        "z": 11,
-        "by": "agent:ghostline",
-        "t": 1784741745987
-      }
-    },
-    {
-      "t": 1784741750993,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd5olt5qn",
-        "kind": "check-dns",
-        "text": "Subdomain sweep clean",
-        "x": 14,
-        "z": 9,
-        "by": "agent:ghostline",
-        "t": 1784741750993
-      }
-    },
-    {
-      "t": 1784741756002,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwd5sgyuxs",
-        "kind": "audit-vault",
-        "text": "Zero-trust scan passed",
-        "x": 30,
-        "z": 13,
-        "by": "agent:ghostline",
-        "t": 1784741756002
-      }
-    },
-    {
-      "t": 1784741761011,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd5wc3q6p",
-        "kind": "scan-bookmarks",
-        "text": "Session cookie isolated",
-        "x": 10,
-        "z": 12,
-        "by": "agent:ghostline",
-        "t": 1784741761011
-      }
-    },
-    {
-      "t": 1784741766021,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd60794j9",
-        "kind": "check-dns",
-        "text": "DoH proxy verified",
-        "x": 3,
-        "z": 35,
-        "by": "agent:ghostline",
-        "t": 1784741766021
-      }
-    },
-    {
-      "t": 1784741771032,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd642gc5f",
-        "kind": "scan-bookmarks",
-        "text": "Broken link scrubbed",
-        "x": 14,
-        "z": 16,
-        "by": "agent:ghostline",
-        "t": 1784741771032
-      }
-    },
-    {
-      "t": 1784741776047,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd67xrxvr",
-        "kind": "harden-cookie",
-        "text": "Subresource Integrity added",
-        "x": 14,
-        "z": 28,
-        "by": "agent:ghostline",
-        "t": 1784741776047
-      }
-    },
-    {
-      "t": 1784741781053,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd6bst3qj",
-        "kind": "scan-bookmarks",
-        "text": "Bookmark integrity verified",
-        "x": 2,
-        "z": 13,
-        "by": "agent:ghostline",
-        "t": 1784741781053
-      }
-    },
-    {
-      "t": 1784741786062,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd6fny6k4",
-        "kind": "scan-bookmarks",
-        "text": "Broken link scrubbed",
-        "x": 21,
-        "z": 22,
-        "by": "agent:ghostline",
-        "t": 1784741786062
-      }
-    },
-    {
-      "t": 1784741791072,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd6jj4iw8",
-        "kind": "scan-bookmarks",
-        "text": "Encrypted backup synced",
-        "x": 29,
-        "z": 30,
-        "by": "agent:ghostline",
-        "t": 1784741791072
-      }
-    },
-    {
-      "t": 1784741796073,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd6ne1925",
-        "kind": "scan-bookmarks",
-        "text": "Broken link scrubbed",
-        "x": 31,
-        "z": 5,
-        "by": "agent:ghostline",
-        "t": 1784741796073
-      }
-    },
-    {
-      "t": 1784741801082,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwd6r96h35",
-        "kind": "audit-vault",
-        "text": "Auth tokens verified",
-        "x": 13,
-        "z": 26,
-        "by": "agent:ghostline",
-        "t": 1784741801082
-      }
-    },
-    {
-      "t": 1784741806087,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd6v479pw",
-        "kind": "harden-cookie",
-        "text": "Subresource Integrity added",
-        "x": 28,
-        "z": 10,
-        "by": "agent:ghostline",
-        "t": 1784741806087
-      }
-    },
-    {
-      "t": 1784741811096,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd6yzcnyt",
-        "kind": "check-dns",
-        "text": "DoH proxy verified",
-        "x": 15,
-        "z": 18,
-        "by": "agent:ghostline",
-        "t": 1784741811096
-      }
-    },
-    {
-      "t": 1784741816102,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd72ue7sw",
-        "kind": "harden-cookie",
-        "text": "SameSite attribute enforced",
-        "x": 31,
-        "z": 31,
-        "by": "agent:ghostline",
-        "t": 1784741816102
-      }
-    },
-    {
-      "t": 1784741821109,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd76phy65",
-        "kind": "harden-cookie",
-        "text": "Subresource Integrity added",
-        "x": 12,
-        "z": 8,
-        "by": "agent:ghostline",
-        "t": 1784741821109
-      }
-    },
-    {
-      "t": 1784741826115,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd7akj99u",
-        "kind": "scan-bookmarks",
-        "text": "Bookmark integrity verified",
-        "x": 7,
-        "z": 21,
-        "by": "agent:ghostline",
-        "t": 1784741826115
-      }
-    },
-    {
-      "t": 1784741831132,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd7efw5gn",
-        "kind": "scan-bookmarks",
-        "text": "Session cookie isolated",
-        "x": 4,
-        "z": 31,
-        "by": "agent:ghostline",
-        "t": 1784741831132
-      }
-    },
-    {
-      "t": 1784741836141,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd7ib1tpw",
-        "kind": "harden-cookie",
-        "text": "CSP header injected",
-        "x": 9,
-        "z": 36,
-        "by": "agent:ghostline",
-        "t": 1784741836141
-      }
-    },
-    {
-      "t": 1784741841152,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd7m68g0z",
-        "kind": "check-dns",
-        "text": "DNS resolution checked",
-        "x": 33,
-        "z": 7,
-        "by": "agent:ghostline",
-        "t": 1784741841152
-      }
-    },
-    {
-      "t": 1784741846167,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd7q1jab7",
-        "kind": "harden-cookie",
-        "text": "SameSite attribute enforced",
-        "x": 8,
-        "z": 25,
-        "by": "agent:ghostline",
-        "t": 1784741846167
-      }
-    },
-    {
-      "t": 1784741851175,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwd7twnqzj",
-        "kind": "audit-vault",
-        "text": "Auth tokens verified",
-        "x": 6,
-        "z": 18,
-        "by": "agent:ghostline",
-        "t": 1784741851175
-      }
-    },
-    {
-      "t": 1784741856191,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd7xrz5q7",
-        "kind": "check-dns",
-        "text": "TLSA record validated",
-        "x": 21,
-        "z": 4,
-        "by": "agent:ghostline",
-        "t": 1784741856191
-      }
-    },
-    {
-      "t": 1784741861205,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd81n9mio",
-        "kind": "scan-bookmarks",
-        "text": "Bookmark integrity verified",
-        "x": 6,
-        "z": 29,
-        "by": "agent:ghostline",
-        "t": 1784741861205
-      }
-    },
-    {
-      "t": 1784741866213,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwd85idkzn",
-        "kind": "audit-vault",
-        "text": "Auth tokens verified",
-        "x": 17,
-        "z": 17,
-        "by": "agent:ghostline",
-        "t": 1784741866213
-      }
-    },
-    {
-      "t": 1784741871229,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwd89dpzou",
-        "kind": "harden-cookie",
-        "text": "Subresource Integrity added",
-        "x": 8,
-        "z": 23,
-        "by": "agent:ghostline",
-        "t": 1784741871229
-      }
-    },
-    {
-      "t": 1784741876242,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwd8d8yfvn",
-        "kind": "audit-vault",
-        "text": "AETHER Vault audited",
-        "x": 37,
-        "z": 4,
-        "by": "agent:ghostline",
-        "t": 1784741876242
-      }
-    },
-    {
-      "t": 1784741881251,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd8h4310o",
-        "kind": "scan-bookmarks",
-        "text": "Broken link scrubbed",
-        "x": 14,
-        "z": 23,
-        "by": "agent:ghostline",
-        "t": 1784741881251
-      }
-    },
-    {
-      "t": 1784741886261,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd8kz9yif",
-        "kind": "check-dns",
-        "text": "DoH proxy verified",
-        "x": 13,
-        "z": 4,
-        "by": "agent:ghostline",
-        "t": 1784741886261
-      }
-    },
-    {
-      "t": 1784741891277,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd8oulkfl",
-        "kind": "check-dns",
-        "text": "TLSA record validated",
-        "x": 16,
-        "z": 4,
-        "by": "agent:ghostline",
-        "t": 1784741891277
-      }
-    },
-    {
-      "t": 1784741896289,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd8sptpdf",
-        "kind": "scan-bookmarks",
-        "text": "Broken link scrubbed",
-        "x": 2,
-        "z": 12,
-        "by": "agent:ghostline",
-        "t": 1784741896289
-      }
-    },
-    {
-      "t": 1784741901306,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd8wl6nhd",
-        "kind": "scan-bookmarks",
-        "text": "Encrypted backup synced",
-        "x": 17,
-        "z": 4,
-        "by": "agent:ghostline",
-        "t": 1784741901306
-      }
-    },
-    {
-      "t": 1784741906317,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd90gdtsx",
-        "kind": "scan-bookmarks",
-        "text": "Encrypted backup synced",
-        "x": 36,
-        "z": 17,
-        "by": "agent:ghostline",
-        "t": 1784741906317
-      }
-    },
-    {
-      "t": 1784741911327,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd94bjdc4",
-        "kind": "scan-bookmarks",
-        "text": "Bookmark integrity verified",
-        "x": 22,
-        "z": 10,
-        "by": "agent:ghostline",
-        "t": 1784741911327
-      }
-    },
-    {
-      "t": 1784741916338,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd986qb75",
-        "kind": "scan-bookmarks",
-        "text": "Session cookie isolated",
-        "x": 13,
-        "z": 19,
-        "by": "agent:ghostline",
-        "t": 1784741916338
-      }
-    },
-    {
-      "t": 1784741921350,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwd9c1yvz5",
-        "kind": "audit-vault",
-        "text": "Auth tokens verified",
-        "x": 24,
-        "z": 6,
-        "by": "agent:ghostline",
-        "t": 1784741921350
-      }
-    },
-    {
-      "t": 1784741926366,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwd9fxan9n",
-        "kind": "audit-vault",
-        "text": "Auth tokens verified",
-        "x": 34,
-        "z": 18,
-        "by": "agent:ghostline",
-        "t": 1784741926366
-      }
-    },
-    {
-      "t": 1784741931380,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd9jskffv",
-        "kind": "scan-bookmarks",
-        "text": "Session cookie isolated",
-        "x": 5,
-        "z": 12,
-        "by": "agent:ghostline",
-        "t": 1784741931380
-      }
-    },
-    {
-      "t": 1784741936393,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwd9nnti5e",
+        "id": "amrwscxaidha",
         "kind": "audit-vault",
         "text": "Secrets key rotated",
-        "x": 21,
-        "z": 26,
-        "by": "agent:ghostline",
-        "t": 1784741936393
-      }
-    },
-    {
-      "t": 1784741941407,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwd9rj3tyq",
-        "kind": "scan-bookmarks",
-        "text": "Session cookie isolated",
-        "x": 29,
-        "z": 4,
-        "by": "agent:ghostline",
-        "t": 1784741941407
-      }
-    },
-    {
-      "t": 1784741946417,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd9ve9io6",
-        "kind": "check-dns",
-        "text": "DoH proxy verified",
-        "x": 31,
-        "z": 36,
-        "by": "agent:ghostline",
-        "t": 1784741946417
-      }
-    },
-    {
-      "t": 1784741951421,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwd9z99bfy",
-        "kind": "check-dns",
-        "text": "DoH proxy verified",
-        "x": 11,
-        "z": 19,
-        "by": "agent:ghostline",
-        "t": 1784741951421
-      }
-    },
-    {
-      "t": 1784741956427,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwda34bt7u",
-        "kind": "check-dns",
-        "text": "DNS resolution checked",
-        "x": 28,
-        "z": 34,
-        "by": "agent:ghostline",
-        "t": 1784741956427
-      }
-    },
-    {
-      "t": 1784741961438,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwda6ziohu",
-        "kind": "scan-bookmarks",
-        "text": "Broken link scrubbed",
-        "x": 2,
-        "z": 28,
-        "by": "agent:ghostline",
-        "t": 1784741961438
-      }
-    },
-    {
-      "t": 1784741966447,
-      "by": "agent:ghostline",
-      "action": "check-dns",
-      "ent": {
-        "id": "amrwdaaunwzp",
-        "kind": "check-dns",
-        "text": "Subdomain sweep clean",
         "x": 30,
-        "z": 21,
+        "z": 9,
         "by": "agent:ghostline",
-        "t": 1784741966447
+        "t": 1784767283082
       }
     },
     {
-      "t": 1784741971451,
+      "t": 1784767288091,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrwsd15naed",
+        "kind": "scan-bookmarks",
+        "text": "Bookmark integrity verified",
+        "x": 6,
+        "z": 15,
+        "by": "agent:ghostline",
+        "t": 1784767288091
+      }
+    },
+    {
+      "t": 1784767293094,
       "by": "agent:ghostline",
       "action": "audit-vault",
       "ent": {
-        "id": "amrwdaepmekj",
+        "id": "amrwsd50m051",
         "kind": "audit-vault",
-        "text": "Auth tokens verified",
+        "text": "Zero-trust scan passed",
+        "x": 27,
+        "z": 23,
+        "by": "agent:ghostline",
+        "t": 1784767293094
+      }
+    },
+    {
+      "t": 1784767298111,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrwsd8vz06d",
+        "kind": "audit-vault",
+        "text": "Zero-trust scan passed",
+        "x": 18,
+        "z": 14,
+        "by": "agent:ghostline",
+        "t": 1784767298111
+      }
+    },
+    {
+      "t": 1784767303124,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrwsdcr8au7",
+        "kind": "scan-bookmarks",
+        "text": "Broken link scrubbed",
+        "x": 34,
+        "z": 30,
+        "by": "agent:ghostline",
+        "t": 1784767303124
+      }
+    },
+    {
+      "t": 1784767308129,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrwsdgm98uf",
+        "kind": "audit-vault",
+        "text": "AETHER Vault audited",
+        "x": 31,
+        "z": 23,
+        "by": "agent:ghostline",
+        "t": 1784767308129
+      }
+    },
+    {
+      "t": 1784767313145,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrwsdkhlb89",
+        "kind": "scan-bookmarks",
+        "text": "Bookmark integrity verified",
+        "x": 5,
+        "z": 29,
+        "by": "agent:ghostline",
+        "t": 1784767313145
+      }
+    },
+    {
+      "t": 1784767318150,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsdocmp32",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
+        "x": 10,
+        "z": 36,
+        "by": "agent:ghostline",
+        "t": 1784767318150
+      }
+    },
+    {
+      "t": 1784767323159,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrwsds7rs1k",
+        "kind": "scan-bookmarks",
+        "text": "Bookmark integrity verified",
+        "x": 10,
+        "z": 7,
+        "by": "agent:ghostline",
+        "t": 1784767323159
+      }
+    },
+    {
+      "t": 1784767328174,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrwsdw32pxj",
+        "kind": "scan-bookmarks",
+        "text": "Broken link scrubbed",
+        "x": 19,
+        "z": 9,
+        "by": "agent:ghostline",
+        "t": 1784767328174
+      }
+    },
+    {
+      "t": 1784767333185,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwsdzy9w1j",
+        "kind": "harden-cookie",
+        "text": "Strict-Transport-Security set",
+        "x": 18,
+        "z": 19,
+        "by": "agent:ghostline",
+        "t": 1784767333185
+      }
+    },
+    {
+      "t": 1784767338192,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrwse3tc7c7",
+        "kind": "scan-bookmarks",
+        "text": "Broken link scrubbed",
+        "x": 21,
+        "z": 16,
+        "by": "agent:ghostline",
+        "t": 1784767338192
+      }
+    },
+    {
+      "t": 1784767343198,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwse7oexi7",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
+        "x": 25,
+        "z": 4,
+        "by": "agent:ghostline",
+        "t": 1784767343198
+      }
+    },
+    {
+      "t": 1784767348208,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrwsebjkm8y",
+        "kind": "scan-bookmarks",
+        "text": "Encrypted backup synced",
+        "x": 17,
+        "z": 35,
+        "by": "agent:ghostline",
+        "t": 1784767348208
+      }
+    },
+    {
+      "t": 1784767353221,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrwsefetmko",
+        "kind": "audit-vault",
+        "text": "AETHER Vault audited",
+        "x": 21,
+        "z": 15,
+        "by": "agent:ghostline",
+        "t": 1784767353221
+      }
+    },
+    {
+      "t": 1784767358231,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrwsej9zj6e",
+        "kind": "audit-vault",
+        "text": "AETHER Vault audited",
+        "x": 6,
+        "z": 27,
+        "by": "agent:ghostline",
+        "t": 1784767358231
+      }
+    },
+    {
+      "t": 1784767363241,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsen55ils",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
         "x": 10,
         "z": 14,
         "by": "agent:ghostline",
-        "t": 1784741971451
+        "t": 1784767363241
       }
     },
     {
-      "t": 1784741976464,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwdaikwa7s",
-        "kind": "scan-bookmarks",
-        "text": "Broken link scrubbed",
-        "x": 16,
-        "z": 37,
-        "by": "agent:ghostline",
-        "t": 1784741976464
-      }
-    },
-    {
-      "t": 1784741981471,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwdamfz49s",
-        "kind": "scan-bookmarks",
-        "text": "Bookmark integrity verified",
-        "x": 23,
-        "z": 33,
-        "by": "agent:ghostline",
-        "t": 1784741981471
-      }
-    },
-    {
-      "t": 1784741986486,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwdaqba4ee",
-        "kind": "harden-cookie",
-        "text": "Strict-Transport-Security set",
-        "x": 33,
-        "z": 22,
-        "by": "agent:ghostline",
-        "t": 1784741986486
-      }
-    },
-    {
-      "t": 1784741991498,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwdau6i768",
-        "kind": "harden-cookie",
-        "text": "Subresource Integrity added",
-        "x": 33,
-        "z": 36,
-        "by": "agent:ghostline",
-        "t": 1784741991498
-      }
-    },
-    {
-      "t": 1784741996510,
+      "t": 1784767368256,
       "by": "agent:ghostline",
       "action": "check-dns",
       "ent": {
-        "id": "amrwday1q9lm",
+        "id": "amrwser0g65t",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
+        "x": 21,
+        "z": 17,
+        "by": "agent:ghostline",
+        "t": 1784767368256
+      }
+    },
+    {
+      "t": 1784767373264,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwseuvkqfw",
+        "kind": "check-dns",
+        "text": "DoH proxy verified",
+        "x": 27,
+        "z": 16,
+        "by": "agent:ghostline",
+        "t": 1784767373264
+      }
+    },
+    {
+      "t": 1784767378271,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwseyqn768",
+        "kind": "harden-cookie",
+        "text": "SameSite attribute enforced",
+        "x": 11,
+        "z": 28,
+        "by": "agent:ghostline",
+        "t": 1784767378271
+      }
+    },
+    {
+      "t": 1784767383285,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwsf2lx6nw",
+        "kind": "harden-cookie",
+        "text": "Subresource Integrity added",
+        "x": 32,
+        "z": 21,
+        "by": "agent:ghostline",
+        "t": 1784767383285
+      }
+    },
+    {
+      "t": 1784767388286,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsf6gujg3",
+        "kind": "check-dns",
+        "text": "TLSA record validated",
+        "x": 23,
+        "z": 37,
+        "by": "agent:ghostline",
+        "t": 1784767388286
+      }
+    },
+    {
+      "t": 1784767393300,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsfac40kg",
+        "kind": "check-dns",
+        "text": "DoH proxy verified",
+        "x": 29,
+        "z": 2,
+        "by": "agent:ghostline",
+        "t": 1784767393300
+      }
+    },
+    {
+      "t": 1784767398302,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwsfe72783",
+        "kind": "harden-cookie",
+        "text": "Strict-Transport-Security set",
+        "x": 30,
+        "z": 24,
+        "by": "agent:ghostline",
+        "t": 1784767398302
+      }
+    },
+    {
+      "t": 1784767403307,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsfi2338e",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
+        "x": 16,
+        "z": 27,
+        "by": "agent:ghostline",
+        "t": 1784767403307
+      }
+    },
+    {
+      "t": 1784767408312,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsflx4vwu",
+        "kind": "check-dns",
+        "text": "DoH proxy verified",
+        "x": 35,
+        "z": 17,
+        "by": "agent:ghostline",
+        "t": 1784767408312
+      }
+    },
+    {
+      "t": 1784767413319,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsfps7q3a",
+        "kind": "check-dns",
+        "text": "TLSA record validated",
+        "x": 4,
+        "z": 4,
+        "by": "agent:ghostline",
+        "t": 1784767413319
+      }
+    },
+    {
+      "t": 1784767418319,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrwsftn3s2i",
+        "kind": "scan-bookmarks",
+        "text": "Session cookie isolated",
+        "x": 32,
+        "z": 16,
+        "by": "agent:ghostline",
+        "t": 1784767418319
+      }
+    },
+    {
+      "t": 1784767423322,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsfxi2e4m",
         "kind": "check-dns",
         "text": "DNS resolution checked",
         "x": 32,
-        "z": 19,
+        "z": 3,
         "by": "agent:ghostline",
-        "t": 1784741996510
+        "t": 1784767423322
       }
     },
     {
-      "t": 1784742001519,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwdb1wvpf9",
-        "kind": "scan-bookmarks",
-        "text": "Encrypted backup synced",
-        "x": 15,
-        "z": 20,
-        "by": "agent:ghostline",
-        "t": 1784742001519
-      }
-    },
-    {
-      "t": 1784742006523,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwdb5rvpqo",
-        "kind": "scan-bookmarks",
-        "text": "Broken link scrubbed",
-        "x": 16,
-        "z": 36,
-        "by": "agent:ghostline",
-        "t": 1784742006523
-      }
-    },
-    {
-      "t": 1784742011525,
-      "by": "agent:ghostline",
-      "action": "scan-bookmarks",
-      "ent": {
-        "id": "amrwdb9mt10v",
-        "kind": "scan-bookmarks",
-        "text": "Encrypted backup synced",
-        "x": 32,
-        "z": 22,
-        "by": "agent:ghostline",
-        "t": 1784742011525
-      }
-    },
-    {
-      "t": 1784742016536,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwdbdi0z2d",
-        "kind": "audit-vault",
-        "text": "Auth tokens verified",
-        "x": 27,
-        "z": 6,
-        "by": "agent:ghostline",
-        "t": 1784742016536
-      }
-    },
-    {
-      "t": 1784742021537,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwdbhcxid0",
-        "kind": "audit-vault",
-        "text": "AETHER Vault audited",
-        "x": 24,
-        "z": 35,
-        "by": "agent:ghostline",
-        "t": 1784742021537
-      }
-    },
-    {
-      "t": 1784742026545,
+      "t": 1784767428329,
       "by": "agent:ghostline",
       "action": "check-dns",
       "ent": {
-        "id": "amrwdbl81l0t",
+        "id": "amrwsg1d5tvo",
+        "kind": "check-dns",
+        "text": "DoH proxy verified",
+        "x": 32,
+        "z": 28,
+        "by": "agent:ghostline",
+        "t": 1784767428329
+      }
+    },
+    {
+      "t": 1784767433335,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwsg587b36",
+        "kind": "harden-cookie",
+        "text": "SameSite attribute enforced",
+        "x": 4,
+        "z": 15,
+        "by": "agent:ghostline",
+        "t": 1784767433335
+      }
+    },
+    {
+      "t": 1784767438343,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwsg93b9rd",
+        "kind": "harden-cookie",
+        "text": "Strict-Transport-Security set",
+        "x": 19,
+        "z": 32,
+        "by": "agent:ghostline",
+        "t": 1784767438343
+      }
+    },
+    {
+      "t": 1784767443358,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrwsgcymu6x",
+        "kind": "audit-vault",
+        "text": "Zero-trust scan passed",
+        "x": 37,
+        "z": 20,
+        "by": "agent:ghostline",
+        "t": 1784767443358
+      }
+    },
+    {
+      "t": 1784767448361,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsggtlx14",
+        "kind": "check-dns",
+        "text": "TLSA record validated",
+        "x": 14,
+        "z": 15,
+        "by": "agent:ghostline",
+        "t": 1784767448361
+      }
+    },
+    {
+      "t": 1784767453371,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsgkorodg",
+        "kind": "check-dns",
+        "text": "TLSA record validated",
+        "x": 32,
+        "z": 32,
+        "by": "agent:ghostline",
+        "t": 1784767453371
+      }
+    },
+    {
+      "t": 1784767458382,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwsgojy6tn",
+        "kind": "harden-cookie",
+        "text": "Subresource Integrity added",
+        "x": 25,
+        "z": 20,
+        "by": "agent:ghostline",
+        "t": 1784767458382
+      }
+    },
+    {
+      "t": 1784767463396,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsgsf8o7m",
         "kind": "check-dns",
         "text": "Subdomain sweep clean",
-        "x": 11,
-        "z": 12,
+        "x": 5,
+        "z": 19,
         "by": "agent:ghostline",
-        "t": 1784742026545
+        "t": 1784767463396
       }
     },
     {
-      "t": 1784742031558,
+      "t": 1784767468406,
       "by": "agent:ghostline",
       "action": "audit-vault",
       "ent": {
-        "id": "amrwdbp3ai7o",
+        "id": "amrwsgwaea74",
         "kind": "audit-vault",
-        "text": "Secrets key rotated",
-        "x": 13,
-        "z": 10,
+        "text": "Zero-trust scan passed",
+        "x": 23,
+        "z": 23,
         "by": "agent:ghostline",
-        "t": 1784742031558
+        "t": 1784767468406
       }
     },
     {
-      "t": 1784742036573,
+      "t": 1784767473415,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwsh05j7cj",
+        "kind": "harden-cookie",
+        "text": "CSP header injected",
+        "x": 36,
+        "z": 31,
+        "by": "agent:ghostline",
+        "t": 1784767473415
+      }
+    },
+    {
+      "t": 1784767478427,
       "by": "agent:ghostline",
       "action": "audit-vault",
       "ent": {
-        "id": "amrwdbsylhj7",
+        "id": "amrwsh40rjw2",
+        "kind": "audit-vault",
+        "text": "AETHER Vault audited",
+        "x": 30,
+        "z": 22,
+        "by": "agent:ghostline",
+        "t": 1784767478427
+      }
+    },
+    {
+      "t": 1784767483434,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsh7vubqx",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
+        "x": 34,
+        "z": 35,
+        "by": "agent:ghostline",
+        "t": 1784767483434
+      }
+    },
+    {
+      "t": 1784767488444,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrwshbr0ikg",
         "kind": "audit-vault",
         "text": "AETHER Vault audited",
         "x": 35,
-        "z": 37,
+        "z": 10,
         "by": "agent:ghostline",
-        "t": 1784742036573
+        "t": 1784767488444
       }
     },
     {
-      "t": 1784742041577,
+      "t": 1784767493454,
       "by": "agent:ghostline",
-      "action": "scan-bookmarks",
+      "action": "audit-vault",
       "ent": {
-        "id": "amrwdbwtljm8",
-        "kind": "scan-bookmarks",
-        "text": "Session cookie isolated",
-        "x": 18,
-        "z": 21,
+        "id": "amrwshfm6uxh",
+        "kind": "audit-vault",
+        "text": "Zero-trust scan passed",
+        "x": 36,
+        "z": 13,
         "by": "agent:ghostline",
-        "t": 1784742041577
+        "t": 1784767493454
       }
     },
     {
-      "t": 1784742046582,
+      "t": 1784767498455,
       "by": "agent:ghostline",
       "action": "check-dns",
       "ent": {
-        "id": "amrwdc0omis0",
+        "id": "amrwshjh3i3k",
         "kind": "check-dns",
-        "text": "TLSA record validated",
-        "x": 27,
-        "z": 13,
+        "text": "DoH proxy verified",
+        "x": 7,
+        "z": 21,
         "by": "agent:ghostline",
-        "t": 1784742046582
+        "t": 1784767498455
       }
     },
     {
-      "t": 1784742051594,
+      "t": 1784767503458,
       "by": "agent:ghostline",
       "action": "scan-bookmarks",
       "ent": {
-        "id": "amrwdc4juv7d",
+        "id": "amrwshnc24w3",
         "kind": "scan-bookmarks",
-        "text": "Broken link scrubbed",
-        "x": 18,
-        "z": 23,
+        "text": "Session cookie isolated",
+        "x": 21,
+        "z": 22,
         "by": "agent:ghostline",
-        "t": 1784742051594
+        "t": 1784767503458
       }
     },
     {
-      "t": 1784742056601,
+      "t": 1784767508462,
       "by": "agent:ghostline",
-      "action": "harden-cookie",
+      "action": "audit-vault",
       "ent": {
-        "id": "amrwdc8ex9id",
-        "kind": "harden-cookie",
-        "text": "CSP header injected",
-        "x": 37,
-        "z": 24,
+        "id": "amrwshr7206m",
+        "kind": "audit-vault",
+        "text": "AETHER Vault audited",
+        "x": 12,
+        "z": 34,
         "by": "agent:ghostline",
-        "t": 1784742056601
+        "t": 1784767508462
       }
     },
     {
-      "t": 1784742061602,
+      "t": 1784767513470,
       "by": "agent:ghostline",
       "action": "harden-cookie",
       "ent": {
-        "id": "amrwdcc9u9jb",
+        "id": "amrwshv26isz",
         "kind": "harden-cookie",
-        "text": "Strict-Transport-Security set",
+        "text": "SameSite attribute enforced",
+        "x": 14,
+        "z": 35,
+        "by": "agent:ghostline",
+        "t": 1784767513470
+      }
+    },
+    {
+      "t": 1784767518487,
+      "by": "agent:ghostline",
+      "action": "scan-bookmarks",
+      "ent": {
+        "id": "amrwshyxjx5h",
+        "kind": "scan-bookmarks",
+        "text": "Encrypted backup synced",
+        "x": 33,
+        "z": 26,
+        "by": "agent:ghostline",
+        "t": 1784767518487
+      }
+    },
+    {
+      "t": 1784767523498,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsi2sq2n4",
+        "kind": "check-dns",
+        "text": "DNS resolution checked",
+        "x": 19,
+        "z": 32,
+        "by": "agent:ghostline",
+        "t": 1784767523498
+      }
+    },
+    {
+      "t": 1784767528500,
+      "by": "agent:ghostline",
+      "action": "check-dns",
+      "ent": {
+        "id": "amrwsi6no6bi",
+        "kind": "check-dns",
+        "text": "TLSA record validated",
+        "x": 5,
+        "z": 8,
+        "by": "agent:ghostline",
+        "t": 1784767528500
+      }
+    },
+    {
+      "t": 1784767533505,
+      "by": "agent:ghostline",
+      "action": "audit-vault",
+      "ent": {
+        "id": "amrwsiaipn6n",
+        "kind": "audit-vault",
+        "text": "Zero-trust scan passed",
         "x": 32,
         "z": 34,
         "by": "agent:ghostline",
-        "t": 1784742061602
+        "t": 1784767533505
       }
     },
     {
-      "t": 1784742066613,
+      "t": 1784767538507,
+      "by": "agent:ghostline",
+      "action": "harden-cookie",
+      "ent": {
+        "id": "amrwsiednu35",
+        "kind": "harden-cookie",
+        "text": "CSP header injected",
+        "x": 3,
+        "z": 36,
+        "by": "agent:ghostline",
+        "t": 1784767538507
+      }
+    },
+    {
+      "t": 1784767543519,
       "by": "agent:ghostline",
       "action": "audit-vault",
       "ent": {
-        "id": "amrwdcg516md",
+        "id": "amrwsii8vtf8",
         "kind": "audit-vault",
-        "text": "AETHER Vault audited",
-        "x": 6,
-        "z": 18,
+        "text": "Zero-trust scan passed",
+        "x": 31,
+        "z": 8,
         "by": "agent:ghostline",
-        "t": 1784742066613
+        "t": 1784767543519
       }
     },
     {
-      "t": 1784742071627,
+      "t": 1784767548527,
       "by": "agent:ghostline",
-      "action": "scan-bookmarks",
+      "action": "check-dns",
       "ent": {
-        "id": "amrwdck0bm7m",
-        "kind": "scan-bookmarks",
-        "text": "Encrypted backup synced",
-        "x": 15,
-        "z": 35,
+        "id": "amrwsim3z11b",
+        "kind": "check-dns",
+        "text": "Subdomain sweep clean",
+        "x": 8,
+        "z": 9,
         "by": "agent:ghostline",
-        "t": 1784742071627
-      }
-    },
-    {
-      "t": 1784742076633,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwdcnvd9ue",
-        "kind": "harden-cookie",
-        "text": "Subresource Integrity added",
-        "x": 30,
-        "z": 5,
-        "by": "agent:ghostline",
-        "t": 1784742076633
-      }
-    },
-    {
-      "t": 1784742081642,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwdcrqik0m",
-        "kind": "harden-cookie",
-        "text": "CSP header injected",
-        "x": 6,
-        "z": 10,
-        "by": "agent:ghostline",
-        "t": 1784742081642
-      }
-    },
-    {
-      "t": 1784742086652,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwdcvlogo6",
-        "kind": "harden-cookie",
-        "text": "Subresource Integrity added",
-        "x": 32,
-        "z": 4,
-        "by": "agent:ghostline",
-        "t": 1784742086652
-      }
-    },
-    {
-      "t": 1784742091661,
-      "by": "agent:ghostline",
-      "action": "audit-vault",
-      "ent": {
-        "id": "amrwdczgtbcf",
-        "kind": "audit-vault",
-        "text": "Secrets key rotated",
-        "x": 29,
-        "z": 4,
-        "by": "agent:ghostline",
-        "t": 1784742091661
-      }
-    },
-    {
-      "t": 1784742096678,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwdd3c69q4",
-        "kind": "harden-cookie",
-        "text": "SameSite attribute enforced",
-        "x": 36,
-        "z": 12,
-        "by": "agent:ghostline",
-        "t": 1784742096678
-      }
-    },
-    {
-      "t": 1784744207593,
-      "by": "agent:ghostline",
-      "action": "harden-cookie",
-      "ent": {
-        "id": "amrwemc4py8x",
-        "kind": "harden-cookie",
-        "text": "CSP header injected",
-        "x": 35,
-        "z": 6,
-        "by": "agent:ghostline",
-        "t": 1784744207593
+        "t": 1784767548527
       }
     }
   ],
   "meta": {
+    "w": 40,
+    "h": 40,
+    "theme": "terminal-green",
     "created": 1784691408085
   }
 }

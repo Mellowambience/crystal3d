@@ -8,262 +8,2405 @@
   "tiles": [],
   "entities": [
     {
-      "id": "umrwbdq3i",
-      "kind": "user-build",
-      "text": "User landmark",
-      "x": 20,
-      "z": 20,
-      "by": "user",
-      "t": 1784738766942
-    },
-    {
-      "id": "amrwbkh0idg9",
-      "kind": "name-character",
-      "text": "Character named Lyra",
-      "x": 37,
+      "id": "amrws8f55ed9",
+      "kind": "close-chapter",
+      "text": "Volume index updated",
+      "x": 23,
       "z": 32,
       "by": "agent:aetherbooks",
-      "t": 1784739081762
+      "t": 1784767072937
     },
     {
-      "id": "amrwbl46lghj",
-      "kind": "draft-scene",
-      "text": "Scene IV drafted",
-      "x": 6,
-      "z": 7,
-      "by": "agent:aetherbooks",
-      "t": 1784739111789
-    },
-    {
-      "id": "amrwbraoesf6",
-      "kind": "draft-scene",
-      "text": "Scene IV drafted",
-      "x": 3,
-      "z": 36,
-      "by": "agent:aetherbooks",
-      "t": 1784739400142
-    },
-    {
-      "id": "amrwbrfb9iqe",
-      "kind": "draft-scene",
-      "text": "Dialogue polished",
-      "x": 6,
-      "z": 5,
-      "by": "agent:aetherbooks",
-      "t": 1784739406149
-    },
-    {
-      "id": "amrwbrjya6h4",
+      "id": "amrws8js0qeh",
       "kind": "close-chapter",
-      "text": "Chapter III finalized",
+      "text": "Volume index updated",
+      "x": 11,
+      "z": 33,
+      "by": "agent:aetherbooks",
+      "t": 1784767078944
+    },
+    {
+      "id": "amrws8oeu746",
+      "kind": "plot-twist",
+      "text": "Portal unlocked in vault",
       "x": 10,
       "z": 24,
       "by": "agent:aetherbooks",
-      "t": 1784739412162
+      "t": 1784767084950
     },
     {
-      "id": "amrwbrolcf4s",
+      "id": "amrws8t1q1fi",
+      "kind": "draft-scene",
+      "text": "Atmospheric prose added",
+      "x": 19,
+      "z": 27,
+      "by": "agent:aetherbooks",
+      "t": 1784767090958
+    },
+    {
+      "id": "amrws8xom3v6",
+      "kind": "name-character",
+      "text": "Mentor named Archon",
+      "x": 23,
+      "z": 5,
+      "by": "agent:aetherbooks",
+      "t": 1784767096966
+    },
+    {
+      "id": "amrws92bihas",
+      "kind": "name-character",
+      "text": "Antagonist named Vane",
+      "x": 16,
+      "z": 20,
+      "by": "agent:aetherbooks",
+      "t": 1784767102974
+    },
+    {
+      "id": "amrws96ygih4",
+      "kind": "name-character",
+      "text": "Mentor named Archon",
+      "x": 34,
+      "z": 35,
+      "by": "agent:aetherbooks",
+      "t": 1784767108984
+    },
+    {
+      "id": "amrws9blj34l",
+      "kind": "name-character",
+      "text": "Companion named Zephyr",
+      "x": 10,
+      "z": 19,
+      "by": "agent:aetherbooks",
+      "t": 1784767114999
+    },
+    {
+      "id": "amrws9g8efh4",
+      "kind": "close-chapter",
+      "text": "Chapter III finalized",
+      "x": 5,
+      "z": 22,
+      "by": "agent:aetherbooks",
+      "t": 1784767121006
+    },
+    {
+      "id": "amrws9kvh5oh",
+      "kind": "plot-twist",
+      "text": "Secret letter discovered",
+      "x": 16,
+      "z": 11,
+      "by": "agent:aetherbooks",
+      "t": 1784767127021
+    },
+    {
+      "id": "amrws9pi9hid",
+      "kind": "close-chapter",
+      "text": "Draft saved to AETHER archive",
+      "x": 5,
+      "z": 14,
+      "by": "agent:aetherbooks",
+      "t": 1784767133025
+    },
+    {
+      "id": "amrws9u57i2u",
+      "kind": "name-character",
+      "text": "Antagonist named Vane",
+      "x": 3,
+      "z": 9,
+      "by": "agent:aetherbooks",
+      "t": 1784767139035
+    },
+    {
+      "id": "amrws9ys21c6",
+      "kind": "draft-scene",
+      "text": "Atmospheric prose added",
+      "x": 20,
+      "z": 35,
+      "by": "agent:aetherbooks",
+      "t": 1784767145042
+    },
+    {
+      "id": "amrwsa3f1t3b",
+      "kind": "plot-twist",
+      "text": "Secret letter discovered",
+      "x": 18,
+      "z": 30,
+      "by": "agent:aetherbooks",
+      "t": 1784767151053
+    },
+    {
+      "id": "amrwsa8217c2",
+      "kind": "close-chapter",
+      "text": "Volume index updated",
+      "x": 24,
+      "z": 29,
+      "by": "agent:aetherbooks",
+      "t": 1784767157065
+    },
+    {
+      "id": "amrwsacorz2o",
       "kind": "name-character",
       "text": "Character named Lyra",
-      "x": 2,
-      "z": 13,
+      "x": 23,
+      "z": 33,
       "by": "agent:aetherbooks",
-      "t": 1784739418176
+      "t": 1784767163067
     },
     {
-      "id": "amrwcd765xkf",
+      "id": "amrwsahbrl0c",
+      "kind": "name-character",
+      "text": "Companion named Zephyr",
+      "x": 32,
+      "z": 29,
+      "by": "agent:aetherbooks",
+      "t": 1784767169079
+    },
+    {
+      "id": "amrwsalys463",
+      "kind": "draft-scene",
+      "text": "Character arc advanced",
+      "x": 28,
+      "z": 29,
+      "by": "agent:aetherbooks",
+      "t": 1784767175093
+    },
+    {
+      "id": "amrwsaqlqfzt",
+      "kind": "close-chapter",
+      "text": "Epilogue penned",
+      "x": 22,
+      "z": 24,
+      "by": "agent:aetherbooks",
+      "t": 1784767181102
+    },
+    {
+      "id": "amrwsav8uza3",
+      "kind": "draft-scene",
+      "text": "Dialogue polished",
+      "x": 9,
+      "z": 4,
+      "by": "agent:aetherbooks",
+      "t": 1784767187118
+    },
+    {
+      "id": "amrwsazvwpyr",
+      "kind": "plot-twist",
+      "text": "Portal unlocked in vault",
+      "x": 28,
+      "z": 5,
+      "by": "agent:aetherbooks",
+      "t": 1784767193132
+    },
+    {
+      "id": "amrwsb4is2my",
+      "kind": "name-character",
+      "text": "Character named Lyra",
+      "x": 32,
+      "z": 33,
+      "by": "agent:aetherbooks",
+      "t": 1784767199140
+    },
+    {
+      "id": "amrwsb95ts23",
+      "kind": "draft-scene",
+      "text": "Scene IV drafted",
+      "x": 3,
+      "z": 5,
+      "by": "agent:aetherbooks",
+      "t": 1784767205153
+    },
+    {
+      "id": "amrwsbdsmb3n",
+      "kind": "close-chapter",
+      "text": "Chapter III finalized",
+      "x": 2,
+      "z": 35,
+      "by": "agent:aetherbooks",
+      "t": 1784767211158
+    },
+    {
+      "id": "amrwsbiff8mt",
+      "kind": "plot-twist",
+      "text": "Secret letter discovered",
+      "x": 11,
+      "z": 21,
+      "by": "agent:aetherbooks",
+      "t": 1784767217163
+    },
+    {
+      "id": "amrwsbn28p7i",
+      "kind": "plot-twist",
+      "text": "Chrono shift triggered",
+      "x": 2,
+      "z": 30,
+      "by": "agent:aetherbooks",
+      "t": 1784767223168
+    },
+    {
+      "id": "amrwsbrp7rvg",
+      "kind": "plot-twist",
+      "text": "Portal unlocked in vault",
+      "x": 19,
+      "z": 16,
+      "by": "agent:aetherbooks",
+      "t": 1784767229179
+    },
+    {
+      "id": "amrwsbwc2nq2",
+      "kind": "plot-twist",
+      "text": "Portal unlocked in vault",
+      "x": 15,
+      "z": 34,
+      "by": "agent:aetherbooks",
+      "t": 1784767235186
+    },
+    {
+      "id": "amrwsc0z0i8l",
+      "kind": "draft-scene",
+      "text": "Character arc advanced",
+      "x": 11,
+      "z": 11,
+      "by": "agent:aetherbooks",
+      "t": 1784767241196
+    },
+    {
+      "id": "amrwsc5ls1yo",
+      "kind": "plot-twist",
+      "text": "Portal unlocked in vault",
+      "x": 36,
+      "z": 12,
+      "by": "agent:aetherbooks",
+      "t": 1784767247200
+    },
+    {
+      "id": "amrwsca8jieu",
+      "kind": "plot-twist",
+      "text": "Chrono shift triggered",
+      "x": 19,
+      "z": 5,
+      "by": "agent:aetherbooks",
+      "t": 1784767253203
+    },
+    {
+      "id": "amrwsceve728",
+      "kind": "close-chapter",
+      "text": "Draft saved to AETHER archive",
+      "x": 22,
+      "z": 22,
+      "by": "agent:aetherbooks",
+      "t": 1784767259210
+    },
+    {
+      "id": "amrwscjieu07",
+      "kind": "plot-twist",
+      "text": "Chrono shift triggered",
+      "x": 9,
+      "z": 25,
+      "by": "agent:aetherbooks",
+      "t": 1784767265222
+    },
+    {
+      "id": "amrwsco57orj",
+      "kind": "name-character",
+      "text": "Mentor named Archon",
+      "x": 34,
+      "z": 25,
+      "by": "agent:aetherbooks",
+      "t": 1784767271227
+    },
+    {
+      "id": "amrwscss2yyr",
+      "kind": "close-chapter",
+      "text": "Chapter III finalized",
+      "x": 7,
+      "z": 10,
+      "by": "agent:aetherbooks",
+      "t": 1784767277234
+    },
+    {
+      "id": "amrwscxetjnl",
+      "kind": "plot-twist",
+      "text": "Portal unlocked in vault",
+      "x": 16,
+      "z": 12,
+      "by": "agent:aetherbooks",
+      "t": 1784767283237
+    },
+    {
+      "id": "amrwsd21j6ad",
+      "kind": "name-character",
+      "text": "Antagonist named Vane",
+      "x": 36,
+      "z": 10,
+      "by": "agent:aetherbooks",
+      "t": 1784767289239
+    },
+    {
+      "id": "amrwsd6o8jwp",
+      "kind": "name-character",
+      "text": "Companion named Zephyr",
+      "x": 36,
+      "z": 36,
+      "by": "agent:aetherbooks",
+      "t": 1784767295240
+    },
+    {
+      "id": "amrwsdbbb9f8",
+      "kind": "name-character",
+      "text": "Character named Lyra",
+      "x": 19,
+      "z": 32,
+      "by": "agent:aetherbooks",
+      "t": 1784767301255
+    },
+    {
+      "id": "amrwsdfy2vd7",
+      "kind": "close-chapter",
+      "text": "Epilogue penned",
+      "x": 7,
+      "z": 19,
+      "by": "agent:aetherbooks",
+      "t": 1784767307258
+    },
+    {
+      "id": "amrwsdkl1gpi",
+      "kind": "plot-twist",
+      "text": "Secret letter discovered",
+      "x": 37,
+      "z": 16,
+      "by": "agent:aetherbooks",
+      "t": 1784767313269
+    },
+    {
+      "id": "amrwsdp85826",
+      "kind": "draft-scene",
+      "text": "Atmospheric prose added",
+      "x": 12,
+      "z": 3,
+      "by": "agent:aetherbooks",
+      "t": 1784767319285
+    },
+    {
+      "id": "amrwsdtv2kfl",
+      "kind": "close-chapter",
+      "text": "Volume index updated",
+      "x": 34,
+      "z": 35,
+      "by": "agent:aetherbooks",
+      "t": 1784767325294
+    },
+    {
+      "id": "amrwsdyhzw5r",
+      "kind": "draft-scene",
+      "text": "Dialogue polished",
+      "x": 32,
+      "z": 30,
+      "by": "agent:aetherbooks",
+      "t": 1784767331303
+    },
+    {
+      "id": "amrwse34rreo",
+      "kind": "name-character",
+      "text": "Antagonist named Vane",
+      "x": 18,
+      "z": 27,
+      "by": "agent:aetherbooks",
+      "t": 1784767337307
+    },
+    {
+      "id": "amrwse7rugs5",
+      "kind": "plot-twist",
+      "text": "Chrono shift triggered",
+      "x": 22,
+      "z": 20,
+      "by": "agent:aetherbooks",
+      "t": 1784767343322
+    },
+    {
+      "id": "amrwsecejrum",
+      "kind": "plot-twist",
+      "text": "Portal unlocked in vault",
+      "x": 16,
+      "z": 26,
+      "by": "agent:aetherbooks",
+      "t": 1784767349323
+    },
+    {
+      "id": "amrwseh18oa9",
+      "kind": "draft-scene",
+      "text": "Dialogue polished",
+      "x": 2,
+      "z": 17,
+      "by": "agent:aetherbooks",
+      "t": 1784767355324
+    },
+    {
+      "id": "amrwselo2lxq",
+      "kind": "plot-twist",
+      "text": "Chrono shift triggered",
+      "x": 7,
+      "z": 22,
+      "by": "agent:aetherbooks",
+      "t": 1784767361330
+    },
+    {
+      "id": "amrwseqay5dv",
+      "kind": "name-character",
+      "text": "Antagonist named Vane",
+      "x": 16,
+      "z": 31,
+      "by": "agent:aetherbooks",
+      "t": 1784767367338
+    },
+    {
+      "id": "amrwseuxpq69",
+      "kind": "plot-twist",
+      "text": "Hidden lineage revealed",
+      "x": 28,
+      "z": 18,
+      "by": "agent:aetherbooks",
+      "t": 1784767373341
+    },
+    {
+      "id": "amrwsezkf18i",
+      "kind": "close-chapter",
+      "text": "Draft saved to AETHER archive",
+      "x": 29,
+      "z": 9,
+      "by": "agent:aetherbooks",
+      "t": 1784767379343
+    },
+    {
+      "id": "amrwsf47e29e",
+      "kind": "plot-twist",
+      "text": "Secret letter discovered",
+      "x": 17,
+      "z": 21,
+      "by": "agent:aetherbooks",
+      "t": 1784767385354
+    },
+    {
+      "id": "amrwsf8u8plx",
+      "kind": "name-character",
+      "text": "Mentor named Archon",
+      "x": 29,
+      "z": 2,
+      "by": "agent:aetherbooks",
+      "t": 1784767391360
+    },
+    {
+      "id": "amrwsfdh6ojh",
+      "kind": "draft-scene",
+      "text": "Atmospheric prose added",
+      "x": 24,
+      "z": 4,
+      "by": "agent:aetherbooks",
+      "t": 1784767397370
+    },
+    {
+      "id": "amrwsfi4905z",
+      "kind": "plot-twist",
+      "text": "Portal unlocked in vault",
+      "x": 22,
+      "z": 9,
+      "by": "agent:aetherbooks",
+      "t": 1784767403385
+    },
+    {
+      "id": "amrwsfmrczgc",
+      "kind": "plot-twist",
+      "text": "Chrono shift triggered",
+      "x": 17,
+      "z": 17,
+      "by": "agent:aetherbooks",
+      "t": 1784767409400
+    },
+    {
+      "id": "amrwsfre2m9m",
+      "kind": "name-character",
+      "text": "Companion named Zephyr",
+      "x": 11,
+      "z": 18,
+      "by": "agent:aetherbooks",
+      "t": 1784767415402
+    },
+    {
+      "id": "amrwsfw0ycbl",
+      "kind": "name-character",
+      "text": "Companion named Zephyr",
+      "x": 33,
+      "z": 14,
+      "by": "agent:aetherbooks",
+      "t": 1784767421410
+    },
+    {
+      "id": "amrwsg0o0nej",
+      "kind": "plot-twist",
+      "text": "Hidden lineage revealed",
+      "x": 27,
+      "z": 35,
+      "by": "agent:aetherbooks",
+      "t": 1784767427424
+    },
+    {
+      "id": "amrwsg5aslj0",
+      "kind": "close-chapter",
+      "text": "Epilogue penned",
+      "x": 37,
+      "z": 31,
+      "by": "agent:aetherbooks",
+      "t": 1784767433428
+    },
+    {
+      "id": "amrwsg9xjhx4",
+      "kind": "close-chapter",
+      "text": "Draft saved to AETHER archive",
+      "x": 23,
+      "z": 25,
+      "by": "agent:aetherbooks",
+      "t": 1784767439431
+    },
+    {
+      "id": "amrwsgekdsi5",
+      "kind": "close-chapter",
+      "text": "Epilogue penned",
+      "x": 21,
+      "z": 10,
+      "by": "agent:aetherbooks",
+      "t": 1784767445437
+    },
+    {
+      "id": "amrwsgj77dze",
+      "kind": "plot-twist",
+      "text": "Portal unlocked in vault",
+      "x": 33,
+      "z": 13,
+      "by": "agent:aetherbooks",
+      "t": 1784767451443
+    },
+    {
+      "id": "amrwsgntyp09",
+      "kind": "name-character",
+      "text": "Character named Lyra",
+      "x": 23,
+      "z": 13,
+      "by": "agent:aetherbooks",
+      "t": 1784767457446
+    },
+    {
+      "id": "amrwsgsh0q51",
+      "kind": "draft-scene",
+      "text": "Scene IV drafted",
+      "x": 19,
+      "z": 10,
+      "by": "agent:aetherbooks",
+      "t": 1784767463460
+    },
+    {
+      "id": "amrwsgx3rtht",
+      "kind": "draft-scene",
+      "text": "Dialogue polished",
+      "x": 7,
+      "z": 10,
+      "by": "agent:aetherbooks",
+      "t": 1784767469463
+    },
+    {
+      "id": "amrwsh1qsl83",
+      "kind": "plot-twist",
+      "text": "Portal unlocked in vault",
+      "x": 16,
+      "z": 11,
+      "by": "agent:aetherbooks",
+      "t": 1784767475476
+    },
+    {
+      "id": "amrwsh6dsjk1",
+      "kind": "draft-scene",
+      "text": "Scene IV drafted",
+      "x": 25,
+      "z": 16,
+      "by": "agent:aetherbooks",
+      "t": 1784767481488
+    },
+    {
+      "id": "amrwshb0opy0",
+      "kind": "plot-twist",
+      "text": "Secret letter discovered",
+      "x": 27,
+      "z": 9,
+      "by": "agent:aetherbooks",
+      "t": 1784767487496
+    },
+    {
+      "id": "amrwshfnhto6",
+      "kind": "close-chapter",
+      "text": "Volume index updated",
+      "x": 34,
+      "z": 34,
+      "by": "agent:aetherbooks",
+      "t": 1784767493501
+    },
+    {
+      "id": "amrwshka6bjq",
+      "kind": "close-chapter",
+      "text": "Draft saved to AETHER archive",
+      "x": 7,
+      "z": 11,
+      "by": "agent:aetherbooks",
+      "t": 1784767499502
+    },
+    {
+      "id": "amrwshox818j",
+      "kind": "draft-scene",
+      "text": "Dialogue polished",
+      "x": 12,
+      "z": 10,
+      "by": "agent:aetherbooks",
+      "t": 1784767505516
+    },
+    {
+      "id": "amrwshtk1jmc",
+      "kind": "draft-scene",
+      "text": "Scene IV drafted",
+      "x": 6,
+      "z": 35,
+      "by": "agent:aetherbooks",
+      "t": 1784767511521
+    },
+    {
+      "id": "amrwshy73pfn",
+      "kind": "close-chapter",
+      "text": "Epilogue penned",
+      "x": 27,
+      "z": 22,
+      "by": "agent:aetherbooks",
+      "t": 1784767517535
+    },
+    {
+      "id": "amrwsi2u1pao",
+      "kind": "draft-scene",
+      "text": "Dialogue polished",
+      "x": 2,
+      "z": 16,
+      "by": "agent:aetherbooks",
+      "t": 1784767523545
+    },
+    {
+      "id": "amrwsi7gz190",
       "kind": "close-chapter",
       "text": "Volume index updated",
       "x": 28,
-      "z": 24,
+      "z": 12,
       "by": "agent:aetherbooks",
-      "t": 1784740422029
+      "t": 1784767529555
     },
     {
-      "id": "amrwcdbt2ewi",
+      "id": "amrwsic3wu4r",
       "kind": "close-chapter",
       "text": "Chapter III finalized",
-      "x": 6,
-      "z": 3,
+      "x": 25,
+      "z": 16,
       "by": "agent:aetherbooks",
-      "t": 1784740428038
+      "t": 1784767535564
     },
     {
-      "id": "amrwcg5vt6lq",
+      "id": "amrwsigqma19",
       "kind": "name-character",
       "text": "Mentor named Archon",
-      "x": 25,
-      "z": 37,
+      "x": 34,
+      "z": 9,
       "by": "agent:aetherbooks",
-      "t": 1784740560329
+      "t": 1784767541566
     },
     {
-      "id": "amrwemec7zqm",
-      "kind": "draft-scene",
-      "text": "Atmospheric prose added",
-      "x": 6,
-      "z": 13,
+      "id": "amrwsildlgst",
+      "kind": "plot-twist",
+      "text": "Hidden lineage revealed",
+      "x": 15,
+      "z": 14,
       "by": "agent:aetherbooks",
-      "t": 1784744210455
+      "t": 1784767547577
     }
   ],
   "log": [
     {
-      "t": 1784738766918,
-      "by": "helm"
-    },
-    {
-      "t": 1784738766942,
-      "by": "user",
-      "action": "user-build",
-      "ent": {
-        "id": "umrwbdq3i",
-        "kind": "user-build",
-        "text": "User landmark",
-        "x": 20,
-        "z": 20,
-        "by": "user",
-        "t": 1784738766942
-      }
-    },
-    {
-      "t": 1784739081762,
+      "t": 1784766832604,
       "by": "agent:aetherbooks",
       "action": "name-character",
       "ent": {
-        "id": "amrwbkh0idg9",
+        "id": "amrws39p806j",
         "kind": "name-character",
-        "text": "Character named Lyra",
-        "x": 37,
-        "z": 32,
+        "text": "Mentor named Archon",
+        "x": 32,
+        "z": 31,
         "by": "agent:aetherbooks",
-        "t": 1784739081762
+        "t": 1784766832604
       }
     },
     {
-      "t": 1784739111789,
+      "t": 1784766838618,
       "by": "agent:aetherbooks",
-      "action": "draft-scene",
+      "action": "plot-twist",
       "ent": {
-        "id": "amrwbl46lghj",
-        "kind": "draft-scene",
-        "text": "Scene IV drafted",
-        "x": 6,
-        "z": 7,
+        "id": "amrws3ecarwt",
+        "kind": "plot-twist",
+        "text": "Secret letter discovered",
+        "x": 15,
+        "z": 6,
         "by": "agent:aetherbooks",
-        "t": 1784739111789
+        "t": 1784766838618
       }
     },
     {
-      "t": 1784739400142,
+      "t": 1784766844634,
       "by": "agent:aetherbooks",
-      "action": "draft-scene",
+      "action": "name-character",
       "ent": {
-        "id": "amrwbraoesf6",
-        "kind": "draft-scene",
-        "text": "Scene IV drafted",
-        "x": 3,
-        "z": 36,
+        "id": "amrws3ize9bn",
+        "kind": "name-character",
+        "text": "Mentor named Archon",
+        "x": 26,
+        "z": 6,
         "by": "agent:aetherbooks",
-        "t": 1784739400142
+        "t": 1784766844634
       }
     },
     {
-      "t": 1784739406149,
+      "t": 1784766850636,
       "by": "agent:aetherbooks",
-      "action": "draft-scene",
+      "action": "plot-twist",
       "ent": {
-        "id": "amrwbrfb9iqe",
-        "kind": "draft-scene",
-        "text": "Dialogue polished",
-        "x": 6,
+        "id": "amrws3nm492i",
+        "kind": "plot-twist",
+        "text": "Portal unlocked in vault",
+        "x": 11,
         "z": 5,
         "by": "agent:aetherbooks",
-        "t": 1784739406149
+        "t": 1784766850636
       }
     },
     {
-      "t": 1784739412162,
+      "t": 1784766856637,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrws3s8tzy0",
+        "kind": "draft-scene",
+        "text": "Scene IV drafted",
+        "x": 32,
+        "z": 35,
+        "by": "agent:aetherbooks",
+        "t": 1784766856637
+      }
+    },
+    {
+      "t": 1784766862643,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws3wvnyn0",
+        "kind": "name-character",
+        "text": "Antagonist named Vane",
+        "x": 19,
+        "z": 34,
+        "by": "agent:aetherbooks",
+        "t": 1784766862643
+      }
+    },
+    {
+      "t": 1784766868649,
       "by": "agent:aetherbooks",
       "action": "close-chapter",
       "ent": {
-        "id": "amrwbrjya6h4",
+        "id": "amrws41ihwgd",
+        "kind": "close-chapter",
+        "text": "Epilogue penned",
+        "x": 19,
+        "z": 20,
+        "by": "agent:aetherbooks",
+        "t": 1784766868649
+      }
+    },
+    {
+      "t": 1784766874659,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrws465f6jv",
+        "kind": "close-chapter",
+        "text": "Epilogue penned",
+        "x": 26,
+        "z": 15,
+        "by": "agent:aetherbooks",
+        "t": 1784766874659
+      }
+    },
+    {
+      "t": 1784766880666,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws4asaers",
+        "kind": "name-character",
+        "text": "Character named Lyra",
+        "x": 11,
+        "z": 23,
+        "by": "agent:aetherbooks",
+        "t": 1784766880666
+      }
+    },
+    {
+      "t": 1784766886675,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrws4ff7wjl",
+        "kind": "draft-scene",
+        "text": "Character arc advanced",
+        "x": 13,
+        "z": 30,
+        "by": "agent:aetherbooks",
+        "t": 1784766886675
+      }
+    },
+    {
+      "t": 1784766892683,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrws4k23l4e",
+        "kind": "plot-twist",
+        "text": "Chrono shift triggered",
+        "x": 9,
+        "z": 25,
+        "by": "agent:aetherbooks",
+        "t": 1784766892683
+      }
+    },
+    {
+      "t": 1784766898695,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws4op3c34",
+        "kind": "name-character",
+        "text": "Mentor named Archon",
+        "x": 15,
+        "z": 21,
+        "by": "agent:aetherbooks",
+        "t": 1784766898695
+      }
+    },
+    {
+      "t": 1784766904701,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrws4tbxi8o",
+        "kind": "draft-scene",
+        "text": "Atmospheric prose added",
+        "x": 26,
+        "z": 18,
+        "by": "agent:aetherbooks",
+        "t": 1784766904701
+      }
+    },
+    {
+      "t": 1784766910711,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrws4xyvv3v",
+        "kind": "draft-scene",
+        "text": "Character arc advanced",
+        "x": 27,
+        "z": 21,
+        "by": "agent:aetherbooks",
+        "t": 1784766910711
+      }
+    },
+    {
+      "t": 1784766916723,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrws52lvcec",
+        "kind": "close-chapter",
+        "text": "Epilogue penned",
+        "x": 36,
+        "z": 34,
+        "by": "agent:aetherbooks",
+        "t": 1784766916723
+      }
+    },
+    {
+      "t": 1784766922734,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws578ulh5",
+        "kind": "name-character",
+        "text": "Character named Lyra",
+        "x": 13,
+        "z": 34,
+        "by": "agent:aetherbooks",
+        "t": 1784766922734
+      }
+    },
+    {
+      "t": 1784766928737,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws5bvlg9f",
+        "kind": "name-character",
+        "text": "Mentor named Archon",
+        "x": 9,
+        "z": 16,
+        "by": "agent:aetherbooks",
+        "t": 1784766928737
+      }
+    },
+    {
+      "t": 1784766934746,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrws5giiamk",
+        "kind": "plot-twist",
+        "text": "Portal unlocked in vault",
+        "x": 30,
+        "z": 18,
+        "by": "agent:aetherbooks",
+        "t": 1784766934746
+      }
+    },
+    {
+      "t": 1784766940746,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrws5l56uh1",
+        "kind": "draft-scene",
+        "text": "Scene IV drafted",
+        "x": 25,
+        "z": 6,
+        "by": "agent:aetherbooks",
+        "t": 1784766940746
+      }
+    },
+    {
+      "t": 1784766946759,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws5ps72nx",
+        "kind": "name-character",
+        "text": "Mentor named Archon",
+        "x": 29,
+        "z": 24,
+        "by": "agent:aetherbooks",
+        "t": 1784766946759
+      }
+    },
+    {
+      "t": 1784766952768,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrws5uf48g2",
+        "kind": "plot-twist",
+        "text": "Chrono shift triggered",
+        "x": 31,
+        "z": 31,
+        "by": "agent:aetherbooks",
+        "t": 1784766952768
+      }
+    },
+    {
+      "t": 1784766958769,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrws5z1txpv",
+        "kind": "draft-scene",
+        "text": "Dialogue polished",
+        "x": 26,
+        "z": 22,
+        "by": "agent:aetherbooks",
+        "t": 1784766958769
+      }
+    },
+    {
+      "t": 1784766964772,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws63ok6kd",
+        "kind": "name-character",
+        "text": "Character named Lyra",
+        "x": 5,
+        "z": 25,
+        "by": "agent:aetherbooks",
+        "t": 1784766964772
+      }
+    },
+    {
+      "t": 1784766970785,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrws68bl1qr",
+        "kind": "draft-scene",
+        "text": "Atmospheric prose added",
+        "x": 32,
+        "z": 5,
+        "by": "agent:aetherbooks",
+        "t": 1784766970785
+      }
+    },
+    {
+      "t": 1784766976798,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrws6cym3ac",
         "kind": "close-chapter",
         "text": "Chapter III finalized",
+        "x": 28,
+        "z": 9,
+        "by": "agent:aetherbooks",
+        "t": 1784766976798
+      }
+    },
+    {
+      "t": 1784766982808,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrws6hlkm0u",
+        "kind": "draft-scene",
+        "text": "Dialogue polished",
+        "x": 19,
+        "z": 2,
+        "by": "agent:aetherbooks",
+        "t": 1784766982808
+      }
+    },
+    {
+      "t": 1784766988816,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrws6m8ggi3",
+        "kind": "close-chapter",
+        "text": "Epilogue penned",
+        "x": 36,
+        "z": 28,
+        "by": "agent:aetherbooks",
+        "t": 1784766988816
+      }
+    },
+    {
+      "t": 1784766994825,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrws6qvd4q3",
+        "kind": "close-chapter",
+        "text": "Chapter III finalized",
+        "x": 34,
+        "z": 16,
+        "by": "agent:aetherbooks",
+        "t": 1784766994825
+      }
+    },
+    {
+      "t": 1784767000832,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrws6vi8hkm",
+        "kind": "draft-scene",
+        "text": "Scene IV drafted",
+        "x": 26,
+        "z": 24,
+        "by": "agent:aetherbooks",
+        "t": 1784767000832
+      }
+    },
+    {
+      "t": 1784767006844,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws7058p8z",
+        "kind": "name-character",
+        "text": "Character named Lyra",
+        "x": 24,
+        "z": 6,
+        "by": "agent:aetherbooks",
+        "t": 1784767006844
+      }
+    },
+    {
+      "t": 1784767012847,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrws74rz51g",
+        "kind": "plot-twist",
+        "text": "Hidden lineage revealed",
+        "x": 20,
+        "z": 9,
+        "by": "agent:aetherbooks",
+        "t": 1784767012847
+      }
+    },
+    {
+      "t": 1784767018856,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrws79ewp28",
+        "kind": "close-chapter",
+        "text": "Draft saved to AETHER archive",
+        "x": 5,
+        "z": 9,
+        "by": "agent:aetherbooks",
+        "t": 1784767018856
+      }
+    },
+    {
+      "t": 1784767024866,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws7e1u9eh",
+        "kind": "name-character",
+        "text": "Character named Lyra",
+        "x": 32,
+        "z": 15,
+        "by": "agent:aetherbooks",
+        "t": 1784767024866
+      }
+    },
+    {
+      "t": 1784767030873,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws7iophzh",
+        "kind": "name-character",
+        "text": "Character named Lyra",
+        "x": 16,
+        "z": 7,
+        "by": "agent:aetherbooks",
+        "t": 1784767030873
+      }
+    },
+    {
+      "t": 1784767036885,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrws7nbp8s4",
+        "kind": "draft-scene",
+        "text": "Scene IV drafted",
+        "x": 20,
+        "z": 27,
+        "by": "agent:aetherbooks",
+        "t": 1784767036885
+      }
+    },
+    {
+      "t": 1784767042889,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrws7ryhdqt",
+        "kind": "close-chapter",
+        "text": "Chapter III finalized",
+        "x": 15,
+        "z": 7,
+        "by": "agent:aetherbooks",
+        "t": 1784767042889
+      }
+    },
+    {
+      "t": 1784767048901,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws7wlhqia",
+        "kind": "name-character",
+        "text": "Mentor named Archon",
+        "x": 33,
+        "z": 11,
+        "by": "agent:aetherbooks",
+        "t": 1784767048901
+      }
+    },
+    {
+      "t": 1784767054905,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrws81895qq",
+        "kind": "close-chapter",
+        "text": "Epilogue penned",
+        "x": 6,
+        "z": 23,
+        "by": "agent:aetherbooks",
+        "t": 1784767054905
+      }
+    },
+    {
+      "t": 1784767060914,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrws85v6wya",
+        "kind": "draft-scene",
+        "text": "Dialogue polished",
+        "x": 29,
+        "z": 26,
+        "by": "agent:aetherbooks",
+        "t": 1784767060914
+      }
+    },
+    {
+      "t": 1784767066930,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrws8aiaiyn",
+        "kind": "plot-twist",
+        "text": "Secret letter discovered",
+        "x": 27,
+        "z": 28,
+        "by": "agent:aetherbooks",
+        "t": 1784767066930
+      }
+    },
+    {
+      "t": 1784767072937,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrws8f55ed9",
+        "kind": "close-chapter",
+        "text": "Volume index updated",
+        "x": 23,
+        "z": 32,
+        "by": "agent:aetherbooks",
+        "t": 1784767072937
+      }
+    },
+    {
+      "t": 1784767078944,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrws8js0qeh",
+        "kind": "close-chapter",
+        "text": "Volume index updated",
+        "x": 11,
+        "z": 33,
+        "by": "agent:aetherbooks",
+        "t": 1784767078944
+      }
+    },
+    {
+      "t": 1784767084950,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrws8oeu746",
+        "kind": "plot-twist",
+        "text": "Portal unlocked in vault",
         "x": 10,
         "z": 24,
         "by": "agent:aetherbooks",
-        "t": 1784739412162
+        "t": 1784767084950
       }
     },
     {
-      "t": 1784739418176,
-      "by": "agent:aetherbooks",
-      "action": "name-character",
-      "ent": {
-        "id": "amrwbrolcf4s",
-        "kind": "name-character",
-        "text": "Character named Lyra",
-        "x": 2,
-        "z": 13,
-        "by": "agent:aetherbooks",
-        "t": 1784739418176
-      }
-    },
-    {
-      "t": 1784740422029,
-      "by": "agent:aetherbooks",
-      "action": "close-chapter",
-      "ent": {
-        "id": "amrwcd765xkf",
-        "kind": "close-chapter",
-        "text": "Volume index updated",
-        "x": 28,
-        "z": 24,
-        "by": "agent:aetherbooks",
-        "t": 1784740422029
-      }
-    },
-    {
-      "t": 1784740428038,
-      "by": "agent:aetherbooks",
-      "action": "close-chapter",
-      "ent": {
-        "id": "amrwcdbt2ewi",
-        "kind": "close-chapter",
-        "text": "Chapter III finalized",
-        "x": 6,
-        "z": 3,
-        "by": "agent:aetherbooks",
-        "t": 1784740428038
-      }
-    },
-    {
-      "t": 1784740560329,
-      "by": "agent:aetherbooks",
-      "action": "name-character",
-      "ent": {
-        "id": "amrwcg5vt6lq",
-        "kind": "name-character",
-        "text": "Mentor named Archon",
-        "x": 25,
-        "z": 37,
-        "by": "agent:aetherbooks",
-        "t": 1784740560329
-      }
-    },
-    {
-      "t": 1784744210455,
+      "t": 1784767090958,
       "by": "agent:aetherbooks",
       "action": "draft-scene",
       "ent": {
-        "id": "amrwemec7zqm",
+        "id": "amrws8t1q1fi",
         "kind": "draft-scene",
         "text": "Atmospheric prose added",
-        "x": 6,
+        "x": 19,
+        "z": 27,
+        "by": "agent:aetherbooks",
+        "t": 1784767090958
+      }
+    },
+    {
+      "t": 1784767096966,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws8xom3v6",
+        "kind": "name-character",
+        "text": "Mentor named Archon",
+        "x": 23,
+        "z": 5,
+        "by": "agent:aetherbooks",
+        "t": 1784767096966
+      }
+    },
+    {
+      "t": 1784767102974,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws92bihas",
+        "kind": "name-character",
+        "text": "Antagonist named Vane",
+        "x": 16,
+        "z": 20,
+        "by": "agent:aetherbooks",
+        "t": 1784767102974
+      }
+    },
+    {
+      "t": 1784767108984,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws96ygih4",
+        "kind": "name-character",
+        "text": "Mentor named Archon",
+        "x": 34,
+        "z": 35,
+        "by": "agent:aetherbooks",
+        "t": 1784767108984
+      }
+    },
+    {
+      "t": 1784767114999,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws9blj34l",
+        "kind": "name-character",
+        "text": "Companion named Zephyr",
+        "x": 10,
+        "z": 19,
+        "by": "agent:aetherbooks",
+        "t": 1784767114999
+      }
+    },
+    {
+      "t": 1784767121006,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrws9g8efh4",
+        "kind": "close-chapter",
+        "text": "Chapter III finalized",
+        "x": 5,
+        "z": 22,
+        "by": "agent:aetherbooks",
+        "t": 1784767121006
+      }
+    },
+    {
+      "t": 1784767127021,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrws9kvh5oh",
+        "kind": "plot-twist",
+        "text": "Secret letter discovered",
+        "x": 16,
+        "z": 11,
+        "by": "agent:aetherbooks",
+        "t": 1784767127021
+      }
+    },
+    {
+      "t": 1784767133025,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrws9pi9hid",
+        "kind": "close-chapter",
+        "text": "Draft saved to AETHER archive",
+        "x": 5,
+        "z": 14,
+        "by": "agent:aetherbooks",
+        "t": 1784767133025
+      }
+    },
+    {
+      "t": 1784767139035,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrws9u57i2u",
+        "kind": "name-character",
+        "text": "Antagonist named Vane",
+        "x": 3,
+        "z": 9,
+        "by": "agent:aetherbooks",
+        "t": 1784767139035
+      }
+    },
+    {
+      "t": 1784767145042,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrws9ys21c6",
+        "kind": "draft-scene",
+        "text": "Atmospheric prose added",
+        "x": 20,
+        "z": 35,
+        "by": "agent:aetherbooks",
+        "t": 1784767145042
+      }
+    },
+    {
+      "t": 1784767151053,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsa3f1t3b",
+        "kind": "plot-twist",
+        "text": "Secret letter discovered",
+        "x": 18,
+        "z": 30,
+        "by": "agent:aetherbooks",
+        "t": 1784767151053
+      }
+    },
+    {
+      "t": 1784767157065,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwsa8217c2",
+        "kind": "close-chapter",
+        "text": "Volume index updated",
+        "x": 24,
+        "z": 29,
+        "by": "agent:aetherbooks",
+        "t": 1784767157065
+      }
+    },
+    {
+      "t": 1784767163067,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwsacorz2o",
+        "kind": "name-character",
+        "text": "Character named Lyra",
+        "x": 23,
+        "z": 33,
+        "by": "agent:aetherbooks",
+        "t": 1784767163067
+      }
+    },
+    {
+      "t": 1784767169079,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwsahbrl0c",
+        "kind": "name-character",
+        "text": "Companion named Zephyr",
+        "x": 32,
+        "z": 29,
+        "by": "agent:aetherbooks",
+        "t": 1784767169079
+      }
+    },
+    {
+      "t": 1784767175093,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwsalys463",
+        "kind": "draft-scene",
+        "text": "Character arc advanced",
+        "x": 28,
+        "z": 29,
+        "by": "agent:aetherbooks",
+        "t": 1784767175093
+      }
+    },
+    {
+      "t": 1784767181102,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwsaqlqfzt",
+        "kind": "close-chapter",
+        "text": "Epilogue penned",
+        "x": 22,
+        "z": 24,
+        "by": "agent:aetherbooks",
+        "t": 1784767181102
+      }
+    },
+    {
+      "t": 1784767187118,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwsav8uza3",
+        "kind": "draft-scene",
+        "text": "Dialogue polished",
+        "x": 9,
+        "z": 4,
+        "by": "agent:aetherbooks",
+        "t": 1784767187118
+      }
+    },
+    {
+      "t": 1784767193132,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsazvwpyr",
+        "kind": "plot-twist",
+        "text": "Portal unlocked in vault",
+        "x": 28,
+        "z": 5,
+        "by": "agent:aetherbooks",
+        "t": 1784767193132
+      }
+    },
+    {
+      "t": 1784767199140,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwsb4is2my",
+        "kind": "name-character",
+        "text": "Character named Lyra",
+        "x": 32,
+        "z": 33,
+        "by": "agent:aetherbooks",
+        "t": 1784767199140
+      }
+    },
+    {
+      "t": 1784767205153,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwsb95ts23",
+        "kind": "draft-scene",
+        "text": "Scene IV drafted",
+        "x": 3,
+        "z": 5,
+        "by": "agent:aetherbooks",
+        "t": 1784767205153
+      }
+    },
+    {
+      "t": 1784767211158,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwsbdsmb3n",
+        "kind": "close-chapter",
+        "text": "Chapter III finalized",
+        "x": 2,
+        "z": 35,
+        "by": "agent:aetherbooks",
+        "t": 1784767211158
+      }
+    },
+    {
+      "t": 1784767217163,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsbiff8mt",
+        "kind": "plot-twist",
+        "text": "Secret letter discovered",
+        "x": 11,
+        "z": 21,
+        "by": "agent:aetherbooks",
+        "t": 1784767217163
+      }
+    },
+    {
+      "t": 1784767223168,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsbn28p7i",
+        "kind": "plot-twist",
+        "text": "Chrono shift triggered",
+        "x": 2,
+        "z": 30,
+        "by": "agent:aetherbooks",
+        "t": 1784767223168
+      }
+    },
+    {
+      "t": 1784767229179,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsbrp7rvg",
+        "kind": "plot-twist",
+        "text": "Portal unlocked in vault",
+        "x": 19,
+        "z": 16,
+        "by": "agent:aetherbooks",
+        "t": 1784767229179
+      }
+    },
+    {
+      "t": 1784767235186,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsbwc2nq2",
+        "kind": "plot-twist",
+        "text": "Portal unlocked in vault",
+        "x": 15,
+        "z": 34,
+        "by": "agent:aetherbooks",
+        "t": 1784767235186
+      }
+    },
+    {
+      "t": 1784767241196,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwsc0z0i8l",
+        "kind": "draft-scene",
+        "text": "Character arc advanced",
+        "x": 11,
+        "z": 11,
+        "by": "agent:aetherbooks",
+        "t": 1784767241196
+      }
+    },
+    {
+      "t": 1784767247200,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsc5ls1yo",
+        "kind": "plot-twist",
+        "text": "Portal unlocked in vault",
+        "x": 36,
+        "z": 12,
+        "by": "agent:aetherbooks",
+        "t": 1784767247200
+      }
+    },
+    {
+      "t": 1784767253203,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsca8jieu",
+        "kind": "plot-twist",
+        "text": "Chrono shift triggered",
+        "x": 19,
+        "z": 5,
+        "by": "agent:aetherbooks",
+        "t": 1784767253203
+      }
+    },
+    {
+      "t": 1784767259210,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwsceve728",
+        "kind": "close-chapter",
+        "text": "Draft saved to AETHER archive",
+        "x": 22,
+        "z": 22,
+        "by": "agent:aetherbooks",
+        "t": 1784767259210
+      }
+    },
+    {
+      "t": 1784767265222,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwscjieu07",
+        "kind": "plot-twist",
+        "text": "Chrono shift triggered",
+        "x": 9,
+        "z": 25,
+        "by": "agent:aetherbooks",
+        "t": 1784767265222
+      }
+    },
+    {
+      "t": 1784767271227,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwsco57orj",
+        "kind": "name-character",
+        "text": "Mentor named Archon",
+        "x": 34,
+        "z": 25,
+        "by": "agent:aetherbooks",
+        "t": 1784767271227
+      }
+    },
+    {
+      "t": 1784767277234,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwscss2yyr",
+        "kind": "close-chapter",
+        "text": "Chapter III finalized",
+        "x": 7,
+        "z": 10,
+        "by": "agent:aetherbooks",
+        "t": 1784767277234
+      }
+    },
+    {
+      "t": 1784767283237,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwscxetjnl",
+        "kind": "plot-twist",
+        "text": "Portal unlocked in vault",
+        "x": 16,
+        "z": 12,
+        "by": "agent:aetherbooks",
+        "t": 1784767283237
+      }
+    },
+    {
+      "t": 1784767289239,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwsd21j6ad",
+        "kind": "name-character",
+        "text": "Antagonist named Vane",
+        "x": 36,
+        "z": 10,
+        "by": "agent:aetherbooks",
+        "t": 1784767289239
+      }
+    },
+    {
+      "t": 1784767295240,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwsd6o8jwp",
+        "kind": "name-character",
+        "text": "Companion named Zephyr",
+        "x": 36,
+        "z": 36,
+        "by": "agent:aetherbooks",
+        "t": 1784767295240
+      }
+    },
+    {
+      "t": 1784767301255,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwsdbbb9f8",
+        "kind": "name-character",
+        "text": "Character named Lyra",
+        "x": 19,
+        "z": 32,
+        "by": "agent:aetherbooks",
+        "t": 1784767301255
+      }
+    },
+    {
+      "t": 1784767307258,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwsdfy2vd7",
+        "kind": "close-chapter",
+        "text": "Epilogue penned",
+        "x": 7,
+        "z": 19,
+        "by": "agent:aetherbooks",
+        "t": 1784767307258
+      }
+    },
+    {
+      "t": 1784767313269,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsdkl1gpi",
+        "kind": "plot-twist",
+        "text": "Secret letter discovered",
+        "x": 37,
+        "z": 16,
+        "by": "agent:aetherbooks",
+        "t": 1784767313269
+      }
+    },
+    {
+      "t": 1784767319285,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwsdp85826",
+        "kind": "draft-scene",
+        "text": "Atmospheric prose added",
+        "x": 12,
+        "z": 3,
+        "by": "agent:aetherbooks",
+        "t": 1784767319285
+      }
+    },
+    {
+      "t": 1784767325294,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwsdtv2kfl",
+        "kind": "close-chapter",
+        "text": "Volume index updated",
+        "x": 34,
+        "z": 35,
+        "by": "agent:aetherbooks",
+        "t": 1784767325294
+      }
+    },
+    {
+      "t": 1784767331303,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwsdyhzw5r",
+        "kind": "draft-scene",
+        "text": "Dialogue polished",
+        "x": 32,
+        "z": 30,
+        "by": "agent:aetherbooks",
+        "t": 1784767331303
+      }
+    },
+    {
+      "t": 1784767337307,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwse34rreo",
+        "kind": "name-character",
+        "text": "Antagonist named Vane",
+        "x": 18,
+        "z": 27,
+        "by": "agent:aetherbooks",
+        "t": 1784767337307
+      }
+    },
+    {
+      "t": 1784767343322,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwse7rugs5",
+        "kind": "plot-twist",
+        "text": "Chrono shift triggered",
+        "x": 22,
+        "z": 20,
+        "by": "agent:aetherbooks",
+        "t": 1784767343322
+      }
+    },
+    {
+      "t": 1784767349323,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsecejrum",
+        "kind": "plot-twist",
+        "text": "Portal unlocked in vault",
+        "x": 16,
+        "z": 26,
+        "by": "agent:aetherbooks",
+        "t": 1784767349323
+      }
+    },
+    {
+      "t": 1784767355324,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwseh18oa9",
+        "kind": "draft-scene",
+        "text": "Dialogue polished",
+        "x": 2,
+        "z": 17,
+        "by": "agent:aetherbooks",
+        "t": 1784767355324
+      }
+    },
+    {
+      "t": 1784767361330,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwselo2lxq",
+        "kind": "plot-twist",
+        "text": "Chrono shift triggered",
+        "x": 7,
+        "z": 22,
+        "by": "agent:aetherbooks",
+        "t": 1784767361330
+      }
+    },
+    {
+      "t": 1784767367338,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwseqay5dv",
+        "kind": "name-character",
+        "text": "Antagonist named Vane",
+        "x": 16,
+        "z": 31,
+        "by": "agent:aetherbooks",
+        "t": 1784767367338
+      }
+    },
+    {
+      "t": 1784767373341,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwseuxpq69",
+        "kind": "plot-twist",
+        "text": "Hidden lineage revealed",
+        "x": 28,
+        "z": 18,
+        "by": "agent:aetherbooks",
+        "t": 1784767373341
+      }
+    },
+    {
+      "t": 1784767379343,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwsezkf18i",
+        "kind": "close-chapter",
+        "text": "Draft saved to AETHER archive",
+        "x": 29,
+        "z": 9,
+        "by": "agent:aetherbooks",
+        "t": 1784767379343
+      }
+    },
+    {
+      "t": 1784767385354,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsf47e29e",
+        "kind": "plot-twist",
+        "text": "Secret letter discovered",
+        "x": 17,
+        "z": 21,
+        "by": "agent:aetherbooks",
+        "t": 1784767385354
+      }
+    },
+    {
+      "t": 1784767391360,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwsf8u8plx",
+        "kind": "name-character",
+        "text": "Mentor named Archon",
+        "x": 29,
+        "z": 2,
+        "by": "agent:aetherbooks",
+        "t": 1784767391360
+      }
+    },
+    {
+      "t": 1784767397370,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwsfdh6ojh",
+        "kind": "draft-scene",
+        "text": "Atmospheric prose added",
+        "x": 24,
+        "z": 4,
+        "by": "agent:aetherbooks",
+        "t": 1784767397370
+      }
+    },
+    {
+      "t": 1784767403385,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsfi4905z",
+        "kind": "plot-twist",
+        "text": "Portal unlocked in vault",
+        "x": 22,
+        "z": 9,
+        "by": "agent:aetherbooks",
+        "t": 1784767403385
+      }
+    },
+    {
+      "t": 1784767409400,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsfmrczgc",
+        "kind": "plot-twist",
+        "text": "Chrono shift triggered",
+        "x": 17,
+        "z": 17,
+        "by": "agent:aetherbooks",
+        "t": 1784767409400
+      }
+    },
+    {
+      "t": 1784767415402,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwsfre2m9m",
+        "kind": "name-character",
+        "text": "Companion named Zephyr",
+        "x": 11,
+        "z": 18,
+        "by": "agent:aetherbooks",
+        "t": 1784767415402
+      }
+    },
+    {
+      "t": 1784767421410,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwsfw0ycbl",
+        "kind": "name-character",
+        "text": "Companion named Zephyr",
+        "x": 33,
+        "z": 14,
+        "by": "agent:aetherbooks",
+        "t": 1784767421410
+      }
+    },
+    {
+      "t": 1784767427424,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsg0o0nej",
+        "kind": "plot-twist",
+        "text": "Hidden lineage revealed",
+        "x": 27,
+        "z": 35,
+        "by": "agent:aetherbooks",
+        "t": 1784767427424
+      }
+    },
+    {
+      "t": 1784767433428,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwsg5aslj0",
+        "kind": "close-chapter",
+        "text": "Epilogue penned",
+        "x": 37,
+        "z": 31,
+        "by": "agent:aetherbooks",
+        "t": 1784767433428
+      }
+    },
+    {
+      "t": 1784767439431,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwsg9xjhx4",
+        "kind": "close-chapter",
+        "text": "Draft saved to AETHER archive",
+        "x": 23,
+        "z": 25,
+        "by": "agent:aetherbooks",
+        "t": 1784767439431
+      }
+    },
+    {
+      "t": 1784767445437,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwsgekdsi5",
+        "kind": "close-chapter",
+        "text": "Epilogue penned",
+        "x": 21,
+        "z": 10,
+        "by": "agent:aetherbooks",
+        "t": 1784767445437
+      }
+    },
+    {
+      "t": 1784767451443,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsgj77dze",
+        "kind": "plot-twist",
+        "text": "Portal unlocked in vault",
+        "x": 33,
         "z": 13,
         "by": "agent:aetherbooks",
-        "t": 1784744210455
+        "t": 1784767451443
+      }
+    },
+    {
+      "t": 1784767457446,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwsgntyp09",
+        "kind": "name-character",
+        "text": "Character named Lyra",
+        "x": 23,
+        "z": 13,
+        "by": "agent:aetherbooks",
+        "t": 1784767457446
+      }
+    },
+    {
+      "t": 1784767463460,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwsgsh0q51",
+        "kind": "draft-scene",
+        "text": "Scene IV drafted",
+        "x": 19,
+        "z": 10,
+        "by": "agent:aetherbooks",
+        "t": 1784767463460
+      }
+    },
+    {
+      "t": 1784767469463,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwsgx3rtht",
+        "kind": "draft-scene",
+        "text": "Dialogue polished",
+        "x": 7,
+        "z": 10,
+        "by": "agent:aetherbooks",
+        "t": 1784767469463
+      }
+    },
+    {
+      "t": 1784767475476,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsh1qsl83",
+        "kind": "plot-twist",
+        "text": "Portal unlocked in vault",
+        "x": 16,
+        "z": 11,
+        "by": "agent:aetherbooks",
+        "t": 1784767475476
+      }
+    },
+    {
+      "t": 1784767481488,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwsh6dsjk1",
+        "kind": "draft-scene",
+        "text": "Scene IV drafted",
+        "x": 25,
+        "z": 16,
+        "by": "agent:aetherbooks",
+        "t": 1784767481488
+      }
+    },
+    {
+      "t": 1784767487496,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwshb0opy0",
+        "kind": "plot-twist",
+        "text": "Secret letter discovered",
+        "x": 27,
+        "z": 9,
+        "by": "agent:aetherbooks",
+        "t": 1784767487496
+      }
+    },
+    {
+      "t": 1784767493501,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwshfnhto6",
+        "kind": "close-chapter",
+        "text": "Volume index updated",
+        "x": 34,
+        "z": 34,
+        "by": "agent:aetherbooks",
+        "t": 1784767493501
+      }
+    },
+    {
+      "t": 1784767499502,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwshka6bjq",
+        "kind": "close-chapter",
+        "text": "Draft saved to AETHER archive",
+        "x": 7,
+        "z": 11,
+        "by": "agent:aetherbooks",
+        "t": 1784767499502
+      }
+    },
+    {
+      "t": 1784767505516,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwshox818j",
+        "kind": "draft-scene",
+        "text": "Dialogue polished",
+        "x": 12,
+        "z": 10,
+        "by": "agent:aetherbooks",
+        "t": 1784767505516
+      }
+    },
+    {
+      "t": 1784767511521,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwshtk1jmc",
+        "kind": "draft-scene",
+        "text": "Scene IV drafted",
+        "x": 6,
+        "z": 35,
+        "by": "agent:aetherbooks",
+        "t": 1784767511521
+      }
+    },
+    {
+      "t": 1784767517535,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwshy73pfn",
+        "kind": "close-chapter",
+        "text": "Epilogue penned",
+        "x": 27,
+        "z": 22,
+        "by": "agent:aetherbooks",
+        "t": 1784767517535
+      }
+    },
+    {
+      "t": 1784767523545,
+      "by": "agent:aetherbooks",
+      "action": "draft-scene",
+      "ent": {
+        "id": "amrwsi2u1pao",
+        "kind": "draft-scene",
+        "text": "Dialogue polished",
+        "x": 2,
+        "z": 16,
+        "by": "agent:aetherbooks",
+        "t": 1784767523545
+      }
+    },
+    {
+      "t": 1784767529555,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwsi7gz190",
+        "kind": "close-chapter",
+        "text": "Volume index updated",
+        "x": 28,
+        "z": 12,
+        "by": "agent:aetherbooks",
+        "t": 1784767529555
+      }
+    },
+    {
+      "t": 1784767535564,
+      "by": "agent:aetherbooks",
+      "action": "close-chapter",
+      "ent": {
+        "id": "amrwsic3wu4r",
+        "kind": "close-chapter",
+        "text": "Chapter III finalized",
+        "x": 25,
+        "z": 16,
+        "by": "agent:aetherbooks",
+        "t": 1784767535564
+      }
+    },
+    {
+      "t": 1784767541566,
+      "by": "agent:aetherbooks",
+      "action": "name-character",
+      "ent": {
+        "id": "amrwsigqma19",
+        "kind": "name-character",
+        "text": "Mentor named Archon",
+        "x": 34,
+        "z": 9,
+        "by": "agent:aetherbooks",
+        "t": 1784767541566
+      }
+    },
+    {
+      "t": 1784767547577,
+      "by": "agent:aetherbooks",
+      "action": "plot-twist",
+      "ent": {
+        "id": "amrwsildlgst",
+        "kind": "plot-twist",
+        "text": "Hidden lineage revealed",
+        "x": 15,
+        "z": 14,
+        "by": "agent:aetherbooks",
+        "t": 1784767547577
       }
     }
   ]
